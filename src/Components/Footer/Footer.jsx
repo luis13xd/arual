@@ -10,7 +10,7 @@ export const Footer = () => {
     <div className='footer'>
         <div className="footer-logo">
             <img src={footer_logo} alt="logo" />
-            <p>Tienda</p>
+            <p>ARUAL</p>
         </div>
         <ul className="footer-links">
             <li>Compañia</li>
@@ -33,7 +33,7 @@ export const Footer = () => {
         <div className="footer-copyright">
             <hr />
             <p>Copyright @ 2024 - Todos los Derechos Reservados</p>
-            <p>ARUAL S.A.S</p>
+            <h3>ARUAL S.A.S</h3>
         </div>
     </div>
   )
