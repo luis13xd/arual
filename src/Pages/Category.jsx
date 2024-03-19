@@ -6,7 +6,7 @@ import { Item } from '../Components/Item/Item';
 
 export const Category = (props) => {
 
-  const { all_product } = useContext(HomeContext);
+  const {all_product} = useContext(HomeContext);
 
   return (
     <div className='shop-category'>
@@ -20,12 +20,10 @@ export const Category = (props) => {
         </div>
       </div>
       <div className="shopcategory-products">
-        {all_product.map((item, i) => {
-          if (props.category === item.category) {
-            return (
-              <div className="item-wrapper">
+        {all_product.map((item,i) => { 
+          if (props.category===item.category) {
+            return  <div key={i} className="item-wrapper">
                 <Item
-                  key={i}
                   id={item.id}
                   name={item.name}
                   image={item.image}
@@ -33,7 +31,6 @@ export const Category = (props) => {
                   old_price={item.old_price}
                 />
               </div>
-            )
           }
           else {
             return null;

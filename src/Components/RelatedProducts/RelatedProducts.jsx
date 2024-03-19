@@ -1,15 +1,15 @@
 import React from 'react';
-import './NewCollection.css';
-import new_collection from '../Assets/new_collections';
+import './RelatedProducts.css';
+import data_product from '../Assets/data';
 import { Item } from '../Item/Item';
 
-export const NewCollection = () => {
+export const RelatedProducts = () => {
     return (
-        <div className='new-collections'>
-            <h1>NUEVA COLECCIÓN</h1>
+        <div className='relatedproducts'>
+            <h2>Más Productos</h2>
             <hr />
-            <div className="collections">
-                {new_collection.map((item,i) => {
+            <div className="relatedproducts-item">
+                {data_product.map((item,i) => {
                     return <Item
                                 key={i}
                                 id={item.id}

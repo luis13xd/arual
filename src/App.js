@@ -23,11 +23,11 @@ function App() {
         <Routes>
 
           <Route path='/' element={<Home/>} />
-          <Route path='/hombre' element={<Category banner={men_banner} category="men"/>} />
+          <Route path='/hombre' element={<Category  banner={men_banner} category="men"/>} />
           <Route path='/mujer' element={<Category banner={women_banner} category="women"/>} />
           <Route path='/niños' element={<Category banner={kid_banner} category="kid"/>} />
 
-          <Route path='/product' element={<Product/>} >
+          <Route path="/product" element={<Product/>} >
             <Route path=':productId' element={<Product/>} />
           </Route>
 
