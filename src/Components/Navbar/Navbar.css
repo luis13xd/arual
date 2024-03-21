@@ -16,7 +16,6 @@
     color: rgb(43, 43, 43);
     font-size: 38px;
     font-weight: 600;
-
 }
 
 .nav-menu {
@@ -193,7 +192,13 @@
     }
     .nav-menu{
         height: 70px;
-        top: 0px;
+    }
+    .nav-dropdown{
+        display: block;
+        width: 18px;
+        height: 18px;
+        border: 2px solid grey;
+        padding: 4px;
     }
     .nav-login-cart{
         transform: scale(0.8);
