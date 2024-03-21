@@ -1,15 +1,23 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import './Navbar.css';
 import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 import { Link } from 'react-router-dom';
 import { useColorScheme } from 'react-native-web';
 import { HomeContext } from '../../Context/HomeContext';
+import nav_hamburguer from '../Assets/nav_hamburguer.png';
+import nav_hamb from '../Assets/dropdown_icon.png';
 
 export const Navbar = () => {
 
     const { getTotalCartItems } = useContext(HomeContext);
     const [menu, setMenu] = useState("home");
+    const menuRef = useRef();
+
+    const navbar_hamburguer = (e) =>{
+        menuRef.current.classList.toggle('nav-menu-visible');
+        e.target.classList.toggle('open');
+    }
 
     return (
         <div className='navbar'>
@@ -19,12 +27,17 @@ export const Navbar = () => {
                     src={logo}
                     alt="Tienda"
                 />
-                <p>
-                    ARUAL
-                </p>
+                <p>ARUAL</p>
             </div>
 
-            <ul className='nav-menu'>
+            <img 
+                className='nav-dropdown' 
+                onClick={navbar_hamburguer} 
+                src={nav_hamb} 
+                alt="Menu" 
+            />
+
+            <ul ref={menuRef} className='nav-menu'>
                 <li onClick={() => { setMenu("home") }}><Link style={{ textDecoration: 'none' }} to='/'>Tienda</Link>{menu === "home" ? <hr /> : <></>}</li>
                 <li onClick={() => { setMenu("hombre") }}><Link style={{ textDecoration: 'none' }} to='/hombre'>Hombre</Link>{menu === "hombre" ? <hr /> : <></>}</li>
                 <li onClick={() => { setMenu("mujer") }}><Link style={{ textDecoration: 'none' }} to='/mujer'>Mujer</Link>{menu === "mujer" ? <hr /> : <></>}</li>
