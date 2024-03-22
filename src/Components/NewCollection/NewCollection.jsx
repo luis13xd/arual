@@ -6,7 +6,7 @@ import { Item } from '../Item/Item';
 export const NewCollection = () => {
     return (
         <div className='new-collections'>
-            <h1>NUEVA COLECCIÓN</h1>
+            <h2>Nueva Colección</h2>
             <hr />
             <div className="collections">
                 {new_collection.map((item,i) => {
