@@ -16,7 +16,7 @@ export const Footer = () => {
             <li>Compañia</li>
             <li>Productos</li>
             <li>Oficinas</li>
-            <li>Sobre Nosotros</li>
+            <li>Nosotros</li>
             <li>Contáctanos</li>
         </ul>
         <div className="footer-social-icon">
