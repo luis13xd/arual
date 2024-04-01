@@ -6,7 +6,7 @@ export const DescriptioBox = () => {
     <div className='descriptionbox'>
         <div className="descriptionbox-navigator">
             <div className="descriptionbox-nav-box">
-                Descrpción
+                Descripción
             </div>
             <div className="descriptionbox-nav-box fade">
                 Vistas (103)

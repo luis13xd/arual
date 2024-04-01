@@ -10,6 +10,15 @@ export const ProductDisplay = (props) => {
 
     const {addToCart} = useContext(HomeContext);
 
+    const formatCurrency = (price) => {
+        return new Intl.NumberFormat('es-CO', {
+            style: 'currency',
+            currency: 'COP',
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0
+        }).format(price);
+    };
+
     return (
         <div className='productdisplay'>
             <div className="productdisplay-left">
@@ -40,10 +49,10 @@ export const ProductDisplay = (props) => {
                 </div>
                 <div className="productdisplay-right-prices">
                     <div className="productdisplay-right-price-old">
-                        ${product.old_price}
+                        {formatCurrency(product.old_price)}
                     </div>
                     <div className="productdisplay-right-price-new">
-                        ${product.new_price}
+                        {formatCurrency(product.new_price)}
                     </div>
                 </div>
                 <div className="productdisplay-right-description">
@@ -57,18 +66,21 @@ export const ProductDisplay = (props) => {
                         <div>M</div>
                         <div>L</div>
                         <div>XL</div>
-                        <div>XXL</div>
                     </div>
                 </div>
-                <button onClick={()=>{addToCart(product.id)}}>Añadir al carrito</button>
+                <button 
+                    nClick={()=>{addToCart(product.id)}}
+                >
+                    AGREGAR
+                </button>
                 {/* <p className="productdisplay-right-category">
                     <span>Categoria : </span>
                     
                 </p> */}
-                {/* <p className="productdisplay-right-category">
+                <p className="productdisplay-right-category">
                     <span>Tags : </span>
                     Moda, Ropa, Calidad
-                </p> */}
+                </p>
             </div>
         </div>
     )

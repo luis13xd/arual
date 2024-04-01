@@ -5,7 +5,7 @@
     color: #5e5e5e;
     font-size: 16px;
     font-weight: 600;
-    margin: 40px auto;
+    margin: 20px auto;
     text-transform: capitalize;
     width: 80%;
 }
@@ -14,28 +14,32 @@
     .breadcrum {
         gap: 15px;
         font-size: 15px;
-        margin: 35px auto;
+        margin: 19px auto;
         width: 80%;
     }
 }
 
 @media(max-width:800px) {
     .breadcrum {
-        gap: 10px;
-        font-size: 14px;
-        margin: 30px auto;
-        width: 90%;
+        gap: 8px;
+        font-size: 13px;
+        margin: 18px auto;
+        width: 94%;
+    }
+
+    .breadcrum img{
+        width: 7px;
     }
 }
 
 @media(max-width:500px) {
     .breadcrum {
-        gap: 8px;
-        font-size: 12px;
-        margin: 25px auto;
+        gap: 6px;
+        font-size: 11px;
+        margin: 17px auto;
         font-weight: 500;
     }
     .breadcrum img{
-        width: 6px;
+        width: 5px;
     }
 }
