@@ -69,7 +69,7 @@ export const ProductDisplay = (props) => {
                     </div>
                 </div>
                 <button 
-                    nClick={()=>{addToCart(product.id)}}
+                    onClick={()=>{addToCart(product.id)}}
                 >
                     AGREGAR
                 </button>

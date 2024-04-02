@@ -107,9 +107,13 @@
 @media(max-width:453px) {
 
     .footer-links {
-        gap: 10px;
+        gap: 6px;
         font-size: 12px;
-        padding-right: 5px;
+        justify-content: space-around;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
     }
 
 }

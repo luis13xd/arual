@@ -13,7 +13,7 @@ export const Footer = () => {
             <p>ARUAL</p>
         </div>
         <ul className="footer-links">
-            <li>Compañia</li>
+            {/* <li>Compañia</li> */}
             <li>Productos</li>
             <li>Oficinas</li>
             <li>Nosotros</li>

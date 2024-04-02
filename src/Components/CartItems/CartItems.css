@@ -1,6 +1,6 @@
 .cartitems{
     width: 80%;
-    margin: 100px auto;
+    margin: 70px auto;
 }
 .cartitems hr{
     height: 3px;
@@ -26,18 +26,22 @@
 }
 .cartitems-remove-icon{
     width: 16px;
-    margin: 0px 35px;
+    margin: 0px 25px;
     cursor: pointer;
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid rgb(192, 147, 147);
 }
 .cartitems-quantity{
     width: 64px;
     height: 50px;
     border: 2px solid #ebebeb;
     background: #fff;
+    margin: 0px auto;
 }
 .cartitems-down{
     display: flex;
-    margin: 100px 0px;
+    margin: 90px 0px;
 }
 .cartitems-total{
     flex: 1;
@@ -100,4 +104,119 @@
 .cartitems-promobox button:hover{
     background: orangered;
     border: none;
+}
+
+@media(max-width:1280px){
+    .cartitems{
+        margin: 60px auto;
+    }
+
+    .cartitems-format-main{
+        grid-template-columns: 0.5fr 2.5fr  0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 25px;
+        padding: 18px 0px;
+        font-size: 16px;
+    }
+
+    .carticon-product-icon{
+        height: 52px;
+    }
+
+    .cartitems-quantity{
+        width: 40px;
+        height: 32px;
+    }
+
+    .cartitems-total{
+        margin-right: 40px;
+    }
+
+    .cartitems-promobox{
+        width: auto;
+        max-width: 500px;
+    }
+
+    .cartitems-promobox input{
+        width: 100%;
+    }
+
+    .cartitems-promobox button{
+        width: 120px;
+        margin-left: -125px;
+    }
+
+
+}
+
+@media(max-width:1024px){
+    .cartitems-down{
+        display: flex;
+        margin: 80px 0px;
+        flex-direction: column;
+    }
+
+    .cartitems-total{
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    .cartitems-total button{
+        width: 210px;
+        height: 52px;
+        font-size: 15px;
+    }
+
+    .cartitems-promobox{
+        width: auto;
+        max-width: 500px;
+    }
+
+    .cartitems-promobox input{
+        width: 100%;
+    }
+
+    .cartitems-promobox button{
+        width: 120px;
+        margin-left: -125px;
+    }
+
+}
+
+@media(max-width:500px){
+    .cartitems{
+        width: 90%;
+        margin: 45px auto;
+    }
+
+    .cartitems-format-main{
+        grid-template-columns: 0.5fr 3fr  0.5fr;
+        gap: 10px;
+        padding: 18px 0px;
+        font-size: 14px;
+        display: none;
+    }
+
+    .cartitems-format{
+        display: grid;
+    }
+
+    .cartitems-promobox{
+        width: auto;
+        max-width: 490px;
+        height: 48px;
+       
+    }
+
+    .cartitems-promobox input{
+        width: 100%;
+        height: 48px;
+        font-size: 13px;
+    }
+
+    .cartitems-promobox button{
+        width: 100px;
+        margin-left: -104px;
+        font-size: 12px;
+        height: 48px;
+    }
 }
