@@ -6,28 +6,28 @@ import p4_img from './product_4.png'
 let data_product = [
   {
     id: 1,
-    name: "Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Saco PornHub new collection37",
     image: p1_img,
     new_price: 50000,
-    old_price: 80.500,
+    old_price: 80000,
   },
   {
     id: 2,
-    name: "Slekkeve Overlap Collar Peplum Hem Blouse",
+    name: "Saco PornHub new collection38",
     image: p2_img,
     new_price: 85000,
     old_price: 125000,
   },
   {
     id: 3,
-    name: "Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Saco PornHub new collection39",
     image: p3_img,
     new_price: 60000,
     old_price: 105000,
   },
   {
     id: 4,
-    name: "Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Saco PornHub new collection40",
     image: p4_img,
     new_price: 100000,
     old_price: 150000,

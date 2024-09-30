@@ -9,7 +9,7 @@
 }
 .cartitems-format-main{
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
     align-items: center;
     gap: 75px;
     padding: 20px 0px;
@@ -20,9 +20,14 @@
 .cartitems-format{
     font-size: 17px;
     font-weight: 500;
+    align-items: center;
 }
 .carticon-product-icon{
     height: 62px;
+}
+.cartitems-size{
+    margin: 0px auto;
+    font-size: 15px;
 }
 .cartitems-remove-icon{
     width: 16px;
@@ -54,6 +59,9 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
+}
+.cartitems-total-item-desc{
+    color: red;
 }
 .cartitems-total button{
     width: 260px;
@@ -112,7 +120,7 @@
     }
 
     .cartitems-format-main{
-        grid-template-columns: 0.5fr 2.5fr  0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
         gap: 25px;
         padding: 18px 0px;
         font-size: 16px;
@@ -149,6 +157,10 @@
 }
 
 @media(max-width:1024px){
+    .cartitems-format-main{
+        grid-template-columns: 0.5fr 1.8fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+
     .cartitems-down{
         display: flex;
         margin: 80px 0px;
@@ -182,6 +194,24 @@
 
 }
 
+@media(max-width:800px){
+    .cartitems-format-main{
+        grid-template-columns: 0.5fr 1.5fr 0.3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .cartitems-remove-icon{
+        width: 15px;
+        margin: 0px 10px;
+    }
+
+    .cartitems-size{
+        margin: 0px auto;
+        font-size: 13px;
+    }
+}
+
 @media(max-width:500px){
     .cartitems{
         width: 90%;
@@ -189,7 +219,7 @@
     }
 
     .cartitems-format-main{
-        grid-template-columns: 0.5fr 3fr  0.5fr;
+        grid-template-columns: 0.5fr 1.1fr  0.2fr  0.5fr;
         gap: 10px;
         padding: 18px 0px;
         font-size: 14px;
@@ -213,10 +243,30 @@
         font-size: 13px;
     }
 
+    .carticon-product-icon{
+        height: 54px;
+        width: 38px;
+    }
+
     .cartitems-promobox button{
         width: 100px;
         margin-left: -104px;
         font-size: 12px;
         height: 48px;
+    }
+
+    .cartitems-remove-icon{
+        width: 14px;
+        margin: 0px 5px;
+        padding: 3px;
+    }
+
+    .cartitems-quantity{
+        margin: 0px;
+    }
+
+    .cartitems-size{
+        margin: 0px auto;
+        font-size: 12px;
     }
 }

@@ -3,9 +3,7 @@ import './Navbar.css';
 import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 import { Link } from 'react-router-dom';
-import { useColorScheme } from 'react-native-web';
 import { HomeContext } from '../../Context/HomeContext';
-import nav_hamburguer from '../Assets/nav_hamburguer.png';
 import nav_hamb from '../Assets/dropdown_icon.png';
 
 export const Navbar = () => {
@@ -14,7 +12,7 @@ export const Navbar = () => {
     const [menu, setMenu] = useState("home");
     const menuRef = useRef();
 
-    const navbar_hamburguer = (e) =>{
+    const navbar_hamburguer = (e) => {
         menuRef.current.classList.toggle('nav-menu-visible');
         e.target.classList.toggle('open');
     }
@@ -27,14 +25,18 @@ export const Navbar = () => {
                     src={logo}
                     alt="Tienda"
                 />
-                <p>ARUAL</p>
+                {/* <Link to='/'> */}
+                    <p className='nav-logo-p'>
+                        ARUAL
+                    </p>
+                {/* </Link> */}
             </div>
 
-            <img 
-                className='nav-dropdown' 
-                onClick={navbar_hamburguer} 
-                src={nav_hamb} 
-                alt="Menu" 
+            <img
+                className='nav-dropdown'
+                onClick={navbar_hamburguer}
+                src={nav_hamb}
+                alt="Menu"
             />
 
             <ul ref={menuRef} className='nav-menu'>
@@ -45,7 +47,7 @@ export const Navbar = () => {
             </ul>
 
             <div className="nav-login-cart">
-                <Link to='/login'><button>Ingresar</button></Link>
+                {/* <Link to='/login'><button>Ingresar</button></Link> */}
                 <Link to='/cart'>
                     <img
                         src={cart_icon}
