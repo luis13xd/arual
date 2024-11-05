@@ -52,6 +52,8 @@ import img_3_2 from './nuevo/img3-2.webp';
 import img_3_3 from './nuevo/img3-3.webp';
 import img_3_4 from './nuevo/img3-4.webp';
 
+import b1 from './nuevo/blanca.jpg';
+import b2 from './nuevo/blanca2.jpg';
 
 let all_product = [
   {
@@ -344,20 +346,20 @@ let all_product = [
   },
   {
     id: 37,
-    name: "Saco PornHub new collection37",
+    name: "Blusa Deportiva Blanca",
     category: "kid",
-    image: img_1,
-    image2: img_2,
-    image3: img_3,
-    image4: img_4,
+    image: b1,
+    image2: b2,
+    image3: b1,
+    image4: b2,
     new_price: 50000,
     old_price: 80000,
     sizes: {
       XS: true,
-      S: false,
+      S: true,
       M: false,
       L: true,
-      XL: true
+      XL: false
     }
   },
   {
