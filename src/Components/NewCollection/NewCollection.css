@@ -6,19 +6,32 @@
     width: 80%;
     margin: 0px auto 100px auto;
 }
-
-.new-collections h2 {
-    color: #171717;
-    font-size: 46px;
-    font-weight: 600;
+.lines {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
 }
 
-.new-collections hr {
-    width: 220px;
-    height: 6px;
-    border-radius: 10px;
-    background: orangered;
-    border: none;
+.line {
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    background-color: #000;
+}
+
+.text-p {
+    font-size: 26px;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    margin: 0;
 }
 
 .collections {
@@ -30,23 +43,24 @@
 
 
 @media(max-width:1280px) {
-    .new-collections h2 {
-        font-size: 40px;
+    .text-p {
+        font-size: 22px;
     }
-    .new-collections hr {
-        width: 200px;
-        height: 5px;
+
+    .sub-title {
+        font-size: 30px;
     }
 }
 
 @media(max-width:1024px) {
-    .new-collections h2 {
-        font-size: 30px;
+    .text-p {
+        font-size: 20px;
     }
-    .new-collections hr {
-        width: 160px;
-        height: 4px;
+
+    .sub-title {
+        font-size: 28px;
     }
+
     .collections {
         margin-top: 24px;
         gap: 24px;
@@ -59,12 +73,12 @@
         width: 90%;
         margin: 0px auto 60px auto;
     }
-    .new-collections h2 {
-        font-size: 20px;
+    .text-p {
+        font-size: 18px;
     }
-    .new-collections hr {
-        width: 90px;
-        height: 3px;
+
+    .sub-title {
+        font-size: 24px;
     }
     .collections {
         grid-template-columns: 1fr 1fr 1fr ;
@@ -79,5 +93,12 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 10px;
         gap: 20px;
+    }
+    .text-p {
+        font-size: 14px;
+    }
+
+    .sub-title {
+        font-size: 22px;
     }
 }

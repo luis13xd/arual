@@ -68,7 +68,7 @@
     height: 58px;
     outline: none;
     border: none;
-    background: orangered;
+    background: #2e2720;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -110,7 +110,7 @@
     cursor: pointer;
 }
 .cartitems-promobox button:hover{
-    background: orangered;
+    background: #2e2720;
     border: none;
 }
 

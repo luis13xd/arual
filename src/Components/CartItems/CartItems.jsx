@@ -118,7 +118,7 @@ export const CartItems = () => {
                     <p>Si tienes un codigo promocional, ponlo aquí</p>
                     <div className="cartitems-promobox">
                         <input type="text" placeholder='Codigo promocional' value={cupon} onChange={handleCuponChange} maxLength={14} />
-                        <button onClick={validarCupon}>Validar código</button>
+                        <button onClick={validarCupon}>Validar</button>
                     </div>
                 </div>
             </div>

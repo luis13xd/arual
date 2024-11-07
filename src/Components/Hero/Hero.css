@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background: linear-gradient(180deg, white, orangered 60%);
+    background: linear-gradient(180deg, white, #eccbab 60%);
     display: flex;
 }
 
@@ -45,16 +45,14 @@
     height: 70px;
     border-radius: 75px;
     margin-top: 30px;
-    background: orangered;
+    background: #2e2720;
     color: white;
     font-size: 22px;
     font-weight: 500;
-    border: 1px solid white;
 }
 
 .hero-latest-btn:hover {
     background: black;
-    border: 1px solid black;
 }
 
 .hero-right {
