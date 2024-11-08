@@ -1,377 +1,101 @@
-import p1_img from "./product_1.png";
-import p2_img from "./product_2.png";
-import p3_img from "./product_3.png";
-import p4_img from "./product_4.png";
-import p5_img from "./product_5.png";
-import p6_img from "./product_6.png";
-import p7_img from "./product_7.png";
-import p8_img from "./product_8.png";
-import p9_img from "./product_9.png";
-import p10_img from "./product_10.png";
-import p11_img from "./product_11.png";
-import p12_img from "./product_12.png";
-import p13_img from "./product_13.png";
-import p14_img from "./product_14.png";
-import p15_img from "./product_15.png";
-import p16_img from "./product_16.png";
-import p17_img from "./product_17.png";
-import p18_img from "./product_18.png";
-import p19_img from "./product_19.png";
-import p20_img from "./product_20.png";
-import p21_img from "./product_21.png";
-import p22_img from "./product_22.png";
-import p23_img from "./product_23.png";
-import p24_img from "./product_24.png";
-import p25_img from "./product_25.png";
-import p26_img from "./product_26.png";
-import p27_img from "./product_27.png";
-import p28_img from "./product_28.png";
-import p29_img from "./product_29.png";
-import p30_img from "./product_30.png";
-import p31_img from "./product_31.png";
-import p32_img from "./product_32.png";
-import p33_img from "./product_33.png";
-import p34_img from "./product_34.png";
-import p35_img from "./product_35.png";
-import p36_img from "./product_36.png";
-
-import img_1 from './nuevo/img1.webp';
-import img_2 from './nuevo/img2.webp';
-import img_3 from './nuevo/img3.webp';
-import img_4 from './nuevo/img4.webp';
-import img_1_1 from './nuevo/img1-1.webp';
-import img_1_2 from './nuevo/img1-2.webp';
-import img_1_3 from './nuevo/img1-3.webp';
-import img_1_4 from './nuevo/img1-4.webp';
-import img_2_1 from './nuevo/img2-1.webp';
-import img_2_2 from './nuevo/img2-2.webp';
-import img_2_3 from './nuevo/img2-3.webp';
-import img_2_4 from './nuevo/img2-4.webp';
-import img_3_1 from './nuevo/img3-1.webp';
-import img_3_2 from './nuevo/img3-2.webp';
-import img_3_3 from './nuevo/img3-3.webp';
-import img_3_4 from './nuevo/img3-4.webp';
-
-import b1 from './nuevo/blanca.jpg';
-import b2 from './nuevo/blanca2.jpg';
+// 101
+import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg"
+import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg"
+import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg"
+import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg"
+// 102
+import enterizoalmarosado1 from "./enterizos/enterizoalmarosado1.jpeg"
+import enterizoalmarosado2 from "./enterizos/enterizoalmarosado2.jpeg"
+import enterizoalmarosado3 from "./enterizos/enterizoalmarosado3.jpeg"
+import enterizoalmarosado4 from "./enterizos/enterizoalmarosado4.jpeg"
+// 103
+import enterizoaurablanco1 from "./enterizos/enterizoaurablanco1.jpeg"
+import enterizoaurablanco2 from "./enterizos/enterizoaurablanco2.jpeg"
+import enterizoaurablanco3 from "./enterizos/enterizoaurablanco3.jpeg"
+import enterizoaurablanco4 from "./enterizos/enterizoaurablanco4.jpeg"
+// 104
+import enterizoauranegro1 from "./enterizos/enterizoauranegro1.jpeg"
+import enterizoauranegro2 from "./enterizos/enterizoauranegro2.jpeg"
+import enterizoauranegro3 from "./enterizos/enterizoauranegro3.jpeg"
+import enterizoauranegro4 from "./enterizos/enterizoauranegro4.jpeg"
+// 105
+import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg"
+import enterizoesenciaazul2 from "./enterizos/enterizoesenciaazul2.jpeg"
+import enterizoesenciaazul3 from "./enterizos/enterizoesenciaazul3.jpeg"
+import enterizoesenciaazul4 from "./enterizos/enterizoesenciaazul4.jpeg"
+// 106
+import enterizonovaterracota1 from "./enterizos/enterizonovaterracota1.jpeg"
+import enterizonovaterracota2 from "./enterizos/enterizonovaterracota2.jpeg"
+import enterizonovaterracota3 from "./enterizos/enterizonovaterracota3.jpeg"
+import enterizonovaterracota4 from "./enterizos/enterizonovaterracota4.jpeg"
+// 107
+import enterizovibesrojo1 from "./enterizos/enterizovibesrojo1.jpeg"
+import enterizovibesrojo2 from "./enterizos/enterizovibesrojo2.jpeg"
+import enterizovibesrojo3 from "./enterizos/enterizovibesrojo3.jpeg"
+import enterizovibesrojo4 from "./enterizos/enterizovibesrojo4.jpeg"
+// 108
+import enterizozengris1 from "./enterizos/enterizozengris1.jpeg"
+import enterizozengris2 from "./enterizos/enterizozengris2.jpeg"
+import enterizozengris3 from "./enterizos/enterizozengris3.jpeg"
+import enterizozengris4 from "./enterizos/enterizozengris4.jpeg"
+// 109
+import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
+import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
+import enterizozennegro3 from "./enterizos/enterizozennegro3.jpeg"
+import enterizozennegro4 from "./enterizos/enterizozennegro4.jpeg"
+// 110
+import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg"
+import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg"
+import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg"
+import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg"
+// 111
+import enterizoactiveazul1 from "./enterizos/enterizoactiveazul1.jpeg"
+import enterizoactiveazul2 from "./enterizos/enterizoactiveazul2.jpeg"
+import enterizoactiveazul3 from "./enterizos/enterizoactiveazul3.jpeg"
+import enterizoactiveazul4 from "./enterizos/enterizoactiveazul4.jpeg"
+// 112
+import enterizovebesverdeoliva1 from "./enterizos/enterizovebesverdeoliva1.jpeg"
+import enterizovebesverdeoliva2 from "./enterizos/enterizovebesverdeoliva2.jpeg"
+import enterizovebesverdeoliva3 from "./enterizos/enterizovebesverdeoliva3.jpeg"
+import enterizovebesverdeoliva4 from "./enterizos/enterizovebesverdeoliva4.jpeg"
+// 113
+import enterizoesenciaazulrey1 from "./enterizos/enterizoesenciaazulrey1.jpeg"
+import enterizoesenciaazulrey2 from "./enterizos/enterizoesenciaazulrey2.jpeg"
+import enterizoesenciaazulrey3 from "./enterizos/enterizoesenciaazulrey3.jpeg"
+import enterizoesenciaazulrey4 from "./enterizos/enterizoesenciaazulrey4.jpeg"
+// 114
+import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg"
+import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg"
+import enterizoactiveblanco3 from "./enterizos/enterizoactiveblanco3.jpeg"
+import enterizoactiveblanco4 from "./enterizos/enterizoactiveblanco4.jpeg"
+// 115
+import enterizovibesrosado1 from "./enterizos/enterizovibesrosado1.jpeg"
+import enterizovibesrosado2 from "./enterizos/enterizovibesrosado2.jpeg"
+import enterizovibesrosado3 from "./enterizos/enterizovibesrosado3.jpeg"
+import enterizovibesrosado4 from "./enterizos/enterizovibesrosado4.jpeg"
+// 116
+import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg"
+import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg"
+import enterizovibesmandarina3 from "./enterizos/enterizovibesmandarina3.jpeg"
+import enterizovibesmandarina4 from "./enterizos/enterizovibesmandarina4.jpeg"
+// 117
+import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg"
+import enterizoalmagris2 from "./enterizos/enterizoalmagris2.jpeg"
+import enterizoalmagris3 from "./enterizos/enterizoalmagris3.jpeg"
+import enterizoalmagris4 from "./enterizos/enterizoalmagris4.jpeg"
 
 let all_product = [
   {
-    id: 1,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p1_img,
-    new_price: 50000,
-    old_price: 80000,
-  },
-  {
-    id: 2,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p2_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 3,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p3_img,
-    new_price: 60000,
+    id: 101,
+    name: "ENTERIZO ALMA - TONO BEIGE",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoalmabeige1,
+    image2: enterizoalmabeige2,
+    image3: enterizoalmabeige3,
+    image4: enterizoalmabeige4,
+    new_price: 90000,
     old_price: 100000,
-  },
-  {
-    id: 4,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p4_img,
-    new_price: 100000,
-    old_price: 150000,
-  },
-  {
-    id: 5,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p5_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 6,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p6_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 7,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p7_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 8,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p8_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 9,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p9_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 10,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p10_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 11,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p11_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 12,
-    name: "Striped Flutter Sleeve Peplum Hem Blouse",
-    category: "women",
-    image: p12_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 13,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p13_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 14,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p14_img,
-    new_price: 75000,
-    old_price: 120000,
-  },
-  {
-    id: 15,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p15_img,
-    new_price: 55000,
-    old_price: 120000,
-  },
-  {
-    id: 16,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p16_img,
-    new_price: 65000,
-    old_price: 120000,
-  },
-  {
-    id: 17,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p17_img,
-    new_price: 80000,
-    old_price: 120000,
-  },
-  {
-    id: 18,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p18_img,
-    new_price: 95000,
-    old_price: 120000,
-  },
-  {
-    id: 19,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p19_img,
-    new_price: 50000,
-    old_price: 120000,
-  },
-  {
-    id: 20,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p20_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 21,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p21_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 22,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p22_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 23,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p23_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 24,
-    name: "Men Green Solid Zippered Full-Jacket",
-    category: "men",
-    image: p24_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 25,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p25_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 26,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p26_img,
-    new_price: 35000,
-    old_price: 120000,
-  },
-  {
-    id: 27,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p27_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 28,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p28_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 29,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p29_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 30,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p30_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 31,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p31_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 32,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p32_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 33,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p33_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 34,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p34_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 35,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p35_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 36,
-    name: "Boys Colourblocked Hooded Sweatshirt",
-    category: "kid",
-    image: p36_img,
-    new_price: 85000,
-    old_price: 120000,
-  },
-  {
-    id: 37,
-    name: "Blusa Deportiva Blanca",
-    category: "kid",
-    image: b1,
-    image2: b2,
-    image3: b1,
-    image4: b2,
-    new_price: 50000,
-    old_price: 80000,
-    sizes: {
-      XS: true,
-      S: true,
-      M: false,
-      L: true,
-      XL: false
-    }
-  },
-  {
-    id: 38,
-    name: "Saco PornHub new collection38",
-    category: "kid",
-    image: img_1_1,
-    image2: img_1_2,
-    image3: img_1_3,
-    image4: img_1_4,
-    new_price: 85000,
-    old_price: 125000,
     sizes: {
       XS: true,
       S: true,
@@ -381,41 +105,312 @@ let all_product = [
     }
   },
   {
-    id: 39,
-    name: "Saco PornHub new collection39",
-    category: "kid",
-    image: img_2_1,
-    image2: img_2_2,
-    image3: img_2_3,
-    image4: img_2_4,
-    new_price: 60000,
-    old_price: 105000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: true,
-      XL: true
-    }
-  },
-  {
-    id: 40,
-    name: "Saco PornHub new collection40",
-    category: "kid",
-    image: img_3_1,
-    image2: img_3_2,
-    image3: img_3_3,
-    image4: img_3_4,
-    new_price: 100000,
-    old_price: 150000,
+    id: 102,
+    name: "ENTERIZO ALMA - TONO ROSADO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoalmarosado1,
+    image2: enterizoalmarosado2,
+    image3: enterizoalmarosado3,
+    image4: enterizoalmarosado4,
+    new_price: 90000,
+    old_price: 100000,
     sizes: {
       XS: true,
       S: true,
       M: false,
       L: true,
-      XL: true
+      XL: false,
     }
   },
+  {
+    id: 103,
+    name: "ENTERIZO AURA - TONO BLANCO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoaurablanco1,
+    image2: enterizoaurablanco2,
+    image3: enterizoaurablanco3,
+    image4: enterizoaurablanco4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 104,
+    name: "ENTERIZO AURA - TONO NEGRO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoauranegro1,
+    image2: enterizoauranegro2,
+    image3: enterizoauranegro3,
+    image4: enterizoauranegro4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 105,
+    name: "ENTERIZO ESENCIA - TONO AZUL",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoesenciaazul1,
+    image2: enterizoesenciaazul2,
+    image3: enterizoesenciaazul3,
+    image4: enterizoesenciaazul4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 106,
+    name: "ENTERIZO NOVA - TONO TERRACOTA",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizonovaterracota1,
+    image2: enterizonovaterracota2,
+    image3: enterizonovaterracota3,
+    image4: enterizonovaterracota4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 107,
+    name: "ENTERIZO VIBES - TONO ROJO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizovibesrojo1,
+    image2: enterizovibesrojo2,
+    image3: enterizovibesrojo3,
+    image4: enterizovibesrojo4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 108,
+    name: "ENTERIZO ZEN - TONO GRIS",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizozengris1,
+    image2: enterizozengris2,
+    image3: enterizozengris3,
+    image4: enterizozengris4,
+    new_price: 70000,
+    old_price: 85000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 109,
+    name: "ENTERIZO ZEN - TONO NEGRO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizozennegro1,
+    image2: enterizozennegro2,
+    image3: enterizozennegro3,
+    image4: enterizozennegro4,
+    new_price: 70000,
+    old_price: 85000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 110,
+    name: "ENTERIZO REBEL - TONO BLANCO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizorebelblanco1,
+    image2: enterizorebelblanco2,
+    image3: enterizorebelblanco3,
+    image4: enterizorebelblanco4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 111,
+    name: "ENTERIZO ACTIVE - TONO AZUL",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoactiveazul1,
+    image2: enterizoactiveazul2,
+    image3: enterizoactiveazul3,
+    image4: enterizoactiveazul4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 112,
+    name: "ENTERIZO VIBES - TONO VERDE OLIVA",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizovebesverdeoliva1,
+    image2: enterizovebesverdeoliva2,
+    image3: enterizovebesverdeoliva3,
+    image4: enterizovebesverdeoliva4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 113,
+    name: "ENTERIZO ESENCIA - TONO AZUL",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoesenciaazulrey1,
+    image2: enterizoesenciaazulrey2,
+    image3: enterizoesenciaazulrey3,
+    image4: enterizoesenciaazulrey4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: true,
+      S: true,
+      M: false,
+      L: true,
+      XL: false,
+    }
+  },
+  {
+    id: 114,
+    name: "ENTERIZO ACTIVE - TONO BLANCO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoactiveblanco1,
+    image2: enterizoactiveblanco2,
+    image3: enterizoactiveblanco3,
+    image4: enterizoactiveblanco4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 115,
+    name: "ENTERIZO VIBES - TONO ROSADO",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizovibesrosado1,
+    image2: enterizovibesrosado2,
+    image3: enterizovibesrosado3,
+    image4: enterizovibesrosado4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 116,
+    name: "ENTERIZO VIBES - TONO MANDARINA",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizovibesmandarina1,
+    image2: enterizovibesmandarina2,
+    image3: enterizovibesmandarina3,
+    image4: enterizovibesmandarina4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 117,
+    name: "ENTERIZO ALMA - TONO GRIS",
+    category: "enterizos",
+    description: "aca va la descripcionnnn",
+    image: enterizoalmagris1,
+    image2: enterizoalmagris2,
+    image3: enterizoalmagris3,
+    image4: enterizoalmagris4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+
+
+
 ];
 
 export default all_product;

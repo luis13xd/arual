@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import footer_logo from '../Assets/logo_big.png';
 import instagram_icon from '../Assets/instagram_icon.png';
 import pinteres_icon from '../Assets/pintester_icon.png';
 import whatsapp_icon from '../Assets/whatsapp_icon.png';
@@ -9,7 +8,6 @@ export const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-logo">
-            <img src={footer_logo} alt="logo" />
             <p>ARUAL</p>
         </div>
         <ul className="footer-links">
@@ -32,7 +30,7 @@ export const Footer = () => {
         </div>
         <div className="footer-copyright">
             <hr />
-            <p>Copyright @ 2024 - Todos los Derechos Reservados</p>
+            <p>Copyright @ 2025 - Todos los Derechos Reservados</p>
             <h3>ARUAL S.A.S</h3>
         </div>
     </div>

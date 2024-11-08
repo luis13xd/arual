@@ -1,33 +1,27 @@
 import React from 'react';
 import './Hero.css';
-import hand_icon from '../Assets/hand_icon.png';
 import arrow_icon from '../Assets/arrow.png';
-import hero_image from '../Assets/hero_image.png';
+import video from '../Assets/video.mp4';
 
 export const Hero = () => {
   return (
     <div className='hero'>
-        <div className="hero-left">
-            <h2>NEW ONLY</h2>
-            <div>
-                <div className="hero-hand-icon">
-                    <p>Nueva</p>
-                    <img src={hand_icon} alt="icono" />
-                </div>
-                <p>Colección</p>
-                <p>Para Todos</p>
-            </div>
-            <div className="hero-latest-btn">
-                <div>Ultima Colección</div>
-                <img src={arrow_icon} alt="icono2" />
-            </div>
+      <div className="hero-left">
+        <h2>ARUAL SPORT</h2>
+        <div>
+          <p>Vístete para</p>
+          <p>tu mejor versión</p>
         </div>
-
-        <div className="hero-right">
-            <img src={hero_image} alt="icono3" />
-
+        <div className="hero-latest-btn">
+          <div>Ultima Colección</div>
+          <img src={arrow_icon} alt="icono2" />
         </div>
+      </div>
 
+      <div className="hero-right">
+        {/* Reemplazamos la imagen con un video */}
+        <video src={video} autoPlay loop muted className="hero-video"></video>
+      </div>
     </div>
-  )
-}
+  );
+};

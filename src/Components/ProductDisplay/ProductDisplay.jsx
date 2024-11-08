@@ -66,8 +66,9 @@ export const ProductDisplay = (props) => {
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
-                    <img src={star_dull_icon} alt="" />
-                    <p>(16)</p>
+                    <img src={star_icon} alt="" />
+                    {/* <img src={star_dull_icon} alt="" />
+                    <p>(16)</p> */}
                 </div>
                 <div className="productdisplay-right-prices">
                     <div className="productdisplay-right-price-old">
@@ -78,7 +79,7 @@ export const ProductDisplay = (props) => {
                     </div>
                 </div>
                 <div className="productdisplay-right-description">
-                    Este producto está confeccionado en tela suave 100% de algodón, cuenta con instrucciones de uso y cuidado especiales, descritas y detalladas en la etiqueta con la que cuenta el producto físico.
+                     {product.description}
                 </div>
                 <div className="productdisplay-right-size">
                     <h2>Seleccionar talla</h2>

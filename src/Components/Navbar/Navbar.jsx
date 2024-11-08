@@ -29,8 +29,7 @@ export const Navbar = () => {
         <p className="nav-logo-p">ARUAL</p>
       </div>
 
-
-      <img src={logo} alt="Tienda" className="nav-logo-img"/>
+      <img src={logo} alt="Tienda" className="nav-logo-img" />
 
       <ul ref={menuRef} className="nav-menu">
         <li
@@ -43,33 +42,58 @@ export const Navbar = () => {
           </Link>
           {menu === "home" ? <hr /> : <></>}
         </li>
+
         <li
           onClick={() => {
-            setMenu("hombre");
+            setMenu("enterizos");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/hombre">
-            Hombre
+          <Link style={{ textDecoration: "none" }} to="/enterizos">
+            Enterizos
           </Link>
-          {menu === "hombre" ? <hr /> : <></>}
+          {menu === "enterizos" ? <hr /> : <></>}
         </li>
+
         <li
           onClick={() => {
             setMenu("mujer");
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/mujer">
-            Mujer
+            Leggings y Faldas
           </Link>
           {menu === "mujer" ? <hr /> : <></>}
         </li>
+
         <li
           onClick={() => {
             setMenu("niños");
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/niños">
-            Niños
+            Bodys y Tops
+          </Link>
+          {menu === "niños" ? <hr /> : <></>}
+        </li>
+
+        <li
+          onClick={() => {
+            setMenu("niños");
+          }}
+        >
+          <Link style={{ textDecoration: "none" }} to="/niños">
+            Sets seamless
+          </Link>
+          {menu === "niños" ? <hr /> : <></>}
+        </li>
+
+        <li
+          onClick={() => {
+            setMenu("niños");
+          }}
+        >
+          <Link style={{ textDecoration: "none" }} to="/niños">
+            Accesorios
           </Link>
           {menu === "niños" ? <hr /> : <></>}
         </li>

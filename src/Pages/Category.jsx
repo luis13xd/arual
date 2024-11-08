@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import './Css/Category.css';
 import { HomeContext } from '../Context/HomeContext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png';
@@ -8,28 +8,28 @@ export const Category = (props) => {
 
   const {all_product} = useContext(HomeContext);
 
-  const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
+  // const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(nextBanner, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(nextBanner, 5000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
-  const nextBanner = () => {
-    setCurrentBannerIndex((prevIndex) =>
-      prevIndex === props.banners.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  // const nextBanner = () => {
+  //   setCurrentBannerIndex((prevIndex) =>
+  //     prevIndex === props.banners.length - 1 ? 0 : prevIndex + 1
+  //   );
+  // };
 
   return (
     <div className='shop-category'>
-      <img className='shopcategory-banner' src={props.banners[currentBannerIndex]} alt="banner" />
+      {/* <img className='shopcategory-banner' src={props.banners[currentBannerIndex]} alt="banner" /> */}
       <div className="shopcategory-indexSort">
         <p>
-          <span>Mostrar 1-12</span> de 36 productos
+          <span>Mostrar 1-12 de 16 productos</span> 
         </p>
         <div className="shopcategory-sort">
-          Filtar por <img src={dropdown_icon} alt="mostrar" />
+          Filtar<img src={dropdown_icon} alt="mostrar" />
         </div>
       </div>
       <div className="shopcategory-products">
@@ -50,9 +50,9 @@ export const Category = (props) => {
           }
         })}
       </div>
-      <div className="shopcategory-loadmore">
+      {/* <div className="shopcategory-loadmore">
         Ver más
-      </div>
+      </div> */}
 
     </div>
   )
