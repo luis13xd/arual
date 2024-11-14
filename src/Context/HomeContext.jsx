@@ -18,15 +18,6 @@ const HomeContextProvider = (props) => {
     const [descuento, setDescuento] = useState(0);
     const [selectedSize, setSelectedSize] = useState({});
 
-
-    const selectSizeForItem = (itemId, size) => {
-        setSelectedSize({ itemId, size });
-    };
-    
-    // const addToCart = (itemId, size) => {
-    //     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
-    //     setSelectedSize((prev) => ({ ...prev, [itemId]: size }));
-    // };
     const addToCart = (itemId, size) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
         setSelectedSize((prev) => {
@@ -39,7 +30,6 @@ const HomeContextProvider = (props) => {
             return updatedSizes;
         });
     };
-    
 
     const removeFromCart = (itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
@@ -55,7 +45,6 @@ const HomeContextProvider = (props) => {
         }
         return subtotal;
     };
-
 
     const getTotalCartAmount = () => {
         let totalAmount = 0;

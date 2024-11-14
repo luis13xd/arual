@@ -56,46 +56,46 @@ export const Navbar = () => {
 
         <li
           onClick={() => {
-            setMenu("mujer");
+            setMenu("legginsyfaldas");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/mujer">
+          <Link style={{ textDecoration: "none" }} to="/legginsyfaldas">
             Leggings y Faldas
           </Link>
-          {menu === "mujer" ? <hr /> : <></>}
+          {menu === "legginsyfaldas" ? <hr /> : <></>}
         </li>
 
         <li
           onClick={() => {
-            setMenu("niños");
+            setMenu("bodysytops");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/niños">
+          <Link style={{ textDecoration: "none" }} to="/bodysytops">
             Bodys y Tops
           </Link>
-          {menu === "niños" ? <hr /> : <></>}
+          {menu === "bodysytops" ? <hr /> : <></>}
         </li>
 
         <li
           onClick={() => {
-            setMenu("niños");
+            setMenu("sets");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/niños">
+          <Link style={{ textDecoration: "none" }} to="/sets">
             Sets seamless
           </Link>
-          {menu === "niños" ? <hr /> : <></>}
+          {menu === "sets" ? <hr /> : <></>}
         </li>
 
         <li
           onClick={() => {
-            setMenu("niños");
+            setMenu("accesorios");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/niños">
+          <Link style={{ textDecoration: "none" }} to="/accesorios">
             Accesorios
           </Link>
-          {menu === "niños" ? <hr /> : <></>}
+          {menu === "accesorios" ? <hr /> : <></>}
         </li>
       </ul>
 

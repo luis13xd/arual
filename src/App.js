@@ -1,18 +1,13 @@
 
 import './App.css';
 import { Navbar } from './Components/Navbar/Navbar';
-import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter,  Route, Routes } from 'react-router-dom';
 import { Home } from './Pages/Home';
 import { Category } from './Pages/Category';
 import { Product } from './Pages/Product';
 import { Cart } from './Pages/Cart';
 import { LoginSignup } from './Pages/LoginSignup';
 import { Footer } from './Components/Footer/Footer';
-
-import banner1 from './Components/Assets/bannerdesc.png';
-import banner2 from './Components/Assets/bannerdesc2.png';
-import banner3 from './Components/Assets/bannerdesc3.png';
-import banner4 from './Components/Assets/bannerdesc4.png';
 
 function App() {
   return (
@@ -24,9 +19,12 @@ function App() {
         <Routes>
 
           <Route path='/' element={<Home/>} />
-          <Route path='/enterizos' element={<Category  banners={[banner1, banner2, banner3, banner4]} category="enterizos"/>} />
-          <Route path='/mujer' element={<Category banners={[banner1, banner2, banner3, banner4]} category="women"/>} />
-          <Route path='/niños' element={<Category banners={[banner1, banner2, banner3, banner4]} category="kid"/>} />
+          <Route path='*' element={<Home/>} />
+          <Route path='/enterizos' element={<Category  category="enterizos"/>} />
+          <Route path='/legginsyfaldas' element={<Category category="legginsyfaldas"/>} />
+          <Route path='/bodysytops' element={<Category category="bodysytops"/>} />
+          <Route path='/sets' element={<Category category="sets"/>} />
+          <Route path='/accesorios' element={<Category category="accesorios"/>} />
 
           <Route path="/product" element={<Product/>} >
             <Route path=':productId' element={<Product/>} />
