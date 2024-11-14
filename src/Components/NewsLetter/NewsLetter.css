@@ -1,14 +1,14 @@
 .newsletter {
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 60px;
 }
 
 .newsletter-main {
     flex-direction: column;
     background: linear-gradient(180deg, white 0%, #adadad 60%);
-    gap: 30px;
+    gap: 25px;
     margin: 0px auto;
     width: 80%;
     display: flex;
@@ -66,7 +66,7 @@
 
 @media(max-width:1280px) {
     .newsletter {
-        margin-bottom: 110px;
+        margin-bottom: 50px;
     }
 
     .newsletter-main {
@@ -98,7 +98,7 @@
 
 @media(max-width:1024px) {
     .newsletter {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     .newsletter h1 {
@@ -163,7 +163,7 @@
 
 @media(max-width:500px) {
     .newsletter {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         height: 24vh;
     }
 
@@ -178,7 +178,7 @@
 
     .newsletter p {
         font-size: 14px;
-        max-width: 200px;
+        max-width: 85%;
         text-align: center;
     }
 

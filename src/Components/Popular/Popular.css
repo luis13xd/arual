@@ -2,16 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: auto;
+    gap: 14px;
     width: 80%;
-    margin: 0px auto 30px auto;
-}
-
-.popular-item {
-    margin-top: 50px;
-    display: flex;
-    gap: 30px;
+    margin: 0 auto 30px;
 }
 
 .lines {
@@ -22,103 +15,75 @@
 }
 
 .line {
-    display: inline-block;
-    width: 35px;
-    height: 3px;
+    width: 45px;
+    height: 2px;
     background-color: #000;
 }
 
 .text-p {
     font-size: 26px;
     font-weight: 600;
-    color: rgb(43, 43, 43);
+    color: #2b2b2b;
     margin: 0;
 }
 
 .sub-title {
     font-size: 34px;
     font-weight: bold;
-    color: rgb(43, 43, 43);
+    color: #2b2b2b;
     margin: 0;
 }
 
+.popular-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
 
-@media(max-width:1280px) {
-    .popular {
-        margin: 0px auto 28px auto;
-    }
-
+/* Media queries */
+@media (max-width: 1024px) {
     .text-p {
         font-size: 22px;
     }
-
     .sub-title {
         font-size: 30px;
     }
-
-    .popular-item {
-        margin-top: 40px;
+    .popular-items {
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 }
 
-@media(max-width:1024px) {
+@media (max-width: 800px) {
     .popular {
-        margin: 0px auto 25px auto;
+        width: 90%;
     }
-
     .text-p {
         font-size: 20px;
     }
-
     .sub-title {
-        font-size: 28px;
+        font-size: 25px;
     }
-
-    .popular-item {
-        margin-top: 30px;
+    .popular-items {
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 }
 
-@media(max-width:800px) {
+@media (max-width: 500px) {
     .popular {
-        margin: 0px auto 20px auto;
-        width: 90%;
+        padding: 10px 0;
     }
-
     .text-p {
-        font-size: 18px;
+        font-size: 19px;
     }
-
     .sub-title {
         font-size: 24px;
     }
-
-    .popular-item {
-        margin-top: 10px;
-        gap: 8px;
-    }
-}
-
-@media(max-width:500px) {
-    .popular {
-        height: auto;
-        width: 90%;
-        padding: 10px 0px 40px 0px;
-    }
-
-    .text-p {
-        font-size: 14px;
-    }
-
-    .sub-title {
-        font-size: 22px;
-    }
-
-    .popular-item {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+    .popular-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px 15px;
     }
 }

@@ -6,12 +6,12 @@ import { Item } from "../Item/Item";
 export const NewCollection = () => {
   return (
     <div className="new-collections">
-      <div class="lines">
-        <span class="line"></span>
-        <p class="text-p">ARUAL</p>
-        <span class="line"></span>
+      <div className="lines">
+        <span className="line"></span>
+        <p className="text-p">ARUAL</p>
+        <span className="line"></span>
       </div>
-      <h2 class="sub-title">NUEVA COLECCIÓN</h2>
+      <h2 className="sub-title">NUEVA COLECCIÓN</h2>
 
       <div className="collections">
         {new_collection.map((item, i) => {

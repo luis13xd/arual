@@ -1,0 +1,19 @@
+.container {
+    background: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0;
+}
+.container p{
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width:500px){
+
+    .container p{
+        color: white;
+        font-size: 12px;
+    }
+}
