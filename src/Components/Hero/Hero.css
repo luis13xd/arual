@@ -59,6 +59,7 @@
     object-position: bottom;
     border-radius: 10px;
     overflow: hidden;
+    pointer-events: none;
 }
 
 @media(max-width:1280px) {

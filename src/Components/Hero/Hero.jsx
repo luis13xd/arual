@@ -1,11 +1,11 @@
-import React from 'react';
-import './Hero.css';
-import arrow_icon from '../Assets/arrow.png';
-import video from '../Assets/video.mp4';
+import React from "react";
+import "./Hero.css";
+import arrow_icon from "../Assets/arrow.png";
+import video from "../Assets/video.mp4";
 
 export const Hero = () => {
   return (
-    <div className='hero'>
+    <div className="hero">
       <div className="hero-left">
         <h2>ARUAL SPORT</h2>
         <div>
@@ -19,8 +19,15 @@ export const Hero = () => {
       </div>
 
       <div className="hero-right">
-        {/* Reemplazamos la imagen con un video */}
-        <video src={video} autoPlay loop muted className="hero-video"></video>
+        <video
+          src={video}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="hero-video"
+        ></video>
       </div>
     </div>
   );

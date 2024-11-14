@@ -1,6 +1,6 @@
 import React from 'react';
 import './Offers.css';
-import exclusive_image from '../Assets/exclusive_image1.png';
+import video from '../Assets/videomural.mp4';
 
 export const Offers = () => {
   return (
@@ -15,11 +15,16 @@ export const Offers = () => {
         </div>
 
         <div className="offers-right">
-          <img src={exclusive_image} alt="exclusivo" />
-
+          <video
+            src={video}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="offers-video"
+          />
         </div>
       </div>
-
 
     </div>
   )
