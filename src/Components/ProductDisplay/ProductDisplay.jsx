@@ -21,6 +21,7 @@ export const ProductDisplay = (props) => {
       maximumFractionDigits: 0,
     }).format(price);
   };
+  
 
   const handleSizeSelection = (size) => {
     if (product.sizes[size]) {

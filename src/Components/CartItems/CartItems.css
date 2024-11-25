@@ -22,6 +22,9 @@
     font-weight: 500;
     align-items: center;
 }
+.cartitems-format p{
+    margin: auto;
+}
 .carticon-product-icon{
     height: 62px;
 }
@@ -98,7 +101,7 @@
     outline: none;
     background: transparent;
     font-size: 16px;
-    width: 310px;
+    width: 292px;
     height: 50px;
 }
 .cartitems-promobox button{
@@ -246,6 +249,7 @@
     .carticon-product-icon{
         height: 54px;
         width: 38px;
+        margin: auto;
     }
 
     .cartitems-promobox button{

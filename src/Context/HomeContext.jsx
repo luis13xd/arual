@@ -5,11 +5,12 @@ export const HomeContext = createContext(null);
 
 const getDefaultCart = () => {
     let cart = {};
-    for (let index = 0; index < all_product.length + 1; index++) {
-        cart[index] = 0;
-    }
+    all_product.forEach((product) => {
+        cart[product.id] = 0;
+    });
     return cart;
-}
+};
+
 
 const HomeContextProvider = (props) => {
 
@@ -19,21 +20,32 @@ const HomeContextProvider = (props) => {
     const [selectedSize, setSelectedSize] = useState({});
 
     const addToCart = (itemId, size) => {
+        if (!size || !cartItems.hasOwnProperty(itemId)) return; // Validación
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+        setSelectedSize((prev) => ({
+            ...prev,
+            [itemId]: [...(prev[itemId] || []), size],
+        }));
+    };
+    
+    
+    const removeFromCart = (itemId) => {
+        setCartItems((prev) => {
+            const newCart = { ...prev };
+            if (newCart[itemId] > 0) newCart[itemId] -= 1;
+            if (newCart[itemId] === 0) delete newCart[itemId]; // Elimina productos con 0 cantidad
+            return newCart;
+        });
         setSelectedSize((prev) => {
-            const updatedSizes = { ...prev };
-            if (updatedSizes[itemId]) {
-                updatedSizes[itemId] = [...updatedSizes[itemId], size];
-            } else {
-                updatedSizes[itemId] = [size];
+            const newSizes = { ...prev };
+            if (newSizes[itemId]) {
+                newSizes[itemId].pop(); // Quitar la última talla agregada
+                if (newSizes[itemId].length === 0) delete newSizes[itemId];
             }
-            return updatedSizes;
+            return newSizes;
         });
     };
-
-    const removeFromCart = (itemId) => {
-        setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
-    };
+    
 
     const getSubtotal = () => {
         let subtotal = 0;
@@ -64,8 +76,10 @@ const HomeContextProvider = (props) => {
                 totalItem += cartItems[item];
             }
         }
+        console.log("Total items in cart:", totalItem); // Para depuración
         return totalItem;
-    }
+    };
+    
 
     const validarCupon = () => {
         if (cupon === 'FREE10') {
