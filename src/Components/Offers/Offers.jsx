@@ -2,7 +2,7 @@ import React from 'react';
 import './Offers.css';
 import video from '../Assets/videomural.mp4';
 
-export const Offers = () => {
+export const Offers = ({ onScrollToPopular }) => {
   return (
     <div className='offers'>
 
@@ -11,7 +11,7 @@ export const Offers = () => {
           <h1>Exclusivo</h1>
           <h1>Ofertas para tí</h1>
           <p>Unicamente en lo más vendido</p>
-          <button>Ver ofertas</button>
+          <button onClick={onScrollToPopular}>Ver ofertas</button>
         </div>
 
         <div className="offers-right">

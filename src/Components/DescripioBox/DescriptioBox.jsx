@@ -15,11 +15,8 @@ export const DescriptioBox = () => {
 
         <div className="descriptionbox-description">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
-            <p>
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
+            Esta prenda deportiva está confeccionada en tela acanalada de alta elasticidad, diseñada para ofrecer un ajuste ceñido y cómodo. Su estructura acanalada no solo proporciona soporte, sino que también resalta la figura de manera estilizada. Cuenta con un efecto push-up en la zona de los glúteos, gracias a un diseño de costuras estratégicas que levantan y realzan la forma natural, creando una silueta más definida. Ideal para ejercicios que requieren libertad de movimiento, esta prenda combina funcionalidad y estilo, ofreciendo soporte y confort durante todo el entrenamiento.    
+             </p>
         </div>
 
     </div>

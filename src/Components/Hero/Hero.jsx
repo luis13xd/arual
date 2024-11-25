@@ -3,7 +3,7 @@ import "./Hero.css";
 import arrow_icon from "../Assets/arrow.png";
 import video from "../Assets/video.mp4";
 
-export const Hero = () => {
+export const Hero = ({ onscrollNew }) => {
   return (
     <div className="hero">
       <div className="hero-left">
@@ -12,10 +12,10 @@ export const Hero = () => {
           <p>Vístete para</p>
           <p>tu mejor versión</p>
         </div>
-        <div className="hero-latest-btn">
+        <button className="hero-latest-btn"  onClick={onscrollNew}>
           <div>Ultima Colección</div>
           <img src={arrow_icon} alt="icono2" />
-        </div>
+        </button>
       </div>
 
       <div className="hero-right">

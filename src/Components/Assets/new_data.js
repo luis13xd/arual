@@ -29,7 +29,7 @@ let new_data = [
   },
   {
     id: 403,
-    name: "SET DYNAMIC - TONO NEGRO",
+    name: "SET POWER - TONO NEGRO",
     image: setpowernegro1,
     new_price: 120000,
     old_price: 130000,

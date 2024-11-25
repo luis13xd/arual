@@ -174,13 +174,23 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
+// 403
+import setdynamicbeige1 from "./sets/setdynamicbeige1.jpeg"
+import setdynamicbeige2 from "./sets/setdynamicbeige2.jpeg"
+import setdynamicbeige3 from "./sets/setdynamicbeige3.jpeg"
+import setdynamicbeige4 from "./sets/setdynamicbeige4.jpeg"
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
-// 401
+// 501 
 import banda1 from "./accesorios/banda1.jpeg"
 import banda2 from "./accesorios/banda2.jpeg"
 import banda3 from "./accesorios/banda3.jpeg"
 import banda4 from "./accesorios/banda4.jpeg"
+// 501 
+import guantesrosa1 from "./accesorios/guantesrosa1.jpeg"
+import guantesrosa2 from "./accesorios/guantesrosa2.jpeg"
+import guantesrosa3 from "./accesorios/guantesrosa3.jpeg"
+import guantesrosa4 from "./accesorios/guantesrosa4.jpeg"
 
 let all_product = [
   {
@@ -802,7 +812,7 @@ let all_product = [
   },
   {
     id: 403,
-    name: "SET DYNAMIC - TONO NEGRO",
+    name: "SET POWER - TONO NEGRO",
     category: "sets",
     description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
     image: setpowernegro1,
@@ -811,6 +821,25 @@ let all_product = [
     image4: setpowernegro4,
     new_price: 120000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 404,
+    name: "SET DYNAMIC - TONO BEIGE",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setdynamicbeige1,
+    image2: setdynamicbeige2,
+    image3: setdynamicbeige3,
+    image4: setdynamicbeige4,
+    new_price: 130000,
+    old_price: 140000,
     sizes: {
       XS: false,
       S: true,
@@ -840,7 +869,25 @@ let all_product = [
       XL: false,
     }
   },
-
+  {
+    id: 502,
+    name: "Guantes",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: guantesrosa1,
+    image2: guantesrosa2,
+    image3: guantesrosa3,
+    image4: guantesrosa4,
+    new_price: 30000,
+    old_price: 40000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: true,
+      XL: false,
+    }
+  }
 ];
 
 export default all_product;
