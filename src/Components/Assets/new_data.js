@@ -24,8 +24,8 @@ let new_data = [
     id: 106,
     name: "ENTERIZO NOVA - TONO TERRACOTA",
     image: enterizonovaterracota1,
-    new_price: 120000,
-    old_price: 130000,
+    new_price: 75000,
+    old_price: 90000,
   },
   {
     id: 403,

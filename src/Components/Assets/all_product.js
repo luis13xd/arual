@@ -88,7 +88,16 @@ import enterizoesenciabeige1 from "./enterizos/enterizoesenciabeige1.jpeg"
 import enterizoesenciabeige2 from "./enterizos/enterizoesenciabeige2.jpeg"
 import enterizoesenciabeige3 from "./enterizos/enterizoesenciabeige3.jpeg"
 import enterizoesenciabeige4 from "./enterizos/enterizoesenciabeige4.jpeg"
-
+// 119
+import enterizolovingrojovinotinto1 from "./enterizos/enterizolovingrojovinotinto1.jpeg"
+import enterizolovingrojovinotinto2 from "./enterizos/enterizolovingrojovinotinto2.jpeg"
+import enterizolovingrojovinotinto3 from "./enterizos/enterizolovingrojovinotinto3.jpeg"
+import enterizolovingrojovinotinto4 from "./enterizos/enterizolovingrojovinotinto4.jpeg"
+// 120
+import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg"
+import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg"
+import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg"
+import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg"
 
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
@@ -166,12 +175,19 @@ import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
 
+// ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
+// 401
+import banda1 from "./accesorios/banda1.jpeg"
+import banda2 from "./accesorios/banda2.jpeg"
+import banda3 from "./accesorios/banda3.jpeg"
+import banda4 from "./accesorios/banda4.jpeg"
+
 let all_product = [
   {
     id: 101,
     name: "ENTERIZO ALMA - TONO BEIGE",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoalmabeige1,
     image2: enterizoalmabeige2,
     image3: enterizoalmabeige3,
@@ -190,7 +206,7 @@ let all_product = [
     id: 102,
     name: "ENTERIZO ALMA - TONO ROSADO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoalmarosado1,
     image2: enterizoalmarosado2,
     image3: enterizoalmarosado3,
@@ -209,7 +225,7 @@ let all_product = [
     id: 103,
     name: "ENTERIZO AURA - TONO BLANCO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoaurablanco1,
     image2: enterizoaurablanco2,
     image3: enterizoaurablanco3,
@@ -228,7 +244,7 @@ let all_product = [
     id: 104,
     name: "ENTERIZO AURA - TONO NEGRO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoauranegro1,
     image2: enterizoauranegro2,
     image3: enterizoauranegro3,
@@ -247,7 +263,7 @@ let all_product = [
     id: 105,
     name: "ENTERIZO ESENCIA - TONO AZUL",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoesenciaazul1,
     image2: enterizoesenciaazul2,
     image3: enterizoesenciaazul3,
@@ -266,13 +282,13 @@ let all_product = [
     id: 106,
     name: "ENTERIZO NOVA - TONO TERRACOTA",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizonovaterracota1,
     image2: enterizonovaterracota2,
     image3: enterizonovaterracota3,
     image4: enterizonovaterracota4,
-    new_price: 120000,
-    old_price: 130000,
+    new_price: 75000,
+    old_price: 90000,
     sizes: {
       XS: true,
       S: true,
@@ -285,7 +301,7 @@ let all_product = [
     id: 107,
     name: "ENTERIZO VIBES - TONO ROJO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizovibesrojo1,
     image2: enterizovibesrojo2,
     image3: enterizovibesrojo3,
@@ -304,7 +320,7 @@ let all_product = [
     id: 108,
     name: "ENTERIZO ZEN - TONO GRIS",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizozengris1,
     image2: enterizozengris2,
     image3: enterizozengris3,
@@ -323,7 +339,7 @@ let all_product = [
     id: 109,
     name: "ENTERIZO ZEN - TONO NEGRO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizozennegro1,
     image2: enterizozennegro2,
     image3: enterizozennegro3,
@@ -342,7 +358,7 @@ let all_product = [
     id: 110,
     name: "ENTERIZO REBEL - TONO BLANCO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizorebelblanco1,
     image2: enterizorebelblanco2,
     image3: enterizorebelblanco3,
@@ -359,9 +375,9 @@ let all_product = [
   },
   {
     id: 111,
-    name: "ENTERIZO ACTIVE - TONO AZUL",
+    name: "ENTERIZO ZOE - TONO AZUL",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoactiveazul1,
     image2: enterizoactiveazul2,
     image3: enterizoactiveazul3,
@@ -380,7 +396,7 @@ let all_product = [
     id: 112,
     name: "ENTERIZO VIBES - TONO VERDE OLIVA",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizovebesverdeoliva1,
     image2: enterizovebesverdeoliva2,
     image3: enterizovebesverdeoliva3,
@@ -399,7 +415,7 @@ let all_product = [
     id: 113,
     name: "ENTERIZO ESENCIA - TONO AZUL",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoesenciaazulrey1,
     image2: enterizoesenciaazulrey2,
     image3: enterizoesenciaazulrey3,
@@ -418,7 +434,7 @@ let all_product = [
     id: 114,
     name: "ENTERIZO ACTIVE - TONO BLANCO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoactiveblanco1,
     image2: enterizoactiveblanco2,
     image3: enterizoactiveblanco3,
@@ -437,7 +453,7 @@ let all_product = [
     id: 115,
     name: "ENTERIZO VIBES - TONO ROSADO",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizovibesrosado1,
     image2: enterizovibesrosado2,
     image3: enterizovibesrosado3,
@@ -456,7 +472,7 @@ let all_product = [
     id: 116,
     name: "ENTERIZO VIBES - TONO MANDARINA",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizovibesmandarina1,
     image2: enterizovibesmandarina2,
     image3: enterizovibesmandarina3,
@@ -475,7 +491,7 @@ let all_product = [
     id: 117,
     name: "ENTERIZO ALMA - TONO GRIS",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoalmagris1,
     image2: enterizoalmagris2,
     image3: enterizoalmagris3,
@@ -494,7 +510,7 @@ let all_product = [
     id: 118,
     name: "ENTERIZO ESENCIA - TONO BEIGE",
     category: "enterizos",
-    description: "aca va la descripcionnnn",
+    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoesenciabeige1,
     image2: enterizoesenciabeige2,
     image3: enterizoesenciabeige3,
@@ -509,7 +525,44 @@ let all_product = [
       XL: false,
     }
   },
-
+  {
+    id: 119,
+    name: "ENTERIZO LOVING - TONO ROJO VINO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolovingrojovinotinto1,
+    image2: enterizolovingrojovinotinto2,
+    image3: enterizolovingrojovinotinto3,
+    image4: enterizolovingrojovinotinto4,
+    new_price: 115000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 120,
+    name: "ENTERIZO ROMA - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoromanegro1,
+    image2: enterizoromanegro2,
+    image3: enterizoromanegro3,
+    image4: enterizoromanegro4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
 
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
@@ -762,6 +815,27 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    }
+  },
+
+  // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
+  {
+    id: 501,
+    name: "Hairbands",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: banda1,
+    image2: banda2,
+    image3: banda3,
+    image4: banda4,
+    new_price: 8000,
+    old_price: 10000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     }
