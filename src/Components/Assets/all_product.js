@@ -205,10 +205,10 @@ let all_product = [
     new_price: 90000,
     old_price: 100000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -224,10 +224,10 @@ let all_product = [
     new_price: 90000,
     old_price: 100000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -243,10 +243,10 @@ let all_product = [
     new_price: 100000,
     old_price: 120000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -262,10 +262,10 @@ let all_product = [
     new_price: 100000,
     old_price: 120000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -281,10 +281,10 @@ let all_product = [
     new_price: 120000,
     old_price: 130000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -300,10 +300,10 @@ let all_product = [
     new_price: 75000,
     old_price: 90000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -319,10 +319,10 @@ let all_product = [
     new_price: 120000,
     old_price: 130000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -338,10 +338,10 @@ let all_product = [
     new_price: 70000,
     old_price: 85000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -357,10 +357,10 @@ let all_product = [
     new_price: 70000,
     old_price: 85000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -376,10 +376,10 @@ let all_product = [
     new_price: 120000,
     old_price: 130000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -395,10 +395,10 @@ let all_product = [
     new_price: 75000,
     old_price: 90000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -414,10 +414,10 @@ let all_product = [
     new_price: 120000,
     old_price: 130000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -433,10 +433,10 @@ let all_product = [
     new_price: 120000,
     old_price: 130000,
     sizes: {
-      XS: true,
+      XS: false,
       S: true,
-      M: false,
-      L: true,
+      M: true,
+      L: false,
       XL: false,
     }
   },
@@ -590,7 +590,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -609,7 +609,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -628,7 +628,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -647,7 +647,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -666,7 +666,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -685,7 +685,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -707,7 +707,7 @@ let all_product = [
   sizes: {
     XS: false,
     S: true,
-    M: false,
+    M: true,
     L: false,
     XL: false,
   }
@@ -726,7 +726,7 @@ let all_product = [
   sizes: {
     XS: false,
     S: true,
-    M: false,
+    M: true,
     L: false,
     XL: false,
   }
@@ -745,7 +745,7 @@ let all_product = [
   sizes: {
     XS: false,
     S: true,
-    M: false,
+    M: true,
     L: false,
     XL: false,
   }
@@ -764,7 +764,7 @@ let all_product = [
   sizes: {
     XS: false,
     S: true,
-    M: false,
+    M: true,
     L: false,
     XL: false,
   }
@@ -786,7 +786,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -864,7 +864,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     }
@@ -884,7 +884,7 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: true,
+      L: false,
       XL: false,
     }
   }
