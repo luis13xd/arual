@@ -98,6 +98,11 @@ import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg"
 import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg"
 import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg"
 import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg"
+// 121
+import enterizoamalianegro1 from "./enterizos/enterizoamalianegro1.jpeg"
+import enterizoamalianegro2 from "./enterizos/enterizoamalianegro2.jpeg"
+import enterizoamalianegro3 from "./enterizos/enterizoamalianegro3.jpeg"
+import enterizoamalianegro4 from "./enterizos/enterizoamalianegro4.jpeg"
 
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
@@ -174,11 +179,16 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
-// 403
+// 404
 import setdynamicbeige1 from "./sets/setdynamicbeige1.jpeg"
 import setdynamicbeige2 from "./sets/setdynamicbeige2.jpeg"
 import setdynamicbeige3 from "./sets/setdynamicbeige3.jpeg"
 import setdynamicbeige4 from "./sets/setdynamicbeige4.jpeg"
+// 405
+import setbella1 from "./sets/setbella1.jpeg"
+import setbella2 from "./sets/setbella2.jpeg"
+import setbella3 from "./sets/setbella3.jpeg"
+import setbella4 from "./sets/setbella4.jpeg"
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501 
@@ -186,11 +196,16 @@ import banda1 from "./accesorios/banda1.jpeg"
 import banda2 from "./accesorios/banda2.jpeg"
 import banda3 from "./accesorios/banda3.jpeg"
 import banda4 from "./accesorios/banda4.jpeg"
-// 501 
+// 502
 import guantesrosa1 from "./accesorios/guantesrosa1.jpeg"
 import guantesrosa2 from "./accesorios/guantesrosa2.jpeg"
 import guantesrosa3 from "./accesorios/guantesrosa3.jpeg"
 import guantesrosa4 from "./accesorios/guantesrosa4.jpeg"
+// 501 
+import pantalonetaoasis1 from "./accesorios/pantalonetaoasis1.jpeg"
+import pantalonetaoasis2 from "./accesorios/pantalonetaoasis2.jpeg"
+import pantalonetaoasis3 from "./accesorios/pantalonetaoasis3.jpeg"
+import pantalonetaoasis4 from "./accesorios/pantalonetaoasis4.jpeg"
 
 let all_product = [
   {
@@ -573,6 +588,25 @@ let all_product = [
       XL: false,
     }
   },
+  {
+    id: 121,
+    name: "ENTERIZO AMALIA - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoamalianegro1,
+    image2: enterizoamalianegro2,
+    image3: enterizoamalianegro3,
+    image4: enterizoamalianegro4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
 
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
@@ -848,6 +882,25 @@ let all_product = [
       XL: false,
     }
   },
+  {
+    id: 405,
+    name: "SET BELLA - TONO NEGRO",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setbella1,
+    image2: setbella2,
+    image3: setbella3,
+    image4: setbella4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
@@ -884,6 +937,25 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 50,
+    name: "Pantaloneta Oasis",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: pantalonetaoasis1,
+    image2: pantalonetaoasis2,
+    image3: pantalonetaoasis3,
+    image4: pantalonetaoasis4,
+    new_price: 50000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     }
