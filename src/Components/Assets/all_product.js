@@ -160,6 +160,16 @@ import bodybambierosado1 from "./body/bodybambierosado1.jpeg"
 import bodybambierosado2 from "./body/bodybambierosado2.jpeg"
 import bodybambierosado3 from "./body/bodybambierosado3.jpeg"
 import bodybambierosado4 from "./body/bodybambierosado4.jpeg"
+// 305
+import busoselene1 from "./body/busoselene1.jpeg"
+import busoselene2 from "./body/busoselene2.jpeg"
+import busoselene3 from "./body/busoselene3.jpeg"
+import busoselene4 from "./body/busoselene4.jpeg"
+// 306
+import busoorion1 from "./body/busoorion1.jpeg"
+import busoorion2 from "./body/busoorion2.jpeg"
+import busoorion3 from "./body/busoorion3.jpeg"
+import busoorion4 from "./body/busoorion4.jpeg"
 
 
 
@@ -170,10 +180,10 @@ import setblue2 from "./sets/setblue2.jpeg"
 import setblue3 from "./sets/setblue3.jpeg"
 import setblue4 from "./sets/setblue4.jpeg"
 // 402
-import setdynamicblanco1 from "./sets/setdynamicblanco1.jpeg"
-import setdynamicblanco2 from "./sets/setdynamicblanco2.jpeg"
-import setdynamicblanco3 from "./sets/setdynamicblanco3.jpeg"
-import setdynamicblanco4 from "./sets/setdynamicblanco4.jpeg"
+import setbabyblue1 from "./sets/setbabyblue1.jpeg"
+import setbabyblue2 from "./sets/setbabyblue2.jpeg"
+import setbabyblue3 from "./sets/setbabyblue3.jpeg"
+import setbabyblue4 from "./sets/setbabyblue4.jpeg"
 // 403
 import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
@@ -190,6 +200,7 @@ import setbella2 from "./sets/setbella2.jpeg"
 import setbella3 from "./sets/setbella3.jpeg"
 import setbella4 from "./sets/setbella4.jpeg"
 
+
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501 
 import banda1 from "./accesorios/banda1.jpeg"
@@ -201,7 +212,12 @@ import guantesrosa1 from "./accesorios/guantesrosa1.jpeg"
 import guantesrosa2 from "./accesorios/guantesrosa2.jpeg"
 import guantesrosa3 from "./accesorios/guantesrosa3.jpeg"
 import guantesrosa4 from "./accesorios/guantesrosa4.jpeg"
-// 501 
+// 503
+import straps1 from "./accesorios/straps1.jpeg"
+import straps2 from "./accesorios/straps2.jpeg"
+import straps3 from "./accesorios/straps3.jpeg"
+import straps4 from "./accesorios/straps4.jpeg"
+// 504 
 import pantalonetaoasis1 from "./accesorios/pantalonetaoasis1.jpeg"
 import pantalonetaoasis2 from "./accesorios/pantalonetaoasis2.jpeg"
 import pantalonetaoasis3 from "./accesorios/pantalonetaoasis3.jpeg"
@@ -803,6 +819,44 @@ let all_product = [
     XL: false,
   }
 },
+{
+  id: 305,
+  name: "BUSO SELENE ",
+  category: "bodysytops",
+  description: "Tela completamente acanalada",
+  image: busoselene1,
+  image2: busoselene2,
+  image3: busoselene3,
+  image4: busoselene4,
+  new_price: 35000,
+  old_price: 60000,
+  sizes: {
+    XS: false,
+    S: true,
+    M: false,
+    L: false,
+    XL: false,
+  }
+},
+{
+  id: 306,
+  name: "BUSO ORION",
+  category: "bodysytops",
+  description: "Tela completamente acanalada",
+  image: busoorion1,
+  image2: busoorion2,
+  image3: busoorion3,
+  image4: busoorion4,
+  new_price: 35000,
+  old_price: 60000,
+  sizes: {
+    XS: false,
+    S: true,
+    M: false,
+    L: false,
+    XL: false,
+  }
+},
 
 
 // ---------------------------- Categoria 4 SETS -----------------------------
@@ -827,13 +881,13 @@ let all_product = [
   },
   {
     id: 402,
-    name: "SET DYNAMIC - TONO BLANCO",
+    name: "SET BABY - TONO AZUL",
     category: "sets",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setdynamicblanco1,
-    image2: setdynamicblanco2,
-    image3: setdynamicblanco3,
-    image4: setdynamicblanco4,
+    description: "Tela completamente acanalada: se ajusta suavemente al cuerpo, resaltando tu figura.",
+    image: setbabyblue1,
+    image2: setbabyblue2,
+    image3: setbabyblue3,
+    image4: setbabyblue4,
     new_price: 120000,
     old_price: 130000,
     sizes: {
@@ -902,6 +956,7 @@ let all_product = [
     }
   },
 
+
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
     id: 501,
@@ -942,7 +997,26 @@ let all_product = [
     }
   },
   {
-    id: 50,
+    id: 503,
+    name: "Straps",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: straps1,
+    image2: straps2,
+    image3: straps3,
+    image4: straps4,
+    new_price: 30000,
+    old_price: 50000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 504,
     name: "Pantaloneta Oasis",
     category: "accesorios",
     description: "Material suave y de alta calidad",
