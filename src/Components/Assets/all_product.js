@@ -34,10 +34,10 @@ import enterizovibesrojo2 from "./enterizos/enterizovibesrojo2.jpeg"
 import enterizovibesrojo3 from "./enterizos/enterizovibesrojo3.jpeg"
 import enterizovibesrojo4 from "./enterizos/enterizovibesrojo4.jpeg"
 // 108
-import enterizozengris1 from "./enterizos/enterizozengris1.jpeg"
-import enterizozengris2 from "./enterizos/enterizozengris2.jpeg"
-import enterizozengris3 from "./enterizos/enterizozengris3.jpeg"
-import enterizozengris4 from "./enterizos/enterizozengris4.jpeg"
+import enterizosirenaazul1 from "./enterizos/enterizosirenaazul1.jpeg"
+import enterizosirenaazul2 from "./enterizos/enterizosirenaazul2.jpeg"
+import enterizosirenaazul3 from "./enterizos/enterizosirenaazul3.jpeg"
+import enterizosirenaazul4 from "./enterizos/enterizosirenaazul4.jpeg"
 // 109
 import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
 import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
@@ -49,10 +49,10 @@ import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg"
 import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg"
 import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg"
 // 111
-import enterizoactiveazul1 from "./enterizos/enterizoactiveazul1.jpeg"
-import enterizoactiveazul2 from "./enterizos/enterizoactiveazul2.jpeg"
-import enterizoactiveazul3 from "./enterizos/enterizoactiveazul3.jpeg"
-import enterizoactiveazul4 from "./enterizos/enterizoactiveazul4.jpeg"
+import enterizozoerojo1 from "./enterizos/enterizozoerojo1.jpeg"
+import enterizozoerojo2 from "./enterizos/enterizozoerojo2.jpeg"
+import enterizozoerojo3 from "./enterizos/enterizozoerojo3.jpeg"
+import enterizozoerojo4 from "./enterizos/enterizozoerojo4.jpeg"
 // 112
 import enterizovebesverdeoliva1 from "./enterizos/enterizovebesverdeoliva1.jpeg"
 import enterizovebesverdeoliva2 from "./enterizos/enterizovebesverdeoliva2.jpeg"
@@ -103,6 +103,16 @@ import enterizoamalianegro1 from "./enterizos/enterizoamalianegro1.jpeg"
 import enterizoamalianegro2 from "./enterizos/enterizoamalianegro2.jpeg"
 import enterizoamalianegro3 from "./enterizos/enterizoamalianegro3.jpeg"
 import enterizoamalianegro4 from "./enterizos/enterizoamalianegro4.jpeg"
+// 122
+import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg"
+import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg"
+import enterizosirenarosado3 from "./enterizos/enterizosirenarosado3.jpeg"
+import enterizosirenarosado4 from "./enterizos/enterizosirenarosado4.jpeg"
+// 123
+import enterizocococafe1 from "./enterizos/enterizocococafe1.jpeg"
+import enterizocococafe2 from "./enterizos/enterizocococafe2.jpeg"
+import enterizocococafe3 from "./enterizos/enterizocococafe3.jpeg"
+import enterizocococafe4 from "./enterizos/enterizocococafe4.jpeg"
 
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
@@ -359,15 +369,15 @@ let all_product = [
   },
   {
     id: 108,
-    name: "ENTERIZO ZEN - TONO GRIS",
+    name: "ENTERIZO SIRENA - TONO AZUL",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizozengris1,
-    image2: enterizozengris2,
-    image3: enterizozengris3,
-    image4: enterizozengris4,
-    new_price: 70000,
-    old_price: 85000,
+    image: enterizosirenaazul1,
+    image2: enterizosirenaazul2,
+    image3: enterizosirenaazul3,
+    image4: enterizosirenaazul4,
+    new_price: 90000,
+    old_price: 105000,
     sizes: {
       XS: false,
       S: true,
@@ -416,13 +426,13 @@ let all_product = [
   },
   {
     id: 111,
-    name: "ENTERIZO ZOE - TONO AZUL",
+    name: "ENTERIZO ZOE - TONO ROJO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoactiveazul1,
-    image2: enterizoactiveazul2,
-    image3: enterizoactiveazul3,
-    image4: enterizoactiveazul4,
+    image: enterizozoerojo1,
+    image2: enterizozoerojo2,
+    image3: enterizozoerojo3,
+    image4: enterizozoerojo4,
     new_price: 75000,
     old_price: 90000,
     sizes: {
@@ -623,7 +633,44 @@ let all_product = [
       XL: false,
     }
   },
-
+  {
+    id: 122,
+    name: "ENTERIZO SIRENA - TONO ROSADO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizosirenarosado1,
+    image2: enterizosirenarosado2,
+    image3: enterizosirenarosado3,
+    image4: enterizosirenarosado4,
+    new_price: 90000,
+    old_price: 105000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 123,
+    name: "ENTERIZO COCO - TONO CAFÉ",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizocococafe1,
+    image2: enterizocococafe2,
+    image3: enterizocococafe3,
+    image4: enterizocococafe4,
+    new_price: 90000,
+    old_price: 105000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {
