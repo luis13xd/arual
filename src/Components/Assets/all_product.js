@@ -33,11 +33,6 @@ import enterizovibesrojo1 from "./enterizos/enterizovibesrojo1.jpeg"
 import enterizovibesrojo2 from "./enterizos/enterizovibesrojo2.jpeg"
 import enterizovibesrojo3 from "./enterizos/enterizovibesrojo3.jpeg"
 import enterizovibesrojo4 from "./enterizos/enterizovibesrojo4.jpeg"
-// 108
-import enterizosirenaazul1 from "./enterizos/enterizosirenaazul1.jpeg"
-import enterizosirenaazul2 from "./enterizos/enterizosirenaazul2.jpeg"
-import enterizosirenaazul3 from "./enterizos/enterizosirenaazul3.jpeg"
-import enterizosirenaazul4 from "./enterizos/enterizosirenaazul4.jpeg"
 // 109
 import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
 import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
@@ -99,10 +94,10 @@ import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg"
 import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg"
 import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg"
 // 121
-import enterizoamalianegro1 from "./enterizos/enterizoamalianegro1.jpeg"
-import enterizoamalianegro2 from "./enterizos/enterizoamalianegro2.jpeg"
-import enterizoamalianegro3 from "./enterizos/enterizoamalianegro3.jpeg"
-import enterizoamalianegro4 from "./enterizos/enterizoamalianegro4.jpeg"
+// import enterizoamalianegro1 from "./enterizos/enterizoamalianegro1.jpeg"
+// import enterizoamalianegro2 from "./enterizos/enterizoamalianegro2.jpeg"
+// import enterizoamalianegro3 from "./enterizos/enterizoamalianegro3.jpeg"
+// import enterizoamalianegro4 from "./enterizos/enterizoamalianegro4.jpeg"
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg"
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg"
@@ -170,17 +165,6 @@ import bodybambierosado1 from "./body/bodybambierosado1.jpeg"
 import bodybambierosado2 from "./body/bodybambierosado2.jpeg"
 import bodybambierosado3 from "./body/bodybambierosado3.jpeg"
 import bodybambierosado4 from "./body/bodybambierosado4.jpeg"
-// 305
-import busoselene1 from "./body/busoselene1.jpeg"
-import busoselene2 from "./body/busoselene2.jpeg"
-import busoselene3 from "./body/busoselene3.jpeg"
-import busoselene4 from "./body/busoselene4.jpeg"
-// 306
-import busoorion1 from "./body/busoorion1.jpeg"
-import busoorion2 from "./body/busoorion2.jpeg"
-import busoorion3 from "./body/busoorion3.jpeg"
-import busoorion4 from "./body/busoorion4.jpeg"
-
 
 
 // ---------------------------- Categoria 4 SETS -----------------------------
@@ -199,16 +183,7 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
-// 404
-import setdynamicbeige1 from "./sets/setdynamicbeige1.jpeg"
-import setdynamicbeige2 from "./sets/setdynamicbeige2.jpeg"
-import setdynamicbeige3 from "./sets/setdynamicbeige3.jpeg"
-import setdynamicbeige4 from "./sets/setdynamicbeige4.jpeg"
-// 405
-import setbella1 from "./sets/setbella1.jpeg"
-import setbella2 from "./sets/setbella2.jpeg"
-import setbella3 from "./sets/setbella3.jpeg"
-import setbella4 from "./sets/setbella4.jpeg"
+
 
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
@@ -367,25 +342,25 @@ let all_product = [
       XL: false,
     }
   },
-  {
-    id: 108,
-    name: "ENTERIZO SIRENA - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizosirenaazul1,
-    image2: enterizosirenaazul2,
-    image3: enterizosirenaazul3,
-    image4: enterizosirenaazul4,
-    new_price: 90000,
-    old_price: 105000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
+  // {
+  //   id: 108,
+  //   name: "ENTERIZO SIRENA - TONO AZUL",
+  //   category: "enterizos",
+  //   description: "Tela suave con acabados de la mejor calidad",
+  //   image: enterizosirenaazul1,
+  //   image2: enterizosirenaazul2,
+  //   image3: enterizosirenaazul3,
+  //   image4: enterizosirenaazul4,
+  //   new_price: 90000,
+  //   old_price: 105000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   }
+  // },
   {
     id: 109,
     name: "ENTERIZO ZEN - TONO NEGRO",
@@ -614,25 +589,25 @@ let all_product = [
       XL: false,
     }
   },
-  {
-    id: 121,
-    name: "ENTERIZO AMALIA - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoamalianegro1,
-    image2: enterizoamalianegro2,
-    image3: enterizoamalianegro3,
-    image4: enterizoamalianegro4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
+  // {
+  //   id: 121,
+  //   name: "ENTERIZO AMALIA - TONO NEGRO",
+  //   category: "enterizos",
+  //   description: "Tela suave con acabados de la mejor calidad",
+  //   image: enterizoamalianegro1,
+  //   image2: enterizoamalianegro2,
+  //   image3: enterizoamalianegro3,
+  //   image4: enterizoamalianegro4,
+  //   new_price: 90000,
+  //   old_price: 100000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   }
+  // },
   {
     id: 122,
     name: "ENTERIZO SIRENA - TONO ROSADO",
@@ -866,44 +841,6 @@ let all_product = [
     XL: false,
   }
 },
-{
-  id: 305,
-  name: "BUSO SELENE ",
-  category: "bodysytops",
-  description: "Tela completamente acanalada",
-  image: busoselene1,
-  image2: busoselene2,
-  image3: busoselene3,
-  image4: busoselene4,
-  new_price: 35000,
-  old_price: 60000,
-  sizes: {
-    XS: false,
-    S: true,
-    M: false,
-    L: false,
-    XL: false,
-  }
-},
-{
-  id: 306,
-  name: "BUSO ORION",
-  category: "bodysytops",
-  description: "Tela completamente acanalada",
-  image: busoorion1,
-  image2: busoorion2,
-  image3: busoorion3,
-  image4: busoorion4,
-  new_price: 35000,
-  old_price: 60000,
-  sizes: {
-    XS: false,
-    S: true,
-    M: false,
-    L: false,
-    XL: false,
-  }
-},
 
 
 // ---------------------------- Categoria 4 SETS -----------------------------
@@ -964,46 +901,7 @@ let all_product = [
       XL: false,
     }
   },
-  {
-    id: 404,
-    name: "SET DYNAMIC - TONO BEIGE",
-    category: "sets",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setdynamicbeige1,
-    image2: setdynamicbeige2,
-    image3: setdynamicbeige3,
-    image4: setdynamicbeige4,
-    new_price: 130000,
-    old_price: 140000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 405,
-    name: "SET BELLA - TONO NEGRO",
-    category: "sets",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setbella1,
-    image2: setbella2,
-    image3: setbella3,
-    image4: setbella4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-
-
+  
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
     id: 501,
