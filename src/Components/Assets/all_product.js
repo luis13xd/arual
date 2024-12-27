@@ -48,11 +48,6 @@ import enterizozoerojo1 from "./enterizos/enterizozoerojo1.jpeg"
 import enterizozoerojo2 from "./enterizos/enterizozoerojo2.jpeg"
 import enterizozoerojo3 from "./enterizos/enterizozoerojo3.jpeg"
 import enterizozoerojo4 from "./enterizos/enterizozoerojo4.jpeg"
-// 112
-import enterizovebesverdeoliva1 from "./enterizos/enterizovebesverdeoliva1.jpeg"
-import enterizovebesverdeoliva2 from "./enterizos/enterizovebesverdeoliva2.jpeg"
-import enterizovebesverdeoliva3 from "./enterizos/enterizovebesverdeoliva3.jpeg"
-import enterizovebesverdeoliva4 from "./enterizos/enterizovebesverdeoliva4.jpeg"
 // 113
 import enterizoesenciaazulrey1 from "./enterizos/enterizoesenciaazulrey1.jpeg"
 import enterizoesenciaazulrey2 from "./enterizos/enterizoesenciaazulrey2.jpeg"
@@ -83,21 +78,7 @@ import enterizoesenciabeige1 from "./enterizos/enterizoesenciabeige1.jpeg"
 import enterizoesenciabeige2 from "./enterizos/enterizoesenciabeige2.jpeg"
 import enterizoesenciabeige3 from "./enterizos/enterizoesenciabeige3.jpeg"
 import enterizoesenciabeige4 from "./enterizos/enterizoesenciabeige4.jpeg"
-// 119
-import enterizolovingrojovinotinto1 from "./enterizos/enterizolovingrojovinotinto1.jpeg"
-import enterizolovingrojovinotinto2 from "./enterizos/enterizolovingrojovinotinto2.jpeg"
-import enterizolovingrojovinotinto3 from "./enterizos/enterizolovingrojovinotinto3.jpeg"
-import enterizolovingrojovinotinto4 from "./enterizos/enterizolovingrojovinotinto4.jpeg"
-// 120
-import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg"
-import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg"
-import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg"
-import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg"
-// 121
-// import enterizoamalianegro1 from "./enterizos/enterizoamalianegro1.jpeg"
-// import enterizoamalianegro2 from "./enterizos/enterizoamalianegro2.jpeg"
-// import enterizoamalianegro3 from "./enterizos/enterizoamalianegro3.jpeg"
-// import enterizoamalianegro4 from "./enterizos/enterizoamalianegro4.jpeg"
+
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg"
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg"
@@ -202,11 +183,7 @@ import straps1 from "./accesorios/straps1.jpeg"
 import straps2 from "./accesorios/straps2.jpeg"
 import straps3 from "./accesorios/straps3.jpeg"
 import straps4 from "./accesorios/straps4.jpeg"
-// 504 
-import pantalonetaoasis1 from "./accesorios/pantalonetaoasis1.jpeg"
-import pantalonetaoasis2 from "./accesorios/pantalonetaoasis2.jpeg"
-import pantalonetaoasis3 from "./accesorios/pantalonetaoasis3.jpeg"
-import pantalonetaoasis4 from "./accesorios/pantalonetaoasis4.jpeg"
+
 
 let all_product = [
   {
@@ -342,25 +319,6 @@ let all_product = [
       XL: false,
     }
   },
-  // {
-  //   id: 108,
-  //   name: "ENTERIZO SIRENA - TONO AZUL",
-  //   category: "enterizos",
-  //   description: "Tela suave con acabados de la mejor calidad",
-  //   image: enterizosirenaazul1,
-  //   image2: enterizosirenaazul2,
-  //   image3: enterizosirenaazul3,
-  //   image4: enterizosirenaazul4,
-  //   new_price: 90000,
-  //   old_price: 105000,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: true,
-  //     L: false,
-  //     XL: false,
-  //   }
-  // },
   {
     id: 109,
     name: "ENTERIZO ZEN - TONO NEGRO",
@@ -410,25 +368,6 @@ let all_product = [
     image4: enterizozoerojo4,
     new_price: 75000,
     old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 112,
-    name: "ENTERIZO VIBES - TONO VERDE OLIVA",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizovebesverdeoliva1,
-    image2: enterizovebesverdeoliva2,
-    image3: enterizovebesverdeoliva3,
-    image4: enterizovebesverdeoliva4,
-    new_price: 120000,
-    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -552,64 +491,7 @@ let all_product = [
     }
   },
   {
-    id: 119,
-    name: "ENTERIZO LOVING - TONO ROJO VINO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolovingrojovinotinto1,
-    image2: enterizolovingrojovinotinto2,
-    image3: enterizolovingrojovinotinto3,
-    image4: enterizolovingrojovinotinto4,
-    new_price: 115000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
     id: 120,
-    name: "ENTERIZO ROMA - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoromanegro1,
-    image2: enterizoromanegro2,
-    image3: enterizoromanegro3,
-    image4: enterizoromanegro4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  // {
-  //   id: 121,
-  //   name: "ENTERIZO AMALIA - TONO NEGRO",
-  //   category: "enterizos",
-  //   description: "Tela suave con acabados de la mejor calidad",
-  //   image: enterizoamalianegro1,
-  //   image2: enterizoamalianegro2,
-  //   image3: enterizoamalianegro3,
-  //   image4: enterizoamalianegro4,
-  //   new_price: 90000,
-  //   old_price: 100000,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: true,
-  //     L: false,
-  //     XL: false,
-  //   }
-  // },
-  {
-    id: 122,
     name: "ENTERIZO SIRENA - TONO ROSADO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
@@ -617,8 +499,8 @@ let all_product = [
     image2: enterizosirenarosado2,
     image3: enterizosirenarosado3,
     image4: enterizosirenarosado4,
-    new_price: 90000,
-    old_price: 105000,
+    new_price: 120000,
+    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -960,25 +842,7 @@ let all_product = [
       XL: false,
     }
   },
-  {
-    id: 504,
-    name: "Pantaloneta Oasis",
-    category: "accesorios",
-    description: "Material suave y de alta calidad",
-    image: pantalonetaoasis1,
-    image2: pantalonetaoasis2,
-    image3: pantalonetaoasis3,
-    image4: pantalonetaoasis4,
-    new_price: 50000,
-    old_price: 70000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    }
-  }
+  
 ];
 
 export default all_product;

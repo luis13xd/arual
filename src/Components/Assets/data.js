@@ -1,24 +1,24 @@
 
 import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg"
-import enterizolovingrojovinotinto1 from "./enterizos/enterizolovingrojovinotinto1.jpeg";
-import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg";
+import enterizovibesrojo1 from "./enterizos/enterizovibesrojo1.jpeg";
+import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizoesenciabeige1 from "./enterizos/enterizoesenciabeige1.jpeg"
 
 let data_product = [
   {
     id: 120,
-    name: "ENTERIZO ROMA - TONO NEGRO",
+    name: "ENTERIZO SIRENA - TONO ROSADO",
     category: "enterizos",
-    image: enterizoromanegro1,
+    image: enterizosirenarosado1,
     new_price: 120000,
     old_price: 130000,
   },
   {
-    id: 119,
-    name: "ENTERIZO LOVING - TONO ROJO VINO",
+    id: 107,
+    name: "ENTERIZO VIBES - TONO ROJO",
     category: "enterizos",
-    image: enterizolovingrojovinotinto1,
-    new_price: 115000,
+    image: enterizovibesrojo1,
+    new_price: 120000,
     old_price: 130000,
   },
   {
