@@ -150,7 +150,31 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
-
+// 404
+import setloverojo1 from "./sets/setloverojo1.jpeg"
+import setloverojo2 from "./sets/setloverojo2.jpeg"
+import setloverojo3 from "./sets/setloverojo3.jpeg"
+import setloverojo4 from "./sets/setloverojo4.jpeg"
+// 405
+import setcocogris1 from "./sets/setcocogris1.jpeg"
+import setcocogris2 from "./sets/setcocogris2.jpeg"
+import setcocogris3 from "./sets/setcocogris3.jpeg"
+import setcocogris4 from "./sets/setcocogris4.jpeg"
+// 406
+import setmarazul1 from "./sets/setmarazul1.jpeg"
+import setmarazul2 from "./sets/setmarazul2.jpeg"
+import setmarazul3 from "./sets/setmarazul3.jpeg"
+import setmarazul4 from "./sets/setmarazul4.jpeg"
+// 407
+import setzoenegro1 from "./sets/setzoenegro1.jpeg"
+import setzoenegro2 from "./sets/setzoenegro2.jpeg"
+import setzoenegro3 from "./sets/setzoenegro3.jpeg"
+import setzoenegro4 from "./sets/setzoenegro4.jpeg"
+// 408
+import setpink1 from "./sets/setpink1.jpeg"
+import setpink2 from "./sets/setpink2.jpeg"
+import setpink3 from "./sets/setpink3.jpeg"
+import setpink4 from "./sets/setpink4.jpeg"
 
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
@@ -705,6 +729,101 @@ let all_product = [
     image4: setpowernegro4,
     new_price: 120000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 404,
+    name: "SET LOVE - TONO ROJO",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setloverojo1,
+    image2: setloverojo2,
+    image3: setloverojo3,
+    image4: setloverojo4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 405,
+    name: "SET COCO - TONO GRIS",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setcocogris1,
+    image2: setcocogris2,
+    image3: setcocogris3,
+    image4: setcocogris4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 406,
+    name: "SET MAR - TONO AZUL",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setmarazul1,
+    image2: setmarazul2,
+    image3: setmarazul3,
+    image4: setmarazul4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 407,
+    name: "SET ZOE - TONO NEGRO",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setzoenegro1,
+    image2: setzoenegro2,
+    image3: setzoenegro3,
+    image4: setzoenegro4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 408,
+    name: "SET PINK - TONO ROSADO",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setpink1,
+    image2: setpink2,
+    image3: setpink3,
+    image4: setpink4,
+    new_price: 110000,
+    old_price: 120000,
     sizes: {
       XS: false,
       S: true,
