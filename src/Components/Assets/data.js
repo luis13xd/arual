@@ -10,8 +10,8 @@ let data_product = [
     name: "ENTERIZO SIRENA - TONO ROSADO",
     category: "enterizos",
     image: enterizosirenarosado1,
-    new_price: 120000,
-    old_price: 130000,
+    new_price: 90000,
+    old_price: 110000,
   },
   {
     id: 107,

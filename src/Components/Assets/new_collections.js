@@ -3,7 +3,6 @@ import shorttiedyeazulrosado1 from "./lyf/shorttiedyeazulrosado1.jpeg";
 import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg";
 import shorttiedyerosado1 from "./lyf/shorttiedyerosado1.jpeg";
 import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg";
-import bodybambiegris1 from "./body/bodybambiegris1.jpeg";
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambierosado1 from "./body/bodybambierosado1.jpeg";
 
@@ -44,11 +43,11 @@ let new_collections = [
     old_price: 90000,
   },
   {
-    id: 302,
-    name: "BODY BAMBIE - TONO GRIS",
-    image: bodybambiegris1,
-    new_price: 75000,
-    old_price: 90000,
+    id: 304,
+  name: "BODY BAMBIE - TONO ROSADO",
+  image: bodybambierosado1,
+  new_price: 75000,
+  old_price: 90000,
   },
   {
     id: 303,

@@ -28,11 +28,6 @@ import enterizonovaterracota1 from "./enterizos/enterizonovaterracota1.jpeg"
 import enterizonovaterracota2 from "./enterizos/enterizonovaterracota2.jpeg"
 import enterizonovaterracota3 from "./enterizos/enterizonovaterracota3.jpeg"
 import enterizonovaterracota4 from "./enterizos/enterizonovaterracota4.jpeg"
-// 107
-import enterizovibesrojo1 from "./enterizos/enterizovibesrojo1.jpeg"
-import enterizovibesrojo2 from "./enterizos/enterizovibesrojo2.jpeg"
-import enterizovibesrojo3 from "./enterizos/enterizovibesrojo3.jpeg"
-import enterizovibesrojo4 from "./enterizos/enterizovibesrojo4.jpeg"
 // 109
 import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
 import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
@@ -43,11 +38,7 @@ import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg"
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg"
 import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg"
 import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg"
-// 111
-import enterizozoerojo1 from "./enterizos/enterizozoerojo1.jpeg"
-import enterizozoerojo2 from "./enterizos/enterizozoerojo2.jpeg"
-import enterizozoerojo3 from "./enterizos/enterizozoerojo3.jpeg"
-import enterizozoerojo4 from "./enterizos/enterizozoerojo4.jpeg"
+
 // 113
 import enterizoesenciaazulrey1 from "./enterizos/enterizoesenciaazulrey1.jpeg"
 import enterizoesenciaazulrey2 from "./enterizos/enterizoesenciaazulrey2.jpeg"
@@ -131,11 +122,6 @@ import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg"
 import bodybambieamarillo2 from "./body/bodybambieamarillo2.jpeg"
 import bodybambieamarillo3 from "./body/bodybambieamarillo3.jpeg"
 import bodybambieamarillo4 from "./body/bodybambieamarillo4.jpeg"
-// 302
-import bodybambiegris1 from "./body/bodybambiegris1.jpeg"
-import bodybambiegris2 from "./body/bodybambiegris2.jpeg"
-import bodybambiegris3 from "./body/bodybambiegris3.jpeg"
-import bodybambiegris4 from "./body/bodybambiegris4.jpeg"
 // 303
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg"
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg"
@@ -300,25 +286,7 @@ let all_product = [
       XL: false,
     }
   },
-  {
-    id: 107,
-    name: "ENTERIZO VIBES - TONO ROJO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizovibesrojo1,
-    image2: enterizovibesrojo2,
-    image3: enterizovibesrojo3,
-    image4: enterizovibesrojo4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
+  
   {
     id: 109,
     name: "ENTERIZO ZEN - TONO NEGRO",
@@ -349,25 +317,6 @@ let all_product = [
     image4: enterizorebelblanco4,
     new_price: 120000,
     old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 111,
-    name: "ENTERIZO ZOE - TONO ROJO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizozoerojo1,
-    image2: enterizozoerojo2,
-    image3: enterizozoerojo3,
-    image4: enterizozoerojo4,
-    new_price: 75000,
-    old_price: 90000,
     sizes: {
       XS: false,
       S: true,
@@ -499,8 +448,8 @@ let all_product = [
     image2: enterizosirenarosado2,
     image3: enterizosirenarosado3,
     image4: enterizosirenarosado4,
-    new_price: 120000,
-    old_price: 130000,
+    new_price: 90000,
+    old_price: 110000,
     sizes: {
       XS: false,
       S: true,
@@ -656,25 +605,6 @@ let all_product = [
   image2: bodybambieamarillo2,
   image3: bodybambieamarillo3,
   image4: bodybambieamarillo4,
-  new_price: 75000,
-  old_price: 90000,
-  sizes: {
-    XS: false,
-    S: true,
-    M: true,
-    L: false,
-    XL: false,
-  }
-},
-{
-  id: 302,
-  name: "BODY BAMBIE - TONO GRIS",
-  category: "bodysytops",
-  description: "Tela completamente acanalada",
-  image: bodybambiegris1,
-  image2: bodybambiegris2,
-  image3: bodybambiegris3,
-  image4: bodybambiegris4,
   new_price: 75000,
   old_price: 90000,
   sizes: {
