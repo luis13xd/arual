@@ -23,11 +23,6 @@ import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg"
 import enterizoesenciaazul2 from "./enterizos/enterizoesenciaazul2.jpeg"
 import enterizoesenciaazul3 from "./enterizos/enterizoesenciaazul3.jpeg"
 import enterizoesenciaazul4 from "./enterizos/enterizoesenciaazul4.jpeg"
-// 106
-import enterizonovaterracota1 from "./enterizos/enterizonovaterracota1.jpeg"
-import enterizonovaterracota2 from "./enterizos/enterizonovaterracota2.jpeg"
-import enterizonovaterracota3 from "./enterizos/enterizonovaterracota3.jpeg"
-import enterizonovaterracota4 from "./enterizos/enterizonovaterracota4.jpeg"
 // 109
 import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
 import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
@@ -38,7 +33,16 @@ import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg"
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg"
 import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg"
 import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg"
-
+// 111
+import enterizomagnus1 from "./enterizos/enterizomagnus1.jpeg"
+import enterizomagnus2 from "./enterizos/enterizomagnus2.jpeg"
+import enterizomagnus3 from "./enterizos/enterizomagnus3.jpeg"
+import enterizomagnus4 from "./enterizos/enterizomagnus4.jpeg"
+// 112
+import enterizolondon1 from "./enterizos/enterizolondon1.jpeg"
+import enterizolondon2 from "./enterizos/enterizolondon2.jpeg"
+import enterizolondon3 from "./enterizos/enterizolondon3.jpeg"
+import enterizolondon4 from "./enterizos/enterizolondon4.jpeg"
 // 113
 import enterizoesenciaazulrey1 from "./enterizos/enterizoesenciaazulrey1.jpeg"
 import enterizoesenciaazulrey2 from "./enterizos/enterizoesenciaazulrey2.jpeg"
@@ -64,12 +68,6 @@ import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg"
 import enterizoalmagris2 from "./enterizos/enterizoalmagris2.jpeg"
 import enterizoalmagris3 from "./enterizos/enterizoalmagris3.jpeg"
 import enterizoalmagris4 from "./enterizos/enterizoalmagris4.jpeg"
-// 118
-import enterizoesenciabeige1 from "./enterizos/enterizoesenciabeige1.jpeg"
-import enterizoesenciabeige2 from "./enterizos/enterizoesenciabeige2.jpeg"
-import enterizoesenciabeige3 from "./enterizos/enterizoesenciabeige3.jpeg"
-import enterizoesenciabeige4 from "./enterizos/enterizoesenciabeige4.jpeg"
-
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg"
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg"
@@ -150,11 +148,6 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
-// 404
-import setloverojo1 from "./sets/setloverojo1.jpeg"
-import setloverojo2 from "./sets/setloverojo2.jpeg"
-import setloverojo3 from "./sets/setloverojo3.jpeg"
-import setloverojo4 from "./sets/setloverojo4.jpeg"
 // 405
 import setcocogris1 from "./sets/setcocogris1.jpeg"
 import setcocogris2 from "./sets/setcocogris2.jpeg"
@@ -165,11 +158,6 @@ import setmarazul1 from "./sets/setmarazul1.jpeg"
 import setmarazul2 from "./sets/setmarazul2.jpeg"
 import setmarazul3 from "./sets/setmarazul3.jpeg"
 import setmarazul4 from "./sets/setmarazul4.jpeg"
-// 407
-import setzoenegro1 from "./sets/setzoenegro1.jpeg"
-import setzoenegro2 from "./sets/setzoenegro2.jpeg"
-import setzoenegro3 from "./sets/setzoenegro3.jpeg"
-import setzoenegro4 from "./sets/setzoenegro4.jpeg"
 // 408
 import setpink1 from "./sets/setpink1.jpeg"
 import setpink2 from "./sets/setpink2.jpeg"
@@ -292,26 +280,6 @@ let all_product = [
     }
   },
   {
-    id: 106,
-    name: "ENTERIZO NOVA - TONO TERRACOTA",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizonovaterracota1,
-    image2: enterizonovaterracota2,
-    image3: enterizonovaterracota3,
-    image4: enterizonovaterracota4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  
-  {
     id: 109,
     name: "ENTERIZO ZEN - TONO NEGRO",
     category: "enterizos",
@@ -341,6 +309,44 @@ let all_product = [
     image4: enterizorebelblanco4,
     new_price: 120000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 111,
+    name: "ENTERIZO MAGNUS - TONO CAFÉ",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizomagnus1,
+    image2: enterizomagnus2,
+    image3: enterizomagnus3,
+    image4: enterizomagnus4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 112,
+    name: "ENTERIZO LONDON - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolondon1,
+    image2: enterizolondon2,
+    image3: enterizolondon3,
+    image4: enterizolondon4,
+    new_price: 75000,
+    old_price: 90000,
     sizes: {
       XS: false,
       S: true,
@@ -434,25 +440,6 @@ let all_product = [
     image2: enterizoalmagris2,
     image3: enterizoalmagris3,
     image4: enterizoalmagris4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 118,
-    name: "ENTERIZO ESENCIA - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoesenciabeige1,
-    image2: enterizoesenciabeige2,
-    image3: enterizoesenciabeige3,
-    image4: enterizoesenciabeige4,
     new_price: 120000,
     old_price: 130000,
     sizes: {
@@ -738,25 +725,6 @@ let all_product = [
     }
   },
   {
-    id: 404,
-    name: "SET LOVE - TONO ROJO",
-    category: "sets",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setloverojo1,
-    image2: setloverojo2,
-    image3: setloverojo3,
-    image4: setloverojo4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    }
-  },
-  {
     id: 405,
     name: "SET COCO - TONO GRIS",
     category: "sets",
@@ -790,25 +758,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 407,
-    name: "SET ZOE - TONO NEGRO",
-    category: "sets",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setzoenegro1,
-    image2: setzoenegro2,
-    image3: setzoenegro3,
-    image4: setzoenegro4,
-    new_price: 90000,
-    old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     }
