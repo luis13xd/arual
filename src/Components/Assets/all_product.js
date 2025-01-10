@@ -23,6 +23,11 @@ import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg"
 import enterizoesenciaazul2 from "./enterizos/enterizoesenciaazul2.jpeg"
 import enterizoesenciaazul3 from "./enterizos/enterizoesenciaazul3.jpeg"
 import enterizoesenciaazul4 from "./enterizos/enterizoesenciaazul4.jpeg"
+// 106
+import setcocogris1 from "./enterizos/setcocogris1.jpeg"
+import setcocogris2 from "./enterizos/setcocogris2.jpeg"
+import setcocogris3 from "./enterizos/setcocogris3.jpeg"
+import setcocogris4 from "./enterizos/setcocogris4.jpeg"
 // 109
 import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
 import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
@@ -68,6 +73,11 @@ import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg"
 import enterizoalmagris2 from "./enterizos/enterizoalmagris2.jpeg"
 import enterizoalmagris3 from "./enterizos/enterizoalmagris3.jpeg"
 import enterizoalmagris4 from "./enterizos/enterizoalmagris4.jpeg"
+// 118
+import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg"
+import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg"
+import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg"
+import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg"
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg"
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg"
@@ -148,11 +158,16 @@ import setpowernegro1 from "./sets/setpowernegro1.jpeg"
 import setpowernegro2 from "./sets/setpowernegro2.jpeg"
 import setpowernegro3 from "./sets/setpowernegro3.jpeg"
 import setpowernegro4 from "./sets/setpowernegro4.jpeg"
+// 404
+import setbabyverdeoliva1 from "./sets/setbabyverdeoliva1.jpeg"
+import setbabyverdeoliva2 from "./sets/setbabyverdeoliva2.jpeg"
+import setbabyverdeoliva3 from "./sets/setbabyverdeoliva3.jpeg"
+import setbabyverdeoliva4 from "./sets/setbabyverdeoliva4.jpeg"
 // 405
-import setcocogris1 from "./sets/setcocogris1.jpeg"
-import setcocogris2 from "./sets/setcocogris2.jpeg"
-import setcocogris3 from "./sets/setcocogris3.jpeg"
-import setcocogris4 from "./sets/setcocogris4.jpeg"
+import setbambinabeige1 from "./sets/setbambinabeige1.jpeg"
+import setbambinabeige2 from "./sets/setbambinabeige2.jpeg"
+import setbambinabeige3 from "./sets/setbambinabeige3.jpeg"
+import setbambinabeige4 from "./sets/setbambinabeige4.jpeg"
 // 406
 import setmarazul1 from "./sets/setmarazul1.jpeg"
 import setmarazul2 from "./sets/setmarazul2.jpeg"
@@ -271,6 +286,25 @@ let all_product = [
     image4: enterizoesenciaazul4,
     new_price: 120000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 106,
+    name: "ENTERIZO COCO - TONO GRIS",
+    category: "enterizos",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setcocogris1,
+    image2: setcocogris2,
+    image3: setcocogris3,
+    image4: setcocogris4,
+    new_price: 90000,
+    old_price: 110000,
     sizes: {
       XS: false,
       S: true,
@@ -442,6 +476,25 @@ let all_product = [
     image4: enterizoalmagris4,
     new_price: 120000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 118,
+    name: "ENTERIZO ROMA - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoromanegro1,
+    image2: enterizoromanegro2,
+    image3: enterizoromanegro3,
+    image4: enterizoromanegro4,
+    new_price: 110000,
+    old_price: 120000,
     sizes: {
       XS: false,
       S: true,
@@ -725,20 +778,39 @@ let all_product = [
     }
   },
   {
-    id: 405,
-    name: "SET COCO - TONO GRIS",
+    id: 404,
+    name: "SET BABY - TONO VERDE OLIVA",
     category: "sets",
     description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setcocogris1,
-    image2: setcocogris2,
-    image3: setcocogris3,
-    image4: setcocogris4,
-    new_price: 90000,
-    old_price: 110000,
+    image: setbabyverdeoliva1,
+    image2: setbabyverdeoliva2,
+    image3: setbabyverdeoliva3,
+    image4: setbabyverdeoliva4,
+    new_price: 120000,
+    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
+    id: 405,
+    name: "SET BAMBINA - TONO BEIGE",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setbambinabeige1,
+    image2: setbambinabeige2,
+    image3: setbambinabeige3,
+    image4: setbambinabeige4,
+    new_price: 50000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     }
