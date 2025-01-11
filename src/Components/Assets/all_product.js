@@ -28,11 +28,6 @@ import setcocogris1 from "./enterizos/setcocogris1.jpeg"
 import setcocogris2 from "./enterizos/setcocogris2.jpeg"
 import setcocogris3 from "./enterizos/setcocogris3.jpeg"
 import setcocogris4 from "./enterizos/setcocogris4.jpeg"
-// 109
-import enterizozennegro1 from "./enterizos/enterizozennegro1.jpeg"
-import enterizozennegro2 from "./enterizos/enterizozennegro2.jpeg"
-import enterizozennegro3 from "./enterizos/enterizozennegro3.jpeg"
-import enterizozennegro4 from "./enterizos/enterizozennegro4.jpeg"
 // 110
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg"
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg"
@@ -305,25 +300,6 @@ let all_product = [
     image4: setcocogris4,
     new_price: 90000,
     old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    }
-  },
-  {
-    id: 109,
-    name: "ENTERIZO ZEN - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizozennegro1,
-    image2: enterizozennegro2,
-    image3: enterizozennegro3,
-    image4: enterizozennegro4,
-    new_price: 70000,
-    old_price: 85000,
     sizes: {
       XS: false,
       S: true,
