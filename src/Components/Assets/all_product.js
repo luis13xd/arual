@@ -125,6 +125,11 @@ import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg"
 import bodybambieamarillo2 from "./body/bodybambieamarillo2.jpeg"
 import bodybambieamarillo3 from "./body/bodybambieamarillo3.jpeg"
 import bodybambieamarillo4 from "./body/bodybambieamarillo4.jpeg"
+// 302
+import bodyindigo1 from "./body/bodyindigo1.jpeg"
+import bodyindigo2 from "./body/bodyindigo2.jpeg"
+import bodyindigo3 from "./body/bodyindigo3.jpeg"
+import bodyindigo4 from "./body/bodyindigo4.jpeg"
 // 303
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg"
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg"
@@ -168,6 +173,11 @@ import setmarazul1 from "./sets/setmarazul1.jpeg"
 import setmarazul2 from "./sets/setmarazul2.jpeg"
 import setmarazul3 from "./sets/setmarazul3.jpeg"
 import setmarazul4 from "./sets/setmarazul4.jpeg"
+// 407
+import setjadenegro1 from "./sets/setjadenegro1.jpeg"
+import setjadenegro2 from "./sets/setjadenegro2.jpeg"
+import setjadenegro3 from "./sets/setjadenegro3.jpeg"
+import setjadenegro4 from "./sets/setjadenegro4.jpeg"
 // 408
 import setpink1 from "./sets/setpink1.jpeg"
 import setpink2 from "./sets/setpink2.jpeg"
@@ -191,7 +201,11 @@ import straps1 from "./accesorios/straps1.jpeg"
 import straps2 from "./accesorios/straps2.jpeg"
 import straps3 from "./accesorios/straps3.jpeg"
 import straps4 from "./accesorios/straps4.jpeg"
-
+// 504
+import chaquetamilano1 from "./accesorios/chaquetamilano1.jpeg"
+import chaquetamilano2 from "./accesorios/chaquetamilano2.jpeg"
+import chaquetamilano3 from "./accesorios/chaquetamilano3.jpeg"
+import chaquetamilano4 from "./accesorios/chaquetamilano4.jpeg"
 
 let all_product = [
   {
@@ -656,6 +670,25 @@ let all_product = [
   }
 },
 {
+  id: 302,
+  name: "BODY INDIGO - TONO NEGRO",
+  category: "bodysytops",
+  description: "Tela completamente acanalada",
+  image: bodyindigo2,
+  image2: bodyindigo1,
+  image3: bodyindigo3,
+  image4: bodyindigo4,
+  new_price: 75000,
+  old_price: 90000,
+  sizes: {
+    XS: false,
+    S: true,
+    M: true,
+    L: false,
+    XL: false,
+  }
+},
+{
   id: 303,
   name: "BODY BAMBIE - TONO NEGRO",
   category: "bodysytops",
@@ -811,6 +844,25 @@ let all_product = [
     }
   },
   {
+    id: 407,
+    name: "SET JADE - TONO NEGRO",
+    category: "sets",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setjadenegro1,
+    image2: setjadenegro2,
+    image3: setjadenegro3,
+    image4: setjadenegro4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    }
+  },
+  {
     id: 408,
     name: "SET PINK - TONO ROSADO",
     category: "sets",
@@ -884,6 +936,24 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    }
+  },{
+    id: 504,
+    name: "Chaqueta Milano",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: chaquetamilano1,
+    image2: chaquetamilano2,
+    image3: chaquetamilano3,
+    image4: chaquetamilano4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     }

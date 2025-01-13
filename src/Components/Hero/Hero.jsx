@@ -27,6 +27,7 @@ export const Hero = ({ onscrollNew }) => {
           playsInline
           preload="auto"
           className="hero-video"
+          alt="ARUAL SPORT"
         ></video>
       </div>
     </div>
