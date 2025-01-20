@@ -95,11 +95,6 @@ import enterizocococafe3 from "./enterizos/enterizocococafe3.jpeg";
 import enterizocococafe4 from "./enterizos/enterizocococafe4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
-// 201
-import shorttiedyeamarillo1 from "./lyf/shorttiedyeamarillo1.jpeg";
-import shorttiedyeamarillo2 from "./lyf/shorttiedyeamarillo2.jpeg";
-import shorttiedyeamarillo3 from "./lyf/shorttiedyeamarillo3.jpeg";
-import shorttiedyeamarillo4 from "./lyf/shorttiedyeamarillo4.jpeg";
 // 202
 import shorttiedyeazulrosado1 from "./lyf/shorttiedyeazulrosado1.jpeg";
 import shorttiedyeazulrosado2 from "./lyf/shorttiedyeazulrosado2.jpeg";
@@ -110,11 +105,6 @@ import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg"
 import shorttiedyenaranjaamarillo2 from "./lyf/shorttiedyenaranjaamarillo2.jpeg";
 import shorttiedyenaranjaamarillo3 from "./lyf/shorttiedyenaranjaamarillo3.jpeg";
 import shorttiedyenaranjaamarillo4 from "./lyf/shorttiedyenaranjaamarillo4.jpeg";
-// 204
-import shorttiedyerojo1 from "./lyf/shorttiedyerojo1.jpeg";
-import shorttiedyerojo2 from "./lyf/shorttiedyerojo2.jpeg";
-import shorttiedyerojo3 from "./lyf/shorttiedyerojo3.jpeg";
-import shorttiedyerojo4 from "./lyf/shorttiedyerojo4.jpeg";
 // 205
 import shorttiedyerosado1 from "./lyf/shorttiedyerosado1.jpeg";
 import shorttiedyerosado2 from "./lyf/shorttiedyerosado2.jpeg";
@@ -258,9 +248,9 @@ let all_product = [
     name: "ENTERIZO ALMA - TONO ROSADO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoalmarosado1,
+    image: enterizoalmarosado3,
     image2: enterizoalmarosado2,
-    image3: enterizoalmarosado3,
+    image3: enterizoalmarosado1,
     image4: enterizoalmarosado4,
     new_price: 90000,
     old_price: 100000,
@@ -601,25 +591,6 @@ let all_product = [
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {
-    id: 201,
-    name: "SHORT TIE DYE - TONO AMARILLO",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shorttiedyeamarillo1,
-    image2: shorttiedyeamarillo2,
-    image3: shorttiedyeamarillo3,
-    image4: shorttiedyeamarillo4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 202,
     name: "SHORT TIE DYE - TONO AZUL-ROSADO",
     category: "legginsyfaldas",
@@ -647,25 +618,6 @@ let all_product = [
     image2: shorttiedyenaranjaamarillo2,
     image3: shorttiedyenaranjaamarillo3,
     image4: shorttiedyenaranjaamarillo4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 204,
-    name: "SHORT TIE DYE - TONO ROJO",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shorttiedyerojo1,
-    image2: shorttiedyerojo2,
-    image3: shorttiedyerojo3,
-    image4: shorttiedyerojo4,
     new_price: 40000,
     old_price: 60000,
     sizes: {
