@@ -4,8 +4,8 @@ import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg"
 import shorttiedyerosado1 from "./lyf/shorttiedyerosado1.jpeg";
 import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg";
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
-import bodybambierosado1 from "./body/bodybambierosado1.jpeg";
-import bodyindigo2 from "./body/bodyindigo2.jpeg"
+import bodyindigo2 from "./body/bodyindigo2.jpeg";
+import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
 
 let new_collections = [
   {
@@ -58,9 +58,9 @@ let new_collections = [
     old_price: 90000,
   },
   {
-    id: 304,
-    name: "BODY BAMBIE - TONO ROSADO",
-    image: bodybambierosado1,
+    id: 307,
+    name: "CHAQUETA MILANO",
+    image: chaquetamilano1,
     new_price: 75000,
     old_price: 90000,
   },

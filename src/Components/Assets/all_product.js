@@ -4,10 +4,10 @@ import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
 // 102
-import enterizoalmarosado1 from "./enterizos/enterizoalmarosado1.jpeg";
-import enterizoalmarosado2 from "./enterizos/enterizoalmarosado2.jpeg";
-import enterizoalmarosado3 from "./enterizos/enterizoalmarosado3.jpeg";
-import enterizoalmarosado4 from "./enterizos/enterizoalmarosado4.jpeg";
+import enterizoalmanegro1 from "./enterizos/enterizoalmanegro1.jpeg";
+import enterizoalmanegro2 from "./enterizos/enterizoalmanegro2.jpeg";
+import enterizoalmanegro3 from "./enterizos/enterizoalmanegro3.jpeg";
+import enterizoalmanegro4 from "./enterizos/enterizoalmanegro4.jpeg";
 // 103
 import enterizoaurablanco1 from "./enterizos/enterizoaurablanco1.jpeg";
 import enterizoaurablanco2 from "./enterizos/enterizoaurablanco2.jpeg";
@@ -29,15 +29,20 @@ import setcocogris2 from "./enterizos/setcocogris2.jpeg";
 import setcocogris3 from "./enterizos/setcocogris3.jpeg";
 import setcocogris4 from "./enterizos/setcocogris4.jpeg";
 // 107
-import enterizosirenalila1 from "./enterizos/enterizosirenalila1.jpeg";
-import enterizosirenalila2 from "./enterizos/enterizosirenalila2.jpeg";
-import enterizosirenalila3 from "./enterizos/enterizosirenalila3.jpeg";
-import enterizosirenalila4 from "./enterizos/enterizosirenalila4.jpeg";
+import vestidosienabeige1 from "./enterizos/vestidosienabeige1.jpeg";
+import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
+import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
+import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
 // 108
 import enterizodeocafe1 from "./enterizos/enterizodeocafe1.jpeg";
 import enterizodeocafe2 from "./enterizos/enterizodeocafe2.jpeg";
 import enterizodeocafe3 from "./enterizos/enterizodeocafe3.jpeg";
 import enterizodeocafe4 from "./enterizos/enterizodeocafe4.jpeg";
+// 109
+import enterizolovingnegro1 from "./enterizos/enterizolovingnegro1.jpeg";
+import enterizolovingnegro2 from "./enterizos/enterizolovingnegro2.jpeg";
+import enterizolovingnegro3 from "./enterizos/enterizolovingnegro3.jpeg";
+import enterizolovingnegro4 from "./enterizos/enterizolovingnegro4.jpeg";
 // 110
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg";
@@ -83,6 +88,11 @@ import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg";
 import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg";
 import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg";
 import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg";
+// 119
+import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
+import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
+import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
+import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg";
@@ -132,11 +142,6 @@ import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg";
 import bodybambienegro3 from "./body/bodybambienegro3.jpeg";
 import bodybambienegro4 from "./body/bodybambienegro4.jpeg";
-// 304
-import bodybambierosado1 from "./body/bodybambierosado1.jpeg";
-import bodybambierosado2 from "./body/bodybambierosado2.jpeg";
-import bodybambierosado3 from "./body/bodybambierosado3.jpeg";
-import bodybambierosado4 from "./body/bodybambierosado4.jpeg";
 // 305
 import topsemily1 from "./body/topsemily1.jpeg";
 import topsemily2 from "./body/topsemily2.jpeg";
@@ -152,11 +157,7 @@ import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
 import chaquetamilano2 from "./body/chaquetamilano2.jpeg";
 import chaquetamilano3 from "./body/chaquetamilano3.jpeg";
 import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
-// 308
-import vestidosienabeige1 from "./body/vestidosienabeige1.jpeg";
-import vestidosienabeige2 from "./body/vestidosienabeige2.jpeg";
-import vestidosienabeige3 from "./body/vestidosienabeige3.jpeg";
-import vestidosienabeige4 from "./body/vestidosienabeige4.jpeg";
+
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
@@ -199,11 +200,6 @@ import setpink1 from "./sets/setpink1.jpeg";
 import setpink2 from "./sets/setpink2.jpeg";
 import setpink3 from "./sets/setpink3.jpeg";
 import setpink4 from "./sets/setpink4.jpeg";
-// 409
-import setcoralvinotinto1 from "./sets/setcoralvinotinto1.jpeg";
-import setcoralvinotinto2 from "./sets/setcoralvinotinto2.jpeg";
-import setcoralvinotinto3 from "./sets/setcoralvinotinto3.jpeg";
-import setcoralvinotinto4 from "./sets/setcoralvinotinto4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -245,13 +241,13 @@ let all_product = [
   },
   {
     id: 102,
-    name: "ENTERIZO ALMA - TONO ROSADO",
+    name: "ENTERIZO ALMA - TONO NEGRO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoalmarosado3,
-    image2: enterizoalmarosado2,
-    image3: enterizoalmarosado1,
-    image4: enterizoalmarosado4,
+    image: enterizoalmanegro1,
+    image2: enterizoalmanegro2,
+    image3: enterizoalmanegro3,
+    image4: enterizoalmanegro4,
     new_price: 90000,
     old_price: 100000,
     sizes: {
@@ -341,20 +337,19 @@ let all_product = [
   },
   {
     id: 107,
-    name: "ENTERIZO SIRENA - TONO LILA",
+    name: "VESTIDO SIENA - TONO BEIGE",
     category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: enterizosirenalila1,
-    image2: enterizosirenalila2,
-    image3: enterizosirenalila3,
-    image4: enterizosirenalila4,
-    new_price: 90000,
-    old_price: 110000,
+    description: "Material suave y de alta calidad",
+    image: vestidosienabeige1,
+    image2: vestidosienabeige2,
+    image3: vestidosienabeige3,
+    image4: vestidosienabeige4,
+    new_price: 100000,
+    old_price: 120000,
     sizes: {
       XS: false,
       S: true,
-      M: true,
+      M: false,
       L: false,
       XL: false,
     },
@@ -375,6 +370,26 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 109,
+    name: "ENTERIZO LOVING - TONO NEGRO",
+    category: "enterizos",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: enterizolovingnegro1,
+    image2: enterizolovingnegro2,
+    image3: enterizolovingnegro3,
+    image4: enterizolovingnegro4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -542,6 +557,25 @@ let all_product = [
     image4: enterizoromanegro4,
     new_price: 110000,
     old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 119,
+    name: "ENTERIZO LOVING - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolovingbeige1,
+    image2: enterizolovingbeige2,
+    image3: enterizolovingbeige3,
+    image4: enterizolovingbeige4,
+    new_price: 120000,
+    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -726,25 +760,6 @@ let all_product = [
     },
   },
   {
-    id: 304,
-    name: "BODY BAMBIE - TONO ROSADO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: bodybambierosado1,
-    image2: bodybambierosado2,
-    image3: bodybambierosado3,
-    image4: bodybambierosado4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 305,
     name: "TOPS EMILY - TONO BLANCO-NEGRO",
     category: "bodysytops",
@@ -801,25 +816,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 308,
-    name: "VESTIDO SIENA - TONO BEIGE",
-    category: "bodysytops",
-    description: "Material suave y de alta calidad",
-    image: vestidosienabeige1,
-    image2: vestidosienabeige2,
-    image3: vestidosienabeige3,
-    image4: vestidosienabeige4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+
 
   // ---------------------------- Categoria 4 SETS -----------------------------
   {
@@ -978,26 +975,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 409,
-    name: "SET CORAL - TONO VINO TINTO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setcoralvinotinto1,
-    image2: setcoralvinotinto2,
-    image3: setcoralvinotinto3,
-    image4: setcoralvinotinto4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
