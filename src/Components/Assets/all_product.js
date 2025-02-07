@@ -93,6 +93,16 @@ import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
 import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
 import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
+// 120
+import enterizoselenenegro1 from "./enterizos/enterizoselenenegro1.jpeg";
+import enterizoselenenegro2 from "./enterizos/enterizoselenenegro2.jpeg";
+import enterizoselenenegro3 from "./enterizos/enterizoselenenegro3.jpeg";
+import enterizoselenenegro4 from "./enterizos/enterizoselenenegro4.jpeg";
+// 121
+import enterizomagiagris1 from "./enterizos/enterizomagiagris1.jpeg";
+import enterizomagiagris2 from "./enterizos/enterizomagiagris2.jpeg";
+import enterizomagiagris3 from "./enterizos/enterizomagiagris3.jpeg";
+import enterizomagiagris4 from "./enterizos/enterizomagiagris4.jpeg";
 // 122
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg";
@@ -200,6 +210,16 @@ import setpink1 from "./sets/setpink1.jpeg";
 import setpink2 from "./sets/setpink2.jpeg";
 import setpink3 from "./sets/setpink3.jpeg";
 import setpink4 from "./sets/setpink4.jpeg";
+// 409
+import setnebulanegro1 from "./sets/setnebulanegro1.jpeg";
+import setnebulanegro2 from "./sets/setnebulanegro2.jpeg";
+import setnebulanegro3 from "./sets/setnebulanegro3.jpeg";
+import setnebulanegro4 from "./sets/setnebulanegro4.jpeg";
+// 410
+import setfloriamnegro1 from "./sets/setfloriamnegro1.jpeg";
+import setfloriamnegro2 from "./sets/setfloriamnegro2.jpeg";
+import setfloriamnegro3 from "./sets/setfloriamnegro3.jpeg";
+import setfloriamnegro4 from "./sets/setfloriamnegro4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -586,6 +606,25 @@ let all_product = [
   },
   {
     id: 120,
+    name: "ENTERIZO SELENE - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoselenenegro1,
+    image2: enterizoselenenegro2,
+    image3: enterizoselenenegro3,
+    image4: enterizoselenenegro4,
+    new_price: 80000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: false,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 121,
     name: "ENTERIZO SIRENA - TONO ROSADO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
@@ -599,6 +638,25 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 122,
+    name: "ENTERIZO MAGIA - TONO GRIS",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizomagiagris1,
+    image2: enterizomagiagris2,
+    image3: enterizomagiagris3,
+    image4: enterizomagiagris4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -969,6 +1027,46 @@ let all_product = [
     image2: setpink2,
     image3: setpink3,
     image4: setpink4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 409,
+    name: "SET NEBULA - TONO NEGRO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setnebulanegro1,
+    image2: setnebulanegro2,
+    image3: setnebulanegro3,
+    image4: setnebulanegro4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 410,
+    name: "SET FLORIAM - TONO NEGRO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setfloriamnegro1,
+    image2: setfloriamnegro2,
+    image3: setfloriamnegro3,
+    image4: setfloriamnegro4,
     new_price: 110000,
     old_price: 120000,
     sizes: {
