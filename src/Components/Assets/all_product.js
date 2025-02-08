@@ -153,6 +153,16 @@ import vestidosienacafe1 from "./enterizos/vestidosienacafe1.jpeg";
 import vestidosienacafe2 from "./enterizos/vestidosienacafe2.jpeg";
 import vestidosienacafe3 from "./enterizos/vestidosienacafe3.jpeg";
 import vestidosienacafe4 from "./enterizos/vestidosienacafe4.jpeg";
+// 132
+import enterizomagnusverde1 from "./enterizos/enterizomagnusverde1.jpeg";
+import enterizomagnusverde2 from "./enterizos/enterizomagnusverde2.jpeg";
+import enterizomagnusverde3 from "./enterizos/enterizomagnusverde3.jpeg";
+import enterizomagnusverde4 from "./enterizos/enterizomagnusverde4.jpeg";
+// 133
+import enterizoblazenegro1 from "./enterizos/enterizoblazenegro1.jpeg";
+import enterizoblazenegro2 from "./enterizos/enterizoblazenegro2.jpeg";
+import enterizoblazenegro3 from "./enterizos/enterizoblazenegro3.jpeg";
+import enterizoblazenegro4 from "./enterizos/enterizoblazenegro4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 // 202
@@ -430,21 +440,20 @@ let all_product = [
   //   },
   // },
   {
-    id: 109,
-    name: "ENTERIZO LOVING - TONO NEGRO",
+    id: 131,
+    name: "VESTIDO SIENA - TONO CAFÉ",
     category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: enterizolovingnegro1,
-    image2: enterizolovingnegro2,
-    image3: enterizolovingnegro3,
-    image4: enterizolovingnegro4,
-    new_price: 120000,
-    old_price: 130000,
+    description: "Tela suave con acabados de la mejor calidad",
+    image: vestidosienacafe1,
+    image2: vestidosienacafe2,
+    image3: vestidosienacafe3,
+    image4: vestidosienacafe4,
+    new_price: 100000,
+    old_price: 120000,
     sizes: {
       XS: false,
       S: true,
-      M: true,
+      M: false,
       L: false,
       XL: false,
     },
@@ -849,16 +858,55 @@ let all_product = [
     },
   },
   {
-    id: 131,
-    name: "VESTIDO SIENA - TONO CAFÉ",
+    id: 109,
+    name: "ENTERIZO LOVING - TONO NEGRO",
+    category: "enterizos",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: enterizolovingnegro1,
+    image2: enterizolovingnegro2,
+    image3: enterizolovingnegro3,
+    image4: enterizolovingnegro4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 132,
+    name: "ENTERIZO MAGNUS - TONO VERDE OLIVA",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: vestidosienacafe1,
-    image2: vestidosienacafe2,
-    image3: vestidosienacafe3,
-    image4: vestidosienacafe4,
-    new_price: 100000,
+    image: enterizomagnusverde1,
+    image2: enterizomagnusverde2,
+    image3: enterizomagnusverde3,
+    image4: enterizomagnusverde4,
+    new_price: 110000,
     old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 133,
+    name: "ENTERIZO BLAZE - TONO VERDE NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoblazenegro1,
+    image2: enterizoblazenegro2,
+    image3: enterizoblazenegro3,
+    image4: enterizoblazenegro4,
+    new_price: 90000,
+    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
