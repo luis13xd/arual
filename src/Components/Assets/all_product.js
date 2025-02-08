@@ -34,10 +34,10 @@ import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
 import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
 import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
 // 108
-import enterizodeocafe1 from "./enterizos/enterizodeocafe1.jpeg";
-import enterizodeocafe2 from "./enterizos/enterizodeocafe2.jpeg";
-import enterizodeocafe3 from "./enterizos/enterizodeocafe3.jpeg";
-import enterizodeocafe4 from "./enterizos/enterizodeocafe4.jpeg";
+// import enterizodeocafe1 from "./enterizos/enterizodeocafe1.jpeg";
+// import enterizodeocafe2 from "./enterizos/enterizodeocafe2.jpeg";
+// import enterizodeocafe3 from "./enterizos/enterizodeocafe3.jpeg";
+// import enterizodeocafe4 from "./enterizos/enterizodeocafe4.jpeg";
 // 109
 import enterizolovingnegro1 from "./enterizos/enterizolovingnegro1.jpeg";
 import enterizolovingnegro2 from "./enterizos/enterizolovingnegro2.jpeg";
@@ -113,6 +113,46 @@ import enterizocococafe1 from "./enterizos/enterizocococafe1.jpeg";
 import enterizocococafe2 from "./enterizos/enterizocococafe2.jpeg";
 import enterizocococafe3 from "./enterizos/enterizocococafe3.jpeg";
 import enterizocococafe4 from "./enterizos/enterizocococafe4.jpeg";
+// 124
+import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
+import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
+import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
+import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
+// 125
+import enterizotokionegro1 from "./enterizos/enterizotokionegro1.jpeg";
+import enterizotokionegro2 from "./enterizos/enterizotokionegro2.jpeg";
+import enterizotokionegro3 from "./enterizos/enterizotokionegro3.jpeg";
+import enterizotokionegro4 from "./enterizos/enterizotokionegro4.jpeg";
+// 126
+import enterizoprimecafe1 from "./enterizos/enterizoprimecafe1.jpeg";
+import enterizoprimecafe2 from "./enterizos/enterizoprimecafe2.jpeg";
+import enterizoprimecafe3 from "./enterizos/enterizoprimecafe3.jpeg";
+import enterizoprimecafe4 from "./enterizos/enterizoprimecafe4.jpeg";
+// 127
+import enterizoflexnegro1 from "./enterizos/enterizoflexnegro1.jpeg";
+import enterizoflexnegro2 from "./enterizos/enterizoflexnegro2.jpeg";
+import enterizoflexnegro3 from "./enterizos/enterizoflexnegro3.jpeg";
+import enterizoflexnegro4 from "./enterizos/enterizoflexnegro4.jpeg";
+// 128
+import enterizoprimebeige1 from "./enterizos/enterizoprimebeige1.jpeg";
+import enterizoprimebeige2 from "./enterizos/enterizoprimebeige2.jpeg";
+import enterizoprimebeige3 from "./enterizos/enterizoprimebeige3.jpeg";
+import enterizoprimebeige4 from "./enterizos/enterizoprimebeige4.jpeg";
+// 129
+import enterizoblazegris1 from "./enterizos/enterizoblazegris1.jpeg";
+import enterizoblazegris2 from "./enterizos/enterizoblazegris2.jpeg";
+import enterizoblazegris3 from "./enterizos/enterizoblazegris3.jpeg";
+import enterizoblazegris4 from "./enterizos/enterizoblazegris4.jpeg";
+// 130
+import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
+import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
+import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
+import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
+// 131
+import vestidosienacafe1 from "./enterizos/vestidosienacafe1.jpeg";
+import vestidosienacafe2 from "./enterizos/vestidosienacafe2.jpeg";
+import vestidosienacafe3 from "./enterizos/vestidosienacafe3.jpeg";
+import vestidosienacafe4 from "./enterizos/vestidosienacafe4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 // 202
@@ -152,21 +192,16 @@ import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg";
 import bodybambienegro3 from "./body/bodybambienegro3.jpeg";
 import bodybambienegro4 from "./body/bodybambienegro4.jpeg";
-// 305
-import topsemily1 from "./body/topsemily1.jpeg";
-import topsemily2 from "./body/topsemily2.jpeg";
-import topsemily3 from "./body/topsemily3.jpeg";
-import topsemily4 from "./body/topsemily4.jpeg";
 // 306
 import topsamalia1 from "./body/topsamalia1.jpeg";
 import topsamalia2 from "./body/topsamalia2.jpeg";
 import topsamalia3 from "./body/topsamalia3.jpeg";
 import topsamalia4 from "./body/topsamalia4.jpeg";
 // 307
-import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
-import chaquetamilano2 from "./body/chaquetamilano2.jpeg";
-import chaquetamilano3 from "./body/chaquetamilano3.jpeg";
-import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
+// import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
+// import chaquetamilano2 from "./body/chaquetamilano2.jpeg";
+// import chaquetamilano3 from "./body/chaquetamilano3.jpeg";
+// import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
 
 
 // ---------------------------- Categoria 4 SETS -----------------------------
@@ -374,26 +409,26 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 108,
-    name: "ENTERIZO CLEO - TONO CAFÉ",
-    category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: enterizodeocafe1,
-    image2: enterizodeocafe2,
-    image3: enterizodeocafe3,
-    image4: enterizodeocafe4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 108,
+  //   name: "ENTERIZO CLEO - TONO CAFÉ",
+  //   category: "enterizos",
+  //   description:
+  //     "Tela completamente acanalada, su efecto push up te hará lucir increible",
+  //   image: enterizodeocafe1,
+  //   image2: enterizodeocafe2,
+  //   image3: enterizodeocafe3,
+  //   image4: enterizodeocafe4,
+  //   new_price: 110000,
+  //   old_price: 120000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: false,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 109,
     name: "ENTERIZO LOVING - TONO NEGRO",
@@ -680,6 +715,158 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 124,
+    name: "ENTERIZO FLEX - TONO AZUL",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexazul1,
+    image2: enterizoflexazul2,
+    image3: enterizoflexazul3,
+    image4: enterizoflexazul4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 125,
+    name: "ENTERIZO TOKIO - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizotokionegro1,
+    image2: enterizotokionegro2,
+    image3: enterizotokionegro3,
+    image4: enterizotokionegro4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: false,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 126,
+    name: "ENTERIZO PRIME - TONO CAFÉ",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoprimecafe1,
+    image2: enterizoprimecafe2,
+    image3: enterizoprimecafe3,
+    image4: enterizoprimecafe4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 127,
+    name: "ENTERIZO FLEX - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexnegro1,
+    image2: enterizoflexnegro2,
+    image3: enterizoflexnegro3,
+    image4: enterizoflexnegro4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 128,
+    name: "ENTERIZO PRIME - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoprimebeige1,
+    image2: enterizoprimebeige2,
+    image3: enterizoprimebeige3,
+    image4: enterizoprimebeige4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 129,
+    name: "ENTERIZO BLAZE - TONO GRIS",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoblazegris1,
+    image2: enterizoblazegris2,
+    image3: enterizoblazegris3,
+    image4: enterizoblazegris4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 130,
+    name: "ENTERIZO LOVING - TONO AZUL",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolovingazul1,
+    image2: enterizolovingazul2,
+    image3: enterizolovingazul3,
+    image4: enterizolovingazul4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 131,
+    name: "VESTIDO SIENA - TONO CAFÉ",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: vestidosienacafe1,
+    image2: vestidosienacafe2,
+    image3: vestidosienacafe3,
+    image4: vestidosienacafe4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {
@@ -818,25 +1005,6 @@ let all_product = [
     },
   },
   {
-    id: 305,
-    name: "TOPS EMILY - TONO BLANCO-NEGRO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topsemily1,
-    image2: topsemily2,
-    image3: topsemily3,
-    image4: topsemily4,
-    new_price: 40000,
-    old_price: 50000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 306,
     name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
     category: "bodysytops",
@@ -855,25 +1023,25 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 307,
-    name: "CHAQUETA MILANO",
-    category: "bodysytops",
-    description: "Material suave y de alta calidad",
-    image: chaquetamilano1,
-    image2: chaquetamilano2,
-    image3: chaquetamilano3,
-    image4: chaquetamilano4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 307,
+  //   name: "CHAQUETA MILANO",
+  //   category: "bodysytops",
+  //   description: "Material suave y de alta calidad",
+  //   image: chaquetamilano1,
+  //   image2: chaquetamilano2,
+  //   image3: chaquetamilano3,
+  //   image4: chaquetamilano4,
+  //   new_price: 75000,
+  //   old_price: 90000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
 
 
   // ---------------------------- Categoria 4 SETS -----------------------------
