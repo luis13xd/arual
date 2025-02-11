@@ -8,8 +8,6 @@ export const Breadcrum = (props) => {
 
   return (
     <div className='breadcrum'>
-      Inicio
-      <img src={arrow_icon} alt="img"/>
       Tienda
       <img src={arrow_icon} alt="img" />
       {product.category}

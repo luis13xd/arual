@@ -180,12 +180,26 @@ import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg"
 import shorttiedyenaranjaamarillo2 from "./lyf/shorttiedyenaranjaamarillo2.jpeg";
 import shorttiedyenaranjaamarillo3 from "./lyf/shorttiedyenaranjaamarillo3.jpeg";
 import shorttiedyenaranjaamarillo4 from "./lyf/shorttiedyenaranjaamarillo4.jpeg";
-
 // 206
 import shorttiedyeverde1 from "./lyf/shorttiedyeverde1.jpeg";
 import shorttiedyeverde2 from "./lyf/shorttiedyeverde2.jpeg";
 import shorttiedyeverde3 from "./lyf/shorttiedyeverde3.jpeg";
 import shorttiedyeverde4 from "./lyf/shorttiedyeverde4.jpeg";
+// 207  la img esta en body
+import pantalonetasummernegro1 from "./body/pantalonetasummernegro1.jpeg";
+import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
+import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
+import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
+// 208
+import shortmilosazul1 from "./lyf/shortmilosazul1.jpeg";
+import shortmilosazul2 from "./lyf/shortmilosazul2.jpeg";
+import shortmilosazul3 from "./lyf/shortmilosazul3.jpeg";
+import shortmilosazul4 from "./lyf/shortmilosazul4.jpeg";
+// 209
+import shortmilosrosado1 from "./lyf/shortmilosrosado1.jpeg";
+import shortmilosrosado2 from "./lyf/shortmilosrosado2.jpeg";
+import shortmilosrosado3 from "./lyf/shortmilosrosado3.jpeg";
+import shortmilosrosado4 from "./lyf/shortmilosrosado4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 301
@@ -203,21 +217,36 @@ import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg";
 import bodybambienegro3 from "./body/bodybambienegro3.jpeg";
 import bodybambienegro4 from "./body/bodybambienegro4.jpeg";
+// 304
+import bodyindigoazul1 from "./body/bodyindigoazul1.jpeg";
+import bodyindigoazul2 from "./body/bodyindigoazul2.jpeg";
+import bodyindigoazul3 from "./body/bodyindigoazul3.jpeg";
+import bodyindigoazul4 from "./body/bodyindigoazul4.jpeg";
 // 306
 import topsamalia1 from "./body/topsamalia1.jpeg";
 import topsamalia2 from "./body/topsamalia2.jpeg";
 import topsamalia3 from "./body/topsamalia3.jpeg";
 import topsamalia4 from "./body/topsamalia4.jpeg";
 // 307
+import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
+import topzaharaazulmorado2 from "./body/topzaharaazulmorado2.jpeg";
+import topzaharaazulmorado3 from "./body/topzaharaazulmorado3.jpeg";
+import topzaharaazulmorado4 from "./body/topzaharaazulmorado4.jpeg";
+// 308
+import topsilverazul1 from "./body/topsilverazul1.jpeg";
+import topsilverazul2 from "./body/topsilverazul2.jpeg";
+import topsilverazul3 from "./body/topsilverazul3.jpeg";
+import topsilverazul4 from "./body/topsilverazul4.jpeg";
+//310
+import chaquetamilanoblanco1 from "./body/chaquetamilanoblanco1.jpeg";
+import chaquetamilanoblanco2 from "./body/chaquetamilanoblanco2.jpeg";
+import chaquetamilanoblanco3 from "./body/chaquetamilanoblanco3.jpeg";
+import chaquetamilanoblanco4 from "./body/chaquetamilanoblanco4.jpeg";
+// 309
 // import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
 // import chaquetamilano2 from "./body/chaquetamilano2.jpeg";
 // import chaquetamilano3 from "./body/chaquetamilano3.jpeg";
 // import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
-// 308
-import pantalonetasummernegro1 from "./body/pantalonetasummernegro1.jpeg";
-import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
-import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
-import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
@@ -270,6 +299,21 @@ import setfloriamnegro1 from "./sets/setfloriamnegro1.jpeg";
 import setfloriamnegro2 from "./sets/setfloriamnegro2.jpeg";
 import setfloriamnegro3 from "./sets/setfloriamnegro3.jpeg";
 import setfloriamnegro4 from "./sets/setfloriamnegro4.jpeg";
+// 411
+import setlaranegro1 from "./sets/setlaranegro1.jpeg";
+import setlaranegro2 from "./sets/setlaranegro2.jpeg";
+import setlaranegro3 from "./sets/setlaranegro3.jpeg";
+import setlaranegro4 from "./sets/setlaranegro4.jpeg";
+// 412
+import setvivabeige1 from "./sets/setvivabeige1.jpeg";
+import setvivabeige2 from "./sets/setvivabeige2.jpeg";
+import setvivabeige3 from "./sets/setvivabeige3.jpeg";
+import setvivabeige4 from "./sets/setvivabeige4.jpeg";
+// 413
+import setlemonverde1 from "./sets/setlemonverde1.jpeg";
+import setlemonverde2 from "./sets/setlemonverde2.jpeg";
+import setlemonverde3 from "./sets/setlemonverde3.jpeg";
+import setlemonverde4 from "./sets/setlemonverde4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -287,7 +331,6 @@ import straps1 from "./accesorios/straps1.jpeg";
 import straps2 from "./accesorios/straps2.jpeg";
 import straps3 from "./accesorios/straps3.jpeg";
 import straps4 from "./accesorios/straps4.jpeg";
-
 
 let all_product = [
   {
@@ -885,7 +928,6 @@ let all_product = [
     },
   },
 
-
   {
     id: 129,
     name: "ENTERIZO BLAZE - TONO GRIS",
@@ -904,7 +946,7 @@ let all_product = [
       L: false,
       XL: false,
     },
-  },  
+  },
   {
     id: 133,
     name: "ENTERIZO BLAZE - TONO NEGRO",
@@ -1003,6 +1045,44 @@ let all_product = [
     },
   },
   {
+    id: 208,
+    name: "SHORT MILOS - TONO AZUL",
+    category: "legginsyfaldas",
+    description: "Efecto push up ",
+    image: shortmilosazul1,
+    image2: shortmilosazul2,
+    image3: shortmilosazul3,
+    image4: shortmilosazul4,
+    new_price: 40000,
+    old_price: 60000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 209,
+    name: "SHORT MILOS - TONO ROSADO",
+    category: "legginsyfaldas",
+    description: "Efecto push up ",
+    image: shortmilosrosado1,
+    image2: shortmilosrosado2,
+    image3: shortmilosrosado3,
+    image4: shortmilosrosado4,
+    new_price: 40000,
+    old_price: 60000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 207,
     name: "PANTALONETA SUMMER - TONO NEGRO",
     category: "legginsyfaldas",
@@ -1062,20 +1142,20 @@ let all_product = [
     },
   },
   {
-    id: 306,
-    name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
+    id: 304,
+    name: "BODY INDIGO - TONO AZUL",
     category: "bodysytops",
     description: "Tela completamente acanalada",
-    image: topsamalia1,
-    image2: topsamalia2,
-    image3: topsamalia3,
-    image4: topsamalia4,
-    new_price: 30000,
-    old_price: 40000,
+    image: bodyindigoazul3,
+    image2: bodyindigoazul2,
+    image3: bodyindigoazul1,
+    image4: bodyindigoazul4,
+    new_price: 75000,
+    old_price: 90000,
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     },
@@ -1099,8 +1179,85 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 306,
+    name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topsamalia1,
+    image2: topsamalia2,
+    image3: topsamalia3,
+    image4: topsamalia4,
+    new_price: 30000,
+    old_price: 40000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 307,
+    name: "TOPS ZAHARA - TONO AZUL-MORADO",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topzaharaazulmorado1,
+    image2: topzaharaazulmorado2,
+    image3: topzaharaazulmorado3,
+    image4: topzaharaazulmorado4,
+    new_price: 25000,
+    old_price: 40000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 308,
+    name: "TOPS SILBER - TONO AZUL",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topsilverazul1,
+    image2: topsilverazul2,
+    image3: topsilverazul3,
+    image4: topsilverazul4,
+    new_price: 50000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 310,
+    name: "CHAQUETA MILANO",
+    category: "bodysytops",
+    description: "Material suave y de alta calidad",
+    image: chaquetamilanoblanco1,
+    image2: chaquetamilanoblanco2,
+    image3: chaquetamilanoblanco3,
+    image4: chaquetamilanoblanco4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: false,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+
   // {
-  //   id: 307,
+  //   id: 309,
   //   name: "CHAQUETA MILANO",
   //   category: "bodysytops",
   //   description: "Material suave y de alta calidad",
@@ -1118,8 +1275,6 @@ let all_product = [
   //     XL: false,
   //   },
   // },
-  
-
 
   // ---------------------------- Categoria 4 SETS -----------------------------
   {
@@ -1142,7 +1297,7 @@ let all_product = [
       XL: false,
     },
   },
-  
+
   {
     id: 405,
     name: "SET BAMBINA - TONO BEIGE",
@@ -1183,7 +1338,26 @@ let all_product = [
       XL: false,
     },
   },
-  
+  {
+    id: 410,
+    name: "SET FLORIAM - TONO NEGRO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setfloriamnegro1,
+    image2: setfloriamnegro2,
+    image3: setfloriamnegro3,
+    image4: setfloriamnegro4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 408,
     name: "SET PINK - TONO ROSADO",
@@ -1200,6 +1374,26 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 411,
+    name: "SET LARA - TONO NEGRO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setlaranegro1,
+    image2: setlaranegro2,
+    image3: setlaranegro3,
+    image4: setlaranegro4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     },
@@ -1244,26 +1438,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 410,
-    name: "SET FLORIAM - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setfloriamnegro1,
-    image2: setfloriamnegro2,
-    image3: setfloriamnegro3,
-    image4: setfloriamnegro4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+
   {
     id: 403,
     name: "SET POWER - TONO NEGRO",
@@ -1320,6 +1495,46 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 412,
+    name: "SET VIVA - TONO BEIGE",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setvivabeige1,
+    image2: setvivabeige2,
+    image3: setvivabeige3,
+    image4: setvivabeige4,
+    new_price: 80000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 413,
+    name: "SET LEMON - TONO VERDE",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setlemonverde1,
+    image2: setlemonverde2,
+    image3: setlemonverde3,
+    image4: setlemonverde4,
+    new_price: 100000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     },
@@ -1383,7 +1598,6 @@ let all_product = [
       XL: false,
     },
   },
-  
 ];
 
 export default all_product;
