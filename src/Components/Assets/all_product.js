@@ -78,11 +78,7 @@ import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg";
 import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg";
 import enterizovibesmandarina3 from "./enterizos/enterizovibesmandarina3.jpeg";
 import enterizovibesmandarina4 from "./enterizos/enterizovibesmandarina4.jpeg";
-// 117
-import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg";
-import enterizoalmagris2 from "./enterizos/enterizoalmagris2.jpeg";
-import enterizoalmagris3 from "./enterizos/enterizoalmagris3.jpeg";
-import enterizoalmagris4 from "./enterizos/enterizoalmagris4.jpeg";
+
 // 118
 import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg";
 import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg";
@@ -93,11 +89,7 @@ import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
 import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
 import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
-// 120
-import enterizoselenenegro1 from "./enterizos/enterizoselenenegro1.jpeg";
-import enterizoselenenegro2 from "./enterizos/enterizoselenenegro2.jpeg";
-import enterizoselenenegro3 from "./enterizos/enterizoselenenegro3.jpeg";
-import enterizoselenenegro4 from "./enterizos/enterizoselenenegro4.jpeg";
+
 // 121
 import enterizomagiagris1 from "./enterizos/enterizomagiagris1.jpeg";
 import enterizomagiagris2 from "./enterizos/enterizomagiagris2.jpeg";
@@ -118,11 +110,7 @@ import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
-// 125
-import enterizotokionegro1 from "./enterizos/enterizotokionegro1.jpeg";
-import enterizotokionegro2 from "./enterizos/enterizotokionegro2.jpeg";
-import enterizotokionegro3 from "./enterizos/enterizotokionegro3.jpeg";
-import enterizotokionegro4 from "./enterizos/enterizotokionegro4.jpeg";
+
 // 126
 import enterizoprimecafe1 from "./enterizos/enterizoprimecafe1.jpeg";
 import enterizoprimecafe2 from "./enterizos/enterizoprimecafe2.jpeg";
@@ -148,11 +136,7 @@ import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
 import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
 import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
-// 131
-import vestidosienacafe1 from "./enterizos/vestidosienacafe1.jpeg";
-import vestidosienacafe2 from "./enterizos/vestidosienacafe2.jpeg";
-import vestidosienacafe3 from "./enterizos/vestidosienacafe3.jpeg";
-import vestidosienacafe4 from "./enterizos/vestidosienacafe4.jpeg";
+
 // 132
 import enterizomagnusverde1 from "./enterizos/enterizomagnusverde1.jpeg";
 import enterizomagnusverde2 from "./enterizos/enterizomagnusverde2.jpeg";
@@ -352,25 +336,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 117,
-    name: "ENTERIZO ALMA - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoalmagris1,
-    image2: enterizoalmagris2,
-    image3: enterizoalmagris3,
-    image4: enterizoalmagris4,
-    new_price: 90000,
-    old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  
   {
     id: 102,
     name: "ENTERIZO ALMA - TONO NEGRO",
@@ -390,25 +356,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 112,
-    name: "ENTERIZO LONDON - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolondon1,
-    image2: enterizolondon2,
-    image3: enterizolondon3,
-    image4: enterizolondon4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+
   {
     id: 132,
     name: "ENTERIZO MAGNUS - TONO VERDE OLIVA",
@@ -443,6 +391,25 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 112,
+    name: "ENTERIZO LONDON - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolondon1,
+    image2: enterizolondon2,
+    image3: enterizolondon3,
+    image4: enterizolondon4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -505,25 +472,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 125,
-    name: "ENTERIZO TOKIO - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizotokionegro1,
-    image2: enterizotokionegro2,
-    image3: enterizotokionegro3,
-    image4: enterizotokionegro4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: false,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  
   {
     id: 127,
     name: "ENTERIZO FLEX - TONO NEGRO",
@@ -562,25 +511,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 120,
-    name: "ENTERIZO SELENE - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoselenenegro1,
-    image2: enterizoselenenegro2,
-    image3: enterizoselenenegro3,
-    image4: enterizoselenenegro4,
-    new_price: 80000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: false,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  
   {
     id: 121,
     name: "ENTERIZO SIRENA - TONO ROSADO",
@@ -592,6 +523,25 @@ let all_product = [
     image4: enterizosirenarosado4,
     new_price: 90000,
     old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 134,
+    name: "ENTERIZO ELA - TONO GRIS",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoelagris3,
+    image2: enterizoelagris2,
+    image3: enterizoelagris1,
+    image4: enterizoelagris4,
+    new_price: 90000,
+    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
@@ -658,6 +608,25 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 133,
+    name: "ENTERIZO BLAZE - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoblazenegro1,
+    image2: enterizoblazenegro2,
+    image3: enterizoblazenegro3,
+    image4: enterizoblazenegro4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
   // {
   //   id: 108,
   //   name: "ENTERIZO CLEO - TONO CAFÉ",
@@ -678,25 +647,7 @@ let all_product = [
   //     XL: false,
   //   },
   // },
-  {
-    id: 131,
-    name: "VESTIDO SIENA - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: vestidosienacafe1,
-    image2: vestidosienacafe2,
-    image3: vestidosienacafe3,
-    image4: vestidosienacafe4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  
   {
     id: 103,
     name: "ENTERIZO AURA - TONO BLANCO",
@@ -947,44 +898,8 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 133,
-    name: "ENTERIZO BLAZE - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoblazenegro1,
-    image2: enterizoblazenegro2,
-    image3: enterizoblazenegro3,
-    image4: enterizoblazenegro4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 134,
-    name: "ENTERIZO ELA - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoelagris3,
-    image2: enterizoelagris2,
-    image3: enterizoelagris1,
-    image4: enterizoelagris4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  
+  
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {

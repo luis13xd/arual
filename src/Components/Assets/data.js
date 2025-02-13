@@ -1,5 +1,5 @@
 
-import enterizoalmagris1 from "./enterizos/enterizoalmagris1.jpeg";
+import enterizoalmagris1 from "./enterizos/enterizoalmanegro1.jpeg";
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg"
 import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg"
 import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
@@ -30,8 +30,8 @@ let data_product = [
     old_price: 130000,
   },
   {
-    id: 117,
-    name: "ENTERIZO ALMA - TONO GRIS",
+    id: 102,
+    name: "ENTERIZO ALMA - TONO NEGRO",
     category: "enterizos",
     image: enterizoalmagris1,
     new_price: 120000,
