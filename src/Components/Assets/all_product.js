@@ -68,22 +68,11 @@ import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
 import enterizoactiveblanco3 from "./enterizos/enterizoactiveblanco3.jpeg";
 import enterizoactiveblanco4 from "./enterizos/enterizoactiveblanco4.jpeg";
-// 115
-import enterizovibesrosado1 from "./enterizos/enterizovibesrosado1.jpeg";
-import enterizovibesrosado2 from "./enterizos/enterizovibesrosado2.jpeg";
-import enterizovibesrosado3 from "./enterizos/enterizovibesrosado3.jpeg";
-import enterizovibesrosado4 from "./enterizos/enterizovibesrosado4.jpeg";
 // 116
 import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg";
 import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg";
 import enterizovibesmandarina3 from "./enterizos/enterizovibesmandarina3.jpeg";
 import enterizovibesmandarina4 from "./enterizos/enterizovibesmandarina4.jpeg";
-
-// 118
-import enterizoromanegro1 from "./enterizos/enterizoromanegro1.jpeg";
-import enterizoromanegro2 from "./enterizos/enterizoromanegro2.jpeg";
-import enterizoromanegro3 from "./enterizos/enterizoromanegro3.jpeg";
-import enterizoromanegro4 from "./enterizos/enterizoromanegro4.jpeg";
 // 119
 import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
@@ -121,11 +110,6 @@ import enterizoflexnegro1 from "./enterizos/enterizoflexnegro1.jpeg";
 import enterizoflexnegro2 from "./enterizos/enterizoflexnegro2.jpeg";
 import enterizoflexnegro3 from "./enterizos/enterizoflexnegro3.jpeg";
 import enterizoflexnegro4 from "./enterizos/enterizoflexnegro4.jpeg";
-// 128
-import enterizoprimebeige1 from "./enterizos/enterizoprimebeige1.jpeg";
-import enterizoprimebeige2 from "./enterizos/enterizoprimebeige2.jpeg";
-import enterizoprimebeige3 from "./enterizos/enterizoprimebeige3.jpeg";
-import enterizoprimebeige4 from "./enterizos/enterizoprimebeige4.jpeg";
 // 129
 import enterizoblazegris1 from "./enterizos/enterizoblazegris1.jpeg";
 import enterizoblazegris2 from "./enterizos/enterizoblazegris2.jpeg";
@@ -136,17 +120,11 @@ import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
 import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
 import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
-
 // 132
 import enterizomagnusverde1 from "./enterizos/enterizomagnusverde1.jpeg";
 import enterizomagnusverde2 from "./enterizos/enterizomagnusverde2.jpeg";
 import enterizomagnusverde3 from "./enterizos/enterizomagnusverde3.jpeg";
 import enterizomagnusverde4 from "./enterizos/enterizomagnusverde4.jpeg";
-// 133
-import enterizoblazenegro1 from "./enterizos/enterizoblazenegro1.jpeg";
-import enterizoblazenegro2 from "./enterizos/enterizoblazenegro2.jpeg";
-import enterizoblazenegro3 from "./enterizos/enterizoblazenegro3.jpeg";
-import enterizoblazenegro4 from "./enterizos/enterizoblazenegro4.jpeg";
 // 134
 import enterizoelagris1 from "./enterizos/enterizoelagris1.jpeg";
 import enterizoelagris2 from "./enterizos/enterizoelagris2.jpeg";
@@ -396,25 +374,6 @@ let all_product = [
     },
   },
   {
-    id: 112,
-    name: "ENTERIZO LONDON - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolondon1,
-    image2: enterizolondon2,
-    image3: enterizolondon3,
-    image4: enterizolondon4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 130,
     name: "ENTERIZO LOVING - TONO AZUL",
     category: "enterizos",
@@ -472,7 +431,25 @@ let all_product = [
       XL: false,
     },
   },
-  
+  {
+    id: 112,
+    name: "ENTERIZO LONDON - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolondon1,
+    image2: enterizolondon2,
+    image3: enterizolondon3,
+    image4: enterizolondon4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 127,
     name: "ENTERIZO FLEX - TONO NEGRO",
@@ -609,14 +586,14 @@ let all_product = [
     },
   },
   {
-    id: 133,
-    name: "ENTERIZO BLAZE - TONO NEGRO",
+    id: 129,
+    name: "ENTERIZO BLAZE - TONO GRIS",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoblazenegro1,
-    image2: enterizoblazenegro2,
-    image3: enterizoblazenegro3,
-    image4: enterizoblazenegro4,
+    image: enterizoblazegris1,
+    image2: enterizoblazegris2,
+    image3: enterizoblazegris3,
+    image4: enterizoblazegris4,
     new_price: 90000,
     old_price: 100000,
     sizes: {
@@ -647,7 +624,6 @@ let all_product = [
   //     XL: false,
   //   },
   // },
-  
   {
     id: 103,
     name: "ENTERIZO AURA - TONO BLANCO",
@@ -763,25 +739,6 @@ let all_product = [
     },
   },
   {
-    id: 115,
-    name: "ENTERIZO VIBES - TONO ROSADO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizovibesrosado1,
-    image2: enterizovibesrosado2,
-    image3: enterizovibesrosado3,
-    image4: enterizovibesrosado4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 116,
     name: "ENTERIZO VIBES - TONO MANDARINA",
     category: "enterizos",
@@ -800,27 +757,6 @@ let all_product = [
       XL: false,
     },
   },
-
-  {
-    id: 118,
-    name: "ENTERIZO ROMA - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoromanegro1,
-    image2: enterizoromanegro2,
-    image3: enterizoromanegro3,
-    image4: enterizoromanegro4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-
   {
     id: 122,
     name: "ENTERIZO MAGIA - TONO GRIS",
@@ -830,25 +766,6 @@ let all_product = [
     image2: enterizomagiagris2,
     image3: enterizomagiagris3,
     image4: enterizomagiagris4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 128,
-    name: "ENTERIZO PRIME - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoprimebeige1,
-    image2: enterizoprimebeige2,
-    image3: enterizoprimebeige3,
-    image4: enterizoprimebeige4,
     new_price: 120000,
     old_price: 130000,
     sizes: {
@@ -878,28 +795,6 @@ let all_product = [
       XL: false,
     },
   },
-
-  {
-    id: 129,
-    name: "ENTERIZO BLAZE - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoblazegris1,
-    image2: enterizoblazegris2,
-    image3: enterizoblazegris3,
-    image4: enterizoblazegris4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  
-  
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {
