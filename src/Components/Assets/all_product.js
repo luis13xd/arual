@@ -89,17 +89,11 @@ import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg";
 import enterizosirenarosado3 from "./enterizos/enterizosirenarosado3.jpeg";
 import enterizosirenarosado4 from "./enterizos/enterizosirenarosado4.jpeg";
-// 123
-import enterizocococafe1 from "./enterizos/enterizocococafe1.jpeg";
-import enterizocococafe2 from "./enterizos/enterizocococafe2.jpeg";
-import enterizocococafe3 from "./enterizos/enterizocococafe3.jpeg";
-import enterizocococafe4 from "./enterizos/enterizocococafe4.jpeg";
 // 124
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
-
 // 126
 import enterizoprimecafe1 from "./enterizos/enterizoprimecafe1.jpeg";
 import enterizoprimecafe2 from "./enterizos/enterizoprimecafe2.jpeg";
@@ -528,25 +522,6 @@ let all_product = [
     },
   },
   {
-    id: 123,
-    name: "ENTERIZO COCO - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizocococafe1,
-    image2: enterizocococafe2,
-    image3: enterizocococafe3,
-    image4: enterizocococafe4,
-    new_price: 90000,
-    old_price: 105000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 106,
     name: "ENTERIZO COCO - TONO GRIS",
     category: "enterizos",
@@ -585,25 +560,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 129,
-    name: "ENTERIZO BLAZE - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoblazegris1,
-    image2: enterizoblazegris2,
-    image3: enterizoblazegris3,
-    image4: enterizoblazegris4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  
   // {
   //   id: 108,
   //   name: "ENTERIZO CLEO - TONO CAFÉ",
@@ -791,6 +748,25 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 129,
+    name: "ENTERIZO BLAZE - TONO GRIS",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoblazegris1,
+    image2: enterizoblazegris2,
+    image3: enterizoblazegris3,
+    image4: enterizoblazegris4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     },
