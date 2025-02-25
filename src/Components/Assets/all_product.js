@@ -78,7 +78,6 @@ import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
 import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
 import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
-
 // 121
 import enterizomagiagris1 from "./enterizos/enterizomagiagris1.jpeg";
 import enterizomagiagris2 from "./enterizos/enterizomagiagris2.jpeg";
@@ -94,11 +93,6 @@ import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
-// 126
-import enterizoprimecafe1 from "./enterizos/enterizoprimecafe1.jpeg";
-import enterizoprimecafe2 from "./enterizos/enterizoprimecafe2.jpeg";
-import enterizoprimecafe3 from "./enterizos/enterizoprimecafe3.jpeg";
-import enterizoprimecafe4 from "./enterizos/enterizoprimecafe4.jpeg";
 // 127
 import enterizoflexnegro1 from "./enterizos/enterizoflexnegro1.jpeg";
 import enterizoflexnegro2 from "./enterizos/enterizoflexnegro2.jpeg";
@@ -723,25 +717,6 @@ let all_product = [
     image2: enterizomagiagris2,
     image3: enterizomagiagris3,
     image4: enterizomagiagris4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 126,
-    name: "ENTERIZO PRIME - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoprimecafe1,
-    image2: enterizoprimecafe2,
-    image3: enterizoprimecafe3,
-    image4: enterizoprimecafe4,
     new_price: 120000,
     old_price: 130000,
     sizes: {
