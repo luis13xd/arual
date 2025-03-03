@@ -219,11 +219,6 @@ import setbabyverdeoliva1 from "./sets/setbabyverdeoliva1.jpeg";
 import setbabyverdeoliva2 from "./sets/setbabyverdeoliva2.jpeg";
 import setbabyverdeoliva3 from "./sets/setbabyverdeoliva3.jpeg";
 import setbabyverdeoliva4 from "./sets/setbabyverdeoliva4.jpeg";
-// 405
-import setbambinabeige1 from "./sets/setbambinabeige1.jpeg";
-import setbambinabeige2 from "./sets/setbambinabeige2.jpeg";
-import setbambinabeige3 from "./sets/setbambinabeige3.jpeg";
-import setbambinabeige4 from "./sets/setbambinabeige4.jpeg";
 // 406
 import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
@@ -1058,27 +1053,6 @@ let all_product = [
       XL: false,
     },
   },
-
-  {
-    id: 405,
-    name: "SET BAMBINA - TONO BEIGE",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setbambinabeige1,
-    image2: setbambinabeige2,
-    image3: setbambinabeige3,
-    image4: setbambinabeige4,
-    new_price: 50000,
-    old_price: 70000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 406,
     name: "SET MAR - TONO AZUL",
@@ -1139,26 +1113,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 411,
-    name: "SET LARA - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setlaranegro1,
-    image2: setlaranegro2,
-    image3: setlaranegro3,
-    image4: setlaranegro4,
-    new_price: 90000,
-    old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  
   {
     id: 402,
     name: "SET BABY - TONO AZUL",
@@ -1199,7 +1154,26 @@ let all_product = [
       XL: false,
     },
   },
-
+  {
+    id: 411,
+    name: "SET LARA - TONO NEGRO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setlaranegro1,
+    image2: setlaranegro2,
+    image3: setlaranegro3,
+    image4: setlaranegro4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 403,
     name: "SET POWER - TONO NEGRO",
