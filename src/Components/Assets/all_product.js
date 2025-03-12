@@ -108,11 +108,6 @@ import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
 import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
 import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
-// 132
-import enterizomagnusverde1 from "./enterizos/enterizomagnusverde1.jpeg";
-import enterizomagnusverde2 from "./enterizos/enterizomagnusverde2.jpeg";
-import enterizomagnusverde3 from "./enterizos/enterizomagnusverde3.jpeg";
-import enterizomagnusverde4 from "./enterizos/enterizomagnusverde4.jpeg";
 // 134
 import enterizoelagris1 from "./enterizos/enterizoelagris1.jpeg";
 import enterizoelagris2 from "./enterizos/enterizoelagris2.jpeg";
@@ -224,11 +219,6 @@ import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
 import setmarazul3 from "./sets/setmarazul3.jpeg";
 import setmarazul4 from "./sets/setmarazul4.jpeg";
-// 407
-import setjadenegro1 from "./sets/setjadenegro1.jpeg";
-import setjadenegro2 from "./sets/setjadenegro2.jpeg";
-import setjadenegro3 from "./sets/setjadenegro3.jpeg";
-import setjadenegro4 from "./sets/setjadenegro4.jpeg";
 // 408
 import setpink1 from "./sets/setpink1.jpeg";
 import setpink2 from "./sets/setpink2.jpeg";
@@ -244,11 +234,6 @@ import setfloriamnegro1 from "./sets/setfloriamnegro1.jpeg";
 import setfloriamnegro2 from "./sets/setfloriamnegro2.jpeg";
 import setfloriamnegro3 from "./sets/setfloriamnegro3.jpeg";
 import setfloriamnegro4 from "./sets/setfloriamnegro4.jpeg";
-// 411
-import setlaranegro1 from "./sets/setlaranegro1.jpeg";
-import setlaranegro2 from "./sets/setlaranegro2.jpeg";
-import setlaranegro3 from "./sets/setlaranegro3.jpeg";
-import setlaranegro4 from "./sets/setlaranegro4.jpeg";
 // 412
 import setvivabeige1 from "./sets/setvivabeige1.jpeg";
 import setvivabeige2 from "./sets/setvivabeige2.jpeg";
@@ -297,7 +282,7 @@ let all_product = [
       XL: false,
     },
   },
-  
+
   {
     id: 102,
     name: "ENTERIZO ALMA - TONO NEGRO",
@@ -313,45 +298,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-
-  {
-    id: 132,
-    name: "ENTERIZO MAGNUS - TONO VERDE OLIVA",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizomagnusverde1,
-    image2: enterizomagnusverde2,
-    image3: enterizomagnusverde3,
-    image4: enterizomagnusverde4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 111,
-    name: "ENTERIZO MAGNUS - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizomagnus1,
-    image2: enterizomagnus2,
-    image3: enterizomagnus3,
-    image4: enterizomagnus4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -471,7 +417,25 @@ let all_product = [
       XL: false,
     },
   },
-  
+  {
+    id: 111,
+    name: "ENTERIZO MAGNUS - TONO CAFÉ",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizomagnus1,
+    image2: enterizomagnus2,
+    image3: enterizomagnus3,
+    image4: enterizomagnus4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 121,
     name: "ENTERIZO SIRENA - TONO ROSADO",
@@ -549,7 +513,7 @@ let all_product = [
       XL: false,
     },
   },
-  
+
   // {
   //   id: 108,
   //   name: "ENTERIZO CLEO - TONO CAFÉ",
@@ -1113,7 +1077,7 @@ let all_product = [
       XL: false,
     },
   },
-  
+
   {
     id: 402,
     name: "SET BABY - TONO AZUL",
@@ -1155,26 +1119,6 @@ let all_product = [
     },
   },
   {
-    id: 411,
-    name: "SET LARA - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setlaranegro1,
-    image2: setlaranegro2,
-    image3: setlaranegro3,
-    image4: setlaranegro4,
-    new_price: 90000,
-    old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 403,
     name: "SET POWER - TONO NEGRO",
     category: "sets",
@@ -1210,26 +1154,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 407,
-    name: "SET JADE - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setjadenegro1,
-    image2: setjadenegro2,
-    image3: setjadenegro3,
-    image4: setjadenegro4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
