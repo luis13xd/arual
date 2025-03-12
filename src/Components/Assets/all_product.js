@@ -204,11 +204,6 @@ import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
 import setbabyblue3 from "./sets/setbabyblue3.jpeg";
 import setbabyblue4 from "./sets/setbabyblue4.jpeg";
-// 403
-import setpowernegro1 from "./sets/setpowernegro1.jpeg";
-import setpowernegro2 from "./sets/setpowernegro2.jpeg";
-import setpowernegro3 from "./sets/setpowernegro3.jpeg";
-import setpowernegro4 from "./sets/setpowernegro4.jpeg";
 // 404
 import setbabyverdeoliva1 from "./sets/setbabyverdeoliva1.jpeg";
 import setbabyverdeoliva2 from "./sets/setbabyverdeoliva2.jpeg";
@@ -1108,26 +1103,6 @@ let all_product = [
     image2: setbabyverdeoliva2,
     image3: setbabyverdeoliva3,
     image4: setbabyverdeoliva4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 403,
-    name: "SET POWER - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setpowernegro1,
-    image2: setpowernegro2,
-    image3: setpowernegro3,
-    image4: setpowernegro4,
     new_price: 120000,
     old_price: 130000,
     sizes: {

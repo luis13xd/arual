@@ -1,6 +1,6 @@
 import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg"
 import setbabyblue1 from "./sets/setbabyblue1.jpeg"
-import setpowernegro1 from "./sets/setpowernegro1.jpeg"
+import setmarazul1 from "./sets/setmarazul1.jpeg"
 import setpink1 from "./sets/setpink1.jpeg"
 
 let new_data = [
@@ -27,12 +27,13 @@ let new_data = [
     old_price: 130000,
   },
   {
-    id: 403,
-    name: "SET POWER - TONO NEGRO",
-    image: setpowernegro1,
-    new_price: 120000,
-    old_price: 130000,
+    id: 406,
+    name: "SET MAR - TONO AZUL",
+    image: setmarazul1,
+    new_price: 90000,
+    old_price: 100000,
   },
+
   
 ];
 
