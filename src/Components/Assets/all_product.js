@@ -18,11 +18,6 @@ import enterizoauranegro1 from "./enterizos/enterizoauranegro1.jpeg";
 import enterizoauranegro2 from "./enterizos/enterizoauranegro2.jpeg";
 import enterizoauranegro3 from "./enterizos/enterizoauranegro3.jpeg";
 import enterizoauranegro4 from "./enterizos/enterizoauranegro4.jpeg";
-// 105
-import enterizoesenciaazul1 from "./enterizos/enterizoesenciaazul1.jpeg";
-import enterizoesenciaazul2 from "./enterizos/enterizoesenciaazul2.jpeg";
-import enterizoesenciaazul3 from "./enterizos/enterizoesenciaazul3.jpeg";
-import enterizoesenciaazul4 from "./enterizos/enterizoesenciaazul4.jpeg";
 // 106
 import setcocogris1 from "./enterizos/setcocogris1.jpeg";
 import setcocogris2 from "./enterizos/setcocogris2.jpeg";
@@ -93,11 +88,6 @@ import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
-// 127
-import enterizoflexnegro1 from "./enterizos/enterizoflexnegro1.jpeg";
-import enterizoflexnegro2 from "./enterizos/enterizoflexnegro2.jpeg";
-import enterizoflexnegro3 from "./enterizos/enterizoflexnegro3.jpeg";
-import enterizoflexnegro4 from "./enterizos/enterizoflexnegro4.jpeg";
 // 129
 import enterizoblazegris1 from "./enterizos/enterizoblazegris1.jpeg";
 import enterizoblazegris2 from "./enterizos/enterizoblazegris2.jpeg";
@@ -194,11 +184,6 @@ import chaquetamilanoblanco4 from "./body/chaquetamilanoblanco4.jpeg";
 // import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
-// 401
-import setblue1 from "./sets/setblue1.jpeg";
-import setblue2 from "./sets/setblue2.jpeg";
-import setblue3 from "./sets/setblue3.jpeg";
-import setblue4 from "./sets/setblue4.jpeg";
 // 402
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
@@ -375,25 +360,6 @@ let all_product = [
     },
   },
   {
-    id: 127,
-    name: "ENTERIZO FLEX - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexnegro1,
-    image2: enterizoflexnegro2,
-    image3: enterizoflexnegro3,
-    image4: enterizoflexnegro4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 124,
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
@@ -559,25 +525,6 @@ let all_product = [
     image4: enterizoauranegro4,
     new_price: 100000,
     old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 105,
-    name: "ENTERIZO ESENCIA - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoesenciaazul1,
-    image2: enterizoesenciaazul2,
-    image3: enterizoesenciaazul3,
-    image4: enterizoesenciaazul4,
-    new_price: 120000,
-    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -992,26 +939,6 @@ let all_product = [
   // },
 
   // ---------------------------- Categoria 4 SETS -----------------------------
-  {
-    id: 401,
-    name: "SET BLUE - TONO AZUL",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setblue4,
-    image2: setblue2,
-    image3: setblue3,
-    image4: setblue1,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 406,
     name: "SET MAR - TONO AZUL",
