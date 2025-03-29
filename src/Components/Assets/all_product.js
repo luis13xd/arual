@@ -18,6 +18,11 @@ import enterizoauranegro1 from "./enterizos/enterizoauranegro1.jpeg";
 import enterizoauranegro2 from "./enterizos/enterizoauranegro2.jpeg";
 import enterizoauranegro3 from "./enterizos/enterizoauranegro3.jpeg";
 import enterizoauranegro4 from "./enterizos/enterizoauranegro4.jpeg";
+// 105
+import enterizoevarojo1 from "./enterizos/enterizoevarojo1.jpeg";
+import enterizoevarojo2 from "./enterizos/enterizoevarojo2.jpeg";
+import enterizoevarojo3 from "./enterizos/enterizoevarojo3.jpeg";
+import enterizoevarojo4 from "./enterizos/enterizoevarojo4.jpeg";
 // 106
 import setcocogris1 from "./enterizos/setcocogris1.jpeg";
 import setcocogris2 from "./enterizos/setcocogris2.jpeg";
@@ -68,6 +73,11 @@ import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg";
 import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg";
 import enterizovibesmandarina3 from "./enterizos/enterizovibesmandarina3.jpeg";
 import enterizovibesmandarina4 from "./enterizos/enterizovibesmandarina4.jpeg";
+// 117
+import enterizotokiobeige1 from "./enterizos/enterizotokiobeige1.jpeg";
+import enterizotokiobeige2 from "./enterizos/enterizotokiobeige2.jpeg";
+import enterizotokiobeige3 from "./enterizos/enterizotokiobeige3.jpeg";
+import enterizotokiobeige4 from "./enterizos/enterizotokiobeige4.jpeg";
 // 119
 import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
@@ -83,11 +93,6 @@ import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg";
 import enterizosirenarosado3 from "./enterizos/enterizosirenarosado3.jpeg";
 import enterizosirenarosado4 from "./enterizos/enterizosirenarosado4.jpeg";
-// 124
-import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
-import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpeg";
-import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpeg";
-import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpeg";
 // 129
 import enterizoblazegris1 from "./enterizos/enterizoblazegris1.jpeg";
 import enterizoblazegris2 from "./enterizos/enterizoblazegris2.jpeg";
@@ -341,6 +346,25 @@ let all_product = [
     },
   },
   {
+    id: 105,
+    name: "ENTERIZO EVA - TONO ROJO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoevarojo1,
+    image2: enterizoevarojo2,
+    image3: enterizoevarojo3,
+    image4: enterizoevarojo4,
+    new_price: 90000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 112,
     name: "ENTERIZO LONDON - TONO BEIGE",
     category: "enterizos",
@@ -355,25 +379,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 124,
-    name: "ENTERIZO FLEX - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexazul1,
-    image2: enterizoflexazul2,
-    image3: enterizoflexazul3,
-    image4: enterizoflexazul4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -425,6 +430,25 @@ let all_product = [
     image2: enterizoelagris2,
     image3: enterizoelagris1,
     image4: enterizoelagris4,
+    new_price: 90000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 117,
+    name: "ENTERIZO TOKI0 - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizotokiobeige2,
+    image2: enterizotokiobeige1,
+    image3: enterizotokiobeige3,
+    image4: enterizotokiobeige4,
     new_price: 90000,
     old_price: 100000,
     sizes: {
