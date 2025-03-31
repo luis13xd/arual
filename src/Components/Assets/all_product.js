@@ -34,10 +34,10 @@ import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
 import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
 import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
 // 108
-// import enterizodeocafe1 from "./enterizos/enterizodeocafe1.jpeg";
-// import enterizodeocafe2 from "./enterizos/enterizodeocafe2.jpeg";
-// import enterizodeocafe3 from "./enterizos/enterizodeocafe3.jpeg";
-// import enterizodeocafe4 from "./enterizos/enterizodeocafe4.jpeg";
+import vestidoauruxnegro1 from "./enterizos/vestidoauruxnegro1.jpeg";
+import vestidoauruxnegro2 from "./enterizos/vestidoauruxnegro2.jpeg";
+import vestidoauruxnegro3 from "./enterizos/vestidoauruxnegro3.jpeg";
+import vestidoauruxnegro4 from "./enterizos/vestidoauruxnegro4.jpeg";
 // 109
 import enterizolovingnegro1 from "./enterizos/enterizolovingnegro1.jpeg";
 import enterizolovingnegro2 from "./enterizos/enterizolovingnegro2.jpeg";
@@ -498,27 +498,25 @@ let all_product = [
       XL: false,
     },
   },
-
-  // {
-  //   id: 108,
-  //   name: "ENTERIZO CLEO - TONO CAFÉ",
-  //   category: "enterizos",
-  //   description:
-  //     "Tela completamente acanalada, su efecto push up te hará lucir increible",
-  //   image: enterizodeocafe1,
-  //   image2: enterizodeocafe2,
-  //   image3: enterizodeocafe3,
-  //   image4: enterizodeocafe4,
-  //   new_price: 110000,
-  //   old_price: 120000,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: false,
-  //     L: false,
-  //     XL: false,
-  //   },
-  // },
+  {
+    id: 108,
+    name: "VESTIDO AURUX - TONO NEGRO",
+    category: "enterizos",
+    description: "Material suave y de alta calidad",
+    image: vestidoauruxnegro1,
+    image2: vestidoauruxnegro2,
+    image3: vestidoauruxnegro3,
+    image4: vestidoauruxnegro4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 103,
     name: "ENTERIZO AURA - TONO BLANCO",
