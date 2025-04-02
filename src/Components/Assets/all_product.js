@@ -68,6 +68,11 @@ import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
 import enterizoactiveblanco3 from "./enterizos/enterizoactiveblanco3.jpeg";
 import enterizoactiveblanco4 from "./enterizos/enterizoactiveblanco4.jpeg";
+// 115
+import enterizoflowerrosado1 from "./enterizos/enterizoflowerrosado1.jpeg";
+import enterizoflowerrosado2 from "./enterizos/enterizoflowerrosado2.jpeg";
+import enterizoflowerrosado3 from "./enterizos/enterizoflowerrosado3.jpeg";
+import enterizoflowerrosado4 from "./enterizos/enterizoflowerrosado4.jpeg";
 // 116
 import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg";
 import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg";
@@ -83,6 +88,11 @@ import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
 import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
 import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
+// 120
+import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
+import enterizomagnusrojo2 from "./enterizos/enterizomagnusrojo2.jpeg";
+import enterizomagnusrojo3 from "./enterizos/enterizomagnusrojo3.jpeg";
+import enterizomagnusrojo4 from "./enterizos/enterizomagnusrojo4.jpeg";
 // 121
 import enterizomagiagris1 from "./enterizos/enterizomagiagris1.jpeg";
 import enterizomagiagris2 from "./enterizos/enterizomagiagris2.jpeg";
@@ -365,25 +375,6 @@ let all_product = [
     },
   },
   {
-    id: 112,
-    name: "ENTERIZO LONDON - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolondon1,
-    image2: enterizolondon2,
-    image3: enterizolondon3,
-    image4: enterizolondon4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 111,
     name: "ENTERIZO MAGNUS - TONO CAFÉ",
     category: "enterizos",
@@ -398,6 +389,44 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 120,
+    name: "ENTERIZO MAGNUS - TONO ROJO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizomagnusrojo1,
+    image2: enterizomagnusrojo2,
+    image3: enterizomagnusrojo3,
+    image4: enterizomagnusrojo4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 112,
+    name: "ENTERIZO LONDON - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizolondon1,
+    image2: enterizolondon2,
+    image3: enterizolondon3,
+    image4: enterizolondon4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -646,6 +675,25 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 115,
+    name: "ENTERIZO FLOWER - TONO ROSADO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflowerrosado1,
+    image2: enterizoflowerrosado2,
+    image3: enterizoflowerrosado3,
+    image4: enterizoflowerrosado4,
+    new_price: 110000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     },
