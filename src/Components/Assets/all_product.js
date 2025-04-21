@@ -83,6 +83,11 @@ import enterizotokiobeige1 from "./enterizos/enterizotokiobeige1.jpeg";
 import enterizotokiobeige2 from "./enterizos/enterizotokiobeige2.jpeg";
 import enterizotokiobeige3 from "./enterizos/enterizotokiobeige3.jpeg";
 import enterizotokiobeige4 from "./enterizos/enterizotokiobeige4.jpeg";
+// 118
+import enterizocoralnegro1 from "./enterizos/enterizocoralnegro1.jpeg";
+import enterizocoralnegro2 from "./enterizos/enterizocoralnegro2.jpeg";
+import enterizocoralnegro3 from "./enterizos/enterizocoralnegro3.jpeg";
+import enterizocoralnegro4 from "./enterizos/enterizocoralnegro4.jpeg";
 // 119
 import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
@@ -504,6 +509,26 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 118,
+    name: "ENTERIZO CORAL - TONO NEGRO",
+    category: "enterizos",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: enterizocoralnegro1,
+    image2: enterizocoralnegro2,
+    image3: enterizocoralnegro3,
+    image4: enterizocoralnegro4,
+    new_price: 100000,
+    old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
       L: false,
       XL: false,
     },
