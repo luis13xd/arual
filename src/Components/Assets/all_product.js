@@ -33,11 +33,6 @@ import vestidosienabeige1 from "./enterizos/vestidosienabeige1.jpeg";
 import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
 import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
 import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
-// 108
-import vestidoauruxnegro1 from "./enterizos/vestidoauruxnegro1.jpeg";
-import vestidoauruxnegro2 from "./enterizos/vestidoauruxnegro2.jpeg";
-import vestidoauruxnegro3 from "./enterizos/vestidoauruxnegro3.jpeg";
-import vestidoauruxnegro4 from "./enterizos/vestidoauruxnegro4.jpeg";
 // 109
 import enterizolovingnegro1 from "./enterizos/enterizolovingnegro1.jpeg";
 import enterizolovingnegro2 from "./enterizos/enterizolovingnegro2.jpeg";
@@ -108,11 +103,6 @@ import enterizosirenarosado1 from "./enterizos/enterizosirenarosado1.jpeg";
 import enterizosirenarosado2 from "./enterizos/enterizosirenarosado2.jpeg";
 import enterizosirenarosado3 from "./enterizos/enterizosirenarosado3.jpeg";
 import enterizosirenarosado4 from "./enterizos/enterizosirenarosado4.jpeg";
-// 129
-import enterizoblazegris1 from "./enterizos/enterizoblazegris1.jpeg";
-import enterizoblazegris2 from "./enterizos/enterizoblazegris2.jpeg";
-import enterizoblazegris3 from "./enterizos/enterizoblazegris3.jpeg";
-import enterizoblazegris4 from "./enterizos/enterizoblazegris4.jpeg";
 // 130
 import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
@@ -125,11 +115,6 @@ import enterizoelagris3 from "./enterizos/enterizoelagris3.jpeg";
 import enterizoelagris4 from "./enterizos/enterizoelagris4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
-// 202
-import shorttiedyeazulrosado1 from "./lyf/shorttiedyeazulrosado1.jpeg";
-import shorttiedyeazulrosado2 from "./lyf/shorttiedyeazulrosado2.jpeg";
-import shorttiedyeazulrosado3 from "./lyf/shorttiedyeazulrosado3.jpeg";
-import shorttiedyeazulrosado4 from "./lyf/shorttiedyeazulrosado4.jpeg";
 // 203
 import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg";
 import shorttiedyenaranjaamarillo2 from "./lyf/shorttiedyenaranjaamarillo2.jpeg";
@@ -553,20 +538,20 @@ let all_product = [
     },
   },
   {
-    id: 108,
-    name: "VESTIDO AURUX - TONO NEGRO",
+    id: 113,
+    name: "ENTERIZO ESENCIA - TONO AZUL",
     category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxnegro1,
-    image2: vestidoauruxnegro2,
-    image3: vestidoauruxnegro3,
-    image4: vestidoauruxnegro4,
-    new_price: 110000,
-    old_price: 120000,
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoesenciaazulrey1,
+    image2: enterizoesenciaazulrey2,
+    image3: enterizoesenciaazulrey3,
+    image4: enterizoesenciaazulrey4,
+    new_price: 120000,
+    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
-      M: false,
+      M: true,
       L: false,
       XL: false,
     },
@@ -601,25 +586,6 @@ let all_product = [
     image4: enterizoauranegro4,
     new_price: 100000,
     old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 113,
-    name: "ENTERIZO ESENCIA - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoesenciaazulrey1,
-    image2: enterizoesenciaazulrey2,
-    image3: enterizoesenciaazulrey3,
-    image4: enterizoesenciaazulrey4,
-    new_price: 120000,
-    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -723,46 +689,8 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 129,
-    name: "ENTERIZO BLAZE - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoblazegris1,
-    image2: enterizoblazegris2,
-    image3: enterizoblazegris3,
-    image4: enterizoblazegris4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  {
-    id: 202,
-    name: "SHORT TIE DYE - TONO AZUL-ROSADO",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shorttiedyeazulrosado1,
-    image2: shorttiedyeazulrosado2,
-    image3: shorttiedyeazulrosado3,
-    image4: shorttiedyeazulrosado4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 203,
     name: "SHORT TIE DYE - TONO NARANJA-AMARILLO",

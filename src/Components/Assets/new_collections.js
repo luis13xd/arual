@@ -1,5 +1,4 @@
 import shorttiedyeverde1 from "./lyf/shorttiedyeverde1.jpeg";
-import shorttiedyeazulrosado1 from "./lyf/shorttiedyeazulrosado1.jpeg";
 import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg";
 import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg";
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
@@ -13,23 +12,9 @@ let new_collections = [
     old_price: 60000,
   },
   {
-    id: 202,
-    name: "SHORT TIE DYE - TONO AZUL-ROSADO",
-    image: shorttiedyeazulrosado1,
-    new_price: 40000,
-    old_price: 60000,
-  },
-  {
     id: 203,
     name: "SHORT TIE DYE - TONO NARANJA-AMARILLO",
     image: shorttiedyenaranjaamarillo1,
-    new_price: 40000,
-    old_price: 60000,
-  },
-  {
-    id: 206,
-    name: "SHORT TIE DYE - TONO VERDE",
-    image: shorttiedyeverde1,
     new_price: 40000,
     old_price: 60000,
   },
