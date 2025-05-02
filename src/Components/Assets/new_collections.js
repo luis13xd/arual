@@ -1,23 +1,9 @@
-import shorttiedyeverde1 from "./lyf/shorttiedyeverde1.jpeg";
-import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg";
 import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg";
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
+import topsamalia1 from "./body/topsamalia1.jpeg";
+import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
 
 let new_collections = [
-  {
-    id: 206,
-    name: "SHORT TIE DYE - TONO VERDE",
-    image: shorttiedyeverde1,
-    new_price: 40000,
-    old_price: 60000,
-  },
-  {
-    id: 203,
-    name: "SHORT TIE DYE - TONO NARANJA-AMARILLO",
-    image: shorttiedyenaranjaamarillo1,
-    new_price: 40000,
-    old_price: 60000,
-  },
   {
     id: 301,
     name: "BODY BAMBIE - TONO AMARILLO",
@@ -31,6 +17,20 @@ let new_collections = [
     image: bodybambienegro1,
     new_price: 75000,
     old_price: 90000,
+  },
+  {
+    id: 306,
+    name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
+    image: topsamalia1,
+    new_price: 30000,
+    old_price: 40000,
+  },
+  {
+    id: 307,
+    name: "TOPS ZAHARA - TONO AZUL-MORADO",
+    image: topzaharaazulmorado1,
+    new_price: 25000,
+    old_price: 40000,
   },
 
 ];

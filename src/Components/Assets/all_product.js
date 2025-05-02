@@ -43,21 +43,6 @@ import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg";
 import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg";
 import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg";
-// 111
-import enterizomagnus1 from "./enterizos/enterizomagnus1.jpeg";
-import enterizomagnus2 from "./enterizos/enterizomagnus2.jpeg";
-import enterizomagnus3 from "./enterizos/enterizomagnus3.jpeg";
-import enterizomagnus4 from "./enterizos/enterizomagnus4.jpeg";
-// 112
-import enterizolondon1 from "./enterizos/enterizolondon1.jpeg";
-import enterizolondon2 from "./enterizos/enterizolondon2.jpeg";
-import enterizolondon3 from "./enterizos/enterizolondon3.jpeg";
-import enterizolondon4 from "./enterizos/enterizolondon4.jpeg";
-// 113
-import enterizoesenciaazulrey1 from "./enterizos/enterizoesenciaazulrey1.jpeg";
-import enterizoesenciaazulrey2 from "./enterizos/enterizoesenciaazulrey2.jpeg";
-import enterizoesenciaazulrey3 from "./enterizos/enterizoesenciaazulrey3.jpeg";
-import enterizoesenciaazulrey4 from "./enterizos/enterizoesenciaazulrey4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -108,38 +93,14 @@ import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
 import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
 import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
-// 134
-import enterizoelagris1 from "./enterizos/enterizoelagris1.jpeg";
-import enterizoelagris2 from "./enterizos/enterizoelagris2.jpeg";
-import enterizoelagris3 from "./enterizos/enterizoelagris3.jpeg";
-import enterizoelagris4 from "./enterizos/enterizoelagris4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
-// 203
-import shorttiedyenaranjaamarillo1 from "./lyf/shorttiedyenaranjaamarillo1.jpeg";
-import shorttiedyenaranjaamarillo2 from "./lyf/shorttiedyenaranjaamarillo2.jpeg";
-import shorttiedyenaranjaamarillo3 from "./lyf/shorttiedyenaranjaamarillo3.jpeg";
-import shorttiedyenaranjaamarillo4 from "./lyf/shorttiedyenaranjaamarillo4.jpeg";
-// 206
-import shorttiedyeverde1 from "./lyf/shorttiedyeverde1.jpeg";
-import shorttiedyeverde2 from "./lyf/shorttiedyeverde2.jpeg";
-import shorttiedyeverde3 from "./lyf/shorttiedyeverde3.jpeg";
-import shorttiedyeverde4 from "./lyf/shorttiedyeverde4.jpeg";
+
 // 207  la img esta en body
 import pantalonetasummernegro1 from "./body/pantalonetasummernegro1.jpeg";
 import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
 import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
 import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
-// 208
-import shortmilosazul1 from "./lyf/shortmilosazul1.jpeg";
-import shortmilosazul2 from "./lyf/shortmilosazul2.jpeg";
-import shortmilosazul3 from "./lyf/shortmilosazul3.jpeg";
-import shortmilosazul4 from "./lyf/shortmilosazul4.jpeg";
-// 209
-import shortmilosrosado1 from "./lyf/shortmilosrosado1.jpeg";
-import shortmilosrosado2 from "./lyf/shortmilosrosado2.jpeg";
-import shortmilosrosado3 from "./lyf/shortmilosrosado3.jpeg";
-import shortmilosrosado4 from "./lyf/shortmilosrosado4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 301
@@ -189,6 +150,11 @@ import chaquetamilanoblanco4 from "./body/chaquetamilanoblanco4.jpeg";
 // import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
+// 401
+import setcocoacafe1 from "./sets/setcocoacafe1.jpeg";
+import setcocoacafe2 from "./sets/setcocoacafe2.jpeg";
+import setcocoacafe3 from "./sets/setcocoacafe3.jpeg";
+import setcocoacafe4 from "./sets/setcocoacafe4.jpeg";
 // 402
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
@@ -219,11 +185,6 @@ import setfloriamnegro1 from "./sets/setfloriamnegro1.jpeg";
 import setfloriamnegro2 from "./sets/setfloriamnegro2.jpeg";
 import setfloriamnegro3 from "./sets/setfloriamnegro3.jpeg";
 import setfloriamnegro4 from "./sets/setfloriamnegro4.jpeg";
-// 412
-import setvivabeige1 from "./sets/setvivabeige1.jpeg";
-import setvivabeige2 from "./sets/setvivabeige2.jpeg";
-import setvivabeige3 from "./sets/setvivabeige3.jpeg";
-import setvivabeige4 from "./sets/setvivabeige4.jpeg";
 // 413
 import setlemonverde1 from "./sets/setlemonverde1.jpeg";
 import setlemonverde2 from "./sets/setlemonverde2.jpeg";
@@ -365,25 +326,6 @@ let all_product = [
     },
   },
   {
-    id: 111,
-    name: "ENTERIZO MAGNUS - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizomagnus1,
-    image2: enterizomagnus2,
-    image3: enterizomagnus3,
-    image4: enterizomagnus4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 120,
     name: "ENTERIZO MAGNUS - TONO ROJO",
     category: "enterizos",
@@ -403,25 +345,6 @@ let all_product = [
     },
   },
   {
-    id: 112,
-    name: "ENTERIZO LONDON - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolondon1,
-    image2: enterizolondon2,
-    image3: enterizolondon3,
-    image4: enterizolondon4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 121,
     name: "ENTERIZO SIRENA - TONO ROSADO",
     category: "enterizos",
@@ -432,25 +355,6 @@ let all_product = [
     image4: enterizosirenarosado4,
     new_price: 90000,
     old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 134,
-    name: "ENTERIZO ELA - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoelagris3,
-    image2: enterizoelagris2,
-    image3: enterizoelagris1,
-    image4: enterizoelagris4,
-    new_price: 90000,
-    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
@@ -482,8 +386,7 @@ let all_product = [
     id: 106,
     name: "ENTERIZO COCO - TONO GRIS",
     category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
     image: setcocogris2,
     image2: setcocogris1,
     image3: setcocogris3,
@@ -502,8 +405,7 @@ let all_product = [
     id: 118,
     name: "ENTERIZO CORAL - TONO NEGRO",
     category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
     image: enterizocoralnegro1,
     image2: enterizocoralnegro2,
     image3: enterizocoralnegro3,
@@ -533,25 +435,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 113,
-    name: "ENTERIZO ESENCIA - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoesenciaazulrey1,
-    image2: enterizoesenciaazulrey2,
-    image3: enterizoesenciaazulrey3,
-    image4: enterizoesenciaazulrey4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
@@ -691,82 +574,6 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  {
-    id: 203,
-    name: "SHORT TIE DYE - TONO NARANJA-AMARILLO",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shorttiedyenaranjaamarillo1,
-    image2: shorttiedyenaranjaamarillo2,
-    image3: shorttiedyenaranjaamarillo3,
-    image4: shorttiedyenaranjaamarillo4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 206,
-    name: "SHORT TIE DYE - TONO VERDE",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shorttiedyeverde1,
-    image2: shorttiedyeverde2,
-    image3: shorttiedyeverde3,
-    image4: shorttiedyeverde4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 208,
-    name: "SHORT MILOS - TONO AZUL",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shortmilosazul1,
-    image2: shortmilosazul2,
-    image3: shortmilosazul3,
-    image4: shortmilosazul4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 209,
-    name: "SHORT MILOS - TONO ROSADO",
-    category: "legginsyfaldas",
-    description: "Efecto push up ",
-    image: shortmilosrosado1,
-    image2: shortmilosrosado2,
-    image3: shortmilosrosado3,
-    image4: shortmilosrosado4,
-    new_price: 40000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 207,
     name: "PANTALONETA SUMMER - TONO NEGRO",
@@ -963,6 +770,26 @@ let all_product = [
 
   // ---------------------------- Categoria 4 SETS -----------------------------
   {
+    id: 401,
+    name: "SET COCOA - TONO CAFÉ",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setcocoacafe1,
+    image2: setcocoacafe2,
+    image3: setcocoacafe3,
+    image4: setcocoacafe4,
+    new_price: 110000,
+    old_price: 120000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 406,
     name: "SET MAR - TONO AZUL",
     category: "sets",
@@ -1075,26 +902,6 @@ let all_product = [
     image4: setnebulanegro4,
     new_price: 110000,
     old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 412,
-    name: "SET VIVA - TONO BEIGE",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setvivabeige1,
-    image2: setvivabeige2,
-    image3: setvivabeige3,
-    image4: setvivabeige4,
-    new_price: 80000,
-    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
