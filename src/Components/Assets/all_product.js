@@ -63,11 +63,6 @@ import enterizotokiobeige1 from "./enterizos/enterizotokiobeige1.jpeg";
 import enterizotokiobeige2 from "./enterizos/enterizotokiobeige2.jpeg";
 import enterizotokiobeige3 from "./enterizos/enterizotokiobeige3.jpeg";
 import enterizotokiobeige4 from "./enterizos/enterizotokiobeige4.jpeg";
-// 118
-import enterizocoralnegro1 from "./enterizos/enterizocoralnegro1.jpeg";
-import enterizocoralnegro2 from "./enterizos/enterizocoralnegro2.jpeg";
-import enterizocoralnegro3 from "./enterizos/enterizocoralnegro3.jpeg";
-import enterizocoralnegro4 from "./enterizos/enterizocoralnegro4.jpeg";
 // 119
 import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
 import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
@@ -138,16 +133,6 @@ import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
 import topsilverazul3 from "./body/topsilverazul3.jpeg";
 import topsilverazul4 from "./body/topsilverazul4.jpeg";
-//310
-import chaquetamilanoblanco1 from "./body/chaquetamilanoblanco1.jpeg";
-import chaquetamilanoblanco2 from "./body/chaquetamilanoblanco2.jpeg";
-import chaquetamilanoblanco3 from "./body/chaquetamilanoblanco3.jpeg";
-import chaquetamilanoblanco4 from "./body/chaquetamilanoblanco4.jpeg";
-// 309
-// import chaquetamilano1 from "./body/chaquetamilano1.jpeg";
-// import chaquetamilano2 from "./body/chaquetamilano2.jpeg";
-// import chaquetamilano3 from "./body/chaquetamilano3.jpeg";
-// import chaquetamilano4 from "./body/chaquetamilano4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
@@ -160,11 +145,6 @@ import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
 import setbabyblue3 from "./sets/setbabyblue3.jpeg";
 import setbabyblue4 from "./sets/setbabyblue4.jpeg";
-// 404
-import setbabyverdeoliva1 from "./sets/setbabyverdeoliva1.jpeg";
-import setbabyverdeoliva2 from "./sets/setbabyverdeoliva2.jpeg";
-import setbabyverdeoliva3 from "./sets/setbabyverdeoliva3.jpeg";
-import setbabyverdeoliva4 from "./sets/setbabyverdeoliva4.jpeg";
 // 406
 import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
@@ -397,25 +377,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 118,
-    name: "ENTERIZO CORAL - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: enterizocoralnegro1,
-    image2: enterizocoralnegro2,
-    image3: enterizocoralnegro3,
-    image4: enterizocoralnegro4,
-    new_price: 100000,
-    old_price: 110000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -728,45 +689,6 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 310,
-    name: "CHAQUETA MILANO",
-    category: "bodysytops",
-    description: "Material suave y de alta calidad",
-    image: chaquetamilanoblanco1,
-    image2: chaquetamilanoblanco2,
-    image3: chaquetamilanoblanco3,
-    image4: chaquetamilanoblanco4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: false,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-
-  // {
-  //   id: 309,
-  //   name: "CHAQUETA MILANO",
-  //   category: "bodysytops",
-  //   description: "Material suave y de alta calidad",
-  //   image: chaquetamilano1,
-  //   image2: chaquetamilano2,
-  //   image3: chaquetamilano3,
-  //   image4: chaquetamilano4,
-  //   new_price: 75000,
-  //   old_price: 90000,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: true,
-  //     L: false,
-  //     XL: false,
-  //   },
-  // },
 
   // ---------------------------- Categoria 4 SETS -----------------------------
   {
@@ -860,26 +782,6 @@ let all_product = [
     image2: setbabyblue2,
     image3: setbabyblue3,
     image4: setbabyblue4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 404,
-    name: "SET BABY - TONO VERDE OLIVA",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setbabyverdeoliva1,
-    image2: setbabyverdeoliva2,
-    image3: setbabyverdeoliva3,
-    image4: setbabyverdeoliva4,
     new_price: 120000,
     old_price: 130000,
     sizes: {

@@ -2,7 +2,7 @@
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setpink1 from "./sets/setpink1.jpeg";
-import enterizocoralnegro1 from "./enterizos/enterizocoralnegro1.jpeg";
+import vestidosienabeige1 from "./enterizos/vestidosienabeige1.jpeg";
 
 let new_data = [
   {
@@ -20,11 +20,11 @@ let new_data = [
     old_price: 130000,
   },
   {
-    id: 118,
-    name: "ENTERIZO CORAL - TONO NEGRO",
-    image: enterizocoralnegro1,
-    new_price: 100000,
-    old_price: 110000,
+    id: 107,
+    name: "VESTIDO SIENA - TONO BEIGE",
+    image: vestidosienabeige1,
+    new_price: 120000,
+    old_price: 130000,
   },
   {
     id: 406,
