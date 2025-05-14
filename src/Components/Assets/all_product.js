@@ -33,6 +33,11 @@ import vestidosienabeige1 from "./enterizos/vestidosienabeige1.jpeg";
 import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
 import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
 import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
+// 108
+import enterizocreambeige1 from "./enterizos/enterizocreambeige1.jpeg";
+import enterizocreambeige2 from "./enterizos/enterizocreambeige2.jpeg";
+import enterizocreambeige3 from "./enterizos/enterizocreambeige3.jpeg";
+import enterizocreambeige4 from "./enterizos/enterizocreambeige4.jpeg";
 // 109
 import enterizolovingnegro1 from "./enterizos/enterizolovingnegro1.jpeg";
 import enterizolovingnegro2 from "./enterizos/enterizolovingnegro2.jpeg";
@@ -43,6 +48,11 @@ import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg";
 import enterizorebelblanco3 from "./enterizos/enterizorebelblanco3.jpeg";
 import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg";
+// 111
+import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
+import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
+import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
+import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -145,6 +155,11 @@ import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
 import setbabyblue3 from "./sets/setbabyblue3.jpeg";
 import setbabyblue4 from "./sets/setbabyblue4.jpeg";
+// 403
+import chaquetamilanogris1 from "./sets/chaquetamilanogris1.jpeg";
+import chaquetamilanogris2 from "./sets/chaquetamilanogris2.jpeg";
+import chaquetamilanogris3 from "./sets/chaquetamilanogris3.jpeg";
+import chaquetamilanogris4 from "./sets/chaquetamilanogris4.jpeg";
 // 406
 import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
@@ -373,6 +388,44 @@ let all_product = [
     image4: setcocogris4,
     new_price: 90000,
     old_price: 110000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+   {
+    id: 108,
+    name: "ENTERIZO CREAM - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: enterizocreambeige1,
+    image2: enterizocreambeige2,
+    image3: enterizocreambeige3,
+    image4: enterizocreambeige4,
+    new_price: 120000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+     {
+    id: 111,
+    name: "ENTERIZO ORION - TONO NEGRO",
+    category: "enterizos",
+    description: "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: enterizoorionnegro1,
+    image2: enterizoorionnegro2,
+    image3: enterizoorionnegro3,
+    image4: enterizoorionnegro4,
+    new_price: 90000,
+    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
@@ -828,6 +881,26 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+    {
+    id: 403,
+    name: "CHAQUETA MILANO - TONO GRIS",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: chaquetamilanogris1,
+    image2: chaquetamilanogris2,
+    image3: chaquetamilanogris3,
+    image4: chaquetamilanogris4,
+    new_price: 75000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
