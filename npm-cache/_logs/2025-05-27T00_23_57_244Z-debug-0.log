@@ -1,0 +1,58 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\Luis Trujillo Lopez\AppData\Roaming\nvm\v22.11.0\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual\.npmrc
+5 silly config load:file:C:\Users\Luis Trujillo Lopez\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual\npm-cache\_logs\2025-05-27T00_23_57_244Z-
+10 verbose logfile C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual\npm-cache\_logs\2025-05-27T00_23_57_244Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 918ms
+13 verbose stack Error: kill EPERM
+13 verbose stack     at ChildProcess.kill (node:internal/child_process:511:26)
+13 verbose stack     at process.handleSignal (C:\Users\Luis Trujillo Lopez\AppData\Roaming\nvm\v22.11.0\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+13 verbose stack     at process.emit (node:events:518:28)
+14 verbose pkgid frontend@0.1.0
+15 error code EPERM
+16 error syscall kill
+17 error path C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual
+18 error errno -4048
+19 error Error: kill EPERM
+19 error     at ChildProcess.kill (node:internal/child_process:511:26)
+19 error     at process.handleSignal (C:\Users\Luis Trujillo Lopez\AppData\Roaming\nvm\v22.11.0\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+19 error     at process.emit (node:events:518:28) {
+19 error   errno: -4048,
+19 error   code: 'EPERM',
+19 error   syscall: 'kill',
+19 error   cmd: 'C:\\Windows\\system32\\cmd.exe',
+19 error   args: [ '/d', '/s', '/c', 'react-scripts start' ],
+19 error   stdout: null,
+19 error   stderr: null,
+19 error   event: 'start',
+19 error   script: 'react-scripts start',
+19 error   pkgid: 'frontend@0.1.0',
+19 error   path: 'C:\\Users\\Luis Trujillo Lopez\\Downloads\\frontend-arual'
+19 error }
+20 error
+20 error The operation was rejected by your operating system.
+20 error It's possible that the file was already in use (by a text editor or antivirus),
+20 error or that you lack permissions to access it.
+20 error
+20 error If you believe this might be a permissions issue, please double-check the
+20 error permissions of the file and its containing directories, or try running
+20 error the command again as root/Administrator.
+21 verbose cwd C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual
+22 verbose os Windows_NT 10.0.26100
+23 verbose node v22.11.0
+24 verbose npm  v10.9.0
+25 notice
+25 notice New [31mmajor[39m version of npm available! [31m10.9.0[39m -> [34m11.4.1[39m
+25 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.4.1[39m
+25 notice To update run: [4mnpm install -g npm@11.4.1[24m
+25 notice  { force: true, [Symbol(proc-log.meta)]: true }
+26 verbose exit -4048
+27 verbose code -4048
+28 error A complete log of this run can be found in: C:\Users\Luis Trujillo Lopez\Downloads\frontend-arual\npm-cache\_logs\2025-05-27T00_23_57_244Z-debug-0.log
