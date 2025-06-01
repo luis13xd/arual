@@ -76,7 +76,6 @@ const HomeContextProvider = (props) => {
                 totalItem += cartItems[item];
             }
         }
-        console.log("Total items in cart:", totalItem); // Para depuración
         return totalItem;
     };
     
