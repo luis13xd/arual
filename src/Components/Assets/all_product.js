@@ -103,16 +103,6 @@ import vestidoauruxnegro1 from "./enterizos/vestidoauruxnegro1.jpeg";
 import vestidoauruxnegro2 from "./enterizos/vestidoauruxnegro2.jpeg";
 import vestidoauruxnegro3 from "./enterizos/vestidoauruxnegro3.jpeg";
 import vestidoauruxnegro4 from "./enterizos/vestidoauruxnegro4.jpeg";
-// 125
-import vestidoauruxgris1 from "./enterizos/vestidoauruxgris1.jpeg";
-import vestidoauruxgris2 from "./enterizos/vestidoauruxgris2.jpeg";
-import vestidoauruxgris3 from "./enterizos/vestidoauruxgris3.jpeg";
-import vestidoauruxgris4 from "./enterizos/vestidoauruxgris4.jpeg";
-// 126
-import enterizoamorecafe1 from "./enterizos/enterizoamorecafe1.jpeg";
-import enterizoamorecafe2 from "./enterizos/enterizoamorecafe2.jpeg";
-import enterizoamorecafe3 from "./enterizos/enterizoamorecafe3.jpeg";
-import enterizoamorecafe4 from "./enterizos/enterizoamorecafe4.jpeg";
 // 130
 import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
@@ -196,16 +186,6 @@ import setnebulanegro1 from "./sets/setnebulanegro1.jpeg";
 import setnebulanegro2 from "./sets/setnebulanegro2.jpeg";
 import setnebulanegro3 from "./sets/setnebulanegro3.jpeg";
 import setnebulanegro4 from "./sets/setnebulanegro4.jpeg";
-// 410
-import setfloriamnegro1 from "./sets/setfloriamnegro1.jpeg";
-import setfloriamnegro2 from "./sets/setfloriamnegro2.jpeg";
-import setfloriamnegro3 from "./sets/setfloriamnegro3.jpeg";
-import setfloriamnegro4 from "./sets/setfloriamnegro4.jpeg";
-// 413
-import setlemonverde1 from "./sets/setlemonverde1.jpeg";
-import setlemonverde2 from "./sets/setlemonverde2.jpeg";
-import setlemonverde3 from "./sets/setlemonverde3.jpeg";
-import setlemonverde4 from "./sets/setlemonverde4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -475,25 +455,6 @@ let all_product = [
     },
   },
   {
-    id: 125,
-    name: "VESTIDO AURUX - TONO GRIS",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxgris1,
-    image2: vestidoauruxgris2,
-    image3: vestidoauruxgris3,
-    image4: vestidoauruxgris4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 124,
     name: "VESTIDO AURUX - TONO NEGRO",
     category: "enterizos",
@@ -641,25 +602,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 126,
-    name: "ENTERIZO AMORE - TONO CAFÉ",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoamorecafe1,
-    image2: enterizoamorecafe2,
-    image3: enterizoamorecafe3,
-    image4: enterizoamorecafe4,
-    new_price: 145000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -883,26 +825,6 @@ let all_product = [
     },
   },
   {
-    id: 410,
-    name: "SET FLORIAM - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setfloriamnegro1,
-    image2: setfloriamnegro2,
-    image3: setfloriamnegro3,
-    image4: setfloriamnegro4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 408,
     name: "SET PINK - TONO ROSADO",
     category: "sets",
@@ -954,26 +876,6 @@ let all_product = [
     image3: setnebulanegro3,
     image4: setnebulanegro4,
     new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 413,
-    name: "SET LEMON - TONO VERDE",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setlemonverde1,
-    image2: setlemonverde2,
-    image3: setlemonverde3,
-    image4: setlemonverde4,
-    new_price: 100000,
     old_price: 120000,
     sizes: {
       XS: false,
