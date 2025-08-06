@@ -83,11 +83,11 @@ import enterizoflexazulclaro1 from "./enterizos/enterizoflexazulclaro1.jpg";
 import enterizoflexazulclaro2 from "./enterizos/enterizoflexazulclaro2.jpg";
 import enterizoflexazulclaro3 from "./enterizos/enterizoflexazulclaro3.jpg";
 import enterizoflexazulclaro4 from "./enterizos/enterizoflexazulclaro4.jpg";
-// 119
-import enterizolovingbeige1 from "./enterizos/enterizolovingbeige1.jpeg";
-import enterizolovingbeige2 from "./enterizos/enterizolovingbeige2.jpeg";
-import enterizolovingbeige3 from "./enterizos/enterizolovingbeige3.jpeg";
-import enterizolovingbeige4 from "./enterizos/enterizolovingbeige4.jpeg";
+// 118
+import enterizoflexbeige1 from "./enterizos/enterizoflexbeige1.jpeg";
+import enterizoflexbeige2 from "./enterizos/enterizoflexbeige2.jpeg";
+import enterizoflexbeige3 from "./enterizos/enterizoflexbeige3.jpeg";
+import enterizoflexbeige4 from "./enterizos/enterizoflexbeige4.jpeg";
 // 120
 import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
 import enterizomagnusrojo2 from "./enterizos/enterizomagnusrojo2.jpeg";
@@ -103,11 +103,6 @@ import vestidoauruxcafe1 from "./enterizos/vestidoauruxcafe1.jpg";
 import vestidoauruxcafe2 from "./enterizos/vestidoauruxcafe2.jpg";
 import vestidoauruxcafe3 from "./enterizos/vestidoauruxcafe3.jpg";
 import vestidoauruxcafe4 from "./enterizos/vestidoauruxcafe4.jpg";
-// 123
-import vestidoauruxazul1 from "./enterizos/vestidoauruxazul1.jpeg";
-import vestidoauruxazul2 from "./enterizos/vestidoauruxazul2.jpeg";
-import vestidoauruxazul3 from "./enterizos/vestidoauruxazul3.jpeg";
-import vestidoauruxazul4 from "./enterizos/vestidoauruxazul4.jpeg";
 // 124
 import vestidoauruxnegro1 from "./enterizos/vestidoauruxnegro1.jpeg";
 import vestidoauruxnegro2 from "./enterizos/vestidoauruxnegro2.jpeg";
@@ -283,25 +278,6 @@ let all_product = [
     },
   },
   {
-    id: 119,
-    name: "ENTERIZO LOVING - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizolovingbeige1,
-    image2: enterizolovingbeige2,
-    image3: enterizolovingbeige3,
-    image4: enterizolovingbeige4,
-    new_price: 120000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 105,
     name: "ENTERIZO EVA - TONO ROJO",
     category: "enterizos",
@@ -335,6 +311,25 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 118,
+    name: "ENTERIZO FLEX - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexbeige1,
+    image2: enterizoflexbeige2,
+    image3: enterizoflexbeige3,
+    image4: enterizoflexbeige4,
+    new_price: 140000,
+    old_price: 150000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -408,25 +403,6 @@ let all_product = [
     image4: enterizoorionnegro4,
     new_price: 90000,
     old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 123,
-    name: "VESTIDO AURUX - TONO AZUL",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxazul1,
-    image2: vestidoauruxazul2,
-    image3: vestidoauruxazul3,
-    image4: vestidoauruxazul4,
-    new_price: 110000,
-    old_price: 120000,
     sizes: {
       XS: false,
       S: true,
