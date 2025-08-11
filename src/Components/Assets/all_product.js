@@ -113,6 +113,16 @@ import vestidoauruxrosa1 from "./enterizos/vestidoauruxrosa1.jpg";
 import vestidoauruxrosa2 from "./enterizos/vestidoauruxrosa2.jpg";
 import vestidoauruxrosa3 from "./enterizos/vestidoauruxrosa3.jpg";
 import vestidoauruxrosa4 from "./enterizos/vestidoauruxrosa4.jpg";
+// 126
+import enterizoflexmorado1 from "./enterizos/enterizoflexmorado1.jpeg";
+import enterizoflexmorado2 from "./enterizos/enterizoflexmorado2.jpeg";
+import enterizoflexmorado3 from "./enterizos/enterizoflexmorado3.jpeg";
+import enterizoflexmorado4 from "./enterizos/enterizoflexmorado4.jpeg";
+// 127
+import enterizoflexblanco1 from "./enterizos/enterizoflexblanco1.jpeg";
+import enterizoflexblanco2 from "./enterizos/enterizoflexblanco2.jpeg";
+import enterizoflexblanco3 from "./enterizos/enterizoflexblanco3.jpeg";
+import enterizoflexblanco4 from "./enterizos/enterizoflexblanco4.jpeg";
 // 130
 import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
@@ -648,6 +658,44 @@ let all_product = [
     image2: enterizoflexoliva2,
     image3: enterizoflexoliva3,
     image4: enterizoflexoliva4,
+    new_price: 140000,
+    old_price: 150000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+    {
+    id: 126,
+    name: "ENTERIZO FLEX - TONO MORADO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexmorado1,
+    image2: enterizoflexmorado2,
+    image3: enterizoflexmorado3,
+    image4: enterizoflexmorado4,
+    new_price: 140000,
+    old_price: 150000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+    {
+    id: 127,
+    name: "ENTERIZO FLEX - TONO BLANCO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexblanco1,
+    image2: enterizoflexblanco2,
+    image3: enterizoflexblanco3,
+    image4: enterizoflexblanco4,
     new_price: 140000,
     old_price: 150000,
     sizes: {
