@@ -1,15 +1,15 @@
 import enterizoalmagris1 from "./enterizos/enterizoalmanegro1.jpeg";
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
-import enterizomflexfucsia1 from "./enterizos/enterizoflexfucsia1.jpeg";
+import enterizomflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
 
 let data_product = [
 
   {
-    id: 110,
+    id: 108,
     name: "ENTERIZO FLEX - TONO FUCSIA",
     category: "enterizos",
-    image: enterizomflexfucsia1,
+    image: enterizomflexfucsianeon1,
     new_price: 145000,
     old_price: 150000,
   },

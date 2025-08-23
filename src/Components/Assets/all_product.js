@@ -54,15 +54,15 @@ import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
 import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
 import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
 // 112
-import enterizoflexnegro1 from "./enterizos/enterizoflexnegro1.jpeg";
-import enterizoflexnegro2 from "./enterizos/enterizoflexnegro2.jpeg";
-import enterizoflexnegro3 from "./enterizos/enterizoflexnegro3.jpeg";
-import enterizoflexnegro4 from "./enterizos/enterizoflexnegro4.jpeg";
+import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
+import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
+import enterizoflexgris3 from "./enterizos/enterizoflexgris3.jpeg";
+import enterizoflexgris4 from "./enterizos/enterizoflexgris4.jpeg";
 // 113
-import enterizoflexfucsia1 from "./enterizos/enterizoflexfucsia1.jpeg";
-import enterizoflexfucsia2 from "./enterizos/enterizoflexfucsia2.jpeg";
-import enterizoflexfucsia3 from "./enterizos/enterizoflexfucsia3.jpeg";
-import enterizoflexfucsia4 from "./enterizos/enterizoflexfucsia4.jpeg";
+import enterizoamarillo1 from "./enterizos/enterizoamarillo1.jpeg";
+import enterizoamarillo2 from "./enterizos/enterizoamarillo2.jpeg";
+import enterizoamarillo3 from "./enterizos/enterizoamarillo3.jpeg";
+import enterizoamarillo4 from "./enterizos/enterizoamarillo4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -88,6 +88,11 @@ import enterizoflexbeige1 from "./enterizos/enterizoflexbeige1.jpeg";
 import enterizoflexbeige2 from "./enterizos/enterizoflexbeige2.jpeg";
 import enterizoflexbeige3 from "./enterizos/enterizoflexbeige3.jpeg";
 import enterizoflexbeige4 from "./enterizos/enterizoflexbeige4.jpeg";
+// 119
+import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
+import enterizoflexazulcielo2 from "./enterizos/enterizoflexazul2.jpeg";
+import enterizoflexazulcielo3 from "./enterizos/enterizoflexazul3.jpeg";
+import enterizoflexazulcielo4 from "./enterizos/enterizoflexazul4.jpeg";
 // 120
 import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
 import enterizomagnusrojo2 from "./enterizos/enterizomagnusrojo2.jpeg";
@@ -103,11 +108,11 @@ import vestidoauruxcafe1 from "./enterizos/vestidoauruxcafe1.jpg";
 import vestidoauruxcafe2 from "./enterizos/vestidoauruxcafe2.jpg";
 import vestidoauruxcafe3 from "./enterizos/vestidoauruxcafe3.jpg";
 import vestidoauruxcafe4 from "./enterizos/vestidoauruxcafe4.jpg";
-// 124
-import vestidoauruxnegro1 from "./enterizos/vestidoauruxnegro1.jpeg";
-import vestidoauruxnegro2 from "./enterizos/vestidoauruxnegro2.jpeg";
-import vestidoauruxnegro3 from "./enterizos/vestidoauruxnegro3.jpeg";
-import vestidoauruxnegro4 from "./enterizos/vestidoauruxnegro4.jpeg";
+// 123
+import enterizovino1 from "./enterizos/enterizovino1.jpeg";
+import enterizovino2 from "./enterizos/enterizovino2.jpeg";
+import enterizovino3 from "./enterizos/enterizovino3.jpeg";
+import enterizovino4 from "./enterizos/enterizovino4.jpeg";
 // 125
 import vestidoauruxrosa1 from "./enterizos/vestidoauruxrosa1.jpg";
 import vestidoauruxrosa2 from "./enterizos/vestidoauruxrosa2.jpg";
@@ -136,6 +141,11 @@ import pantalonetasummernegro1 from "./body/pantalonetasummernegro1.jpeg";
 import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
 import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
 import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
+// 201
+import pantalonetaamarilla1 from "./lyf/pantalonetaamarilla1.jpeg";
+import pantalonetaamarilla2 from "./lyf/pantalonetaamarilla2.jpeg";
+import pantalonetaamarilla3 from "./lyf/pantalonetaamarilla3.jpeg";
+import pantalonetaamarilla4 from "./lyf/pantalonetaamarilla4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 301
@@ -269,6 +279,25 @@ let all_product = [
     },
   },
   {
+    id: 113,
+    name: "ENTERIZO AMORE - TONO AMARILLO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoamarillo1,
+    image2: enterizoamarillo2,
+    image3: enterizoamarillo3,
+    image4: enterizoamarillo4,
+    new_price: 1200000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 130,
     name: "ENTERIZO LOVING - TONO AZUL",
     category: "enterizos",
@@ -307,16 +336,16 @@ let all_product = [
     },
   },
   {
-    id: 112,
-    name: "ENTERIZO FLEX - TONO NEGRO",
+    id: 123,
+    name: "ENTERIZO VINO - TONO VINOTINTO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexnegro1,
-    image2: enterizoflexnegro2,
-    image3: enterizoflexnegro3,
-    image4: enterizoflexnegro4,
-    new_price: 145000,
-    old_price: 150000,
+    image: enterizovino1,
+    image2: enterizovino2,
+    image3: enterizovino3,
+    image4: enterizovino4,
+    new_price: 90000,
+    old_price: 110000,
     sizes: {
       XS: false,
       S: true,
@@ -334,31 +363,12 @@ let all_product = [
     image2: enterizoflexbeige2,
     image3: enterizoflexbeige3,
     image4: enterizoflexbeige4,
-    new_price: 140000,
-    old_price: 150000,
+    new_price: 130000,
+    old_price: 140000,
     sizes: {
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 113,
-    name: "ENTERIZO FLEX - TONO FUCSIA",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexfucsia1,
-    image2: enterizoflexfucsia2,
-    image3: enterizoflexfucsia3,
-    image4: enterizoflexfucsia4,
-    new_price: 145000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -372,12 +382,50 @@ let all_product = [
     image2: enterizoflexfucsianeon2,
     image3: enterizoflexfucsianeon3,
     image4: enterizoflexfucsianeon4,
-    new_price: 145000,
-    old_price: 150000,
+    new_price: 130000,
+    old_price: 140000,
     sizes: {
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 119,
+    name: "ENTERIZO FLEX - TONO AZUL",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexazulcielo1,
+    image2: enterizoflexazulcielo2,
+    image3: enterizoflexazulcielo3,
+    image4: enterizoflexazulcielo4,
+    new_price: 130000,
+    old_price: 140000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+    {
+    id: 112,
+    name: "ENTERIZO FLEX - TONO GRIS",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexgris1,
+    image2: enterizoflexgris2,
+    image3: enterizoflexgris3,
+    image4: enterizoflexgris4,
+    new_price: 130000,
+    old_price: 140000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
@@ -455,25 +503,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 124,
-    name: "VESTIDO AURUX - TONO NEGRO",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxnegro1,
-    image2: vestidoauruxnegro2,
-    image3: vestidoauruxnegro3,
-    image4: vestidoauruxnegro4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
@@ -593,7 +622,7 @@ let all_product = [
     },
   },
   {
-    id: 122,
+    id: 121,
     name: "ENTERIZO MAGIA - TONO GRIS",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
@@ -736,6 +765,25 @@ let all_product = [
     image2: pantalonetasummernegro2,
     image3: pantalonetasummernegro3,
     image4: pantalonetasummernegro4,
+    new_price: 50000,
+    old_price: 60000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 201,
+    name: "PANTALONETA RUNNING - TONO AMARILLO",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: pantalonetaamarilla1,
+    image2: pantalonetaamarilla2,
+    image3: pantalonetaamarilla3,
+    image4: pantalonetaamarilla4,
     new_price: 50000,
     old_price: 60000,
     sizes: {
