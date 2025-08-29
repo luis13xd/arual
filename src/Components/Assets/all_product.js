@@ -78,11 +78,6 @@ import enterizovibesmandarina1 from "./enterizos/enterizovibesmandarina1.jpeg";
 import enterizovibesmandarina2 from "./enterizos/enterizovibesmandarina2.jpeg";
 import enterizovibesmandarina3 from "./enterizos/enterizovibesmandarina3.jpeg";
 import enterizovibesmandarina4 from "./enterizos/enterizovibesmandarina4.jpeg";
-// 117
-import enterizoflexazulclaro1 from "./enterizos/enterizoflexazulclaro1.jpg";
-import enterizoflexazulclaro2 from "./enterizos/enterizoflexazulclaro2.jpg";
-import enterizoflexazulclaro3 from "./enterizos/enterizoflexazulclaro3.jpg";
-import enterizoflexazulclaro4 from "./enterizos/enterizoflexazulclaro4.jpg";
 // 118
 import enterizoflexbeige1 from "./enterizos/enterizoflexbeige1.jpeg";
 import enterizoflexbeige2 from "./enterizos/enterizoflexbeige2.jpeg";
@@ -363,8 +358,8 @@ let all_product = [
     image2: enterizoflexbeige2,
     image3: enterizoflexbeige3,
     image4: enterizoflexbeige4,
-    new_price: 130000,
-    old_price: 140000,
+    new_price: 140000,
+    old_price: 150000,
     sizes: {
       XS: false,
       S: true,
@@ -725,25 +720,6 @@ let all_product = [
     image2: enterizoflexblanco2,
     image3: enterizoflexblanco3,
     image4: enterizoflexblanco4,
-    new_price: 140000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 117,
-    name: "ENTERIZO FLEX - TONO AZUL",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexazulclaro1,
-    image2: enterizoflexazulclaro2,
-    image3: enterizoflexazulclaro3,
-    image4: enterizoflexazulclaro4,
     new_price: 140000,
     old_price: 150000,
     sizes: {
