@@ -530,7 +530,7 @@ let all_product = [
     image2: enterizoaurablanco2,
     image3: enterizoaurablanco3,
     image4: enterizoaurablanco4,
-    new_price: 100000,
+    new_price: 90000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -549,7 +549,7 @@ let all_product = [
     image2: enterizoauranegro2,
     image3: enterizoauranegro3,
     image4: enterizoauranegro4,
-    new_price: 100000,
+    new_price: 90000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -568,7 +568,7 @@ let all_product = [
     image2: enterizorebelblanco2,
     image3: enterizorebelblanco3,
     image4: enterizorebelblanco4,
-    new_price: 120000,
+    new_price: 90000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -587,7 +587,7 @@ let all_product = [
     image2: enterizoactiveblanco2,
     image3: enterizoactiveblanco3,
     image4: enterizoactiveblanco4,
-    new_price: 120000,
+    new_price: 90000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -606,7 +606,7 @@ let all_product = [
     image2: enterizovibesmandarina2,
     image3: enterizovibesmandarina3,
     image4: enterizovibesmandarina4,
-    new_price: 120000,
+    new_price: 90000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -938,7 +938,7 @@ let all_product = [
     image2: setmarazul2,
     image3: setmarazul3,
     image4: setmarazul4,
-    new_price: 90000,
+    new_price: 60000,
     old_price: 110000,
     sizes: {
       XS: false,
@@ -958,7 +958,7 @@ let all_product = [
     image2: setpink2,
     image3: setpink3,
     image4: setpink4,
-    new_price: 110000,
+    new_price: 80000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -979,7 +979,7 @@ let all_product = [
     image2: setbabyblue2,
     image3: setbabyblue3,
     image4: setbabyblue4,
-    new_price: 120000,
+    new_price: 100000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -1019,7 +1019,7 @@ let all_product = [
     image2: setnebulanegro2,
     image3: setnebulanegro3,
     image4: setnebulanegro4,
-    new_price: 110000,
+    new_price: 100000,
     old_price: 120000,
     sizes: {
       XS: false,

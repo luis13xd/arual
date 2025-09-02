@@ -9,14 +9,14 @@ let new_data = [
     id: 408,
     name: "ENTERIZO PINK - TONO ROSADO",
     image: setpink1,
-    new_price: 110000,
+    new_price: 80000,
     old_price: 120000,
   },
   {
     id: 402,
     name: "SET BABY - TONO AZUL",
     image: setbabyblue1,
-    new_price: 120000,
+    new_price: 100000,
     old_price: 130000,
   },
   {
@@ -30,7 +30,7 @@ let new_data = [
     id: 406,
     name: "SET MAR - TONO AZUL",
     image: setmarazul1,
-    new_price: 90000,
+    new_price: 60000,
     old_price: 100000,
   },
 
