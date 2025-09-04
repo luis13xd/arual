@@ -264,7 +264,7 @@ let all_product = [
     image2: enterizoalmabeige1,
     image3: enterizoalmabeige3,
     image4: enterizoalmabeige4,
-    new_price: 95000,
+    new_price: 90000,
     old_price: 100000,
     sizes: {
       XS: false,
@@ -340,7 +340,7 @@ let all_product = [
     image2: enterizolovingazul2,
     image3: enterizolovingazul3,
     image4: enterizolovingazul4,
-    new_price: 120000,
+    new_price: 100000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -378,7 +378,7 @@ let all_product = [
     image2: enterizovino2,
     image3: enterizovino3,
     image4: enterizovino4,
-    new_price: 130000,
+    new_price: 120000,
     old_price: 140000,
     sizes: {
       XS: false,
@@ -512,7 +512,7 @@ let all_product = [
     image2: enterizoorionnegro2,
     image3: enterizoorionnegro3,
     image4: enterizoorionnegro4,
-    new_price: 90000,
+    new_price: 80000,
     old_price: 100000,
     sizes: {
       XS: false,
@@ -569,7 +569,7 @@ let all_product = [
     image2: vestidosienabeige2,
     image3: vestidosienabeige3,
     image4: vestidosienabeige4,
-    new_price: 100000,
+    new_price: 90000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -816,7 +816,7 @@ let all_product = [
     image2: enterizoflexazulcielolargo2,
     image3: enterizoflexazulcielolargo3,
     image4: enterizoflexazulcielolargo4,
-    new_price: 135000,
+    new_price: 140000,
     old_price: 150000,
     sizes: {
       XS: false,
