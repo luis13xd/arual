@@ -103,11 +103,6 @@ import enterizomagiagris1 from "./enterizos/enterizomagiagris1.jpeg";
 import enterizomagiagris2 from "./enterizos/enterizomagiagris2.jpeg";
 import enterizomagiagris3 from "./enterizos/enterizomagiagris3.jpeg";
 import enterizomagiagris4 from "./enterizos/enterizomagiagris4.jpeg";
-// 122
-import vestidoauruxcafe1 from "./enterizos/vestidoauruxcafe1.jpg";
-import vestidoauruxcafe2 from "./enterizos/vestidoauruxcafe2.jpg";
-import vestidoauruxcafe3 from "./enterizos/vestidoauruxcafe3.jpg";
-import vestidoauruxcafe4 from "./enterizos/vestidoauruxcafe4.jpg";
 // 123
 import enterizovino1 from "./enterizos/enterizovino1.jpeg";
 import enterizovino2 from "./enterizos/enterizovino2.jpeg";
@@ -118,11 +113,6 @@ import enterizoamorerosado1 from "./enterizos/enterizoamorerosado1.jpeg";
 import enterizoamorerosado2 from "./enterizos/enterizoamorerosado2.jpeg";
 import enterizoamorerosado3 from "./enterizos/enterizoamorerosado3.jpeg";
 import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
-// 125
-import vestidoauruxrosa1 from "./enterizos/vestidoauruxrosa1.jpg";
-import vestidoauruxrosa2 from "./enterizos/vestidoauruxrosa2.jpg";
-import vestidoauruxrosa3 from "./enterizos/vestidoauruxrosa3.jpg";
-import vestidoauruxrosa4 from "./enterizos/vestidoauruxrosa4.jpg";
 // 126
 import enterizoflexmorado1 from "./enterizos/enterizoflexmorado1.jpeg";
 import enterizoflexmorado2 from "./enterizos/enterizoflexmorado2.jpeg";
@@ -133,11 +123,6 @@ import enterizoflexblanco1 from "./enterizos/enterizoflexblanco1.jpeg";
 import enterizoflexblanco2 from "./enterizos/enterizoflexblanco2.jpeg";
 import enterizoflexblanco3 from "./enterizos/enterizoflexblanco3.jpeg";
 import enterizoflexblanco4 from "./enterizos/enterizoflexblanco4.jpeg";
-// 128
-import vestidoselenenegro1 from "./enterizos/vestidoselenenegro1.jpeg";
-import vestidoselenenegro2 from "./enterizos/vestidoselenenegro2.jpeg";
-import vestidoselenenegro3 from "./enterizos/vestidoselenenegro3.jpeg";
-import vestidoselenenegro4 from "./enterizos/vestidoselenenegro4.jpeg";
 // 129
 import enterizoflexazulcielolargo1 from "./enterizos/enterixoflexazulcielo1.jpeg";
 import enterizoflexazulcielolargo2 from "./enterizos/enterixoflexazulcielo2.jpeg";
@@ -523,44 +508,6 @@ let all_product = [
     },
   },
   {
-    id: 122,
-    name: "VESTIDO AURUX - TONO CAFÉ",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxcafe1,
-    image2: vestidoauruxcafe2,
-    image3: vestidoauruxcafe3,
-    image4: vestidoauruxcafe4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 125,
-    name: "VESTIDO AURUX - TONO ROSA",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoauruxrosa1,
-    image2: vestidoauruxrosa2,
-    image3: vestidoauruxrosa3,
-    image4: vestidoauruxrosa4,
-    new_price: 110000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 107,
     name: "VESTIDO SIENA - TONO BEIGE",
     category: "enterizos",
@@ -575,25 +522,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 128,
-    name: "VESTIDO SELENE - TONO NEGRO",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidoselenenegro1,
-    image2: vestidoselenenegro2,
-    image3: vestidoselenenegro3,
-    image4: vestidoselenenegro4,
-    new_price: 80000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
