@@ -28,11 +28,6 @@ import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpg";
-// 107
-import vestidosienabeige1 from "./enterizos/vestidosienabeige1.jpeg";
-import vestidosienabeige2 from "./enterizos/vestidosienabeige2.jpeg";
-import vestidosienabeige3 from "./enterizos/vestidosienabeige3.jpeg";
-import vestidosienabeige4 from "./enterizos/vestidosienabeige4.jpeg";
 // 108
 import enterizoflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
 import enterizoflexfucsianeon2 from "./enterizos/enterizoflexfucsianeon2.jpeg";
@@ -58,11 +53,6 @@ import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
 import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
 import enterizoflexgris3 from "./enterizos/enterizoflexgris3.jpeg";
 import enterizoflexgris4 from "./enterizos/enterizoflexgris4.jpeg";
-// 113
-import enterizoamarillo1 from "./enterizos/enterizoamarillo1.jpeg";
-import enterizoamarillo2 from "./enterizos/enterizoamarillo2.jpeg";
-import enterizoamarillo3 from "./enterizos/enterizoamarillo3.jpeg";
-import enterizoamarillo4 from "./enterizos/enterizoamarillo4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -83,11 +73,6 @@ import enterizoflexblancocorto1 from "./enterizos/enterizoflexblancocorto1.jpeg"
 import enterizoflexblancocorto2 from "./enterizos/enterizoflexblancocorto2.jpeg";
 import enterizoflexblancocorto3 from "./enterizos/enterizoflexblancocorto3.jpeg";
 import enterizoflexblancocorto4 from "./enterizos/enterizoflexblancocorto4.jpeg";
-// 118
-import enterizoflexbeige1 from "./enterizos/enterizoflexbeige1.jpeg";
-import enterizoflexbeige2 from "./enterizos/enterizoflexbeige2.jpeg";
-import enterizoflexbeige3 from "./enterizos/enterizoflexbeige3.jpeg";
-import enterizoflexbeige4 from "./enterizos/enterizoflexbeige4.jpeg";
 // 119
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazulcielo2 from "./enterizos/enterizoflexazul2.jpeg";
@@ -211,11 +196,6 @@ import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
 import setmarazul3 from "./sets/setmarazul3.jpeg";
 import setmarazul4 from "./sets/setmarazul4.jpeg";
-// 407
-import setazulcielo1 from "./sets/setazulcielo1.jpg";
-import setazulcielo2 from "./sets/setazulcielo2.jpg";
-import setazulcielo3 from "./sets/setazulcielo3.jpg";
-import setazulcielo4 from "./sets/setazulcielo4.jpg";
 // 408
 import setpink1 from "./sets/setpink1.jpeg";
 import setpink2 from "./sets/setpink2.jpeg";
@@ -275,25 +255,6 @@ let all_product = [
     image4: enterizoalmanegro4,
     new_price: 90000,
     old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 113,
-    name: "ENTERIZO AMORE - TONO AMARILLO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoamarillo1,
-    image2: enterizoamarillo2,
-    image3: enterizoamarillo3,
-    image4: enterizoamarillo4,
-    new_price: 120000,
-    old_price: 130000,
     sizes: {
       XS: false,
       S: true,
@@ -374,25 +335,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 118,
-    name: "ENTERIZO FLEX - TONO BEIGE",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexbeige1,
-    image2: enterizoflexbeige2,
-    image3: enterizoflexbeige3,
-    image4: enterizoflexbeige4,
-    new_price: 140000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
@@ -508,25 +450,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 107,
-    name: "VESTIDO SIENA - TONO BEIGE",
-    category: "enterizos",
-    description: "Material suave y de alta calidad",
-    image: vestidosienabeige1,
-    image2: vestidosienabeige2,
-    image3: vestidosienabeige3,
-    image4: vestidosienabeige4,
-    new_price: 90000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
@@ -1033,26 +956,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 407,
-    name: "SET CIELO - TONO AZUL",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setazulcielo1,
-    image2: setazulcielo2,
-    image3: setazulcielo3,
-    image4: setazulcielo4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
