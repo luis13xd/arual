@@ -146,6 +146,11 @@ import pantalonetaamarilla1 from "./lyf/pantalonetaamarilla1.jpeg";
 import pantalonetaamarilla2 from "./lyf/pantalonetaamarilla2.jpeg";
 import pantalonetaamarilla3 from "./lyf/pantalonetaamarilla3.jpeg";
 import pantalonetaamarilla4 from "./lyf/pantalonetaamarilla4.jpeg";
+// 201
+import pantalonetas1 from "./lyf/pantalonetas1.jpeg";
+import pantalonetas2 from "./lyf/pantalonetas2.jpeg";
+import pantalonetas3 from "./lyf/pantalonetas3.jpeg";
+import pantalonetas4 from "./lyf/pantalonetas4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 301
@@ -791,6 +796,25 @@ let all_product = [
       S: true,
       M: false,
       L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 202,
+    name: "PANTALONETA RUNNING - BLANCO, ROJO, NEGRO, ROSA, FUCSIA, ROSA, VERDE",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: pantalonetas1,
+    image2: pantalonetas2,
+    image3: pantalonetas3,
+    image4: pantalonetas4,
+    new_price: 85000,
+    old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: true,
       XL: false,
     },
   },
