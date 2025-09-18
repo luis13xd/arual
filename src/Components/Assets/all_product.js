@@ -47,7 +47,7 @@ import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg";
 import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
 import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
 import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
-import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
+ import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
 // 112
 import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
 import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
@@ -223,6 +223,11 @@ import straps1 from "./accesorios/straps1.jpeg";
 import straps2 from "./accesorios/straps2.jpeg";
 import straps3 from "./accesorios/straps3.jpeg";
 import straps4 from "./accesorios/straps4.jpeg";
+// 504
+import bolsonike1 from "./accesorios/bolsonike1.jpeg";
+import bolsonike2 from "./accesorios/bolsonike2.jpeg";
+import bolsonike3 from "./accesorios/bolsonike3.jpeg";
+import bolsonike4 from "./accesorios/bolsonike4.jpeg";
 
 let all_product = [
   {
@@ -1003,6 +1008,25 @@ let all_product = [
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
+    id: 504,
+    name: "Moral Nike Original",
+    category: "accesorios",
+    description: "Material suave y de alta calidad",
+    image: bolsonike1,
+    image2: bolsonike2,
+    image3: bolsonike3,
+    image4: bolsonike4,
+    new_price: 160000,
+    old_price: 180000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 501,
     name: "Hairbands",
     category: "accesorios",
@@ -1059,6 +1083,7 @@ let all_product = [
       XL: false,
     },
   },
+  
 ];
 
 export default all_product;
