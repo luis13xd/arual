@@ -28,11 +28,6 @@ import enterizoflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
 import enterizoflexfucsianeon2 from "./enterizos/enterizoflexfucsianeon2.jpeg";
 import enterizoflexfucsianeon3 from "./enterizos/enterizoflexfucsianeon3.jpeg";
 import enterizoflexfucsianeon4 from "./enterizos/enterizoflexfucsianeon4.jpeg";
-// 109
-import enterizoflexoliva1 from "./enterizos/enterizoflexoliva1.jpg";
-import enterizoflexoliva2 from "./enterizos/enterizoflexoliva2.jpg";
-import enterizoflexoliva3 from "./enterizos/enterizoflexoliva3.jpg";
-import enterizoflexoliva4 from "./enterizos/enterizoflexoliva4.jpg";
 // 110
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizorebelblanco2 from "./enterizos/enterizorebelblanco2.jpeg";
@@ -572,25 +567,6 @@ let all_product = [
     image2: enterizoflexazul2,
     image3: enterizoflexazul3,
     image4: enterizoflexazul4,
-    new_price: 140000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 109,
-    name: "ENTERIZO FLEX - TONO OLIVA",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexoliva1,
-    image2: enterizoflexoliva2,
-    image3: enterizoflexoliva3,
-    image4: enterizoflexoliva4,
     new_price: 140000,
     old_price: 150000,
     sizes: {
