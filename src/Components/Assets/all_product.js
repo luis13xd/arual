@@ -88,11 +88,6 @@ import enterizoamorerosado1 from "./enterizos/enterizoamorerosado1.jpeg";
 import enterizoamorerosado2 from "./enterizos/enterizoamorerosado2.jpeg";
 import enterizoamorerosado3 from "./enterizos/enterizoamorerosado3.jpeg";
 import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
-// 126
-import enterizoflexmorado1 from "./enterizos/enterizoflexmorado1.jpeg";
-import enterizoflexmorado2 from "./enterizos/enterizoflexmorado2.jpeg";
-import enterizoflexmorado3 from "./enterizos/enterizoflexmorado3.jpeg";
-import enterizoflexmorado4 from "./enterizos/enterizoflexmorado4.jpeg";
 // 127
 import enterizoflexblanco1 from "./enterizos/enterizoflexblanco1.jpeg";
 import enterizoflexblanco2 from "./enterizos/enterizoflexblanco2.jpeg";
@@ -567,25 +562,6 @@ let all_product = [
     image2: enterizoflexazul2,
     image3: enterizoflexazul3,
     image4: enterizoflexazul4,
-    new_price: 140000,
-    old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 126,
-    name: "ENTERIZO FLEX - TONO MORADO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexmorado1,
-    image2: enterizoflexmorado2,
-    image3: enterizoflexmorado3,
-    image4: enterizoflexmorado4,
     new_price: 140000,
     old_price: 150000,
     sizes: {
