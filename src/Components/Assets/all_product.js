@@ -176,11 +176,6 @@ import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
 import setbabyblue3 from "./sets/setbabyblue3.jpeg";
 import setbabyblue4 from "./sets/setbabyblue4.jpeg";
-// 403
-import chaquetamilanogris1 from "./sets/chaquetamilanogris1.jpeg";
-import chaquetamilanogris2 from "./sets/chaquetamilanogris2.jpeg";
-import chaquetamilanogris3 from "./sets/chaquetamilanogris3.jpeg";
-import chaquetamilanogris4 from "./sets/chaquetamilanogris4.jpeg";
 // 404
 import setemilinegro1 from "./sets/setemilinegro1.jpeg";
 import setemilinegro2 from "./sets/setemilinegro2.jpeg";
@@ -957,26 +952,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 403,
-    name: "CHAQUETA MILANO - TONO GRIS",
-    category: "bodysytops",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: chaquetamilanogris1,
-    image2: chaquetamilanogris2,
-    image3: chaquetamilanogris3,
-    image4: chaquetamilanogris4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
