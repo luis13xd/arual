@@ -3,11 +3,6 @@ import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
-// 102
-import enterizoalmanegro1 from "./enterizos/enterizoalmanegro1.jpeg";
-import enterizoalmanegro2 from "./enterizos/enterizoalmanegro2.jpeg";
-import enterizoalmanegro3 from "./enterizos/enterizoalmanegro3.jpeg";
-import enterizoalmanegro4 from "./enterizos/enterizoalmanegro4.jpeg";
 // 103
 import enterizoaurablanco1 from "./enterizos/enterizoaurablanco1.jpeg";
 import enterizoaurablanco2 from "./enterizos/enterizoaurablanco2.jpeg";
@@ -239,25 +234,6 @@ let all_product = [
     image2: enterizoalmabeige1,
     image3: enterizoalmabeige3,
     image4: enterizoalmabeige4,
-    new_price: 90000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 102,
-    name: "ENTERIZO ALMA - TONO NEGRO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoalmanegro1,
-    image2: enterizoalmanegro2,
-    image3: enterizoalmanegro3,
-    image4: enterizoalmanegro4,
     new_price: 90000,
     old_price: 100000,
     sizes: {

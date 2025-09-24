@@ -1,4 +1,4 @@
-import enterizoalmagris1 from "./enterizos/enterizoalmanegro1.jpeg";
+import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizorebelblanco1 from "./enterizos/enterizorebelblanco1.jpeg";
 import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
 import enterizomflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
@@ -22,12 +22,12 @@ let data_product = [
     old_price: 130000,
   },
   {
-    id: 102,
-    name: "ENTERIZO ALMA - TONO NEGRO",
+    id: 101,
+    name: "ENTERIZO ALMA - TONO BEIGE",
     category: "enterizos",
-    image: enterizoalmagris1,
-    new_price: 120000,
-    old_price: 130000,
+    image: enterizoalmabeige1,
+    new_price: 90000,
+    old_price: 100000,
   },
   {
     id: 120,
