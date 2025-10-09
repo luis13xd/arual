@@ -43,11 +43,6 @@ import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
 import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
 import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
  import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
-// 112
-import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
-import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
-import enterizoflexgris3 from "./enterizos/enterizoflexgris3.jpeg";
-import enterizoflexgris4 from "./enterizos/enterizoflexgris4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -338,25 +333,6 @@ let all_product = [
     image2: enterizoflexazulcielo2,
     image3: enterizoflexazulcielo3,
     image4: enterizoflexazulcielo4,
-    new_price: 130000,
-    old_price: 140000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 112,
-    name: "ENTERIZO FLEX - TONO GRIS",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexgris1,
-    image2: enterizoflexgris2,
-    image3: enterizoflexgris3,
-    image4: enterizoflexgris4,
     new_price: 130000,
     old_price: 140000,
     sizes: {

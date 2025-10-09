@@ -2,7 +2,7 @@
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setpink1 from "./sets/setpink1.jpeg";
-import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
+import enterizoflexazulcielolargo1 from "./enterizos/enterixoflexazulcielo1.jpeg";
 
 let new_data = [
   {
@@ -20,12 +20,12 @@ let new_data = [
     old_price: 130000,
   },
   {
-    id: 112,
-name: "ENTERIZO FLEX - TONO GRIS",
+    id: 129,
+    name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
-    image: enterizoflexgris1,
-    new_price: 130000,
-    old_price: 140000,
+    image: enterizoflexazulcielolargo1,
+    new_price: 140000,
+    old_price: 150000,
   },
   {
     id: 406,
