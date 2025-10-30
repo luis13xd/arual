@@ -143,6 +143,11 @@ import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg";
 import bodybambienegro3 from "./body/bodybambienegro3.jpeg";
 import bodybambienegro4 from "./body/bodybambienegro4.jpeg";
+// 304
+import topemmanegro1 from "./body/topemmanegro1.jpeg";
+import topemmanegro2 from "./body/topemmanegro2.jpeg";
+import topemmanegro3 from "./body/topemmanegro3.jpeg";
+import topemmanegro4 from "./body/topemmanegro4.jpeg";
 // 306
 import topsamalia1 from "./body/topsamalia1.jpeg";
 import topsamalia2 from "./body/topsamalia2.jpeg";
@@ -739,6 +744,25 @@ let all_product = [
     image4: bodyindigo4,
     new_price: 75000,
     old_price: 90000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 304,
+    name: "TOPS EMMA - TONO NEGRO",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topemmanegro1,
+    image2: topemmanegro2,
+    image3: topemmanegro3,
+    image4: topemmanegro4,
+    new_price: 40000,
+    old_price: 50000,
     sizes: {
       XS: false,
       S: true,
