@@ -3,7 +3,7 @@ import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
-// 101
+// 102
 import enterizovinotinto1 from "./enterizos/enterizovinotinto1.jpeg";
 import enterizovinotinto2 from "./enterizos/enterizovinotinto2.jpeg";
 import enterizovinotinto3 from "./enterizos/enterizovinotinto3.jpeg";
@@ -28,6 +28,11 @@ import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpg";
 import enterizoflexazul3 from "./enterizos/enterizoflexazul3.jpg";
 import enterizoflexazul4 from "./enterizos/enterizoflexazul4.jpg";
+// 107
+import enterizoevavinotinto1 from "./enterizos/enterizoevavinotinto1.jpeg";
+import enterizoevavinotinto2 from "./enterizos/enterizoevavinotinto2.jpeg";
+import enterizoevavinotinto3 from "./enterizos/enterizoevavinotinto3.jpeg";
+import enterizoevavinotinto4 from "./enterizos/enterizoevavinotinto4.jpeg";
 // 108
 import enterizoflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
 import enterizoflexfucsianeon2 from "./enterizos/enterizoflexfucsianeon2.jpeg";
@@ -42,7 +47,7 @@ import enterizorebelblanco4 from "./enterizos/enterizorebelblanco4.jpeg";
 import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
 import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
 import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
- import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
+import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
@@ -568,6 +573,25 @@ let all_product = [
     },
   },
   {
+    id: 107,
+    name: "ENTERIZO EVA - VINO TINTO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoevavinotinto1,
+    image2: enterizoevavinotinto2,
+    image3: enterizoevavinotinto3,
+    image4: enterizoevavinotinto4,
+    new_price: 140000,
+    old_price: 150000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 129,
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
@@ -962,7 +986,6 @@ let all_product = [
       XL: false,
     },
   },
-  
 ];
 
 export default all_product;
