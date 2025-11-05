@@ -38,7 +38,7 @@ import enterizoflexfucsianeon1 from "./enterizos/enterizoflexfucsianeon1.jpeg";
 import enterizoflexfucsianeon2 from "./enterizos/enterizoflexfucsianeon2.jpeg";
 import enterizoflexfucsianeon3 from "./enterizos/enterizoflexfucsianeon3.jpeg";
 import enterizoflexfucsianeon4 from "./enterizos/enterizoflexfucsianeon4.jpeg";
-// 108
+// 109
 import enterizovetvelverde1 from "./enterizos/enterizovetvelverde1.jpeg";
 import enterizovetvelverde2 from "./enterizos/enterizovetvelverde2.jpeg";
 import enterizovetvelverde3 from "./enterizos/enterizovetvelverde3.jpeg";
@@ -622,6 +622,25 @@ let all_product = [
   },
   {
     id: 102,
+    name: "ENTERIZO AURORA - TONO VINO TINTO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizovinotinto1,
+    image2: enterizovinotinto2,
+    image3: enterizovinotinto3,
+    image4: enterizovinotinto4,
+    new_price: 120000,
+    old_price: 140000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 109,
     name: "ENTERIZO AURORA - TONO VINO TINTO",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
