@@ -641,13 +641,13 @@ let all_product = [
   },
   {
     id: 109,
-    name: "ENTERIZO AURORA - TONO VINO TINTO",
+    name: "ENTERIZO VETVEL - TONO VERDE",
     category: "enterizos",
     description: "Tela suave con acabados de la mejor calidad",
-    image: enterizovinotinto1,
-    image2: enterizovinotinto2,
-    image3: enterizovinotinto3,
-    image4: enterizovinotinto4,
+    image: enterizovetvelverde1,
+    image2: enterizovetvelverde2,
+    image3: enterizovetvelverde3,
+    image4: enterizovetvelverde4,
     new_price: 120000,
     old_price: 140000,
     sizes: {
