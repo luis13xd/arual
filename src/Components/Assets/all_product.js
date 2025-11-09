@@ -754,13 +754,13 @@ let all_product = [
   },
   {
     id: 305,
-    name: "TOPS EMMA - TONO NEGRO",
+    name: "TOPS EMMA - TONO BLANCO",
     category: "bodysytops",
     description: "Tela completamente acanalada",
-    image: topemmanegro1,
-    image2: topemmanegro2,
-    image3: topemmanegro3,
-    image4: topemmanegro4,
+    image: topemmablanco1,
+    image2: topemmablanco2,
+    image3: topemmablanco3,
+    image4: topemmablanco4,
     new_price: 40000,
     old_price: 50000,
     sizes: {
