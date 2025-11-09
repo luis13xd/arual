@@ -143,6 +143,11 @@ import topemmanegro1 from "./body/topemmanegro1.jpeg";
 import topemmanegro2 from "./body/topemmanegro2.jpeg";
 import topemmanegro3 from "./body/topemmanegro3.jpeg";
 import topemmanegro4 from "./body/topemmanegro4.jpeg";
+// 304
+import topemmablanco1 from "./body/topemmablanco1.jpeg";
+import topemmablanco2 from "./body/topemmablanco2.jpeg";
+import topemmablanco3 from "./body/topemmablanco3.jpeg";
+import topemmablanco4 from "./body/topemmablanco4.jpeg";
 // 306
 import topsamalia1 from "./body/topsamalia1.jpeg";
 import topsamalia2 from "./body/topsamalia2.jpeg";
