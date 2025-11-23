@@ -1,4 +1,4 @@
-import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
+import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
 import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizoflowerrosado1 from "./enterizos/enterizoflowerrosado1.jpeg";
@@ -13,11 +13,11 @@ let data_product = [
     old_price: 100000,
   },
   {
-    id: 130,
-    name: "ENTERIZO LOVING - TONO AZUL",
+    id: 115,
+    name: "ENTERIZO FLOWER - TONO ROSADO",
     category: "enterizos",
-    image: enterizolovingazul1,
-    new_price: 100000,
+    image: enterizoflowerrosado1,
+    new_price: 110000,
     old_price: 130000,
   },
   {
