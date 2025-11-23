@@ -4,7 +4,6 @@ import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
 import enterizoflowerrosado1 from "./enterizos/enterizoflowerrosado1.jpeg";
 
 let data_product = [
-
   {
     id: 101,
     name: "ENTERIZO ALMA - TONO BEIGE",
@@ -22,6 +21,14 @@ let data_product = [
     old_price: 130000,
   },
   {
+    id: 130,
+    name: "ENTERIZO LOVING - TONO AZUL",
+    category: "enterizos",
+    image: enterizolovingazul1,
+    new_price: 100000,
+    old_price: 130000,
+  },
+  {
     id: 120,
     name: "ENTERIZO MAGNUS - TONO ROJO",
     category: "enterizos",
@@ -29,8 +36,6 @@ let data_product = [
     new_price: 110000,
     old_price: 120000,
   },
-  
-  
 ];
 
 export default data_product;
