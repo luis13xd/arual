@@ -14,11 +14,11 @@ let data_product = [
   },
   {
     id: 130,
-    name: "ENTERIZO ALMA - TONO BEIGE",
+    name: "ENTERIZO LOVING - TONO AZUL",
     category: "enterizos",
-    image: enterizoalmabeige1,
-    new_price: 90000,
-    old_price: 100000,
+    image: enterizolovingazul1,
+    new_price: 100000,
+    old_price: 130000,
   },
   {
     id: 120,
