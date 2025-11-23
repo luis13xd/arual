@@ -13,6 +13,14 @@ let data_product = [
     old_price: 100000,
   },
   {
+    id: 130,
+    name: "ENTERIZO ALMA - TONO BEIGE",
+    category: "enterizos",
+    image: enterizoalmabeige1,
+    new_price: 90000,
+    old_price: 100000,
+  },
+  {
     id: 120,
     name: "ENTERIZO MAGNUS - TONO ROJO",
     category: "enterizos",
