@@ -11,7 +11,6 @@ export const Footer = () => {
             <p>ARUAL</p>
         </div>
         <ul className="footer-links">
-            <li>Oficinas</li>
             <li>Nosotros</li>
             <li>Contáctanos</li>
         </ul>
