@@ -1,4 +1,3 @@
-import React from 'react';
 import './Offers.css';
 import video from '../Assets/videomural.mp4';
 
