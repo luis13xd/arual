@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 import instagram_icon from '../Assets/instagram_icon.png';
 import pinteres_icon from '../Assets/pintester_icon.png';
