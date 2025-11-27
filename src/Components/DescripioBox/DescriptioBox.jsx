@@ -1,4 +1,3 @@
-import React from 'react';
 import './DescriptioBox.css';
 
 export const DescriptioBox = () => {
