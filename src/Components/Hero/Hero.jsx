@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import arrow_icon from "../Assets/arrow.png";
 import video from "../Assets/video.mp4";
