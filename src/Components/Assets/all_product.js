@@ -117,7 +117,7 @@ import pantalonetas2 from "./lyf/pantalonetas2.jpeg";
 import pantalonetas3 from "./lyf/pantalonetas3.jpeg";
 import pantalonetas4 from "./lyf/pantalonetas4.jpeg";
 
-// ----------------------- Categoria 3 BODYS Y TOPS -----------------------
+// ----------------------- Categoria 3 BODYS Y TOPS -----------------------s
 // 304
 import topemmanegro1 from "./body/topemmanegro1.jpeg";
 import topemmanegro2 from "./body/topemmanegro2.jpeg";
@@ -587,25 +587,6 @@ let all_product = [
     image2: pantalonetasummernegro2,
     image3: pantalonetasummernegro3,
     image4: pantalonetasummernegro4,
-    new_price: 50000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 201,
-    name: "PANTALONETA RUNNING - TONO AMARILLO",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: pantalonetaamarilla1,
-    image2: pantalonetaamarilla2,
-    image3: pantalonetaamarilla3,
-    image4: pantalonetaamarilla4,
     new_price: 50000,
     old_price: 60000,
     sizes: {
