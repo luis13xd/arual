@@ -107,11 +107,6 @@ import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
 import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
 import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
 // 201
-import pantalonetaamarilla1 from "./lyf/pantalonetaamarilla1.jpeg";
-import pantalonetaamarilla2 from "./lyf/pantalonetaamarilla2.jpeg";
-import pantalonetaamarilla3 from "./lyf/pantalonetaamarilla3.jpeg";
-import pantalonetaamarilla4 from "./lyf/pantalonetaamarilla4.jpeg";
-// 201
 import pantalonetas1 from "./lyf/pantalonetas1.jpeg";
 import pantalonetas2 from "./lyf/pantalonetas2.jpeg";
 import pantalonetas3 from "./lyf/pantalonetas3.jpeg";
