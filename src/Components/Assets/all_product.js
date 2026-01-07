@@ -644,25 +644,6 @@ let all_product = [
 
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
-    id: 303,
-    name: "BODY BAMBIE - TONO NEGRO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: bodybambienegro1,
-    image2: bodybambienegro2,
-    image3: bodybambienegro3,
-    image4: bodybambienegro4,
-    new_price: 75000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 304,
     name: "TOPS EMMA - TONO NEGRO",
     category: "bodysytops",
