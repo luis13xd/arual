@@ -28,11 +28,6 @@ import enterizoevavinotinto1 from "./enterizos/enterizoevavinotinto1.jpeg";
 import enterizoevavinotinto2 from "./enterizos/enterizoevavinotinto2.jpeg";
 import enterizoevavinotinto3 from "./enterizos/enterizoevavinotinto3.jpeg";
 import enterizoevavinotinto4 from "./enterizos/enterizoevavinotinto4.jpeg";
-// 109
-import enterizovetvelverde1 from "./enterizos/enterizovetvelverde1.jpeg";
-import enterizovetvelverde2 from "./enterizos/enterizovetvelverde2.jpeg";
-import enterizovetvelverde3 from "./enterizos/enterizovetvelverde3.jpeg";
-import enterizovetvelverde4 from "./enterizos/enterizovetvelverde4.jpeg";
 // 111
 import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
 import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
@@ -83,21 +78,6 @@ import enterizoamorerosado1 from "./enterizos/enterizoamorerosado1.jpeg";
 import enterizoamorerosado2 from "./enterizos/enterizoamorerosado2.jpeg";
 import enterizoamorerosado3 from "./enterizos/enterizoamorerosado3.jpeg";
 import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
-// 127
-import enterizoflexblanco1 from "./enterizos/enterizoflexblanco1.jpeg";
-import enterizoflexblanco2 from "./enterizos/enterizoflexblanco2.jpeg";
-import enterizoflexblanco3 from "./enterizos/enterizoflexblanco3.jpeg";
-import enterizoflexblanco4 from "./enterizos/enterizoflexblanco4.jpeg";
-// 129
-import enterizoflexazulcielolargo1 from "./enterizos/enterixoflexazulcielo1.jpeg";
-import enterizoflexazulcielolargo2 from "./enterizos/enterixoflexazulcielo2.jpeg";
-import enterizoflexazulcielolargo3 from "./enterizos/enterixoflexazulcielo3.jpeg";
-import enterizoflexazulcielolargo4 from "./enterizos/enterixoflexazulcielo4.jpeg";
-// 130
-import enterizolovingazul1 from "./enterizos/enterizolovingazul1.jpeg";
-import enterizolovingazul2 from "./enterizos/enterizolovingazul2.jpeg";
-import enterizolovingazul3 from "./enterizos/enterizolovingazul3.jpeg";
-import enterizolovingazul4 from "./enterizos/enterizolovingazul4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 
