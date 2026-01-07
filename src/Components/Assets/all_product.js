@@ -118,11 +118,7 @@ import pantalonetas3 from "./lyf/pantalonetas3.jpeg";
 import pantalonetas4 from "./lyf/pantalonetas4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
-// 301
-import bodybambieamarillo1 from "./body/bodybambieamarillo1.jpeg";
-import bodybambieamarillo2 from "./body/bodybambieamarillo2.jpeg";
-import bodybambieamarillo3 from "./body/bodybambieamarillo3.jpeg";
-import bodybambieamarillo4 from "./body/bodybambieamarillo4.jpeg";
+
 // 303
 import bodybambienegro1 from "./body/bodybambienegro1.jpeg";
 import bodybambienegro2 from "./body/bodybambienegro2.jpeg";
