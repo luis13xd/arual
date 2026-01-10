@@ -4,14 +4,14 @@ import topsamalia1 from "./body/topsamalia1.jpeg";
 import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
 
 let new_collections = [
-{
+  {
     id: 304,
     name: "TOPS EMMA - TONO NEGRO",
     image: topemmanegro1,
     new_price: 40000,
     old_price: 50000,
   },
-{
+  {
     id: 305,
     name: "TOPS EMMA - TONO BLANCO",
     category: "bodysytops",
@@ -33,7 +33,6 @@ let new_collections = [
     new_price: 25000,
     old_price: 40000,
   },
-
 ];
 
 export default new_collections;
