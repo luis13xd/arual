@@ -4,12 +4,24 @@ import topsamalia1 from "./body/topsamalia1.jpeg";
 import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
 
 let new_collections = [
-  {
-    id: 301,
-    name: "BODY BAMBIE - TONO AMARILLO",
-    image: bodybambieamarillo1,
-    new_price: 75000,
-    old_price: 90000,
+{
+    id: 304,
+    name: "TOPS EMMA - TONO NEGRO",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topemmanegro1,
+    image2: topemmanegro2,
+    image3: topemmanegro3,
+    image4: topemmanegro4,
+    new_price: 40000,
+    old_price: 50000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
   },
   {
     id: 303,
