@@ -19,24 +19,13 @@ let new_data = [
     new_price: 100000,
     old_price: 130000,
   },
-{
+  {
     id: 119,
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoflexazulcielo1,
-    image2: enterizoflexazulcielo2,
-    image3: enterizoflexazulcielo3,
-    image4: enterizoflexazulcielo4,
     new_price: 130000,
     old_price: 140000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
   },
   {
     id: 406,
