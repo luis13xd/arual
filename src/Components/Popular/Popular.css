@@ -47,9 +47,11 @@
     .text-p {
         font-size: 22px;
     }
+
     .sub-title {
         font-size: 30px;
     }
+
     .popular-items {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
@@ -60,12 +62,15 @@
     .popular {
         width: 90%;
     }
+
     .text-p {
         font-size: 20px;
     }
+
     .sub-title {
         font-size: 25px;
     }
+
     .popular-items {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
@@ -76,12 +81,15 @@
     .popular {
         padding: 10px 0;
     }
+
     .text-p {
         font-size: 19px;
     }
+
     .sub-title {
         font-size: 24px;
     }
+
     .popular-items {
         grid-template-columns: repeat(2, 1fr);
         gap: 4px 15px;
