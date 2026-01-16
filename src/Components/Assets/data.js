@@ -20,7 +20,7 @@ let data_product = [
     new_price: 110000,
     old_price: 130000,
   },
-{
+  {
     id: 106,
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
