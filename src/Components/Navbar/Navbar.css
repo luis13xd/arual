@@ -227,7 +227,7 @@
         box-shadow: 0 1px 3px -2px #2e2720;
         z-index: 1;
         overflow-y: auto;
-        transition: box-shadow 0.3s ease; /* Suaviza la transición de sombra */
+        transition: box-shadow 0.3s ease;
     }
 
     .nav-menu li {
