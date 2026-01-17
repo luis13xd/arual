@@ -43,8 +43,8 @@
 
 .nav-menu li a {
     text-decoration: none;
-    color: black; 
-  }
+    color: black;
+}
 
 .nav-menu hr {
     border: none;
@@ -236,7 +236,7 @@
     }
 
     .nav-menu hr {
-       width: 100%;
+        width: 100%;
     }
 
     .nav-dropdown {
@@ -245,12 +245,11 @@
         height: 28px;
         cursor: pointer;
         transition: transform 0.3s ease;
-      }
-      
-      .nav-dropdown.open {
+    }
+
+    .nav-dropdown.open {
         transform: rotate(180deg);
-      }
-      
+    }
 
     .nav-menu-visible {
         display: flex;
@@ -262,7 +261,7 @@
     .nav-menu:not(.nav-menu-visible) {
         opacity: 0;
         pointer-events: none;
-      }
+    }
 
     .nav-logo-img {
         display: block;
