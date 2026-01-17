@@ -64,7 +64,6 @@
     object-fit: cover;
   }
   
-  /* Estilos responsivos */
   @media (max-width: 1280px) {
     .offers {
       height: 64vh;
