@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 240px;
   aspect-ratio: 1 / 2;
-  /* Relación de aspecto rectangular */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
