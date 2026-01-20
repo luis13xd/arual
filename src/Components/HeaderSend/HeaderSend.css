@@ -5,14 +5,15 @@
     text-align: center;
     padding: 3px 0;
 }
-.container p{
+
+.container p {
     color: white;
     font-size: 14px;
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
 
-    .container p{
+    .container p {
         color: white;
         font-size: 12px;
     }
