@@ -1,13 +1,15 @@
-.cartitems{
+.cartitems {
     width: 80%;
     margin: 70px auto;
 }
-.cartitems hr{
+
+.cartitems hr {
     height: 3px;
     background: #e2e2e2;
     border: 0px;
 }
-.cartitems-format-main{
+
+.cartitems-format-main {
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
     align-items: center;
@@ -17,22 +19,27 @@
     font-size: 18px;
     font-weight: 600;
 }
-.cartitems-format{
+
+.cartitems-format {
     font-size: 17px;
     font-weight: 500;
     align-items: center;
 }
-.cartitems-format p{
+
+.cartitems-format p {
     margin: auto;
 }
-.carticon-product-icon{
+
+.carticon-product-icon {
     height: 62px;
 }
-.cartitems-size{
+
+.cartitems-size {
     margin: 0px auto;
     font-size: 15px;
 }
-.cartitems-remove-icon{
+
+.cartitems-remove-icon {
     width: 16px;
     margin: 0px 25px;
     cursor: pointer;
@@ -40,33 +47,39 @@
     padding: 4px;
     border: 2px solid rgb(192, 147, 147);
 }
-.cartitems-quantity{
+
+.cartitems-quantity {
     width: 64px;
     height: 50px;
     border: 2px solid #ebebeb;
     background: #fff;
     margin: 0px auto;
 }
-.cartitems-down{
+
+.cartitems-down {
     display: flex;
     margin: 90px 0px;
 }
-.cartitems-total{
+
+.cartitems-total {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-right: 200px;
     gap: 40px;
 }
-.cartitems-total-item{
+
+.cartitems-total-item {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
 }
-.cartitems-total-item-desc{
+
+.cartitems-total-item-desc {
     color: red;
 }
-.cartitems-total button{
+
+.cartitems-total button {
     width: 260px;
     height: 58px;
     outline: none;
@@ -77,26 +90,31 @@
     font-weight: 600;
     cursor: pointer;
 }
-.cartitems-total button:hover{
+
+.cartitems-total button:hover {
     background: black;
 }
-.cartitems-promocode{
+
+.cartitems-promocode {
     flex: 1;
     font-size: 16px;
     font-weight: 500;
 }
-.cartitems-promocode p{
+
+.cartitems-promocode p {
     color: #555;
     margin-bottom: 16px;
 }
-.cartitems-promobox{
+
+.cartitems-promobox {
     width: 454px;
     margin-top: 1px;
     padding-left: 20px;
     height: 58px;
     background: #efefef;
 }
-.cartitems-promobox input{
+
+.cartitems-promobox input {
     border: none;
     outline: none;
     background: transparent;
@@ -104,7 +122,8 @@
     width: 292px;
     height: 50px;
 }
-.cartitems-promobox button{
+
+.cartitems-promobox button {
     width: 140px;
     height: 58px;
     font-size: 16px;
@@ -112,46 +131,47 @@
     color: white;
     cursor: pointer;
 }
-.cartitems-promobox button:hover{
+
+.cartitems-promobox button:hover {
     background: #2e2720;
     border: none;
 }
 
-@media(max-width:1280px){
-    .cartitems{
+@media(max-width:1280px) {
+    .cartitems {
         margin: 60px auto;
     }
 
-    .cartitems-format-main{
+    .cartitems-format-main {
         grid-template-columns: 0.5fr 2fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
         gap: 25px;
         padding: 18px 0px;
         font-size: 16px;
     }
 
-    .carticon-product-icon{
+    .carticon-product-icon {
         height: 52px;
     }
 
-    .cartitems-quantity{
+    .cartitems-quantity {
         width: 40px;
         height: 32px;
     }
 
-    .cartitems-total{
+    .cartitems-total {
         margin-right: 40px;
     }
 
-    .cartitems-promobox{
+    .cartitems-promobox {
         width: auto;
         max-width: 500px;
     }
 
-    .cartitems-promobox input{
+    .cartitems-promobox input {
         width: 100%;
     }
 
-    .cartitems-promobox button{
+    .cartitems-promobox button {
         width: 120px;
         margin-left: -125px;
     }
@@ -159,117 +179,117 @@
 
 }
 
-@media(max-width:1024px){
-    .cartitems-format-main{
+@media(max-width:1024px) {
+    .cartitems-format-main {
         grid-template-columns: 0.5fr 1.8fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
     }
 
-    .cartitems-down{
+    .cartitems-down {
         display: flex;
         margin: 80px 0px;
         flex-direction: column;
     }
 
-    .cartitems-total{
+    .cartitems-total {
         margin: 0px;
         margin-bottom: 25px;
     }
 
-    .cartitems-total button{
+    .cartitems-total button {
         width: 210px;
         height: 52px;
         font-size: 15px;
     }
 
-    .cartitems-promobox{
+    .cartitems-promobox {
         width: auto;
         max-width: 500px;
     }
 
-    .cartitems-promobox input{
+    .cartitems-promobox input {
         width: 100%;
     }
 
-    .cartitems-promobox button{
+    .cartitems-promobox button {
         width: 120px;
         margin-left: -125px;
     }
 
 }
 
-@media(max-width:800px){
-    .cartitems-format-main{
+@media(max-width:800px) {
+    .cartitems-format-main {
         grid-template-columns: 0.5fr 1.5fr 0.3fr 0.5fr 0.5fr 0.5fr 0.5fr;
         gap: 15px;
         font-size: 15px;
     }
 
-    .cartitems-remove-icon{
+    .cartitems-remove-icon {
         width: 15px;
         margin: 0px 10px;
     }
 
-    .cartitems-size{
+    .cartitems-size {
         margin: 0px auto;
         font-size: 13px;
     }
 }
 
-@media(max-width:500px){
-    .cartitems{
+@media(max-width:500px) {
+    .cartitems {
         width: 90%;
         margin: 45px auto;
     }
 
-    .cartitems-format-main{
-        grid-template-columns: 0.5fr 1.1fr  0.2fr  0.5fr;
+    .cartitems-format-main {
+        grid-template-columns: 0.5fr 1.1fr 0.2fr 0.5fr;
         gap: 10px;
         padding: 18px 0px;
         font-size: 14px;
         display: none;
     }
 
-    .cartitems-format{
+    .cartitems-format {
         display: grid;
     }
 
-    .cartitems-promobox{
+    .cartitems-promobox {
         width: auto;
         max-width: 490px;
         height: 48px;
-       
+
     }
 
-    .cartitems-promobox input{
+    .cartitems-promobox input {
         width: 100%;
         height: 48px;
         font-size: 13px;
     }
 
-    .carticon-product-icon{
+    .carticon-product-icon {
         height: 54px;
         width: 38px;
         margin: auto;
     }
 
-    .cartitems-promobox button{
+    .cartitems-promobox button {
         width: 100px;
         margin-left: -104px;
         font-size: 12px;
         height: 48px;
     }
 
-    .cartitems-remove-icon{
+    .cartitems-remove-icon {
         width: 14px;
         margin: 0px 5px;
         padding: 3px;
     }
 
-    .cartitems-quantity{
+    .cartitems-quantity {
         margin: 0px;
     }
 
-    .cartitems-size{
+    .cartitems-size {
         margin: 0px auto;
         font-size: 12px;
     }
