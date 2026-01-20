@@ -1,7 +1,6 @@
 .item {
   width: 100%;
   max-width: 240px;
-  /* Ajustar el ancho máximo */
   aspect-ratio: 1 / 2;
   /* Relación de aspecto rectangular */
   display: flex;
