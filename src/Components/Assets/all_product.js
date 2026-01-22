@@ -299,26 +299,6 @@ let all_product = [
     },
   },
   {
-    id: 111,
-    name: "ENTERIZO ORION - TONO NEGRO",
-    category: "enterizos",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: enterizoorionnegro1,
-    image2: enterizoorionnegro2,
-    image3: enterizoorionnegro3,
-    image4: enterizoorionnegro4,
-    new_price: 80000,
-    old_price: 100000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 103,
     name: "ENTERIZO AURA - TONO BLANCO",
     category: "enterizos",
