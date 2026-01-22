@@ -8,11 +8,6 @@ import enterizoaurablanco1 from "./enterizos/enterizoaurablanco1.jpeg";
 import enterizoaurablanco2 from "./enterizos/enterizoaurablanco2.jpeg";
 import enterizoaurablanco3 from "./enterizos/enterizoaurablanco3.jpeg";
 import enterizoaurablanco4 from "./enterizos/enterizoaurablanco4.jpeg";
-// 104
-import enterizoauranegro1 from "./enterizos/enterizoauranegro1.jpeg";
-import enterizoauranegro2 from "./enterizos/enterizoauranegro2.jpeg";
-import enterizoauranegro3 from "./enterizos/enterizoauranegro3.jpeg";
-import enterizoauranegro4 from "./enterizos/enterizoauranegro4.jpeg";
 // 105
 import enterizoevarojo1 from "./enterizos/enterizoevarojo1.jpeg";
 import enterizoevarojo2 from "./enterizos/enterizoevarojo2.jpeg";
