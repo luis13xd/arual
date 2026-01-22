@@ -418,25 +418,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 115,
-    name: "ENTERIZO FLOWER - TONO ROSADO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflowerrosado1,
-    image2: enterizoflowerrosado2,
-    image3: enterizoflowerrosado3,
-    image4: enterizoflowerrosado4,
-    new_price: 110000,
-    old_price: 130000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+
   {
     id: 106,
     name: "ENTERIZO FLEX - TONO AZUL",
