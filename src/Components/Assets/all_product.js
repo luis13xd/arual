@@ -28,11 +28,6 @@ import enterizoevavinotinto1 from "./enterizos/enterizoevavinotinto1.jpeg";
 import enterizoevavinotinto2 from "./enterizos/enterizoevavinotinto2.jpeg";
 import enterizoevavinotinto3 from "./enterizos/enterizoevavinotinto3.jpeg";
 import enterizoevavinotinto4 from "./enterizos/enterizoevavinotinto4.jpeg";
-// 111
-import enterizoorionnegro1 from "./enterizos/enterizoorionnegro1.jpeg";
-import enterizoorionnegro2 from "./enterizos/enterizoorionnegro2.jpeg";
-import enterizoorionnegro3 from "./enterizos/enterizoorionnegro3.jpeg";
-import enterizoorionnegro4 from "./enterizos/enterizoorionnegro4.jpeg";
 // 114
 import enterizoactiveblanco1 from "./enterizos/enterizoactiveblanco1.jpeg";
 import enterizoactiveblanco2 from "./enterizos/enterizoactiveblanco2.jpeg";
