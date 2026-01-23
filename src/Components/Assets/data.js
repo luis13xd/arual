@@ -16,20 +16,10 @@ let data_product = [
     id: 107,
     name: "ENTERIZO EVA - VINO TINTO",
     category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
     image: enterizoevavinotinto1,
-    image2: enterizoevavinotinto2,
-    image3: enterizoevavinotinto3,
-    image4: enterizoevavinotinto4,
     new_price: 140000,
     old_price: 150000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
+
   },
   {
     id: 106,
