@@ -19,7 +19,6 @@ let data_product = [
     image: enterizoevavinotinto1,
     new_price: 140000,
     old_price: 150000,
-
   },
   {
     id: 106,
