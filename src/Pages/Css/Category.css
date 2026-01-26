@@ -34,7 +34,7 @@
     width: 80%;
 }
 
-/* Media queries */
+
 @media (max-width: 800px) {
     .shopcategory-products {
         grid-template-columns: repeat(3, 1fr);
