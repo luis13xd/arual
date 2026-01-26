@@ -494,7 +494,7 @@ let all_product = [
     image2: setemilinegro2,
     image3: setemilinegro3,
     image4: setemilinegro4,
-    new_price: 120000,
+    new_price: 100000,
     old_price: 130000,
     sizes: {
       XS: false,
