@@ -111,11 +111,6 @@ import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
 import setmarazul3 from "./sets/setmarazul3.jpeg";
 import setmarazul4 from "./sets/setmarazul4.jpeg";
-// 408
-import setpink1 from "./sets/setpink1.jpeg";
-import setpink2 from "./sets/setpink2.jpeg";
-import setpink3 from "./sets/setpink3.jpeg";
-import setpink4 from "./sets/setpink4.jpeg";
 // 409
 import setnebulanegro1 from "./sets/setnebulanegro1.jpeg";
 import setnebulanegro2 from "./sets/setnebulanegro2.jpeg";
@@ -535,27 +530,6 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 408,
-    name: "SET PINK - TONO ROSADO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setpink1,
-    image2: setpink2,
-    image3: setpink3,
-    image4: setpink4,
-    new_price: 80000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-
   {
     id: 402,
     name: "SET BABY - TONO AZUL",
