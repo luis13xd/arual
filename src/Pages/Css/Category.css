@@ -50,10 +50,12 @@
         column-gap: 10px;
         row-gap: 6px;
     }
+
     .shopcategory-sort {
         font-size: 11px;
         padding: 3px 5px;
     }
+
     .shopcategory-indexSort p span {
         font-size: 12px;
     }
