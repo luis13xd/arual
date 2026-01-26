@@ -135,7 +135,7 @@ let all_product = [
     image2: enterizoalmabeige1,
     image3: enterizoalmabeige3,
     image4: enterizoalmabeige4,
-    new_price: 90000,
+    new_price: 50000,
     old_price: 100000,
     sizes: {
       XS: false,
@@ -154,7 +154,7 @@ let all_product = [
     image2: enterizoamorerosado2,
     image3: enterizoamorerosado3,
     image4: enterizoamorerosado4,
-    new_price: 120000,
+    new_price: 100000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -173,7 +173,7 @@ let all_product = [
     image2: enterizoflexazulcielo2,
     image3: enterizoflexazulcielo3,
     image4: enterizoflexazulcielo4,
-    new_price: 130000,
+    new_price: 110000,
     old_price: 140000,
     sizes: {
       XS: false,
@@ -339,7 +339,7 @@ let all_product = [
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   
-  
+
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
     id: 304,
