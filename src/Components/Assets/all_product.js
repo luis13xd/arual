@@ -56,16 +56,7 @@ import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 
-// 207  la img esta en body
-import pantalonetasummernegro1 from "./body/pantalonetasummernegro1.jpeg";
-import pantalonetasummernegro2 from "./body/pantalonetasummernegro2.jpeg";
-import pantalonetasummernegro3 from "./body/pantalonetasummernegro3.jpeg";
-import pantalonetasummernegro4 from "./body/pantalonetasummernegro4.jpeg";
-// 201
-import pantalonetas1 from "./lyf/pantalonetas1.jpeg";
-import pantalonetas2 from "./lyf/pantalonetas2.jpeg";
-import pantalonetas3 from "./lyf/pantalonetas3.jpeg";
-import pantalonetas4 from "./lyf/pantalonetas4.jpeg";
+// 200
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------s
 // 304
@@ -347,45 +338,8 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  {
-    id: 207,
-    name: "PANTALONETA SUMMER - TONO NEGRO",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: pantalonetasummernegro1,
-    image2: pantalonetasummernegro2,
-    image3: pantalonetasummernegro3,
-    image4: pantalonetasummernegro4,
-    new_price: 50000,
-    old_price: 60000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 202,
-    name: "PANTALONETA RUNNING - BLANCO, ROJO, NEGRO, ROSA, FUCSIA, ROSA, VERDE",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: pantalonetas1,
-    image2: pantalonetas2,
-    image3: pantalonetas3,
-    image4: pantalonetas4,
-    new_price: 85000,
-    old_price: 90000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: true,
-      XL: false,
-    },
-  },
-
+  
+  
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
     id: 304,
