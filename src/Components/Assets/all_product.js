@@ -111,11 +111,6 @@ import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
 import setmarazul3 from "./sets/setmarazul3.jpeg";
 import setmarazul4 from "./sets/setmarazul4.jpeg";
-// 409
-import setnebulanegro1 from "./sets/setnebulanegro1.jpeg";
-import setnebulanegro2 from "./sets/setnebulanegro2.jpeg";
-import setnebulanegro3 from "./sets/setnebulanegro3.jpeg";
-import setnebulanegro4 from "./sets/setnebulanegro4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -546,26 +541,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 409,
-    name: "SET NEBULA - TONO NEGRO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setnebulanegro1,
-    image2: setnebulanegro2,
-    image3: setnebulanegro3,
-    image4: setnebulanegro4,
-    new_price: 100000,
-    old_price: 120000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
