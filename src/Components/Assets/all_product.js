@@ -211,7 +211,7 @@ let all_product = [
     image2: enterizomagnusrojo2,
     image3: enterizomagnusrojo3,
     image4: enterizomagnusrojo4,
-    new_price: 110000,
+    new_price: 70000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -230,7 +230,7 @@ let all_product = [
     image2: enterizoaurablanco2,
     image3: enterizoaurablanco3,
     image4: enterizoaurablanco4,
-    new_price: 90000,
+    new_price: 70000,
     old_price: 120000,
     sizes: {
       XS: false,
@@ -249,7 +249,7 @@ let all_product = [
     image2: enterizoactiveblanco2,
     image3: enterizoactiveblanco3,
     image4: enterizoactiveblanco4,
-    new_price: 90000,
+    new_price: 70000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -268,7 +268,7 @@ let all_product = [
     image2: enterizovibesmandarina2,
     image3: enterizovibesmandarina3,
     image4: enterizovibesmandarina4,
-    new_price: 90000,
+    new_price: 70000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -287,7 +287,7 @@ let all_product = [
     image2: enterizomagiagris2,
     image3: enterizomagiagris3,
     image4: enterizomagiagris4,
-    new_price: 120000,
+    new_price: 70000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -307,7 +307,7 @@ let all_product = [
     image2: enterizoflexazul2,
     image3: enterizoflexazul3,
     image4: enterizoflexazul4,
-    new_price: 140000,
+    new_price: 130000,
     old_price: 150000,
     sizes: {
       XS: false,
@@ -326,7 +326,7 @@ let all_product = [
     image2: enterizoevavinotinto2,
     image3: enterizoevavinotinto3,
     image4: enterizoevavinotinto4,
-    new_price: 140000,
+    new_price: 130000,
     old_price: 150000,
     sizes: {
       XS: false,
