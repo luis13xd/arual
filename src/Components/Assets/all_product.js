@@ -453,8 +453,8 @@ let all_product = [
     image2: topzaharaazulmorado2,
     image3: topzaharaazulmorado3,
     image4: topzaharaazulmorado4,
-    new_price: 25000,
-    old_price: 40000,
+    new_price: 15000,
+    old_price: 30000,
     sizes: {
       XS: false,
       S: true,
