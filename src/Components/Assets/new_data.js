@@ -9,6 +9,7 @@ let new_data = [
     image: setbabyblue1,
     new_price: 100000,
     old_price: 130000,
+    offer: true,
   },
   {
     id: 119,
@@ -24,6 +25,7 @@ let new_data = [
     image: setmarazul1,
     new_price: 60000,
     old_price: 100000,
+    offer: true,
   },
 ];
 

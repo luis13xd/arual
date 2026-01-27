@@ -13,33 +13,29 @@ export const Item = (props) => {
     };
     
     return (
-        <div className='item'>
+      <div className="item">
+        
+        {props.offer && <div className="offer-badge">OFERTA</div>}
 
-             {props.offer && (
-                <div className="offer-badge">
-                    OFERTA
-                </div>
-            )}
-            
-            <Link to={`/product/${props.id}`}>
-                <img
-                    onClick={() => window.scrollTo(0,0)}
-                    src={props.image}
-                    alt="imagen"
-                />
-            </Link>
+        <Link to={`/product/${props.id}`}>
+          <img
+            onClick={() => window.scrollTo(0, 0)}
+            src={props.image}
+            alt="imagen"
+          />
+        </Link>
 
-            <p>{props.name}</p>
+        <p>{props.name}</p>
 
-            <div className="item-prices">
-                <div className="item-price-new">
-                    {formatCurrency(props.new_price)}
-                </div>
+        <div className="item-prices">
+          <div className="item-price-new">
+            {formatCurrency(props.new_price)}
+          </div>
 
-                <div className="item-price-old">
-                    {formatCurrency(props.old_price)}
-                </div>
-            </div>
+          <div className="item-price-old">
+            {formatCurrency(props.old_price)}
+          </div>
         </div>
-    )
+      </div>
+    );
 }

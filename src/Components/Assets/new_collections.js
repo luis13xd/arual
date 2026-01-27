@@ -25,6 +25,7 @@ let new_collections = [
     image: topsamalia1,
     new_price: 30000,
     old_price: 40000,
+    offer: true,
   },
   {
     id: 307,
@@ -32,6 +33,7 @@ let new_collections = [
     image: topzaharaazulmorado1,
     new_price: 25000,
     old_price: 40000,
+    offer: true,
   },
 ];
 

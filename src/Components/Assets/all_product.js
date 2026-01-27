@@ -473,6 +473,7 @@ let all_product = [
     image4: setmarazul4,
     new_price: 50000,
     old_price: 100000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -493,6 +494,7 @@ let all_product = [
     image4: setbabyblue4,
     new_price: 70000,
     old_price: 130000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,

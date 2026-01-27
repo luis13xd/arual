@@ -26,6 +26,7 @@ export const Popular = () => {
             image4={item.image4}
             new_price={item.new_price}
             old_price={item.old_price}
+            offer={item.offer}
           />
         ))}
       </div>
