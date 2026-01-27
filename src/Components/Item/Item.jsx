@@ -14,6 +14,8 @@ export const Item = (props) => {
     
     return (
         <div className='item'>
+
+            
             <Link to={`/product/${props.id}`}>
                 <img
                     onClick={() => window.scrollTo(0,0)}
