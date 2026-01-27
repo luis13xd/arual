@@ -34,7 +34,7 @@ let data_product = [
     name: "ENTERIZO MAGNUS - TONO ROJO",
     category: "enterizos",
     image: enterizomagnusrojo1,
-    new_price: 110000,
+    new_price: 70000,
     old_price: 120000,
     offer: true,
   },
