@@ -9,7 +9,7 @@ let data_product = [
     name: "ENTERIZO ALMA - TONO BEIGE",
     category: "enterizos",
     image: enterizoalmabeige1,
-    new_price: 90000,
+    new_price: 50000,
     old_price: 100000,
     offer: true,
   },
