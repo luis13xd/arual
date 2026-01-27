@@ -11,6 +11,7 @@ let data_product = [
     image: enterizoalmabeige1,
     new_price: 90000,
     old_price: 100000,
+    offer: true,
   },
   {
     id: 107,
@@ -35,6 +36,7 @@ let data_product = [
     image: enterizomagnusrojo1,
     new_price: 110000,
     old_price: 120000,
+    offer: true,
   },
 ];
 
