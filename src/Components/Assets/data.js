@@ -18,7 +18,7 @@ let data_product = [
     name: "ENTERIZO EVA - VINO TINTO",
     category: "enterizos",
     image: enterizoevavinotinto1,
-    new_price: 140000,
+    new_price: 130000,
     old_price: 150000,
   },
   {
