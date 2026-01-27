@@ -15,6 +15,11 @@ export const Item = (props) => {
     return (
         <div className='item'>
 
+             {props.offer && (
+                <div className="offer-badge">
+                    OFERTA
+                </div>
+            )}
             
             <Link to={`/product/${props.id}`}>
                 <img
