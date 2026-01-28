@@ -472,7 +472,6 @@ let all_product = [
       XL: false,
     },
   },
-
   {
     id: 406,
     name: "SET MAR - TONO AZUL",
