@@ -197,7 +197,7 @@ let all_product = [
     image4: enterizoflexblancocorto4,
     new_price: 130000,
     old_price: 140000,
-    offer: true,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
@@ -217,6 +217,7 @@ let all_product = [
     image4: enterizomagnusrojo4,
     new_price: 70000,
     old_price: 120000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -236,6 +237,7 @@ let all_product = [
     image4: enterizoaurablanco4,
     new_price: 70000,
     old_price: 120000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
