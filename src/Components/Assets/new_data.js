@@ -33,7 +33,7 @@ let new_data = [
     id: 406,
     name: "SET MAR - TONO AZUL",
     image: setmarazul1,
-    new_price: 60000,
+    new_price: 50000,
     old_price: 100000,
     offer: true,
   },
