@@ -257,6 +257,7 @@ let all_product = [
     image4: enterizoactiveblanco4,
     new_price: 70000,
     old_price: 130000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -276,6 +277,7 @@ let all_product = [
     image4: enterizovibesmandarina4,
     new_price: 70000,
     old_price: 130000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
