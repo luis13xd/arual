@@ -20,6 +20,7 @@ let data_product = [
     image: enterizoevavinotinto1,
     new_price: 130000,
     old_price: 150000,
+    offer: true,
   },
   {
     id: 106,
@@ -28,6 +29,7 @@ let data_product = [
     image: enterizoflexazul1,
     new_price: 110000,
     old_price: 150000,
+    offer: true,
   },
   {
     id: 120,
