@@ -157,7 +157,7 @@ let all_product = [
     image4: enterizoamorerosado4,
     new_price: 100000,
     old_price: 130000,
-    offer: false,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
