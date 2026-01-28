@@ -401,6 +401,7 @@ let all_product = [
     image4: topsamalia4,
     new_price: 15000,
     old_price: 30000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -420,6 +421,7 @@ let all_product = [
     image4: topzaharaazulmorado4,
     new_price: 15000,
     old_price: 30000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -439,6 +441,7 @@ let all_product = [
     image4: topsilverazul4,
     new_price: 30000,
     old_price: 60000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
