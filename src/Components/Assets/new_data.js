@@ -18,6 +18,7 @@ let new_data = [
     image: enterizoflexazulcielo1,
     new_price: 130000,
     old_price: 140000,
+    offer: true,
   },
   {
     id: 406,
