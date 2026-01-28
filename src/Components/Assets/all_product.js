@@ -297,6 +297,7 @@ let all_product = [
     image4: enterizomagiagris4,
     new_price: 70000,
     old_price: 130000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
