@@ -349,7 +349,6 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  
 
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
@@ -464,6 +463,7 @@ let all_product = [
     image4: setemilinegro4,
     new_price: 100000,
     old_price: 130000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
