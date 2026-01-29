@@ -58,13 +58,18 @@ import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
 
 // 200
 
-// ----------------------- Categoria 3 BODYS Y TOPS -----------------------s
+// ----------------------- Categoria 3 BODYS Y TOPS -----------------------
+// 303
+import topsemma1 from "./body/topsemma1.jpeg";
+import topsemma2 from "./body/topsemma2.jpeg";
+import topsemma3 from "./body/topsemma3.jpeg";
+import topsemma4 from "./body/topsemma4.jpeg";
 // 304
 import topemmanegro1 from "./body/topemmanegro1.jpeg";
 import topemmanegro2 from "./body/topemmanegro2.jpeg";
 import topemmanegro3 from "./body/topemmanegro3.jpeg";
 import topemmanegro4 from "./body/topemmanegro4.jpeg";
-// 304
+// 305
 import topemmablanco1 from "./body/topemmablanco1.jpeg";
 import topemmablanco2 from "./body/topemmablanco2.jpeg";
 import topemmablanco3 from "./body/topemmablanco3.jpeg";
