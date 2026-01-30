@@ -56,10 +56,10 @@ import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 // 200
-import short1 from "./body/short1.jpeg";
-import short2 from "./body/short2.jpeg";
-import short3 from "./body/short3.jpeg";
-import short4 from "./body/short4.jpeg";
+import short1 from "./lyf/short1.jpeg";
+import short2 from "./lyf/short2.jpeg";
+import short3 from "./lyf/short3.jpeg";
+import short4 from "./lyf/short4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 303
@@ -366,7 +366,25 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-
+  {
+    id: 200,
+    name: "SHORT RUNNING - TONO MORADO",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: short1,
+    image2: short2,
+    image3: short3,
+    image4: short4,
+    new_price: 65000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
     id: 304,
