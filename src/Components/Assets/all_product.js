@@ -506,6 +506,27 @@ let all_product = [
     },
   },
   {
+    id: 403,
+    name: "SET MARIE - TONO AZUL",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setmarie1,
+    image2: setmarie2,
+    image3: setmarie3,
+    image4: setmarie4,
+    new_price: 90000,
+    old_price: 100000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 404,
     name: "SET EMILY - TONO NEGRO",
     category: "sets",
