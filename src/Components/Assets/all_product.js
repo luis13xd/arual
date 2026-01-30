@@ -91,7 +91,11 @@ import topsilverazul3 from "./body/topsilverazul3.jpeg";
 import topsilverazul4 from "./body/topsilverazul4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
-
+// 401
+import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
+import setlimaamarillo2 from "./sets/setlimaamarillo2.jpeg";
+import setlimaamarillo3 from "./sets/setlimaamarillo3.jpeg";
+import setlimaamarillo4 from "./sets/setlimaamarillo4.jpeg";
 // 402
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import setbabyblue2 from "./sets/setbabyblue2.jpeg";
