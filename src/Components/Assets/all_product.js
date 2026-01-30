@@ -184,9 +184,9 @@ let all_product = [
     image2: enterizoflexazulcielo2,
     image3: enterizoflexazulcielo3,
     image4: enterizoflexazulcielo4,
-    new_price: 110000,
+    new_price: 130000,
     old_price: 140000,
-    offer: true,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
@@ -327,7 +327,7 @@ let all_product = [
     image4: enterizoflexazul4,
     new_price: 130000,
     old_price: 150000,
-    offer: true,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
@@ -347,7 +347,7 @@ let all_product = [
     image4: enterizoevavinotinto4,
     new_price: 130000,
     old_price: 150000,
-    offer: true,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
@@ -479,6 +479,27 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 4 SETS -----------------------------
+  {
+    id: 401,
+    name: "SET LIMA - TONO AMARILLO",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setlimaamarillo1,
+    image2: setlimaamarillo2,
+    image3: setlimaamarillo3,
+    image4: setlimaamarillo4,
+    new_price: 85000,
+    old_price: 100000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 404,
     name: "SET EMILY - TONO NEGRO",
