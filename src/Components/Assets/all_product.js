@@ -408,7 +408,7 @@ let all_product = [
     sizes: {
       XS: false,
       S: true,
-      M: true,
+      M: false,
       L: false,
       XL: false,
     },
