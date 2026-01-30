@@ -55,8 +55,11 @@ import enterizoamorerosado3 from "./enterizos/enterizoamorerosado3.jpeg";
 import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
-
 // 200
+import short1 from "./body/short1.jpeg";
+import short2 from "./body/short2.jpeg";
+import short3 from "./body/short3.jpeg";
+import short4 from "./body/short4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 303
