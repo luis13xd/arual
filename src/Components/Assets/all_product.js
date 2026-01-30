@@ -385,6 +385,7 @@ let all_product = [
       XL: false,
     },
   },
+  
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
     id: 304,
