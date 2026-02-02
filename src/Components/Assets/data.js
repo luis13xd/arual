@@ -1,6 +1,5 @@
 import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoevavinotinto1 from "./enterizos/enterizoevavinotinto1.jpeg";
-import enterizomagnusrojo1 from "./enterizos/enterizomagnusrojo1.jpeg";
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 
 let data_product = [
