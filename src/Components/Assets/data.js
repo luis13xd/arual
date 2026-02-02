@@ -31,15 +31,7 @@ let data_product = [
     old_price: 150000,
     offer: false,
   },
-  {
-    id: 120,
-    name: "ENTERIZO MAGNUS - TONO ROJO",
-    category: "enterizos",
-    image: enterizomagnusrojo1,
-    new_price: 70000,
-    old_price: 120000,
-    offer: true,
-  },
+  
 ];
 
 export default data_product;
