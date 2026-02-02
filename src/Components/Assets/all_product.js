@@ -212,7 +212,7 @@ let all_product = [
     image2: enterizoflexazulcielo2,
     image3: enterizoflexazulcielo3,
     image4: enterizoflexazulcielo4,
-    new_price: 130000,
+    new_price: 110000,
     old_price: 140000,
     offer: false,
     sizes: {
