@@ -19,13 +19,13 @@ export const CartItems = () => {
 
   const handleWhatsapp = () => {
     const productos = all_product.filter(
-      (producto) => cartItems[producto.id] > 0
+      (producto) => cartItems[producto.id] > 0,
     );
 
     let descuentoMensaje = "";
     if (descuento > 0) {
       descuentoMensaje = `\n\n ◆ Descuento con cupón: ${formatCurrency(
-        getTotalCartAmount() - getSubtotal()
+        getTotalCartAmount() - getSubtotal(),
       )}`;
     }
 
@@ -80,24 +80,34 @@ export const CartItems = () => {
         if (cartItems[product.id] > 0) {
           return (
             <div key={product.id} className="cart-item">
-                <div className="cartitems-format cartitems-format-main">
-                    <img src={product.image} alt="" className="carticon-product-icon" />
-                    <p>{product.name}</p>
-                    <p>{selectedSize[product.id]?.join(", ") || "Sin Talla"}</p>
-                    <p>{formatCurrency(product.new_price)}</p>
-                    <p>{cartItems[product.id]}</p>
-                    <p>{formatCurrency(product.new_price * cartItems[product.id])}</p>
-                    <img className='cartitems-remove-icon' src={remove_icon} onClick={() => { removeFromCart(product.id) }} alt="" />
-                </div>
-                <hr />
+              <div className="cartitems-format cartitems-format-main">
+                <img
+                  src={product.image}
+                  alt=""
+                  className="carticon-product-icon"
+                />
+                <p>{product.name}</p>
+                <p>{selectedSize[product.id]?.join(", ") || "Sin Talla"}</p>
+                <p>{formatCurrency(product.new_price)}</p>
+                <p>{cartItems[product.id]}</p>
+                <p>
+                  {formatCurrency(product.new_price * cartItems[product.id])}
+                </p>
+                <img
+                  className="cartitems-remove-icon"
+                  src={remove_icon}
+                  onClick={() => {
+                    removeFromCart(product.id);
+                  }}
+                  alt=""
+                />
+              </div>
+              <hr />
             </div>
           );
         }
         return null;
       })}
-
-
- 
 
       <div className="cartitems-down">
         <div className="cartitems-total">
