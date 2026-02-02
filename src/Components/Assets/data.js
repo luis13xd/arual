@@ -31,6 +31,15 @@ let data_product = [
     old_price: 150000,
     offer: false,
   },
+  {
+    id: 124,
+    name: "ENTERIZO AMORE - TONO ROSADO",
+    category: "enterizos",
+    image: enterizoamorerosado1,
+    new_price: 100000,
+    old_price: 130000,
+    offer: true,
+  },
   
 ];
 
