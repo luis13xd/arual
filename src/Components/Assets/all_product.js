@@ -283,7 +283,7 @@ let all_product = [
       XL: false,
     },
   },
-    {
+  {
     id: 105,
     name: "ENTERIZO FLEX - TONO GRIS",
     category: "enterizos",
@@ -464,7 +464,7 @@ let all_product = [
       XL: false,
     },
   },
-    {
+  {
     id: 202,
     name: "SHORT ACANALADO - TONO VERDE",
     category: "legginsyfaldas",
@@ -483,7 +483,7 @@ let all_product = [
       XL: false,
     },
   },
-  
+
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
     id: 304,
