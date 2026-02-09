@@ -18,6 +18,7 @@ import enterizovanilla1 from "./enterizos/enterizovainilla1.jpeg";
 import enterizovanilla2 from "./enterizos/enterizovainilla2.jpeg";
 import enterizovanilla3 from "./enterizos/enterizovainilla3.jpeg";
 import enterizovanilla4 from "./enterizos/enterizovainilla4.jpeg";
+
 // 106
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpg";
 import enterizoflexazul2 from "./enterizos/enterizoflexazul2.jpg";
