@@ -464,6 +464,25 @@ let all_product = [
       XL: false,
     },
   },
+    {
+    id: 202,
+    name: "SHORT ACANALADO - TONO VERDE",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortacanaladoverde1,
+    image2: shortacanaladoverde2,
+    image3: shortacanaladoverde3,
+    image4: shortacanaladoverde4,
+    new_price: 50000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
