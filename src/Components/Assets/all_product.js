@@ -80,6 +80,11 @@ import shortacanaladoverde1 from "./lyf/shortacanaladoverde1.jpeg";
 import shortacanaladoverde2 from "./lyf/shortacanaladoverde2.jpeg";
 import shortacanaladoverde3 from "./lyf/shortacanaladoverde3.jpeg";
 import shortacanaladoverde4 from "./lyf/shortacanaladoverde4.jpeg";
+// 203
+import shortverde1 from "./lyf/shortverde1.jpeg";
+import shortverde2 from "./lyf/shortverde2.jpeg";
+import shortverde3 from "./lyf/shortverde3.jpeg";
+import shortverde4 from "./lyf/shortverde4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
