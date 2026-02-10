@@ -85,6 +85,11 @@ import shortverde1 from "./lyf/shortverde1.jpeg";
 import shortverde2 from "./lyf/shortverde2.jpeg";
 import shortverde3 from "./lyf/shortverde3.jpeg";
 import shortverde4 from "./lyf/shortverde4.jpeg";
+// 204
+import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
+import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
+import shortfucsia3 from "./lyf/shortfucsia3.jpeg";
+import shortfucsia4 from "./lyf/shortfucsia4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
@@ -465,6 +470,25 @@ let all_product = [
     image2: short2,
     image3: short3,
     image4: short4,
+    new_price: 65000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 204,
+    name: "SHORT RUNNING - TONO FUCSIA",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortfucsia1,
+    image2: shortfucsia2,
+    image3: shortfucsia3,
+    image4: shortfucsia4,
     new_price: 65000,
     old_price: 70000,
     sizes: {
