@@ -82,6 +82,11 @@ import shortacanaladoverde3 from "./lyf/shortacanaladoverde3.jpeg";
 import shortacanaladoverde4 from "./lyf/shortacanaladoverde4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
+// 302
+import chaqueta1 from "./body/chaqueta1.jpeg";
+import chaqueta2 from "./body/chaqueta2.jpeg";
+import chaqueta3 from "./body/chaqueta3.jpeg";
+import chaqueta4 from "./body/chaqueta4.jpeg";
 // 303
 import topsemma1 from "./body/topsemma1.jpeg";
 import topsemma2 from "./body/topsemma2.jpeg";
