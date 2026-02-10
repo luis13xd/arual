@@ -436,6 +436,26 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
+
+  {
+    id: 203,
+    name: "SHORT RUNNING - TONO VERDE",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortverde1,
+    image2: shortverde2,
+    image3: shortverde3,
+    image4: shortverde4,
+    new_price: 65000,
+    old_price: 70000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 200,
     name: "SHORT RUNNING - TONO MORADO",
