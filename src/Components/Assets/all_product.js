@@ -97,6 +97,11 @@ import shortrojo3 from "./lyf/shortrojo3.jpeg";
 import shortrojo4 from "./lyf/shortrojo4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
+// 301
+import toprose1 from "./body/toprose1.jpeg";
+import toprose2 from "./body/toprose2.jpeg";
+import toprose3 from "./body/toprose3.jpeg";
+import toprose4 from "./body/toprose4.jpeg";
 // 302
 import chaquetagris1 from "./body/chaquetagris1.jpeg";
 import chaquetagris2 from "./body/chaquetagris2.jpeg";
