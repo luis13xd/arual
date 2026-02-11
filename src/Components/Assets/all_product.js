@@ -169,6 +169,11 @@ import setmarazul1 from "./sets/setmarazul1.jpeg";
 import setmarazul2 from "./sets/setmarazul2.jpeg";
 import setmarazul3 from "./sets/setmarazul3.jpeg";
 import setmarazul4 from "./sets/setmarazul4.jpeg";
+// 407
+import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
+import setmilanborgoña2 from "./sets/setmilanborgoña2.jpeg";
+import setmilanborgoña3 from "./sets/setmilanborgoña3.jpeg";
+import setmilanborgoña4 from "./sets/setmilanborgoña4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
