@@ -616,7 +616,7 @@ let all_product = [
       XL: false,
     },
   },
-    {
+  {
     id: 301,
     name: "TOPS ROSE - TONO ROSADO",
     category: "bodysytops",
