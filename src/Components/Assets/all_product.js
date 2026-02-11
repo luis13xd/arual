@@ -137,6 +137,11 @@ import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
 import topsilverazul3 from "./body/topsilverazul3.jpeg";
 import topsilverazul4 from "./body/topsilverazul4.jpeg";
+// 309
+import chaquetablanca1 from "./body/chaquetablanca1.jpeg";
+import chaquetablanca2 from "./body/chaquetablanca2.jpeg";
+import chaquetablanca3 from "./body/chaquetablanca3.jpeg";
+import chaquetablanca4 from "./body/chaquetablanca4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
