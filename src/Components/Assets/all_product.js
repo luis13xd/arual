@@ -778,6 +778,27 @@ let all_product = [
     },
   },
   {
+    id: 407,
+    name: "SET MILAN - TONO BORGOÑA",
+    category: "sets",
+    description:
+      "Tela completamente acanalada, su efecto push up te hará lucir increible",
+    image: setmilanborgoña1,
+    image2: setmilanborgoña2,
+    image3: setmilanborgoña3,
+    image4: setmilanborgoña4,
+    new_price: 85000,
+    old_price: 100000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 403,
     name: "SET MARIE - TONO AZUL",
     category: "sets",
