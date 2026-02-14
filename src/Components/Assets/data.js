@@ -40,7 +40,6 @@ let data_product = [
     old_price: 130000,
     offer: true,
   },
-  
 ];
 
 export default data_product;
