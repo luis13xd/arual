@@ -523,6 +523,7 @@ let all_product = [
     image4: shortrojo4,
     new_price: 65000,
     old_price: 70000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
