@@ -169,11 +169,6 @@ import setmilan1 from "./sets/setmilan1.jpeg";
 import setmilan2 from "./sets/setmilan2.jpeg";
 import setmilan3 from "./sets/setmilan3.jpeg";
 import setmilan4 from "./sets/setmilan4.jpeg";
-// 406
-import setmarazul1 from "./sets/setmarazul1.jpeg";
-import setmarazul2 from "./sets/setmarazul2.jpeg";
-import setmarazul3 from "./sets/setmarazul3.jpeg";
-import setmarazul4 from "./sets/setmarazul4.jpeg";
 // 407
 import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
 import setmilanborgoña2 from "./sets/setmilanborgoña2.jpeg";
