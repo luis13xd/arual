@@ -869,27 +869,6 @@ let all_product = [
     },
   },
   {
-    id: 406,
-    name: "SET MAR - TONO AZUL",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setmarazul1,
-    image2: setmarazul2,
-    image3: setmarazul3,
-    image4: setmarazul4,
-    new_price: 50000,
-    old_price: 100000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
     id: 402,
     name: "SET BABY - TONO AZUL",
     category: "sets",
