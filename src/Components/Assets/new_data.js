@@ -31,13 +31,12 @@ let new_data = [
   },
   {
     id: 401,
-    name: "SET EMILY - TONO NEGRO",
-    image: setemilinegro1,
-    new_price: 100000,
-    old_price: 130000,
-    offer: true,
+    name: "SET LIMA - TONO AMARILLO",
+    image: setlimaamarillo1,
+    new_price: 85000,
+    old_price: 100000,
+    offer: false,
   },
-
 ];
 
 export default new_data;
