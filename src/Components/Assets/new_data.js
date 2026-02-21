@@ -1,5 +1,4 @@
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
-import setmarazul1 from "./sets/setmarazul1.jpeg";
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import setemilinegro1 from "./sets/setemilinegro1.jpeg";
 
