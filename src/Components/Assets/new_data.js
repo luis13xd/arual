@@ -29,14 +29,7 @@ let new_data = [
     old_price: 130000,
     offer: true,
   },
-  {
-    id: 406,
-    name: "SET MAR - TONO AZUL",
-    image: setmarazul1,
-    new_price: 50000,
-    old_price: 100000,
-    offer: true,
-  },
+
 ];
 
 export default new_data;
