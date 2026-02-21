@@ -164,11 +164,6 @@ import setemilinegro1 from "./sets/setemilinegro1.jpeg";
 import setemilinegro2 from "./sets/setemilinegro2.jpeg";
 import setemilinegro3 from "./sets/setemilinegro3.jpeg";
 import setemilinegro4 from "./sets/setemilinegro4.jpeg";
-// 405
-import setmilan1 from "./sets/setmilan1.jpeg";
-import setmilan2 from "./sets/setmilan2.jpeg";
-import setmilan3 from "./sets/setmilan3.jpeg";
-import setmilan4 from "./sets/setmilan4.jpeg";
 // 407
 import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
 import setmilanborgoña2 from "./sets/setmilanborgoña2.jpeg";
