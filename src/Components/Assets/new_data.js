@@ -1,6 +1,7 @@
 import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import setemilinegro1 from "./sets/setemilinegro1.jpeg";
+import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
 
 let new_data = [
   {
