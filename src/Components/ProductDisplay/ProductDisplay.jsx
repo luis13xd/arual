@@ -21,7 +21,6 @@ export const ProductDisplay = (props) => {
     }).format(price);
   };
   
-
   const handleSizeSelection = (size) => {
     if (product.sizes[size]) {
       setSelectedSize(size);
