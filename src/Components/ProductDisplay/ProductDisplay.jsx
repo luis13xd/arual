@@ -5,9 +5,7 @@ import { HomeContext } from "../../Context/HomeContext";
 
 export const ProductDisplay = (props) => {
   const { product } = props;
-
   const { addToCart } = useContext(HomeContext);
-
   const [selectedImage, setSelectedImage] = useState(product.image);
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAddedModal, setShowAddedModal] = useState(false);
