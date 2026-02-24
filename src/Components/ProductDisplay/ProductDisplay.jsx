@@ -34,7 +34,7 @@ export const ProductDisplay = (props) => {
 
   const handleAddToCart = () => {
     if (selectedSize) {
-      addToCart(product.id, selectedSize); // Aquí estás pasando la talla seleccionada
+      addToCart(product.id, selectedSize); 
       setShowAddedModal(true);
       setTimeout(() => setShowAddedModal(false), 1200);
     } else {
