@@ -33,7 +33,7 @@ const HomeContextProvider = (props) => {
         setCartItems((prev) => {
             const newCart = { ...prev };
             if (newCart[itemId] > 0) newCart[itemId] -= 1;
-            if (newCart[itemId] === 0) delete newCart[itemId]; // Elimina productos con 0 cantidad
+            if (newCart[itemId] === 0) delete newCart[itemId]; 
             return newCart;
         });
         setSelectedSize((prev) => {
