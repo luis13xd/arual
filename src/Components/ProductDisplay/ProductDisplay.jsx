@@ -127,7 +127,7 @@ export const ProductDisplay = (props) => {
 
         <p className="productdisplay-right-category">
           <span>Tags : </span>
-          Moda, Ropa, Calidad
+          Moda, Ropa, Deportivos
         </p>
       </div>
     </div>
