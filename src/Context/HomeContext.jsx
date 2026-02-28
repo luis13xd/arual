@@ -82,7 +82,7 @@ const HomeContextProvider = (props) => {
 
     const validarCupon = () => {
         if (cupon === 'FREE10') {
-            setDescuento(0.1); // 10% de descuento
+            setDescuento(0.1); 
         } else {
             alert('Cupón no válido');
         }
