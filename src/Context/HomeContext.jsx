@@ -39,7 +39,7 @@ const HomeContextProvider = (props) => {
         setSelectedSize((prev) => {
             const newSizes = { ...prev };
             if (newSizes[itemId]) {
-                newSizes[itemId].pop(); // Quitar la última talla agregada
+                newSizes[itemId].pop(); 
                 if (newSizes[itemId].length === 0) delete newSizes[itemId];
             }
             return newSizes;
