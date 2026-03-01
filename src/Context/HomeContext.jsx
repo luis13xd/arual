@@ -27,7 +27,6 @@ const HomeContextProvider = (props) => {
         }));
     };
     
-    
     const removeFromCart = (itemId) => {
         setCartItems((prev) => {
             const newCart = { ...prev };
