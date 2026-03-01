@@ -76,7 +76,6 @@ const HomeContextProvider = (props) => {
         return totalItem;
     };
     
-
     const validarCupon = () => {
         if (cupon === 'FREE10') {
             setDescuento(0.1); 
