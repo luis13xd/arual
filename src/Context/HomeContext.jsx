@@ -44,7 +44,6 @@ const HomeContextProvider = (props) => {
         });
     };
     
-
     const getSubtotal = () => {
         let subtotal = 0;
         for (const item in cartItems) {
