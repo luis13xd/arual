@@ -20,7 +20,7 @@ const HomeContextProvider = (props) => {
     const [selectedSize, setSelectedSize] = useState({});
 
     const addToCart = (itemId, size) => {
-        if (!size || !cartItems.hasOwnProperty(itemId)) return; // Validación
+        if (!size || !cartItems.hasOwnProperty(itemId)) return; 
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
         setSelectedSize((prev) => ({
             ...prev,
