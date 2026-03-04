@@ -18,7 +18,7 @@ export const ProductDisplay = (props) => {
       maximumFractionDigits: 0,
     }).format(price);
   };
-  
+
   const handleSizeSelection = (size) => {
     if (product.sizes[size]) {
       setSelectedSize(size);
@@ -30,7 +30,7 @@ export const ProductDisplay = (props) => {
 
   const handleAddToCart = () => {
     if (selectedSize) {
-      addToCart(product.id, selectedSize); 
+      addToCart(product.id, selectedSize);
       setShowAddedModal(true);
       setTimeout(() => setShowAddedModal(false), 1200);
     } else {
@@ -40,7 +40,6 @@ export const ProductDisplay = (props) => {
 
   return (
     <div className="productdisplay">
-        
       <div className="imagenes-left">
         <div className="productdisplay-img-list">
           <img
