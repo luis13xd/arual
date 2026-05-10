@@ -1,5 +1,4 @@
 import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
-import enterizoevavinotinto1 from "./enterizos/enterizoevavinotinto1.jpeg";
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoamorerosado1 from "./enterizos/enterizoamorerosado1.jpeg";
 
@@ -11,15 +10,6 @@ let data_product = [
     image: enterizoalmabeige1,
     new_price: 50000,
     old_price: 100000,
-    offer: true,
-  },
-  {
-    id: 107,
-    name: "ENTERIZO EVA - VINO TINTO",
-    category: "enterizos",
-    image: enterizoevavinotinto1,
-    new_price: 130000,
-    old_price: 150000,
     offer: true,
   },
   {
