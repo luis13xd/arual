@@ -293,26 +293,7 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 117,
-    name: "ENTERIZO FLEX - TONO BLANCO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexblancocorto1,
-    image2: enterizoflexblancocorto2,
-    image3: enterizoflexblancocorto3,
-    image4: enterizoflexblancocorto4,
-    new_price: 110000,
-    old_price: 140000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+
   {
     id: 105,
     name: "ENTERIZO FLEX - TONO GRIS",
