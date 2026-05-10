@@ -52,11 +52,6 @@ import shortrojo3 from "./lyf/shortrojo3.jpeg";
 import shortrojo4 from "./lyf/shortrojo4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
-// 301
-import toprose1 from "./body/toprose1.jpeg";
-import toprose2 from "./body/toprose2.jpeg";
-import toprose3 from "./body/toprose3.jpeg";
-import toprose4 from "./body/toprose4.jpeg";
 // 302
 import chaquetagris1 from "./body/chaquetagris1.jpeg";
 import chaquetagris2 from "./body/chaquetagris2.jpeg";
@@ -67,16 +62,6 @@ import topsemma1 from "./body/topsemma1.jpeg";
 import topsemma2 from "./body/topsemma2.jpeg";
 import topsemma3 from "./body/topsemma3.jpeg";
 import topsemma4 from "./body/topsemma4.jpeg";
-// 304
-import topemmanegro1 from "./body/topemmanegro1.jpeg";
-import topemmanegro2 from "./body/topemmanegro2.jpeg";
-import topemmanegro3 from "./body/topemmanegro3.jpeg";
-import topemmanegro4 from "./body/topemmanegro4.jpeg";
-// 305
-import topemmablanco1 from "./body/topemmablanco1.jpeg";
-import topemmablanco2 from "./body/topemmablanco2.jpeg";
-import topemmablanco3 from "./body/topemmablanco3.jpeg";
-import topemmablanco4 from "./body/topemmablanco4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -333,63 +318,6 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
-  {
-    id: 304,
-    name: "TOPS EMMA - TONO NEGRO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topemmanegro1,
-    image2: topemmanegro2,
-    image3: topemmanegro3,
-    image4: topemmanegro4,
-    new_price: 40000,
-    old_price: 50000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 305,
-    name: "TOPS EMMA - TONO BLANCO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topemmablanco1,
-    image2: topemmablanco2,
-    image3: topemmablanco3,
-    image4: topemmablanco4,
-    new_price: 40000,
-    old_price: 50000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 301,
-    name: "TOPS ROSE - TONO ROSADO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: toprose1,
-    image2: toprose2,
-    image3: toprose3,
-    image4: toprose4,
-    new_price: 40000,
-    old_price: 50000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 309,
     name: "CHAQUETA CIGNUS - TONO BLANCO",
