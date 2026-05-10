@@ -45,11 +45,6 @@ import shortacanaladoverde1 from "./lyf/shortacanaladoverde1.jpeg";
 import shortacanaladoverde2 from "./lyf/shortacanaladoverde2.jpeg";
 import shortacanaladoverde3 from "./lyf/shortacanaladoverde3.jpeg";
 import shortacanaladoverde4 from "./lyf/shortacanaladoverde4.jpeg";
-// 203
-import shortverde1 from "./lyf/shortverde1.jpeg";
-import shortverde2 from "./lyf/shortverde2.jpeg";
-import shortverde3 from "./lyf/shortverde3.jpeg";
-import shortverde4 from "./lyf/shortverde4.jpeg";
 // 204
 import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
@@ -291,27 +286,6 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-
-  {
-    id: 203,
-    name: "SHORT RUNNING - TONO VERDE",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortverde1,
-    image2: shortverde2,
-    image3: shortverde3,
-    image4: shortverde4,
-    new_price: 65000,
-    old_price: 70000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 205,
     name: "SHORT RUNNING - TONO ROJO",
