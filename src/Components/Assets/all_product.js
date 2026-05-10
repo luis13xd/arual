@@ -139,11 +139,6 @@ import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
 import setlimaamarillo2 from "./sets/setlimaamarillo2.jpeg";
 import setlimaamarillo3 from "./sets/setlimaamarillo3.jpeg";
 import setlimaamarillo4 from "./sets/setlimaamarillo4.jpeg";
-// 402
-import setbabyblue1 from "./sets/setbabyblue1.jpeg";
-import setbabyblue2 from "./sets/setbabyblue2.jpeg";
-import setbabyblue3 from "./sets/setbabyblue3.jpeg";
-import setbabyblue4 from "./sets/setbabyblue4.jpeg";
 // 403
 import setmarie1 from "./sets/setmarie1.jpeg";
 import setmarie2 from "./sets/setmarie2.jpeg";
@@ -785,27 +780,6 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 402,
-    name: "SET BABY - TONO AZUL",
-    category: "sets",
-    description:
-      "Tela completamente acanalada: se ajusta suavemente al cuerpo, resaltando tu figura.",
-    image: setbabyblue1,
-    image2: setbabyblue2,
-    image3: setbabyblue3,
-    image4: setbabyblue4,
-    new_price: 70000,
-    old_price: 130000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
       L: false,
       XL: false,
     },
