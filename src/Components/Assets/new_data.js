@@ -1,5 +1,4 @@
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
-import setemilinegro1 from "./sets/setemilinegro1.jpeg";
 import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
 
 let new_data = [
@@ -11,14 +10,6 @@ let new_data = [
     new_price: 110000,
     old_price: 140000,
     offer: false,
-  },
-  {
-    id: 404,
-    name: "SET EMILY - TONO NEGRO",
-    image: setemilinegro1,
-    new_price: 100000,
-    old_price: 130000,
-    offer: true,
   },
   {
     id: 401,
