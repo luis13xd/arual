@@ -77,16 +77,6 @@ import topemmablanco1 from "./body/topemmablanco1.jpeg";
 import topemmablanco2 from "./body/topemmablanco2.jpeg";
 import topemmablanco3 from "./body/topemmablanco3.jpeg";
 import topemmablanco4 from "./body/topemmablanco4.jpeg";
-// 306
-import topsamalia1 from "./body/topsamalia1.jpeg";
-import topsamalia2 from "./body/topsamalia2.jpeg";
-import topsamalia3 from "./body/topsamalia3.jpeg";
-import topsamalia4 from "./body/topsamalia4.jpeg";
-// 307
-import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
-import topzaharaazulmorado2 from "./body/topzaharaazulmorado2.jpeg";
-import topzaharaazulmorado3 from "./body/topzaharaazulmorado3.jpeg";
-import topzaharaazulmorado4 from "./body/topzaharaazulmorado4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -449,46 +439,6 @@ let all_product = [
     image4: topsemma4,
     new_price: 45000,
     old_price: 50000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 306,
-    name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topsamalia1,
-    image2: topsamalia2,
-    image3: topsamalia3,
-    image4: topsamalia4,
-    new_price: 15000,
-    old_price: 30000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 307,
-    name: "TOPS ZAHARA - TONO AZUL-MORADO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topzaharaazulmorado1,
-    image2: topzaharaazulmorado2,
-    image3: topzaharaazulmorado3,
-    image4: topzaharaazulmorado4,
-    new_price: 15000,
-    old_price: 30000,
-    offer: true,
     sizes: {
       XS: false,
       S: true,
