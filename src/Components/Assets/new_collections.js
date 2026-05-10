@@ -1,7 +1,5 @@
 import topemmanegro1 from "./body/topemmanegro1.jpeg";
 import topemmablanco1 from "./body/topemmablanco1.jpeg";
-import topsamalia1 from "./body/topsamalia1.jpeg";
-import topzaharaazulmorado1 from "./body/topzaharaazulmorado1.jpeg";
 
 let new_collections = [
   {
@@ -18,22 +16,6 @@ let new_collections = [
     image: topemmablanco1,
     new_price: 40000,
     old_price: 50000,
-  },
-  {
-    id: 306,
-    name: "TOPS AMALIA - TONO BLANCO-NEGRO-CAFÉ",
-    image: topsamalia1,
-    new_price: 15000,
-    old_price: 40000,
-    offer: true,
-  },
-  {
-    id: 307,
-    name: "TOPS ZAHARA - TONO AZUL-MORADO",
-    image: topzaharaazulmorado1,
-    new_price: 15000,
-    old_price: 40000,
-    offer: true,
   },
 ];
 
