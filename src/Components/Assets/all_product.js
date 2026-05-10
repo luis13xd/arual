@@ -79,11 +79,6 @@ import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
 import setlimaamarillo2 from "./sets/setlimaamarillo2.jpeg";
 import setlimaamarillo3 from "./sets/setlimaamarillo3.jpeg";
 import setlimaamarillo4 from "./sets/setlimaamarillo4.jpeg";
-// 403
-import setmarie1 from "./sets/setmarie1.jpeg";
-import setmarie2 from "./sets/setmarie2.jpeg";
-import setmarie3 from "./sets/setmarie3.jpeg";
-import setmarie4 from "./sets/setmarie4.jpeg";
 // 407
 import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
 import setmilanborgoña2 from "./sets/setmilanborgoña2.jpeg";
@@ -435,27 +430,6 @@ let all_product = [
       XS: false,
       S: true,
       M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 403,
-    name: "SET MARIE - TONO AZUL",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setmarie1,
-    image2: setmarie2,
-    image3: setmarie3,
-    image4: setmarie4,
-    new_price: 90000,
-    old_price: 100000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
       L: false,
       XL: false,
     },
