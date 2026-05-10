@@ -1,17 +1,8 @@
-import setbabyblue1 from "./sets/setbabyblue1.jpeg";
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import setemilinegro1 from "./sets/setemilinegro1.jpeg";
 import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
 
 let new_data = [
-  {
-    id: 402,
-    name: "SET BABY - TONO AZUL",
-    image: setbabyblue1,
-    new_price: 70000,
-    old_price: 130000,
-    offer: true,
-  },
   {
     id: 119,
     name: "ENTERIZO FLEX - TONO AZUL",
