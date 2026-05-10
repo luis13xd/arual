@@ -40,11 +40,6 @@ import short1 from "./lyf/short1.jpeg";
 import short2 from "./lyf/short2.jpeg";
 import short3 from "./lyf/short3.jpeg";
 import short4 from "./lyf/short4.jpeg";
-// 202
-import shortacanaladoverde1 from "./lyf/shortacanaladoverde1.jpeg";
-import shortacanaladoverde2 from "./lyf/shortacanaladoverde2.jpeg";
-import shortacanaladoverde3 from "./lyf/shortacanaladoverde3.jpeg";
-import shortacanaladoverde4 from "./lyf/shortacanaladoverde4.jpeg";
 // 204
 import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
@@ -338,25 +333,6 @@ let all_product = [
     new_price: 65000,
     old_price: 70000,
     offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 202,
-    name: "SHORT ACANALADO - TONO VERDE",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortacanaladoverde1,
-    image2: shortacanaladoverde2,
-    image3: shortacanaladoverde3,
-    image4: shortacanaladoverde4,
-    new_price: 50000,
-    old_price: 70000,
     sizes: {
       XS: false,
       S: true,
