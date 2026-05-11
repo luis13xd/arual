@@ -1,6 +1,7 @@
 import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoelevenrojo1 from "./enterizos/enterizoelevenrojo1.jpeg";
+import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
 
 let data_product = [
   {
@@ -13,13 +14,21 @@ let data_product = [
     offer: true,
   },
   {
-    id: 106,
+    id: 119,
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
     image: enterizoflexazul1,
-    new_price: 110000,
+    new_price: 90000,
     old_price: 150000,
-    offer: false,
+    offer: true,
+  },
+  {
+    id: 106,
+    name: "ENTERIZO FLEX - TONO AMARILLO",
+    image: enterizoflexamarillo1,
+    new_price: 90000,
+    old_price: 140000,
+    offer: true,
   },
   {
     id: 108,

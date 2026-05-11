@@ -13,6 +13,11 @@ import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
 import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
 import enterizoflexgris3 from "./enterizos/enterizoflexgris3.jpeg";
 import enterizoflexgris4 from "./enterizos/enterizoflexgris4.jpeg";
+// 106
+import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
+import enterizoflexamarillo2 from "./enterizos/enterizoflexamarillo2.jpeg";
+import enterizoflexamarillo3 from "./enterizos/enterizoflexamarillo3.jpeg";
+import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
 // 108
 import enterizoelevenrojo1 from "./enterizos/enterizoelevenrojo1.jpeg";
 import enterizoelevenrojo2 from "./enterizos/enterizoelevenrojo2.jpeg";
@@ -158,7 +163,26 @@ let all_product = [
       XL: false,
     },
   },
-
+  {
+    id: 106,
+    name: "ENTERIZO FLEX - TONO AMARILLO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoflexamarillo1,
+    image2: enterizoflexamarillo2,
+    image3: enterizoflexamarillo3,
+    image4: enterizoflexamarillo4,
+    new_price: 90000,
+    old_price: 140000,
+    offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 105,
     name: "ENTERIZO FLEX - TONO GRIS",
