@@ -3,11 +3,6 @@ import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
-// 102
-import enterizoauroraamarillo1 from "./enterizos/enterizoauroraamarillo1.jpeg";
-import enterizoauroraamarillo2 from "./enterizos/enterizoauroraamarillo2.jpeg";
-import enterizoauroraamarillo3 from "./enterizos/enterizoauroraamarillo3.jpeg";
-import enterizoauroraamarillo4 from "./enterizos/enterizoauroraamarillo4.jpeg";
 // 104
 import enterizovanilla1 from "./enterizos/enterizovainilla1.jpeg";
 import enterizovanilla2 from "./enterizos/enterizovainilla2.jpeg";
@@ -28,11 +23,6 @@ import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazulcielo2 from "./enterizos/enterizoflexazul2.jpeg";
 import enterizoflexazulcielo3 from "./enterizos/enterizoflexazul3.jpeg";
 import enterizoflexazulcielo4 from "./enterizos/enterizoflexazul4.jpeg";
-// 124
-import enterizoamorerosado1 from "./enterizos/enterizoamorerosado1.jpeg";
-import enterizoamorerosado2 from "./enterizos/enterizoamorerosado2.jpeg";
-import enterizoamorerosado3 from "./enterizos/enterizoamorerosado3.jpeg";
-import enterizoamorerosado4 from "./enterizos/enterizoamorerosado4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 // 200
@@ -120,46 +110,6 @@ let all_product = [
     new_price: 50000,
     old_price: 100000,
     offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 102,
-    name: "ENTERIZO AURORA - TONO AMARILLO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoauroraamarillo1,
-    image2: enterizoauroraamarillo2,
-    image3: enterizoauroraamarillo3,
-    image4: enterizoauroraamarillo4,
-    new_price: 110000,
-    old_price: 120000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 124,
-    name: "ENTERIZO AMORE - TONO ROSADO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoamorerosado1,
-    image2: enterizoamorerosado2,
-    image3: enterizoamorerosado3,
-    image4: enterizoamorerosado4,
-    new_price: 100000,
-    old_price: 130000,
-    offer: false,
     sizes: {
       XS: false,
       S: true,
