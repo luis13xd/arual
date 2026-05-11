@@ -147,9 +147,9 @@ let all_product = [
     image2: enterizoflexazulcielo2,
     image3: enterizoflexazulcielo3,
     image4: enterizoflexazulcielo4,
-    new_price: 110000,
+    new_price: 90000,
     old_price: 140000,
-    offer: false,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -168,9 +168,9 @@ let all_product = [
     image2: enterizoflexgris2,
     image3: enterizoflexgris3,
     image4: enterizoflexgris4,
-    new_price: 110000,
+    new_price: 90000,
     old_price: 140000,
-    offer: false,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -188,7 +188,7 @@ let all_product = [
     image2: enterizoelevenrojo2,
     image3: enterizoelevenrojo3,
     image4: enterizoelevenrojo4,
-    new_price: 120000,
+    new_price: 110000,
     old_price: 140000,
     offer: false,
     sizes: {
