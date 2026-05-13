@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from "react";
+import React, { useContext, useRef, useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
@@ -13,6 +13,17 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef();
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
+
   const navbar_hamburguer = () => {
     menuRef.current.classList.toggle("nav-menu-visible");
     setIsMenuOpen(!isMenuOpen);
@@ -20,6 +31,12 @@ export const Navbar = () => {
 
   const handleMenuClick = (section) => {
     setMenu(section);
+    menuRef.current.classList.remove("nav-menu-visible");
+    setIsMenuOpen(false);
+  };
+
+  // 👇 Cierra el menú al hacer click en el overlay
+  const handleOverlayClick = () => {
     menuRef.current.classList.remove("nav-menu-visible");
     setIsMenuOpen(false);
   };
@@ -39,7 +56,15 @@ export const Navbar = () => {
 
       <img src={logo} alt="Tienda" className="nav-logo-img" />
 
-      <ul ref={menuRef} className={`nav-menu ${isMenuOpen ? "nav-menu-visible" : ""}`}>
+      {/* 👇 Overlay que captura el click fuera del menú */}
+      {isMenuOpen && (
+        <div className="nav-overlay" onClick={handleOverlayClick} />
+      )}
+
+      <ul
+        ref={menuRef}
+        className={`nav-menu ${isMenuOpen ? "nav-menu-visible" : ""}`}
+      >
         {[
           { name: "Tienda", path: "/", key: "home" },
           { name: "Enterizos", path: "/enterizos", key: "enterizos" },
