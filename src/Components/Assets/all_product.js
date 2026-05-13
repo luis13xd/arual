@@ -3,6 +3,11 @@ import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
+// 104
+import enterizovanilla1 from "./enterizos/enterizovainilla1.jpeg";
+import enterizovanilla2 from "./enterizos/enterizovainilla2.jpeg";
+import enterizovanilla3 from "./enterizos/enterizovainilla3.jpeg";
+import enterizovanilla4 from "./enterizos/enterizovainilla4.jpeg";
 // 105
 import enterizoflexgris1 from "./enterizos/enterizoflexgris1.jpeg";
 import enterizoflexgris2 from "./enterizos/enterizoflexgris2.jpeg";
@@ -105,6 +110,26 @@ let all_product = [
     new_price: 50000,
     old_price: 100000,
     offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 104,
+    name: "ENTERIZO VANILLA - TONO BEIGE",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizovanilla1,
+    image2: enterizovanilla2,
+    image3: enterizovanilla3,
+    image4: enterizovanilla4,
+    new_price: 90000,
+    old_price: 130000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
