@@ -35,11 +35,6 @@ import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
 import shortfucsia3 from "./lyf/shortfucsia3.jpeg";
 import shortfucsia4 from "./lyf/shortfucsia4.jpeg";
-// 205
-import shortrojo1 from "./lyf/shortrojo1.jpeg";
-import shortrojo2 from "./lyf/shortrojo2.jpeg";
-import shortrojo3 from "./lyf/shortrojo3.jpeg";
-import shortrojo4 from "./lyf/shortrojo4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
@@ -192,26 +187,6 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  {
-    id: 205,
-    name: "SHORT RUNNING - TONO ROJO",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortrojo1,
-    image2: shortrojo2,
-    image3: shortrojo3,
-    image4: shortrojo4,
-    new_price: 50000,
-    old_price: 70000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
   {
     id: 200,
     name: "SHORT RUNNING - TONO MORADO",
