@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./ProductDisplay.css";
 import star_icon from "../Assets/star_icon.png";
 import { HomeContext } from "../../Context/HomeContext";
@@ -9,6 +9,11 @@ export const ProductDisplay = (props) => {
   const [selectedImage, setSelectedImage] = useState(product.image);
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAddedModal, setShowAddedModal] = useState(false);
+
+  useEffect(() => {
+    setSelectedImage(product.image);
+    setSelectedSize(null);
+  }, [product.id, product.image]);
 
   const formatCurrency = (price) => {
     return new Intl.NumberFormat("es-CO", {
