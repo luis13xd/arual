@@ -1,6 +1,5 @@
 import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
-import enterizoelevenrojo1 from "./enterizos/enterizoelevenrojo1.jpeg";
 import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
 
 let data_product = [
@@ -29,14 +28,6 @@ let data_product = [
     new_price: 90000,
     old_price: 140000,
     offer: true,
-  },
-  {
-    id: 108,
-    name: "ENTERIZO ELEVEN - TONO ROJO",
-    image: enterizoelevenrojo1,
-    new_price: 120000,
-    old_price: 140000,
-    offer: false,
   },
 ];
 

@@ -18,11 +18,6 @@ import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
 import enterizoflexamarillo2 from "./enterizos/enterizoflexamarillo2.jpeg";
 import enterizoflexamarillo3 from "./enterizos/enterizoflexamarillo3.jpeg";
 import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
-// 108
-import enterizoelevenrojo1 from "./enterizos/enterizoelevenrojo1.jpeg";
-import enterizoelevenrojo2 from "./enterizos/enterizoelevenrojo2.jpeg";
-import enterizoelevenrojo3 from "./enterizos/enterizoelevenrojo3.jpeg";
-import enterizoelevenrojo4 from "./enterizos/enterizoelevenrojo4.jpeg";
 // 119
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexazulcielo2 from "./enterizos/enterizoflexazul2.jpeg";
@@ -195,26 +190,6 @@ let all_product = [
     new_price: 90000,
     old_price: 140000,
     offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 108,
-    name: "ENTERIZO ELEVEN - TONO ROJO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoelevenrojo1,
-    image2: enterizoelevenrojo2,
-    image3: enterizoelevenrojo3,
-    image4: enterizoelevenrojo4,
-    new_price: 110000,
-    old_price: 140000,
-    offer: false,
     sizes: {
       XS: false,
       S: true,

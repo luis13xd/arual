@@ -1,6 +1,5 @@
 import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
-import enterizoelevenrojo1 from "./enterizos/enterizoelevenrojo1.jpeg";
 import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
 
 let new_data = [
@@ -19,14 +18,6 @@ let new_data = [
     image: setlimaamarillo1,
     new_price: 85000,
     old_price: 100000,
-    offer: false,
-  },
-  {
-    id: 108,
-    name: "ENTERIZO ELEVEN - TONO ROJO",
-    image: enterizoelevenrojo1,
-    new_price: 120000,
-    old_price: 140000,
     offer: false,
   },
   {
