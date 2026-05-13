@@ -65,15 +65,7 @@ import chaquetablanca4 from "./body/chaquetablanca4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
-import setlimaamarillo1 from "./sets/setlimaamarillo1.jpeg";
-import setlimaamarillo2 from "./sets/setlimaamarillo2.jpeg";
-import setlimaamarillo3 from "./sets/setlimaamarillo3.jpeg";
-import setlimaamarillo4 from "./sets/setlimaamarillo4.jpeg";
-// 407
-import setmilanborgoña1 from "./sets/setmilanborgoña1.jpeg";
-import setmilanborgoña2 from "./sets/setmilanborgoña2.jpeg";
-import setmilanborgoña3 from "./sets/setmilanborgoña3.jpeg";
-import setmilanborgoña4 from "./sets/setmilanborgoña4.jpeg";
+
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -129,7 +121,7 @@ let all_product = [
     image4: enterizovanilla4,
     new_price: 90000,
     old_price: 130000,
-    offer: false,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
@@ -341,49 +333,8 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 4 SETS -----------------------------
-  {
-    id: 401,
-    name: "SET LIMA - TONO AMARILLO",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setlimaamarillo1,
-    image2: setlimaamarillo2,
-    image3: setlimaamarillo3,
-    image4: setlimaamarillo4,
-    new_price: 85000,
-    old_price: 100000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 407,
-    name: "SET MILAN - TONO BORGOÑA",
-    category: "sets",
-    description:
-      "Tela completamente acanalada, su efecto push up te hará lucir increible",
-    image: setmilanborgoña1,
-    image2: setmilanborgoña2,
-    image3: setmilanborgoña3,
-    image4: setmilanborgoña4,
-    new_price: 85000,
-    old_price: 100000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
 
+  
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
     id: 504,
