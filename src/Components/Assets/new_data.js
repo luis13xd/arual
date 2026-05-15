@@ -6,9 +6,9 @@ let new_data = [
     name: "ENTERIZO FLEX - TONO AZUL",
     category: "enterizos",
     image: enterizoflexazulcielo1,
-    new_price: 110000,
+    new_price: 90000,
     old_price: 140000,
-    offer: false,
+    offer: true,
   },
 
 ];
