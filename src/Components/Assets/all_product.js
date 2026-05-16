@@ -30,6 +30,11 @@ import short1 from "./lyf/short1.jpeg";
 import short2 from "./lyf/short2.jpeg";
 import short3 from "./lyf/short3.jpeg";
 import short4 from "./lyf/short4.jpeg";
+// 201
+import shortaguamarina1 from "./lyf/shortaguamarina1.jpeg";
+import shortaguamarina2 from "./lyf/shortaguamarina2.jpeg";
+import shortaguamarina3 from "./lyf/shortaguamarina3.jpeg";
+import shortaguamarina4 from "./lyf/shortaguamarina4.jpeg";
 // 202
 import shortvinotinto1 from "./lyf/shortvinotinto1.jpeg";
 import shortvinotinto2 from "./lyf/shortvinotinto2.jpeg";
@@ -275,6 +280,26 @@ let all_product = [
     image2: shortvinotinto2,
     image3: shortvinotinto3,
     image4: shortvinotinto4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 201,
+    name: "SHORT CORAZÓN - TONO AGUAMARINA",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortaguamarina1,
+    image2: shortaguamarina2,
+    image3: shortaguamarina3,
+    image4: shortaguamarina4,
     new_price: 38000,
     old_price: 50000,
     offer: false,
