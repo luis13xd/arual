@@ -62,10 +62,14 @@ import chaquetablanca1 from "./body/chaquetablanca1.jpeg";
 import chaquetablanca2 from "./body/chaquetablanca2.jpeg";
 import chaquetablanca3 from "./body/chaquetablanca3.jpeg";
 import chaquetablanca4 from "./body/chaquetablanca4.jpeg";
+// 310
+import chaquetarosa1 from "./body/chaquetarosa1.jpeg";
+import chaquetarosa2 from "./body/chaquetarosa2.jpeg";
+import chaquetarosa3 from "./body/chaquetarosa3.jpeg";
+import chaquetarosa4 from "./body/chaquetarosa4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
-
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -254,6 +258,25 @@ let all_product = [
     },
   },
   {
+    id: 310,
+    name: "CHAQUETA CIGNUS - TONO ROSA",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: chaquetarosa1,
+    image2: chaquetarosa2,
+    image3: chaquetarosa3,
+    image4: chaquetarosa4,
+    new_price: 65000,
+    old_price: 80000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 302,
     name: "CHAQUETA CIGNUS - TONO GRIS",
     category: "bodysytops",
@@ -291,7 +314,7 @@ let all_product = [
       XL: false,
     },
   },
-    {
+  {
     id: 304,
     name: "TOP EMMA - TONO CAFÉ",
     category: "bodysytops",
@@ -334,7 +357,6 @@ let all_product = [
 
   // ---------------------------- Categoria 4 SETS -----------------------------
 
-  
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
     id: 504,
