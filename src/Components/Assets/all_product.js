@@ -30,6 +30,11 @@ import short1 from "./lyf/short1.jpeg";
 import short2 from "./lyf/short2.jpeg";
 import short3 from "./lyf/short3.jpeg";
 import short4 from "./lyf/short4.jpeg";
+// 202
+import shortvinotinto1 from "./lyf/shortvinotinto1.jpeg";
+import shortvinotinto2 from "./lyf/shortvinotinto2.jpeg";
+import shortvinotinto3 from "./lyf/shortvinotinto3.jpeg";
+import shortvinotinto4 from "./lyf/shortvinotinto4.jpeg";
 // 203
 import shortfucsias1 from "./lyf/shortfucsias1.jpeg";
 import shortfucsias2 from "./lyf/shortfucsias2.jpeg";
@@ -250,6 +255,26 @@ let all_product = [
     image2: shortfucsias2,
     image3: shortfucsias3,
     image4: shortfucsias4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 202,
+    name: "SHORT CORAZÓN - TONO VINOTINTO",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortvinotinto1,
+    image2: shortvinotinto2,
+    image3: shortvinotinto3,
+    image4: shortvinotinto4,
     new_price: 38000,
     old_price: 50000,
     offer: false,
