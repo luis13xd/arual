@@ -30,6 +30,11 @@ import short1 from "./lyf/short1.jpeg";
 import short2 from "./lyf/short2.jpeg";
 import short3 from "./lyf/short3.jpeg";
 import short4 from "./lyf/short4.jpeg";
+// 203
+import shortfucsias1 from "./lyf/shortfucsias1.jpeg";
+import shortfucsias2 from "./lyf/shortfucsias2.jpeg";
+import shortfucsias3 from "./lyf/shortfucsias3.jpeg";
+import shortfucsias4 from "./lyf/shortfucsias4.jpeg";
 // 204
 import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
@@ -228,6 +233,26 @@ let all_product = [
     new_price: 50000,
     old_price: 70000,
     offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 203,
+    name: "SHORT CORAZÓN - TONO FUCSIA",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortfucsias1,
+    image2: shortfucsias2,
+    image3: shortfucsias3,
+    image4: shortfucsias4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
