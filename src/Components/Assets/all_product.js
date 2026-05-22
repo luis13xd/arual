@@ -446,6 +446,25 @@ let all_product = [
 
   // ---------------------------- Categoria 4 SETS -----------------------------
   {
+    id: 403,
+    name: "SET ROMA - TONO CAFÉ",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setromacafe1,
+    image2: setromacafe2,
+    image3: setromacafe3,
+    image4: setromacafe4,
+    new_price: 105000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 401,
     name: "SET ROMA - TONO NEGRO",
     category: "sets",
