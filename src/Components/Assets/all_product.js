@@ -3,6 +3,11 @@ import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
 import enterizoalmabeige4 from "./enterizos/enterizoalmabeige4.jpeg";
+// 102
+import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
+import enterizomarfil2 from "./enterizos/enterizomarfil2.jpeg";
+import enterizomarfil3 from "./enterizos/enterizomarfil3.jpeg";
+import enterizomarfil4 from "./enterizos/enterizomarfil4.jpeg";
 // 104
 import enterizovanilla1 from "./enterizos/enterizovainilla1.jpeg";
 import enterizovanilla2 from "./enterizos/enterizovainilla2.jpeg";
