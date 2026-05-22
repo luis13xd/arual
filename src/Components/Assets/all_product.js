@@ -99,6 +99,11 @@ import setromacafe1 from "./sets/setromacafe1.jpeg";
 import setromacafe2 from "./sets/setromacafe2.jpeg";
 import setromacafe3 from "./sets/setromacafe3.jpeg";
 import setromacafe4 from "./sets/setromacafe4.jpeg";
+// 404
+import setromamorado1 from "./sets/setromamorado1.jpeg";
+import setromamorado2 from "./sets/setromamorado2.jpeg";
+import setromamorado3 from "./sets/setromamorado3.jpeg";
+import setromamorado4 from "./sets/setromamorado4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -465,6 +470,25 @@ let all_product = [
     },
   },
   {
+    id: 404,
+    name: "SET ROMA - TONO MORADO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setromamorado1,
+    image2: setromamorado2,
+    image3: setromamorado3,
+    image4: setromamorado4,
+    new_price: 105000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 401,
     name: "SET ROMA - TONO NEGRO",
     category: "sets",
@@ -502,7 +526,6 @@ let all_product = [
       XL: false,
     },
   },
-
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
