@@ -233,6 +233,26 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 102,
+    name: "ENTERIZO NEREA - TONO MARFIL",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizomarfil1,
+    image2: enterizomarfil2,
+    image3: enterizomarfil3,
+    image4: enterizomarfil4,
+    new_price: 85000,
+    old_price: 120000,
+    offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   {
