@@ -85,6 +85,10 @@ import chaquetarosa4 from "./body/chaquetarosa4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
+import setromanegro1 from "./sets/setromanegro1.jpeg";
+import setromanegro2 from "./sets/setromanegro2.jpeg";
+import setromanegro3 from "./sets/setromanegro3.jpeg";
+import setromanegro4 from "./sets/setromanegro4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -431,6 +435,26 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 4 SETS -----------------------------
+  {
+    id: 401,
+    name: "SET ROMA - TONO NEGRO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setromanegro1,
+    image2: setromanegro2,
+    image3: setromanegro3,
+    image4: setromanegro4,
+    new_price: 105000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
