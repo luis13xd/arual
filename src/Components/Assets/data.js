@@ -1,6 +1,7 @@
 import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
 import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
+import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
 
 let data_product = [
   {
@@ -27,6 +28,15 @@ let data_product = [
     image: enterizoflexamarillo1,
     new_price: 90000,
     old_price: 140000,
+    offer: true,
+  },
+  {
+    id: 102,
+    name: "ENTERIZO NEREA - TONO MARFIL",
+    category: "enterizos",
+    image: enterizomarfil1,
+    new_price: 85000,
+    old_price: 120000,
     offer: true,
   },
 ];
