@@ -302,7 +302,7 @@ let all_product = [
   },
   {
     id: 205,
-    name: "SHORT CORAZÓN - TONO FUCSIA",
+    name: "SHORT CORAZÓN - TONO VERDE",
     category: "legginsyfaldas",
     description: "Tela completamente acanalada",
     image: shortfucsias1,
