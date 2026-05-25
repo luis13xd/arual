@@ -55,6 +55,11 @@ import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
 import shortfucsia3 from "./lyf/shortfucsia3.jpeg";
 import shortfucsia4 from "./lyf/shortfucsia4.jpeg";
+// 205
+import shortverde1 from "./lyf/shortverde1.jpeg";
+import shortverde2 from "./lyf/shortverde2.jpeg";
+import shortverde3 from "./lyf/shortverde3.jpeg";
+import shortverde4 from "./lyf/shortverde4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
