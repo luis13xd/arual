@@ -448,8 +448,9 @@ let all_product = [
     image2: topsemma2,
     image3: topsemma3,
     image4: topsemma4,
-    new_price: 45000,
+    new_price: 38000,
     old_price: 50000,
+    offer: true,
     sizes: {
       XS: false,
       S: true,
