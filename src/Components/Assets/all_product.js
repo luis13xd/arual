@@ -1,4 +1,4 @@
-// // 101
+// 101
 // import enterizoalmabeige1 from "./enterizos/enterizoalmabeige1.jpeg";
 // import enterizoalmabeige2 from "./enterizos/enterizoalmabeige2.jpeg";
 // import enterizoalmabeige3 from "./enterizos/enterizoalmabeige3.jpeg";
