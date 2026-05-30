@@ -31,15 +31,15 @@ import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
 
 // ----------------------- Categoria 2 LEGGINS Y FALDAS -----------------------
 // 200
-import short1 from "./lyf/short1.jpeg";
-import short2 from "./lyf/short2.jpeg";
-import short3 from "./lyf/short3.jpeg";
-import short4 from "./lyf/short4.jpeg";
+// import short1 from "./lyf/short1.jpeg";
+// import short2 from "./lyf/short2.jpeg";
+// import short3 from "./lyf/short3.jpeg";
+// import short4 from "./lyf/short4.jpeg";
 // 201
-import shortaguamarina1 from "./lyf/shortaguamarina1.jpeg";
-import shortaguamarina2 from "./lyf/shortaguamarina2.jpeg";
-import shortaguamarina3 from "./lyf/shortaguamarina3.jpeg";
-import shortaguamarina4 from "./lyf/shortaguamarina4.jpeg";
+// import shortaguamarina1 from "./lyf/shortaguamarina1.jpeg";
+// import shortaguamarina2 from "./lyf/shortaguamarina2.jpeg";
+// import shortaguamarina3 from "./lyf/shortaguamarina3.jpeg";
+// import shortaguamarina4 from "./lyf/shortaguamarina4.jpeg";
 // 202
 import shortvinotinto1 from "./lyf/shortvinotinto1.jpeg";
 import shortvinotinto2 from "./lyf/shortvinotinto2.jpeg";
@@ -51,15 +51,15 @@ import shortfucsias2 from "./lyf/shortfucsias2.jpeg";
 import shortfucsias3 from "./lyf/shortfucsias3.jpeg";
 import shortfucsias4 from "./lyf/shortfucsias4.jpeg";
 // 204
-import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
-import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
-import shortfucsia3 from "./lyf/shortfucsia3.jpeg";
-import shortfucsia4 from "./lyf/shortfucsia4.jpeg";
+// import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
+// import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
+// import shortfucsia3 from "./lyf/shortfucsia3.jpeg";
+// import shortfucsia4 from "./lyf/shortfucsia4.jpeg";
 // 205
-import shortverde1 from "./lyf/shortverde1.jpeg";
-import shortverde2 from "./lyf/shortverde2.jpeg";
-import shortverde3 from "./lyf/shortverde3.jpeg";
-import shortverde4 from "./lyf/shortverde4.jpeg";
+// import shortverde1 from "./lyf/shortverde1.jpeg";
+// import shortverde2 from "./lyf/shortverde2.jpeg";
+// import shortverde3 from "./lyf/shortverde3.jpeg";
+// import shortverde4 from "./lyf/shortverde4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
@@ -260,66 +260,66 @@ let all_product = [
   },
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
-  {
-    id: 200,
-    name: "SHORT RUNNING - TONO MORADO",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: short1,
-    image2: short2,
-    image3: short3,
-    image4: short4,
-    new_price: 50000,
-    old_price: 70000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 204,
-    name: "SHORT RUNNING - TONO FUCSIA",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortfucsia1,
-    image2: shortfucsia2,
-    image3: shortfucsia3,
-    image4: shortfucsia4,
-    new_price: 50000,
-    old_price: 70000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 205,
-    name: "SHORT CORAZÓN - TONO VERDE",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortverde1,
-    image2: shortverde2,
-    image3: shortverde3,
-    image4: shortverde4,
-    new_price: 38000,
-    old_price: 50000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 200,
+  //   name: "SHORT RUNNING - TONO MORADO",
+  //   category: "legginsyfaldas",
+  //   description: "Tela completamente acanalada",
+  //   image: short1,
+  //   image2: short2,
+  //   image3: short3,
+  //   image4: short4,
+  //   new_price: 50000,
+  //   old_price: 70000,
+  //   offer: true,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
+  // {
+  //   id: 204,
+  //   name: "SHORT RUNNING - TONO FUCSIA",
+  //   category: "legginsyfaldas",
+  //   description: "Tela completamente acanalada",
+  //   image: shortfucsia1,
+  //   image2: shortfucsia2,
+  //   image3: shortfucsia3,
+  //   image4: shortfucsia4,
+  //   new_price: 50000,
+  //   old_price: 70000,
+  //   offer: true,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
+  // {
+  //   id: 205,
+  //   name: "SHORT CORAZÓN - TONO VERDE",
+  //   category: "legginsyfaldas",
+  //   description: "Tela completamente acanalada",
+  //   image: shortverde1,
+  //   image2: shortverde2,
+  //   image3: shortverde3,
+  //   image4: shortverde4,
+  //   new_price: 38000,
+  //   old_price: 50000,
+  //   offer: false,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 203,
     name: "SHORT CORAZÓN - TONO FUCSIA",
@@ -360,26 +360,26 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 201,
-    name: "SHORT CORAZÓN - TONO AGUAMARINA",
-    category: "legginsyfaldas",
-    description: "Tela completamente acanalada",
-    image: shortaguamarina1,
-    image2: shortaguamarina2,
-    image3: shortaguamarina3,
-    image4: shortaguamarina4,
-    new_price: 38000,
-    old_price: 50000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 201,
+  //   name: "SHORT CORAZÓN - TONO AGUAMARINA",
+  //   category: "legginsyfaldas",
+  //   description: "Tela completamente acanalada",
+  //   image: shortaguamarina1,
+  //   image2: shortaguamarina2,
+  //   image3: shortaguamarina3,
+  //   image4: shortaguamarina4,
+  //   new_price: 38000,
+  //   old_price: 50000,
+  //   offer: false,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
 
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   {
