@@ -63,20 +63,20 @@ import shortfucsias4 from "./lyf/shortfucsias4.jpeg";
 
 // ----------------------- Categoria 3 BODYS Y TOPS -----------------------
 // 302
-import chaquetagris1 from "./body/chaquetagris1.jpeg";
-import chaquetagris2 from "./body/chaquetagris2.jpeg";
-import chaquetagris3 from "./body/chaquetagris3.jpeg";
-import chaquetagris4 from "./body/chaquetagris4.jpeg";
+// import chaquetagris1 from "./body/chaquetagris1.jpeg";
+// import chaquetagris2 from "./body/chaquetagris2.jpeg";
+// import chaquetagris3 from "./body/chaquetagris3.jpeg";
+// import chaquetagris4 from "./body/chaquetagris4.jpeg";
 // 303
 import topsemma1 from "./body/topsemma1.jpeg";
 import topsemma2 from "./body/topsemma2.jpeg";
 import topsemma3 from "./body/topsemma3.jpeg";
 import topsemma4 from "./body/topsemma4.jpeg";
 // 304
-import topemmacafe1 from "./body/topemmacafe1.jpeg";
-import topemmacafe2 from "./body/topemmacafe2.jpeg";
-import topemmacafe3 from "./body/topemmacafe3.jpeg";
-import topemmacafe4 from "./body/topemmacafe4.jpeg";
+// import topemmacafe1 from "./body/topemmacafe1.jpeg";
+// import topemmacafe2 from "./body/topemmacafe2.jpeg";
+// import topemmacafe3 from "./body/topemmacafe3.jpeg";
+// import topemmacafe4 from "./body/topemmacafe4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -420,25 +420,25 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 302,
-    name: "CHAQUETA CIGNUS - TONO GRIS",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: chaquetagris1,
-    image2: chaquetagris2,
-    image3: chaquetagris3,
-    image4: chaquetagris4,
-    new_price: 65000,
-    old_price: 80000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 302,
+  //   name: "CHAQUETA CIGNUS - TONO GRIS",
+  //   category: "bodysytops",
+  //   description: "Tela completamente acanalada",
+  //   image: chaquetagris1,
+  //   image2: chaquetagris2,
+  //   image3: chaquetagris3,
+  //   image4: chaquetagris4,
+  //   new_price: 65000,
+  //   old_price: 80000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 303,
     name: "TOPS EMMA - TONO BLANCO-NEGRO-ROJO-CAFÉ-ROSADO",
@@ -458,26 +458,26 @@ let all_product = [
       XL: false,
     },
   },
-  {
-    id: 304,
-    name: "TOP EMMA - TONO CAFÉ",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: topemmacafe1,
-    image2: topemmacafe2,
-    image3: topemmacafe3,
-    image4: topemmacafe4,
-    new_price: 35000,
-    old_price: 50000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: false,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 304,
+  //   name: "TOP EMMA - TONO CAFÉ",
+  //   category: "bodysytops",
+  //   description: "Tela completamente acanalada",
+  //   image: topemmacafe1,
+  //   image2: topemmacafe2,
+  //   image3: topemmacafe3,
+  //   image4: topemmacafe4,
+  //   new_price: 35000,
+  //   old_price: 50000,
+  //   offer: true,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: false,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 308,
     name: "TOPS SILBER - TONO AZUL",
