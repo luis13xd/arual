@@ -28,6 +28,11 @@ import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
 import enterizoflexamarillo2 from "./enterizos/enterizoflexamarillo2.jpeg";
 import enterizoflexamarillo3 from "./enterizos/enterizoflexamarillo3.jpeg";
 import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
+// 107
+import enterizopinkrosa1 from "./enterizos/enterizopinkrosa1.jpeg";
+import enterizopinkrosa2 from "./enterizos/enterizopinkrosa2.jpeg";
+import enterizopinkrosa3 from "./enterizos/enterizopinkrosa3.jpeg";
+import enterizopinkrosa4 from "./enterizos/enterizopinkrosa4.jpeg";
 // 119
 // import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 // import enterizoflexazulcielo2 from "./enterizos/enterizoflexazul2.jpeg";
@@ -285,6 +290,26 @@ let all_product = [
     new_price: 85000,
     old_price: 120000,
     offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 107,
+    name: "ENTERIZO PINK - TONO ROSA",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizopinkrosa1,
+    image2: enterizopinkrosa2,
+    image3: enterizopinkrosa3,
+    image4: enterizopinkrosa4,
+    new_price: 115000,
+    old_price: 120000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
