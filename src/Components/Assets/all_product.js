@@ -134,6 +134,11 @@ import setaliciavainilla1 from "./sets/setaliciavainilla1.jpeg";
 import setaliciavainilla2 from "./sets/setaliciavainilla2.jpeg";
 import setaliciavainilla3 from "./sets/setaliciavainilla3.jpeg";
 import setaliciavainilla4 from "./sets/setaliciavainilla4.jpeg";
+// 407
+import setblueazul1 from "./sets/setblueazul1.jpeg";
+import setblueazul2 from "./sets/setblueazul2.jpeg";
+import setblueazul3 from "./sets/setblueazul3.jpeg";
+import setblueazul4 from "./sets/setblueazul4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -667,6 +672,26 @@ let all_product = [
     image3: setaliciavainilla3,
     image4: setaliciavainilla4,
     new_price: 120000,
+    old_price: 150000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 407,
+    name: "SET BLUE - TONO AZUL",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setblueazul1,
+    image2: setblueazul2,
+    image3: setblueazul3,
+    image4: setblueazul4,
+    new_price: 125000,
     old_price: 150000,
     offer: false,
     sizes: {
