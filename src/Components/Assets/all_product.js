@@ -114,6 +114,11 @@ import setromamorado1 from "./sets/setromamorado1.jpeg";
 import setromamorado2 from "./sets/setromamorado2.jpeg";
 import setromamorado3 from "./sets/setromamorado3.jpeg";
 import setromamorado4 from "./sets/setromamorado4.jpeg";
+// 405
+import setroserosa1 from "./sets/setroserosa1.jpeg";
+import setroserosa2 from "./sets/setroserosa2.jpeg";
+import setroserosa3 from "./sets/setroserosa3.jpeg";
+import setroserosa4 from "./sets/setroserosa4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -569,6 +574,26 @@ let all_product = [
     image4: setromarosado4,
     new_price: 105000,
     old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 405,
+    name: "SET ROSE - TONO ROSADO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setroserosa1,
+    image2: setroserosa2,
+    image3: setroserosa3,
+    image4: setroserosa4,
+    new_price: 135000,
+    old_price: 150000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
