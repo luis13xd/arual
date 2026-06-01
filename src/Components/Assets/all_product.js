@@ -87,6 +87,11 @@ import topsemma4 from "./body/topsemma4.jpeg";
 // import topemmacafe2 from "./body/topemmacafe2.jpeg";
 // import topemmacafe3 from "./body/topemmacafe3.jpeg";
 // import topemmacafe4 from "./body/topemmacafe4.jpeg";
+// 305
+import topvinotinto1 from "./body/topvinotinto1.jpeg";
+import topvinotinto2 from "./body/topvinotinto2.jpeg";
+import topvinotinto3 from "./body/topvinotinto3.jpeg";
+import topvinotinto4 from "./body/topvinotinto4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -516,6 +521,26 @@ let all_product = [
     new_price: 38000,
     old_price: 50000,
     offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 305,
+    name: "TOPS ARUAL - TONO VINOTINTO",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topvinotinto1,
+    image2: topvinotinto2,
+    image3: topvinotinto3,
+    image4: topvinotinto4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
