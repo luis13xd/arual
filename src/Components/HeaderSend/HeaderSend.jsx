@@ -3,7 +3,7 @@ import './HeaderSend.css';
 const HeaderSend = () => {
   return (
     <div className="container">
-      <p>Envios gratis por compras superiores a $300.000</p>
+      <p>Envios gratis por compras superiores a $600.000</p>
     </div>
   );
 };

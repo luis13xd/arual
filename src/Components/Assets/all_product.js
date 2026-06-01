@@ -119,6 +119,11 @@ import setroserosa1 from "./sets/setroserosa1.jpeg";
 import setroserosa2 from "./sets/setroserosa2.jpeg";
 import setroserosa3 from "./sets/setroserosa3.jpeg";
 import setroserosa4 from "./sets/setroserosa4.jpeg";
+// 406
+import setaliciavainilla1 from "./sets/setaliciavainilla1.jpeg";
+import setaliciavainilla2 from "./sets/setaliciavainilla2.jpeg";
+import setaliciavainilla3 from "./sets/setaliciavainilla3.jpeg";
+import setaliciavainilla4 from "./sets/setaliciavainilla4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -592,6 +597,26 @@ let all_product = [
     image3: setroserosa3,
     image4: setroserosa4,
     new_price: 135000,
+    old_price: 150000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 406,
+    name: "SET ALICIA - TONO VAINILLA",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setaliciavainilla1,
+    image2: setaliciavainilla2,
+    image3: setaliciavainilla3,
+    image4: setaliciavainilla4,
+    new_price: 120000,
     old_price: 150000,
     offer: false,
     sizes: {
