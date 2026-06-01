@@ -8,6 +8,11 @@ import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
 import enterizomarfil2 from "./enterizos/enterizomarfil2.jpeg";
 import enterizomarfil3 from "./enterizos/enterizomarfil3.jpeg";
 import enterizomarfil4 from "./enterizos/enterizomarfil4.jpeg";
+// 103
+import enterizoarcoirisrosa1 from "./enterizos/enterizoarcoirisrosa1.jpeg";
+import enterizoarcoirisrosa2 from "./enterizos/enterizoarcoirisrosa2.jpeg";
+import enterizoarcoirisrosa3 from "./enterizos/enterizoarcoirisrosa3.jpeg";
+import enterizoarcoirisrosa4 from "./enterizos/enterizoarcoirisrosa4.jpeg";
 // 104
 // import enterizovanilla1 from "./enterizos/enterizovainilla1.jpeg";
 // import enterizovanilla2 from "./enterizos/enterizovainilla2.jpeg";
@@ -220,6 +225,26 @@ let all_product = [
     new_price: 90000,
     old_price: 140000,
     offer: true,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 103,
+    name: "ENTERIZO ARCOÍRIS - TONO ROSA",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizoarcoirisrosa1,
+    image2: enterizoarcoirisrosa2,
+    image3: enterizoarcoirisrosa3,
+    image4: enterizoarcoirisrosa4,
+    new_price: 115000,
+    old_price: 140000,
+    offer: false,
     sizes: {
       XS: false,
       S: true,
