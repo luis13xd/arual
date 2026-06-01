@@ -98,10 +98,10 @@ import topsilverazul2 from "./body/topsilverazul2.jpeg";
 import topsilverazul3 from "./body/topsilverazul3.jpeg";
 import topsilverazul4 from "./body/topsilverazul4.jpeg";
 // 309
-import chaquetablanca1 from "./body/chaquetablanca1.jpeg";
-import chaquetablanca2 from "./body/chaquetablanca2.jpeg";
-import chaquetablanca3 from "./body/chaquetablanca3.jpeg";
-import chaquetablanca4 from "./body/chaquetablanca4.jpeg";
+// import chaquetablanca1 from "./body/chaquetablanca1.jpeg";
+// import chaquetablanca2 from "./body/chaquetablanca2.jpeg";
+// import chaquetablanca3 from "./body/chaquetablanca3.jpeg";
+// import chaquetablanca4 from "./body/chaquetablanca4.jpeg";
 // 310
 import chaquetarosa1 from "./body/chaquetarosa1.jpeg";
 import chaquetarosa2 from "./body/chaquetarosa2.jpeg";
@@ -452,25 +452,25 @@ let all_product = [
   // },
 
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
-  {
-    id: 309,
-    name: "CHAQUETA CIGNUS - TONO BLANCO",
-    category: "bodysytops",
-    description: "Tela completamente acanalada",
-    image: chaquetablanca1,
-    image2: chaquetablanca2,
-    image3: chaquetablanca3,
-    image4: chaquetablanca4,
-    new_price: 65000,
-    old_price: 80000,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 309,
+  //   name: "CHAQUETA CIGNUS - TONO BLANCO",
+  //   category: "bodysytops",
+  //   description: "Tela completamente acanalada",
+  //   image: chaquetablanca1,
+  //   image2: chaquetablanca2,
+  //   image3: chaquetablanca3,
+  //   image4: chaquetablanca4,
+  //   new_price: 65000,
+  //   old_price: 80000,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 310,
     name: "CHAQUETA CIGNUS - TONO ROSA",
