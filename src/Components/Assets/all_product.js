@@ -92,6 +92,11 @@ import topvinotinto1 from "./body/topvinotinto1.jpeg";
 import topvinotinto2 from "./body/topvinotinto2.jpeg";
 import topvinotinto3 from "./body/topvinotinto3.jpeg";
 import topvinotinto4 from "./body/topvinotinto4.jpeg";
+// 306
+import topnegro1 from "./body/topnegro1.jpeg";
+import topnegro2 from "./body/topnegro2.jpeg";
+import topnegro3 from "./body/topnegro3.jpeg";
+import topnegro4 from "./body/topnegro4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -545,6 +550,26 @@ let all_product = [
       XS: false,
       S: true,
       M: false,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 306,
+    name: "TOPS ARUAL - TONO NEGRO",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: topnegro1,
+    image2: topnegro2,
+    image3: topnegro3,
+    image4: topnegro4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
       L: false,
       XL: false,
     },
