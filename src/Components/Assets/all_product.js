@@ -149,6 +149,11 @@ import setblueazul1 from "./sets/setblueazul1.jpeg";
 import setblueazul2 from "./sets/setblueazul2.jpeg";
 import setblueazul3 from "./sets/setblueazul3.jpeg";
 import setblueazul4 from "./sets/setblueazul4.jpeg";
+// 408
+import setamarillo1 from "./sets/setamarillo1.jpeg";
+import setamarillo2 from "./sets/setamarillo2.jpeg";
+import setamarillo3 from "./sets/setamarillo3.jpeg";
+import setamarillo4 from "./sets/setamarillo4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -752,6 +757,27 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 408,
+    name: "SET BOTA CAMPANA - TONO AMARILLO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setamarillo1,
+    image2: setamarillo2,
+    image3: setamarillo3,
+    image4: setamarillo4,
+    new_price: 140000,
+    old_price: 150000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
