@@ -164,6 +164,11 @@ import setamarillos1 from "./sets/setamarillos1.jpeg";
 import setamarillos2 from "./sets/setamarillos2.jpeg";
 import setamarillos3 from "./sets/setamarillos3.jpeg";
 import setamarillos4 from "./sets/setamarillos4.jpeg";
+// 410
+import pantaloncaferosado1 from "./sets/pantaloncaferosado1.jpeg";
+import pantaloncaferosado2 from "./sets/pantaloncaferosado2.jpeg";
+import pantaloncaferosado3 from "./sets/pantaloncaferosado3.jpeg";
+import pantaloncaferosado4 from "./sets/pantaloncaferosado4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
