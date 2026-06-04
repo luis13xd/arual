@@ -60,6 +60,11 @@ import shortfucsias1 from "./lyf/shortfucsias1.jpeg";
 import shortfucsias2 from "./lyf/shortfucsias2.jpeg";
 import shortfucsias3 from "./lyf/shortfucsias3.jpeg";
 import shortfucsias4 from "./lyf/shortfucsias4.jpeg";
+// 206
+import pantaloncaferosado1 from "./sets/pantaloncaferosado1.jpeg";
+import pantaloncaferosado2 from "./sets/pantaloncaferosado2.jpeg";
+import pantaloncaferosado3 from "./sets/pantaloncaferosado3.jpeg";
+import pantaloncaferosado4 from "./sets/pantaloncaferosado4.jpeg";
 // 204
 // import shortfucsia1 from "./lyf/shortfucsia1.jpeg";
 // import shortfucsia2 from "./lyf/shortfucsia2.jpeg";
@@ -164,11 +169,7 @@ import setamarillos1 from "./sets/setamarillos1.jpeg";
 import setamarillos2 from "./sets/setamarillos2.jpeg";
 import setamarillos3 from "./sets/setamarillos3.jpeg";
 import setamarillos4 from "./sets/setamarillos4.jpeg";
-// 410
-import pantaloncaferosado1 from "./sets/pantaloncaferosado1.jpeg";
-import pantaloncaferosado2 from "./sets/pantaloncaferosado2.jpeg";
-import pantaloncaferosado3 from "./sets/pantaloncaferosado3.jpeg";
-import pantaloncaferosado4 from "./sets/pantaloncaferosado4.jpeg";
+
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
@@ -476,6 +477,26 @@ let all_product = [
   //   },
   // },
 
+  {
+    id: 206,
+    name: "PANTALÓN BOTA CAMPANA - TONO CAFÉ-ROSADO",
+    category: "legginsyfaldas",
+    description: "Material suave y de alta calidad",
+    image: pantaloncaferosado1,
+    image2: pantaloncaferosado2,
+    image3: pantaloncaferosado3,
+    image4: pantaloncaferosado4,
+    new_price: 85000,
+    old_price: 100000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   // ---------------------------- Categoria 3 BODYS Y TOPS -----------------------------
   // {
   //   id: 309,
@@ -822,26 +843,6 @@ let all_product = [
     image4: setamarillos4,
     new_price: 135000,
     old_price: 150000,
-    offer: false,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
-  {
-    id: 410,
-    name: "PANTALÓN BOTA CAMPANA - TONO CAFÉ-ROSADO",
-    category: "sets",
-    description: "Material suave y de alta calidad",
-    image: pantaloncaferosado1,
-    image2: pantaloncaferosado2,
-    image3: pantaloncaferosado3,
-    image4: pantaloncaferosado4,
-    new_price: 85000,
-    old_price: 100000,
     offer: false,
     sizes: {
       XS: false,

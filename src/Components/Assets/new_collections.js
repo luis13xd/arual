@@ -6,9 +6,9 @@ let new_collections = [
     id: 303,
     name: "TOPS EMMA - TONO BLANCO-NEGRO-ROJO-CAFÉ-ROSADO",
     image: topsemma1,
-    new_price: 45000,
+    new_price: 38000,
     old_price: 50000,
-    offer: false,
+    offer: true,
   },
   {
     id: 308,
