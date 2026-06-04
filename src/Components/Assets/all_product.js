@@ -806,6 +806,26 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 409,
+    name: "SET ARUAL - TONO AMARILLO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setamarillos1,
+    image2: setamarillos2,
+    image3: setamarillos3,
+    image4: setamarillos4,
+    new_price: 135000,
+    old_price: 150000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
