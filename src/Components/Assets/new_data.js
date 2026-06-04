@@ -1,5 +1,6 @@
 // import enterizoflexazulcielo1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
+import enterizoarcoirisrosa1 from "./enterizos/enterizoarcoirisrosa1.jpeg";
 
 let new_data = [
   // {
