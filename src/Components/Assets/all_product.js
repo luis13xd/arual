@@ -495,8 +495,8 @@ let all_product = [
     image2: bodyarcoirisrosa2,
     image3: bodyarcoirisrosa3,
     image4: bodyarcoirisrosa4,
-    new_price: 65000,
-    old_price: 80000,
+    new_price: 85000,
+    old_price: 100000,
     sizes: {
       XS: false,
       S: true,
@@ -801,7 +801,6 @@ let all_product = [
       XL: false,
     },
   },
-
 
   // ---------------------------- Categoria 5 ACCESORIOS -----------------------------
   {
