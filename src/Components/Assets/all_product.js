@@ -98,10 +98,10 @@ import topnegro2 from "./body/topnegro2.jpeg";
 import topnegro3 from "./body/topnegro3.jpeg";
 import topnegro4 from "./body/topnegro4.jpeg";
 // 307
-import topnegro1 from "./body/topnegro1.jpeg";
-import topnegro2 from "./body/topnegro2.jpeg";
-import topnegro3 from "./body/topnegro3.jpeg";
-import topnegro4 from "./body/topnegro4.jpeg";
+import bodyarcoirisrosa1 from "./body/bodyarcoirisrosa1.jpeg";
+import bodyarcoirisrosa2 from "./body/bodyarcoirisrosa2.jpeg";
+import bodyarcoirisrosa3 from "./body/bodyarcoirisrosa3.jpeg";
+import bodyarcoirisrosa4 from "./body/bodyarcoirisrosa4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
