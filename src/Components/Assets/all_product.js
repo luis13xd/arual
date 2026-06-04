@@ -24,10 +24,10 @@ import enterizoarcoirisrosa4 from "./enterizos/enterizoarcoirisrosa4.jpeg";
 // import enterizoflexgris3 from "./enterizos/enterizoflexgris3.jpeg";
 // import enterizoflexgris4 from "./enterizos/enterizoflexgris4.jpeg";
 // 106
-import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
-import enterizoflexamarillo2 from "./enterizos/enterizoflexamarillo2.jpeg";
-import enterizoflexamarillo3 from "./enterizos/enterizoflexamarillo3.jpeg";
-import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
+// import enterizoflexamarillo1 from "./enterizos/enterizoflexamarillo1.jpeg";
+// import enterizoflexamarillo2 from "./enterizos/enterizoflexamarillo2.jpeg";
+// import enterizoflexamarillo3 from "./enterizos/enterizoflexamarillo3.jpeg";
+// import enterizoflexamarillo4 from "./enterizos/enterizoflexamarillo4.jpeg";
 // 107
 import enterizopinkrosa1 from "./enterizos/enterizopinkrosa1.jpeg";
 import enterizopinkrosa2 from "./enterizos/enterizopinkrosa2.jpeg";
@@ -238,26 +238,26 @@ let all_product = [
   //     XL: false,
   //   },
   // },
-  {
-    id: 106,
-    name: "ENTERIZO FLEX - TONO AMARILLO",
-    category: "enterizos",
-    description: "Tela suave con acabados de la mejor calidad",
-    image: enterizoflexamarillo1,
-    image2: enterizoflexamarillo2,
-    image3: enterizoflexamarillo3,
-    image4: enterizoflexamarillo4,
-    new_price: 90000,
-    old_price: 140000,
-    offer: true,
-    sizes: {
-      XS: false,
-      S: true,
-      M: true,
-      L: false,
-      XL: false,
-    },
-  },
+  // {
+  //   id: 106,
+  //   name: "ENTERIZO FLEX - TONO AMARILLO",
+  //   category: "enterizos",
+  //   description: "Tela suave con acabados de la mejor calidad",
+  //   image: enterizoflexamarillo1,
+  //   image2: enterizoflexamarillo2,
+  //   image3: enterizoflexamarillo3,
+  //   image4: enterizoflexamarillo4,
+  //   new_price: 90000,
+  //   old_price: 140000,
+  //   offer: true,
+  //   sizes: {
+  //     XS: false,
+  //     S: true,
+  //     M: true,
+  //     L: false,
+  //     XL: false,
+  //   },
+  // },
   {
     id: 103,
     name: "ENTERIZO ARCOÍRIS - TONO ROSA",
