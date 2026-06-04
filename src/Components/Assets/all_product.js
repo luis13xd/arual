@@ -107,6 +107,11 @@ import bodyarcoirisrosa1 from "./body/bodyarcoirisrosa1.jpeg";
 import bodyarcoirisrosa2 from "./body/bodyarcoirisrosa2.jpeg";
 import bodyarcoirisrosa3 from "./body/bodyarcoirisrosa3.jpeg";
 import bodyarcoirisrosa4 from "./body/bodyarcoirisrosa4.jpeg";
+// 311
+import bodyarcoiris1 from "./body/bodyarcoiris1.jpeg";
+import bodyarcoiris2 from "./body/bodyarcoiris2.jpeg";
+import bodyarcoiris3 from "./body/bodyarcoiris3.jpeg";
+import bodyarcoiris4 from "./body/bodyarcoiris4.jpeg";
 // 308
 import topsilverazul1 from "./body/topsilverazul1.jpeg";
 import topsilverazul2 from "./body/topsilverazul2.jpeg";
@@ -526,6 +531,25 @@ let all_product = [
     image2: bodyarcoirisrosa2,
     image3: bodyarcoirisrosa3,
     image4: bodyarcoirisrosa4,
+    new_price: 85000,
+    old_price: 100000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
+    id: 311,
+    name: "BODY ARCOIRIS - TONO ROSA",
+    category: "bodysytops",
+    description: "Tela completamente acanalada",
+    image: bodyarcoiris1,
+    image2: bodyarcoiris2,
+    image3: bodyarcoiris3,
+    image4: bodyarcoiris4,
     new_price: 85000,
     old_price: 100000,
     sizes: {
