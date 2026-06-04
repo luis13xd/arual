@@ -24,11 +24,11 @@ let new_data = [
   {
     id: 103,
     name: "ENTERIZO ARCOÍRIS - TONO ROSA",
+    category: "enterizos",
     image: enterizoarcoirisrosa1,
     new_price: 115000,
     old_price: 140000,
     offer: false,
-
   },
 
 ];
