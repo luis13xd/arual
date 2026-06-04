@@ -659,7 +659,7 @@ let all_product = [
     image2: setromacafe2,
     image3: setromacafe3,
     image4: setromacafe4,
-    new_price: 105000,
+    new_price: 110000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -697,7 +697,7 @@ let all_product = [
     image2: setromanegro2,
     image3: setromanegro3,
     image4: setromanegro4,
-    new_price: 105000,
+    new_price: 110000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -716,7 +716,7 @@ let all_product = [
     image2: setromarosado2,
     image3: setromarosado3,
     image4: setromarosado4,
-    new_price: 105000,
+    new_price: 110000,
     old_price: 130000,
     sizes: {
       XS: false,
@@ -811,8 +811,8 @@ let all_product = [
     name: "SET ARUAL - TONO AMARILLO",
     category: "sets",
     description: "Material suave y de alta calidad",
-    image: setamarillos1,
-    image2: setamarillos2,
+    image: setamarillos2,
+    image2: setamarillos1,
     image3: setamarillos3,
     image4: setamarillos4,
     new_price: 135000,
