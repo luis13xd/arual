@@ -369,6 +369,27 @@ let all_product = [
       XL: false,
     },
   },
+  {
+    id: 108,
+    name: "ENTERIZO BOTA CAMPANA - TONO AMARILLO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizobotaamarillo1,
+    image2: enterizobotaamarillo2,
+    image3: enterizobotaamarillo3,
+    image4: enterizobotaamarillo4,
+    new_price: 115000,
+    old_price: 120000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   // {
