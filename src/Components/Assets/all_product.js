@@ -190,7 +190,6 @@ import setamarillos2 from "./sets/setamarillos2.jpeg";
 import setamarillos3 from "./sets/setamarillos3.jpeg";
 import setamarillos4 from "./sets/setamarillos4.jpeg";
 
-
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
 import banda1 from "./accesorios/banda1.jpeg";
@@ -375,6 +374,26 @@ let all_product = [
     },
   },
   {
+    id: 109,
+    name: "ENTERIZO CESGOS - TONO AMARILLO",
+    category: "enterizos",
+    description: "Tela suave con acabados de la mejor calidad",
+    image: enterizocesgosamarillo1,
+    image2: enterizocesgosamarillo2,
+    image3: enterizocesgosamarillo3,
+    image4: enterizocesgosamarillo4,
+    new_price: 110000,
+    old_price: 140000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
+  {
     id: 108,
     name: "ENTERIZO BOTA CAMPANA - TONO AMARILLO",
     category: "enterizos",
@@ -394,7 +413,6 @@ let all_product = [
       XL: false,
     },
   },
-
 
   // ---------------------------- Categoria 2 LEGGINS Y FALDAS -----------------------------
   // {
