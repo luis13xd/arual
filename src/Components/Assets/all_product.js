@@ -127,6 +127,11 @@ import chaquetarosa1 from "./body/chaquetarosa1.jpeg";
 import chaquetarosa2 from "./body/chaquetarosa2.jpeg";
 import chaquetarosa3 from "./body/chaquetarosa3.jpeg";
 import chaquetarosa4 from "./body/chaquetarosa4.jpeg";
+// 311
+import chaquetarosa1 from "./body/chaquetarosa1.jpeg";
+import chaquetarosa2 from "./body/chaquetarosa2.jpeg";
+import chaquetarosa3 from "./body/chaquetarosa3.jpeg";
+import chaquetarosa4 from "./body/chaquetarosa4.jpeg";
 
 // ---------------------------- Categoria 4 SETS -----------------------------
 // 401
