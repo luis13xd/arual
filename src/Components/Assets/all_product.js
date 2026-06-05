@@ -378,8 +378,8 @@ let all_product = [
     image2: enterizobotaamarillo2,
     image3: enterizobotaamarillo3,
     image4: enterizobotaamarillo4,
-    new_price: 115000,
-    old_price: 120000,
+    new_price: 135000,
+    old_price: 140000,
     offer: false,
     sizes: {
       XS: false,
