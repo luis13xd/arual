@@ -1,5 +1,3 @@
-// import enterizoalmabeige1 from "./enterizos/enterizoalmabeige2.jpeg";
-// import enterizoflexazul1 from "./enterizos/enterizoflexazul1.jpeg";
 import enterizoarcoirisrosa1 from "./enterizos/enterizoarcoirisrosa1.jpeg";
 import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
 
