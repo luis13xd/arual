@@ -13,15 +13,7 @@ let data_product = [
   //   old_price: 100000,
   //   offer: true,
   // },
-  // {
-  //   id: 119,
-  //   name: "ENTERIZO FLEX - TONO AZUL",
-  //   category: "enterizos",
-  //   image: enterizoflexazul1,
-  //   new_price: 90000,
-  //   old_price: 150000,
-  //   offer: true,
-  // },
+
   {
     id: 103,
     name: "ENTERIZO ARCOÍRIS - TONO ROSA",
