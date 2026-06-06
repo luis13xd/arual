@@ -3,15 +3,6 @@ import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
 import enterizoarcoirisrosa1 from "./enterizos/enterizoarcoirisrosa1.jpeg";
 
 let new_data = [
-  // {
-  //   id: 119,
-  //   name: "ENTERIZO FLEX - TONO AZUL",
-  //   category: "enterizos",
-  //   image: enterizoflexazulcielo1,
-  //   new_price: 90000,
-  //   old_price: 140000,
-  //   offer: true,
-  // },
   {
     id: 102,
     name: "ENTERIZO NEREA - TONO MARFIL",
