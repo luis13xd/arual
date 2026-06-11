@@ -588,7 +588,7 @@ let all_product = [
 
   {
     id: 206,
-    name: "PANTALÓN BOTA CAMPANA - TONO CAFÉ-ROSADO",
+    name: "PANTALÓN BOTA CAMPANA - TONO CAFÉ-ROSADO-NEGRO",
     category: "legginsyfaldas",
     description: "Material suave y de alta calidad",
     image: pantaloncaferosado1,
