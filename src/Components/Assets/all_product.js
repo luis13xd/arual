@@ -199,6 +199,11 @@ import setamarillos1 from "./sets/setamarillos1.jpeg";
 import setamarillos2 from "./sets/setamarillos2.jpeg";
 import setamarillos3 from "./sets/setamarillos3.jpeg";
 import setamarillos4 from "./sets/setamarillos4.jpeg";
+// 410
+import setromavinotinto1 from "./sets/setromavinotinto1.jpeg";
+import setromavinotinto2 from "./sets/setromavinotinto2.jpeg";
+import setromavinotinto3 from "./sets/setromavinotinto3.jpeg";
+import setromavinotinto4 from "./sets/setromavinotinto4.jpeg";
 
 // ---------------------------- Categoria 5 ACCESORIOS  -----------------------------
 // 501
