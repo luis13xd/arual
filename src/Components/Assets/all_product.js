@@ -70,6 +70,11 @@ import shortfucsias1 from "./lyf/shortfucsias1.jpeg";
 import shortfucsias2 from "./lyf/shortfucsias2.jpeg";
 import shortfucsias3 from "./lyf/shortfucsias3.jpeg";
 import shortfucsias4 from "./lyf/shortfucsias4.jpeg";
+// 204
+import setcorazonrosado1 from "./lyf/setcorazonrosado1.jpeg";
+import setcorazonrosado2 from "./lyf/setcorazonrosado2.jpeg";
+import setcorazonrosado3 from "./lyf/setcorazonrosado3.jpeg";
+import setcorazonrosado4 from "./lyf/setcorazonrosado4.jpeg";
 // 206
 import pantaloncaferosado1 from "./sets/pantaloncaferosado1.jpeg";
 import pantaloncaferosado2 from "./sets/pantaloncaferosado2.jpeg";
