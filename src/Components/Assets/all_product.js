@@ -165,10 +165,10 @@ import setromarosado2 from "./sets/setromarosado2.jpeg";
 import setromarosado3 from "./sets/setromarosado3.jpeg";
 import setromarosado4 from "./sets/setromarosado4.jpeg";
 // 403
-import setromacafe1 from "./sets/setromacafe1.jpeg";
-import setromacafe2 from "./sets/setromacafe2.jpeg";
-import setromacafe3 from "./sets/setromacafe3.jpeg";
-import setromacafe4 from "./sets/setromacafe4.jpeg";
+// import setromacafe1 from "./sets/setromacafe1.jpeg";
+// import setromacafe2 from "./sets/setromacafe2.jpeg";
+// import setromacafe3 from "./sets/setromacafe3.jpeg";
+// import setromacafe4 from "./sets/setromacafe4.jpeg";
 // 404
 // import setromamorado1 from "./sets/setromamorado1.jpeg";
 // import setromamorado2 from "./sets/setromamorado2.jpeg";
