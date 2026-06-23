@@ -1,4 +1,4 @@
-// import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
+import enterizopinkrosa1 from "./enterizos/enterizopinkrosa1.jpeg";
 
 let data_product = [
   // {
@@ -10,6 +10,16 @@ let data_product = [
   //   old_price: 120000,
   //   offer: true,
   // },
+
+    {
+    id: 107,
+    name: "ENTERIZO PINK - TONO ROSA",
+    category: "enterizos",
+    image: enterizopinkrosa1,
+    new_price: 115000,
+    old_price: 120000,
+    offer: false,
+  },
 ];
 
 export default data_product;
