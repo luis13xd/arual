@@ -180,10 +180,10 @@ import setroserosa2 from "./sets/setroserosa2.jpeg";
 import setroserosa3 from "./sets/setroserosa3.jpeg";
 import setroserosa4 from "./sets/setroserosa4.jpeg";
 // 406
-import setaliciavainilla1 from "./sets/setaliciavainilla1.jpeg";
-import setaliciavainilla2 from "./sets/setaliciavainilla2.jpeg";
-import setaliciavainilla3 from "./sets/setaliciavainilla3.jpeg";
-import setaliciavainilla4 from "./sets/setaliciavainilla4.jpeg";
+// import setaliciavainilla1 from "./sets/setaliciavainilla1.jpeg";
+// import setaliciavainilla2 from "./sets/setaliciavainilla2.jpeg";
+// import setaliciavainilla3 from "./sets/setaliciavainilla3.jpeg";
+// import setaliciavainilla4 from "./sets/setaliciavainilla4.jpeg";
 // 407
 import setblueazul1 from "./sets/setblueazul1.jpeg";
 import setblueazul2 from "./sets/setblueazul2.jpeg";
