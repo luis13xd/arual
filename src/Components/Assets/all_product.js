@@ -160,10 +160,10 @@ import setromanegro2 from "./sets/setromanegro2.jpeg";
 import setromanegro3 from "./sets/setromanegro3.jpeg";
 import setromanegro4 from "./sets/setromanegro4.jpeg";
 // 402
-// import setromarosado1 from "./sets/setromarosado1.jpeg";
-// import setromarosado2 from "./sets/setromarosado2.jpeg";
-// import setromarosado3 from "./sets/setromarosado3.jpeg";
-// import setromarosado4 from "./sets/setromarosado4.jpeg";
+import setromarosado1 from "./sets/setromarosado1.jpeg";
+import setromarosado2 from "./sets/setromarosado2.jpeg";
+import setromarosado3 from "./sets/setromarosado3.jpeg";
+import setromarosado4 from "./sets/setromarosado4.jpeg";
 // 403
 // import setromacafe1 from "./sets/setromacafe1.jpeg";
 // import setromacafe2 from "./sets/setromacafe2.jpeg";
@@ -885,25 +885,25 @@ let all_product = [
       XL: false,
     },
   },
-  // {
-  //   id: 402,
-  //   name: "SET ROMA - TONO ROSADO",
-  //   category: "sets",
-  //   description: "Material suave y de alta calidad",
-  //   image: setromarosado1,
-  //   image2: setromarosado2,
-  //   image3: setromarosado3,
-  //   image4: setromarosado4,
-  //   new_price: 110000,
-  //   old_price: 130000,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: true,
-  //     L: false,
-  //     XL: false,
-  //   },
-  // },
+  {
+    id: 402,
+    name: "SET ROMA - TONO ROSADO",
+    category: "sets",
+    description: "Material suave y de alta calidad",
+    image: setromarosado1,
+    image2: setromarosado2,
+    image3: setromarosado3,
+    image4: setromarosado4,
+    new_price: 110000,
+    old_price: 130000,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 405,
     name: "SET ROSE - TONO ROSADO",
