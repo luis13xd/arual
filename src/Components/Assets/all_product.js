@@ -76,10 +76,10 @@ import setcorazonrosado2 from "./lyf/setcorazonrosado2.jpeg";
 import setcorazonrosado3 from "./lyf/setcorazonrosado3.jpeg";
 import setcorazonrosado4 from "./lyf/setcorazonrosado4.jpeg";
 // 205
-// import shortblanco1 from "./lyf/shortblanco.jpeg";
-// import shortblanco2 from "./lyf/setcorazonrosado2.jpeg";
-// import shortblanco3 from "./lyf/setcorazonrosado3.jpeg";
-// import shortblanco4 from "./lyf/setcorazonrosado4.jpeg";
+import shortblanco1 from "./lyf/shortblanco.jpeg";
+import shortblanco2 from "./lyf/setcorazonrosado2.jpeg";
+import shortblanco3 from "./lyf/setcorazonrosado3.jpeg";
+import shortblanco4 from "./lyf/setcorazonrosado4.jpeg";
 // 206
 import pantaloncaferosado1 from "./sets/pantaloncaferosado1.jpeg";
 import pantaloncaferosado2 from "./sets/pantaloncaferosado2.jpeg";
@@ -530,26 +530,26 @@ let all_product = [
       XL: false,
     },
   },
-  // {
-  //   id: 205,
-  //   name: "SHORT CORAZÓN - TONO BLANCO",
-  //   category: "legginsyfaldas",
-  //   description: "Tela completamente acanalada",
-  //   image: shortblanco1,
-  //   image2: shortblanco2,
-  //   image3: shortblanco3,
-  //   image4: shortblanco4,
-  //   new_price: 38000,
-  //   old_price: 50000,
-  //   offer: false,
-  //   sizes: {
-  //     XS: false,
-  //     S: true,
-  //     M: true,
-  //     L: false,
-  //     XL: false,
-  //   },
-  // },
+  {
+    id: 205,
+    name: "SHORT CORAZÓN - TONO BLANCO",
+    category: "legginsyfaldas",
+    description: "Tela completamente acanalada",
+    image: shortblanco1,
+    image2: shortblanco2,
+    image3: shortblanco3,
+    image4: shortblanco4,
+    new_price: 38000,
+    old_price: 50000,
+    offer: false,
+    sizes: {
+      XS: false,
+      S: true,
+      M: true,
+      L: false,
+      XL: false,
+    },
+  },
   {
     id: 202,
     name: "SHORT CORAZÓN - TONO VINOTINTO",
