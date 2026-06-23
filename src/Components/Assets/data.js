@@ -1,16 +1,6 @@
-import enterizoarcoirisrosa1 from "./enterizos/enterizoarcoirisrosa1.jpeg";
 import enterizomarfil1 from "./enterizos/enterizomarfil1.jpeg";
 
 let data_product = [
-  {
-    id: 103,
-    name: "ENTERIZO ARCOÍRIS - TONO ROSA",
-    category: "enterizos",
-    image: enterizoarcoirisrosa1,
-    new_price: 115000,
-    old_price: 140000,
-    offer: false,
-  },
   {
     id: 102,
     name: "ENTERIZO NEREA - TONO MARFIL",
